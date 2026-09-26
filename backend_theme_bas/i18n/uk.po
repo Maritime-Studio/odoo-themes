@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 21:34+0000\n"
-"PO-Revision-Date: 2026-09-26 21:34+0000\n"
+"POT-Creation-Date: 2026-09-26 21:40+0000\n"
+"PO-Revision-Date: 2026-09-26 21:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -61,6 +61,11 @@ msgstr ""
 "заголовки Exo 2."
 
 #. module: backend_theme_bas
+#: model_terms:ir.ui.view,arch_db:backend_theme_bas.res_config_settings_view_form
+msgid "Choose colour scheme"
+msgstr "Обрати колірну схему"
+
+#. module: backend_theme_bas
 #. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
 msgid ""
@@ -80,6 +85,11 @@ msgstr "Закрити"
 #: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "Cloudy Grey"
 msgstr "Хмарно-сірий"
+
+#. module: backend_theme_bas
+#: model_terms:ir.ui.view,arch_db:backend_theme_bas.res_config_settings_view_form
+msgid "Colour scheme"
+msgstr "Колірна схема"
 
 #. module: backend_theme_bas
 #. odoo-javascript
@@ -108,6 +118,15 @@ msgid ""
 msgstr ""
 "Світлий вигляд 1С / BAS: сірі панелі, пласкі білі сторінки, жовта основна "
 "кнопка."
+
+#. module: backend_theme_bas
+#: model_terms:ir.ui.view,arch_db:backend_theme_bas.res_config_settings_view_form
+msgid ""
+"Look of the interface for every user of this database: BAS Classic, BAS "
+"Steel, Maritime.Studio or one of the pastel schemes."
+msgstr ""
+"Вигляд інтерфейсу для всіх користувачів цієї бази: BAS Класична, BAS Сталь, "
+"Maritime.Studio або одна з пастельних схем."
 
 #. module: backend_theme_bas
 #. odoo-javascript
@@ -190,5 +209,6 @@ msgstr "Панель розділів"
 #: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
 #: model:ir.actions.client,name:backend_theme_bas.action_theme_settings
 #: model:ir.ui.menu,name:backend_theme_bas.menu_theme_settings
+#: model_terms:ir.ui.view,arch_db:backend_theme_bas.res_config_settings_view_form
 msgid "Theme"
 msgstr "Тема оформлення"

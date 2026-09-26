@@ -22,7 +22,7 @@ No Python code, depends only on ``web``: installable on any Odoo 19 database,
 also through *Apps > Import Module*.
 """,
 
-    'version': '19.0.4.0.0',
+    'version': '19.0.4.1.0',
     'category': 'Themes/Backend',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
@@ -30,6 +30,7 @@ also through *Apps > Import Module*.
     'data': [
         'data/ir_asset.xml',
         'views/theme_settings.xml',
+        'views/res_config_settings_views.xml',
     ],
     'assets': {
         # web's variables use !default: the first definition wins, so load ours before web's file
