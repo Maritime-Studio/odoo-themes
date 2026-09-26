@@ -1,0 +1,57 @@
+// Spreadsheet dashboards: soft cards for every scorecard / chart, themed dashboards list.
+.o_spreadsheet_dashboard_action {
+    .o_spreadsheet_dashboard_search_panel {
+        color: var(--t-ink);
+        background: var(--t-surface) !important;
+        .o_search_panel_section_header {
+            color: var(--t-subtle);
+            font-family: var(--t-font-heading);
+            font-size: 11px;
+            letter-spacing: .06em;
+        }
+        .o_search_panel_category_value {
+            border-radius: var(--t-radius);
+            color: var(--t-ink);
+            &:hover {
+                background: var(--t-hover-row);
+            }
+            &.active, .active {
+                color: var(--t-heading);
+                background: var(--t-selected) !important;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .o-spreadsheet {
+        background: var(--t-surface);
+    }
+
+    // scorecards and charts: rounded cards with a soft shadow (Soft UI style)
+    .o-figure {
+        border-radius: var(--t-radius-card);
+        box-shadow: var(--t-shadow);
+        overflow: hidden;
+        background: var(--t-surface);
+    }
+    .o-figure-canvas, .o-chart-container {
+        border-radius: var(--t-radius-card);
+    }
+    // carousel (tabbed chart) header: title colour is set inline from the stored definition
+    .o-carousel-title {
+        color: var(--t-heading) !important;
+        font-family: var(--t-font-heading);
+    }
+    .o-carousel-tab {
+        color: var(--t-muted);
+        &.selected, &.active {
+            color: var(--t-heading);
+            box-shadow: inset 0 -2px 0 var(--t-accent);
+        }
+    }
+
+    // the chart toolbar copies the stored background inline: keep it transparent
+    .o-dashboard-chart-select > div {
+        background-color: transparent !important;
+    }
+}

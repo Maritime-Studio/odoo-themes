@@ -22,7 +22,7 @@ No Python code, depends only on ``web``: installable on any Odoo 19 database,
 also through *Apps > Import Module*.
 """,
 
-    'version': '19.0.4.1.0',
+    'version': '19.0.5.0.0',
     'category': 'Themes/Backend',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
@@ -63,6 +63,12 @@ also through *Apps > Import Module*.
             'backend_theme_bas/static/src/settings/theme_settings.scss',
             'backend_theme_bas/static/src/webclient/webclient_patch.js',
             'backend_theme_bas/static/src/webclient/webclient_patch.xml',
+            'backend_theme_bas/static/src/spreadsheet/dashboard.scss',
+        ],
+        # lazy bundle of spreadsheets / dashboards: only loaded when one is opened,
+        # so the theme does not depend on the spreadsheet modules
+        'spreadsheet.o_spreadsheet': [
+            'backend_theme_bas/static/src/spreadsheet/spreadsheet_theme.js',
         ],
     },
     'images': ['static/description/icon.png'],

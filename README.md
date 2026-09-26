@@ -11,6 +11,14 @@ launchers such as `home_theme`:
 - BAS habits: row numbers in lists, always-framed inputs, smart buttons shown as links;
 - every view type styled: lists, forms, kanban, calendar, pivot/graph, discuss, settings, dialogs.
 
+### Dashboards
+
+Spreadsheet dashboards follow the active scheme (loaded in the lazy `spreadsheet.o_spreadsheet`
+bundle, so the theme still only depends on `web`): Odoo's stock dashboard colours are mapped to
+the scheme, series use the scheme's validated chart palette (`--t-chart-1..6`) and charts are drawn
+in a soft style (smooth lines with a fading fill, rounded bars, dashed light grid, round legend
+markers, rounded cards with a soft shadow). Stored dashboards are not modified.
+
 ### Colour schemes
 
 Chosen by an administrator in **Settings > Theme** (applies to every user):

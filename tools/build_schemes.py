@@ -354,6 +354,30 @@ SAND = pastel({
     "kanban_col": "rgba(250, 244, 234, .70)",
 })
 
+# --- Chart palettes -------------------------------------------------------------
+# Six categorical series colours per scheme, in fixed order, generated in OKLCH and
+# checked with the dataviz validator (lightness band, chroma floor, CVD and
+# normal-vision separation of adjacent pairs); plus the scorecard up / down colours.
+CHARTS = {
+    "bas": (["#2971c6", "#e78b30", "#12a7a7", "#c43f3e", "#764aa2", "#55a144"], "#2e8b57", "#c43f3e"),
+    "maritime": (["#009d90", "#3860ac", "#d49824", "#ce514d", "#8559b2", "#5bae5f"], "#2f9e5b", "#d0474b"),
+    "cocoa": (["#b25d5f", "#3a6aa7", "#c69f47", "#955890", "#12a195", "#46712b"], "#4d8a55", "#b25d5f"),
+    "cloud": (["#3f69a7", "#cb7a5d", "#0099a6", "#875a9a", "#c7a74d", "#4a925c"], "#4a925c", "#c05a50"),
+    "sand": (["#3463a6", "#d4a14a", "#c06240", "#209993", "#7457a3", "#89a455"], "#3f8a5a", "#c06240"),
+}
+
+def chart_tokens(key):
+    series, up, down = CHARTS[key]
+    tokens = {f"chart-{i + 1}": colour for i, colour in enumerate(series)}
+    tokens.update({"chart-up": up, "chart-down": down})
+    return tokens
+
+MARITIME.update(chart_tokens("maritime"))
+STEEL_OVERRIDES.update(chart_tokens("bas"))
+COCOA.update(chart_tokens("cocoa"))
+CLOUD.update(chart_tokens("cloud"))
+SAND.update(chart_tokens("sand"))
+
 # --- Compile-time Odoo variables per scheme ----------------------------------
 ARIAL = 'Arial, "Helvetica Neue", Helvetica, "Liberation Sans", sans-serif'
 OPEN_SANS = '"Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif'
