@@ -1,22 +1,31 @@
-// BAS start page: white page, blue section titles, columns of hyperlinks.
+// Start page: navy hero with the brand's triangular peaks, then white cards.
 .o_bas_home {
     overflow: auto !important;
-    font-size: 13px;
+    background: var(--ms-canvas);
 
-    .o_bas_home_header {
-        padding: 14px 24px 6px;
+    .o_bas_home_hero {
+        position: relative;
+        padding: 26px 32px 58px;
+        color: #ffffff;
+        background: var(--ms-navy) url("/backend_theme_bas/static/src/img/peaks.svg") no-repeat center bottom / 100% 64px;
         h1 {
             margin: 0;
-            font-size: 20px;
-            font-weight: normal;
-            color: var(--bas-canvas-text);
+            font-family: var(--ms-font-heading);
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        p {
+            margin: 4px 0 0;
+            color: rgba(255, 255, 255, .78);
+            font-size: 14px;
         }
     }
 
     .o_bas_home_body {
         display: flex;
         gap: 16px;
-        padding: 8px 24px 32px;
+        padding: 20px 24px 32px;
         align-items: flex-start;
     }
 
@@ -26,63 +35,77 @@
         column-gap: 16px;
     }
 
-    .o_bas_home_section {
+    .o_bas_home_section, .o_bas_home_recent {
         break-inside: avoid;
         margin-bottom: 16px;
-        padding: 12px 16px 8px;
-        background: var(--bas-sheet);
-        border-radius: var(--bas-sheet-radius);
-        box-shadow: var(--bas-sheet-shadow);
+        padding: 14px 18px 10px;
+        color: var(--ms-ink);
+        background: var(--ms-surface);
+        border-radius: var(--ms-radius-card);
+        box-shadow: var(--ms-shadow);
     }
 
     .o_bas_home_section_title {
         display: flex;
         align-items: center;
-        gap: 8px;
-        margin-bottom: 6px;
-        color: var(--bas-title) !important;
+        gap: 10px;
+        margin-bottom: 8px;
+        color: var(--ms-navy) !important;
+        font-family: var(--ms-font-heading);
         font-size: 17px;
+        font-weight: 700;
         text-decoration: none !important;
         .fa {
-            font-size: 16px;
-            color: #4a4a4a;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: var(--ms-radius);
+            color: var(--ms-teal);
+            background: var(--ms-teal-tint);
+            font-size: 15px;
         }
         &:hover span {
-            text-decoration: underline;
+            color: var(--ms-teal-dark);
         }
     }
 
     .o_bas_home_group {
-        margin: 0 0 8px 26px;
+        margin: 0 0 8px 40px;
     }
     .o_bas_home_group_name {
-        margin: 6px 0 2px;
-        color: #4d4d4d;
-        font-weight: bold;
+        margin: 8px 0 2px;
+        color: var(--ms-subtle);
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .06em;
     }
 
     .o_bas_home_link {
         display: block;
-        padding: 2px 0;
-        color: var(--bas-link) !important;
-        text-decoration: underline;
-        text-underline-offset: 2px;
+        padding: 3px 0;
+        color: var(--ms-teal-dark) !important;
+        font-weight: 600;
+        text-decoration: none;
         &:hover {
-            color: #154a8a !important;
+            text-decoration: underline;
+            text-underline-offset: 2px;
         }
     }
 
     .o_bas_home_recent {
-        flex: 0 0 280px;
-        padding: 12px 16px;
-        background: var(--bas-sheet);
-        border-radius: var(--bas-sheet-radius);
-        box-shadow: var(--bas-sheet-shadow);
+        flex: 0 0 290px;
         h2 {
             margin: 0 0 8px;
-            color: var(--bas-title);
+            color: var(--ms-navy);
             font-size: 17px;
-            font-weight: normal;
+            font-weight: 700;
+        }
+        .o_bas_home_link {
+            font-weight: 400;
+            color: var(--ms-ink) !important;
         }
     }
 }

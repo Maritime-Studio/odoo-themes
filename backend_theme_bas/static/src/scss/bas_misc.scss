@@ -1,57 +1,72 @@
-// Hint boxes, dialogs, dropdowns, kanban, search panel.
+// Dialogs, dropdowns, alerts, search.
 
-// Yellow hint box ("Основний банківський рахунок за замовчуванням підставляється...").
 .o_web_client, .modal {
-    .alert-info, .alert-warning, .o_form_view .alert-info {
-        color: var(--bas-text);
-        background: var(--bas-hint);
+    .alert-info, .alert-warning {
+        color: var(--ms-ink);
+        background: var(--ms-teal-tint);
         border: 0;
-        border-radius: 0;
+        border-left: 3px solid var(--ms-teal);
+        border-radius: var(--ms-radius);
+    }
+    .alert-warning {
+        background: #fdf4e3;
+        border-left-color: #e0a526;
     }
 }
 
-// Dialogs: white, thin frame, blue title, grey ×.
 .modal .modal-content {
-    border: 1px solid #9a9a9a;
-    border-radius: 2px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+    color: var(--ms-ink);
+    background: var(--ms-surface);
+    border: 0;
+    border-radius: var(--ms-radius-card);
+    box-shadow: var(--ms-shadow-pop);
     .modal-header {
-        background: #ffffff;
-        border-bottom: 0;
+        border-bottom: 1px solid var(--ms-border-light);
         .modal-title {
-            color: var(--bas-title);
+            color: var(--ms-navy);
             font-size: 18px;
-            font-weight: normal;
+            font-weight: 600;
         }
     }
     .modal-footer {
-        border-top: 0;
+        border-top: 1px solid var(--ms-border-light);
         justify-content: flex-start;
     }
 }
 
-// Dropdown / autocomplete: highlighted item is BAS orange.
 .o_web_client, .o-overlay-container {
-    .dropdown-menu, .o-autocomplete--dropdown-menu {
-        border: 1px solid #a0a0a0;
-        border-radius: 0;
-        box-shadow: 0 3px 8px rgba(0, 0, 0, .18);
-        padding: 2px 0;
+    .dropdown-menu, .o-autocomplete--dropdown-menu, .o_popover {
+        color: var(--ms-ink);
+        background: var(--ms-surface);
+        border: 1px solid var(--ms-border-light);
+        border-radius: var(--ms-radius);
+        box-shadow: var(--ms-shadow-pop);
+        padding: 4px;
     }
     .dropdown-item, .o-autocomplete--dropdown-item > a {
-        padding: 4px 12px;
-        &:hover, &.focus, &.ui-state-active, &:focus {
-            background: #fcc54e;
-            color: #000000;
+        color: var(--ms-ink);
+        border-radius: 6px;
+        padding: 6px 10px;
+        &:hover, &.focus, &:focus, &.ui-state-active {
+            color: var(--ms-navy-dark);
+            background: var(--ms-surface-alt);
+        }
+        &.active, &.selected {
+            color: var(--ms-navy-dark);
+            background: var(--ms-teal-tint);
         }
     }
 }
 
-// Search bar in the control panel: boxed input.
 .o_control_panel .o_searchview {
-    border: 1px solid var(--bas-border);
-    border-radius: 2px;
+    background: var(--ms-surface);
+    border: 1px solid var(--ms-border);
+    border-radius: var(--ms-radius);
     &:focus-within {
-        border-color: var(--bas-focus);
+        border-color: var(--ms-teal);
+        box-shadow: var(--ms-focus-ring);
+    }
+    .o_searchview_input {
+        color: var(--ms-ink);
     }
 }

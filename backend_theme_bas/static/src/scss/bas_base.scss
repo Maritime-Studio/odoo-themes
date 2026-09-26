@@ -1,54 +1,63 @@
-// Shared BAS palette as CSS custom properties, used by every other file of the theme.
+// Maritime.Studio design tokens, shared by every file of the theme.
 :root {
-    --bas-text: #333333;
-    --bas-muted: #808080;
-    --bas-link: #1f5fad;
-    --bas-title: #3279c5;              // section titles, dialog titles
-    --bas-border: #b4b4b4;             // inputs, buttons
-    --bas-border-light: #d6d6d6;       // grids, panels
-    --bas-panel: #f2f2f2;              // top bar, table headers, tabs
-    --bas-panel-dark: #e4e4e4;         // open windows, totals box
-    --bas-focus: #f5a623;              // orange focus frame
-    --bas-selected: #fbe3b3;           // selected list row
-    --bas-hover-row: #fdf3dc;
-    --bas-yellow: #fdd35b;             // primary button
-    --bas-yellow-top: #fee18d;
-    --bas-yellow-border: #d9a41f;
-    --bas-hint: #fbf3cf;               // hint / info boxes
-    // Steel-blue canvas (solid colour + fine grain, no gradient) behind white sheets.
-    --bas-canvas: #b3c3d2;
-    --bas-canvas-text: #1d2a38;
-    --bas-canvas-muted: #3f5064;
-    --bas-canvas-grain: url("/backend_theme_bas/static/src/img/grain.png");
-    --bas-sheet: #ffffff;
-    --bas-sheet-radius: 4px;
-    --bas-sheet-shadow: 0 1px 2px rgba(22, 38, 56, .18), 0 2px 8px rgba(22, 38, 56, .08);
-    --bas-sidebar-bg: #d4dee7;
-    --bas-sidebar-border: #a7b7c7;
-    --bas-sidebar-hover: #e3eaf0;
-    --bas-window-bg: #c4d1dc;
-    --bas-sidebar-width: 230px;
-    --bas-sidebar-width-collapsed: 44px;
+    // brand
+    --ms-teal: #1d9a8e;
+    --ms-teal-dark: #147a70;       // links and hover (AA on white)
+    --ms-teal-tint: #e3f3f1;       // selected rows, info boxes
+    --ms-navy: #254284;
+    --ms-navy-dark: #1b3169;
+    --ms-navy-soft: #34528f;       // hover on navy surfaces
+    // text
+    --ms-ink: #1e2b4a;
+    --ms-muted: #5b6b8c;
+    --ms-subtle: #8a97b1;
+    // surfaces
+    --ms-canvas: #e3e9f2;          // light navy tint behind the white cards
+    --ms-surface: #ffffff;
+    --ms-surface-alt: #f3f6fb;     // table headers, hover, secondary fills
+    --ms-border: #c9d3e3;
+    --ms-border-light: #e2e8f1;
+    // shape
+    --ms-radius-card: 10px;
+    --ms-radius: 8px;
+    --ms-radius-input: 6px;
+    --ms-shadow: 0 1px 2px rgba(37, 66, 132, .08), 0 4px 14px rgba(37, 66, 132, .07);
+    --ms-shadow-pop: 0 8px 28px rgba(27, 49, 105, .22);
+    --ms-focus-ring: 0 0 0 3px rgba(29, 154, 142, .22);
+    // layout
+    --bas-sidebar-width: 232px;
+    --bas-sidebar-width-collapsed: 52px;
+    --ms-font-heading: "Exo 2", "Open Sans", Arial, sans-serif;
 }
 
 .o_web_client {
-    color: var(--bas-text);
-    background-color: #ffffff;
+    color: var(--ms-ink);
+    background-color: var(--ms-canvas);
 }
 
-// Text selection in BAS is the classic blue highlight.
 .o_web_client ::selection {
-    background: #3399ff;
-    color: #ffffff;
+    background: rgba(29, 154, 142, .28);
+    color: inherit;
 }
 
-// BAS hyperlinks inside documents are always underlined (not in calendars, kanban, menus).
-.o_web_client .o_form_view .o_form_sheet a:not(.btn):not(.settings_tab *):not(.o_setting_box *):not(.dropdown-item):not(.nav-link):not(.o_tag *):not(.badge),
+// Headings and titles use Exo 2.
+.o_web_client {
+    h1, h2, h3, h4, .h1, .h2, .h3, .h4,
+    .o_control_panel .breadcrumb,
+    .modal-title,
+    .o_horizontal_separator,
+    .o_kanban_header_title {
+        font-family: var(--ms-font-heading);
+    }
+}
+
+// Links: teal, underline on hover only.
+.o_web_client .o_form_view .o_form_sheet a:not(.btn):not(.dropdown-item):not(.nav-link):not(.badge):not(.o_tag *):not(.settings_tab *),
 .o_web_client .o_list_renderer .o_data_cell a:not(.btn) {
-    color: var(--bas-link);
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    color: var(--ms-teal-dark);
+    text-decoration: none;
     &:hover {
-        color: darken(#1f5fad, 10%);
+        text-decoration: underline;
+        text-underline-offset: 2px;
     }
 }

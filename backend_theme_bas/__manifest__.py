@@ -1,23 +1,27 @@
 {
-    'name': 'BAS Backend Theme',
-    'summary': 'Backend look & feel close to 1C BAS ("Taxi" interface) for an easy switch',
+    'name': 'Maritime.Studio Backend Theme',
+    'summary': 'Maritime.Studio branded backend with a 1C BAS-like layout (sections panel, open windows, start page)',
     'description': """
-BAS Backend Theme
-=================
+Maritime.Studio Backend Theme
+=============================
 
-Makes the Odoo 19 web client look and behave like the 1C / BAS "Taxi" interface:
+A complete backend theme for Odoo 19 that replaces app launchers such as
+home_theme:
 
-* light top bar, left sections panel with monochrome icons and an "Open windows" panel;
-* Arial 13px, dense layout, boxed inputs with an orange focus ring;
-* yellow primary button, grey bordered secondary buttons, blue section titles;
-* smart buttons rendered as a row of blue hyperlinks;
-* boxed notebook tabs, grey list headers, light-orange selected row, row numbers;
-* yellow hint boxes, blue dialog titles.
+* Maritime.Studio brand: Navy top bar and sections panel, Maritime Teal accents
+  and primary buttons, white rounded cards on a light navy canvas, Exo 2
+  headings and Open Sans data text (self-hosted, Latin + Cyrillic);
+* 1C BAS habits kept for accountants: left sections panel, "open windows"
+  list, start page with every section's commands, row numbers in lists,
+  always-framed inputs, smart buttons as a row of links;
+* every view type styled: lists, forms, kanban, calendar, pivot/graph,
+  discuss, settings, dialogs and dropdowns.
 
-The module has no Python code and no dependency besides ``web``, so it can be
-installed on any Odoo 19 database, including through *Apps > Import Module*.
+No Python code, depends only on ``web``: installable on any Odoo 19 database,
+also through *Apps > Import Module*.
 """,
-    'version': '19.0.1.0.0',
+
+    'version': '19.0.2.0.0',
     'category': 'Hidden/Tools',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
@@ -29,6 +33,7 @@ installed on any Odoo 19 database, including through *Apps > Import Module*.
              'backend_theme_bas/static/src/scss/primary_variables.scss'),
         ],
         'web.assets_backend': [
+            'backend_theme_bas/static/src/scss/fonts.scss',
             'backend_theme_bas/static/src/scss/bas_base.scss',
             'backend_theme_bas/static/src/scss/bas_navbar.scss',
             'backend_theme_bas/static/src/scss/bas_buttons.scss',

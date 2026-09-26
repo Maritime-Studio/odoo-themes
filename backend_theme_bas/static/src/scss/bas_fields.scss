@@ -1,77 +1,62 @@
-// BAS inputs: full thin grey frame, white background, orange frame on focus.
-:root {
-    --o-input-border-color: var(--bas-border);
-}
-.o_required_modifier {
-    // BAS marks required fields with a dotted red underline only when empty; keep the frame grey
-    --o-input-border-color: var(--bas-border);
-}
-.o_field_widget:focus-within {
-    --o-input-border-color: var(--bas-focus);
-    --o-caret-color: var(--bas-focus);
-}
-
+// Inputs: always framed (Odoo 19 hides the frame until hover), 6px radius, teal focus.
 .o_form_view,
 .modal .o_form_view,
-.o_setting_container,
 .o_control_panel .o_searchview {
     .o_field_widget:not(.o_field_boolean):not(.o_field_statusbar):not(.o_field_priority)
         :is(input.o_input, textarea.o_input, select.o_input, .o_input.o_record_selector, .o_input.o_multi_record_selector):not(.o_input .o_input),
     .o_field_widget > select.o_input {
-        // Odoo 19 hides the frame until hover; BAS always shows it.
-        border: 1px solid var(--bas-input-border, var(--bas-border)) !important;
-        border-radius: 2px;
-        padding: 2px 5px;
-        min-height: 24px;
-        background-color: #ffffff;
+        border: 1px solid var(--ms-input-border, var(--ms-border)) !important;
+        border-radius: var(--ms-radius-input);
+        padding: 3px 8px;
+        min-height: 28px;
+        color: var(--ms-ink);
+        background-color: var(--ms-surface);
         box-shadow: none;
-    }
-    .o_field_widget:focus-within :is(input.o_input, textarea.o_input, select.o_input) {
-        box-shadow: 0 0 0 1px var(--bas-focus);
+        transition: border-color .12s, box-shadow .12s;
     }
     .o_field_widget:focus-within {
-        --bas-input-border: var(--bas-focus);
+        --ms-input-border: var(--ms-teal);
+        :is(input.o_input, textarea.o_input, select.o_input) {
+            box-shadow: var(--ms-focus-ring);
+        }
     }
     .o_field_invalid {
-        --bas-input-border: #d9534f;
+        --ms-input-border: #d64545;
     }
-    // date pickers: always show the calendar button, like BAS
+    // date pickers: calendar button always visible
     .o_datepicker .o_datepicker_button {
         visibility: visible;
     }
 }
+.o_field_widget:focus-within {
+    --o-input-border-color: var(--ms-teal);
+    --o-caret-color: var(--ms-teal);
+}
 
-// Dropdown button on many2one / selection / date fields: small grey box like BAS "▾".
+// Dropdown caret of many2one / selection fields.
 .o_form_view .o_field_widget {
-    .o_input_dropdown .o_dropdown_button,
-    .o_datepicker .o_datepicker_button {
-        top: 1px;
-        bottom: 1px;
-        right: 1px;
-        width: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-left: 1px solid #d0d0d0;
-        background: linear-gradient(#ffffff, #ececec);
+    .o_input_dropdown .o_dropdown_button {
+        color: var(--ms-muted);
+        right: 8px;
     }
-    .o_input_dropdown .o_input,
-    .o_datepicker .o_input {
+    .o_input_dropdown .o_input, .o_datepicker .o_input {
         padding-right: 26px;
     }
 }
 
-// Checkboxes and radios: square, BAS blue tick.
-.o_web_client .form-check-input {
-    border-color: #8c8c8c;
-    border-radius: 2px;
-}
-.o_web_client .form-check-input[type="radio"] {
-    border-radius: 50%;
-}
-
-// Placeholders are light grey in BAS.
-.o_web_client ::placeholder {
-    color: #aaaaaa;
-    opacity: 1;
+.o_web_client, .modal {
+    .form-check-input {
+        border-color: #9aa8c1;
+        &:checked {
+            background-color: var(--ms-teal);
+            border-color: var(--ms-teal);
+        }
+        &:focus {
+            box-shadow: var(--ms-focus-ring);
+        }
+    }
+    ::placeholder {
+        color: var(--ms-subtle);
+        opacity: 1;
+    }
 }

@@ -3,8 +3,9 @@
 
     <t t-name="backend_theme_bas.Home">
         <div class="o_action o_bas_home">
-            <div class="o_bas_home_header">
+            <div class="o_bas_home_hero">
                 <h1>Home page</h1>
+                <p>All sections and their commands in one place</p>
             </div>
             <div class="o_bas_home_body">
                 <div class="o_bas_home_sections">

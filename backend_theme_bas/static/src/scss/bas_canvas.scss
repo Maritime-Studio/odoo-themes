@@ -1,43 +1,40 @@
-// Steel-blue canvas behind every view; working surfaces are white sheets on top of it.
+// Canvas + cards: every view sits on the light navy canvas as white rounded cards.
+// Colours are set explicitly so the result does not depend on the colour scheme.
 
 .o_web_client > .o_action_manager {
-    background-color: var(--bas-canvas);
-    background-image: var(--bas-canvas-grain);
+    background: var(--ms-canvas);
 }
-
 .o_action_manager > .o_action,
 .o_action_manager .o_content,
 .o_action_manager .o_control_panel {
     background-color: transparent;
 }
 
-// Control panel text sits directly on the canvas.
 .o_action_manager .o_control_panel {
-    color: var(--bas-canvas-text);
-    .breadcrumb .breadcrumb-item,
-    .breadcrumb .breadcrumb-item.active,
-    .o_last_breadcrumb_item,
-    .o_pager_value, .o_pager_limit, .o_pager_counter {
-        color: var(--bas-canvas-text);
-    }
-    .breadcrumb .breadcrumb-item a {
-        color: #173f73;
-    }
+    color: var(--ms-ink);
+    padding-top: 12px;
+    padding-bottom: 12px;
     .breadcrumb {
         background: transparent;
     }
-    .o_searchview {
-        background: #ffffff;
+    .o_pager_value, .o_pager_limit, .o_pager_counter {
+        color: var(--ms-ink);
     }
 }
 
+// shared card look
+%ms-card {
+    color: var(--ms-ink);
+    background: var(--ms-surface) !important;
+    border-radius: var(--ms-radius-card);
+    box-shadow: var(--ms-shadow);
+}
+
 // --- Lists -------------------------------------------------------------------
-.o_list_view .o_content > .o_list_renderer,
 .o_list_view .o_list_renderer.o_renderer {
+    @extend %ms-card;
     margin: 0 16px 16px;
-    background: var(--bas-sheet);
-    border-radius: var(--bas-sheet-radius);
-    box-shadow: var(--bas-sheet-shadow);
+    overflow: auto;
 }
 
 // --- Forms -------------------------------------------------------------------
@@ -47,30 +44,17 @@
     }
     .o_form_sheet_bg > .o_form_sheet,
     .o_form_sheet {
-        background: var(--bas-sheet);
-        border-radius: var(--bas-sheet-radius);
-        box-shadow: var(--bas-sheet-shadow) !important;
+        @extend %ms-card;
         margin: 0 16px 16px !important;
     }
-    // command bar (statusbar) as a light strip on top of the sheet
-    .o_form_statusbar {
-        background: rgba(255, 255, 255, .55);
-        border-radius: var(--bas-sheet-radius);
-        margin: 0 16px 8px;
-        padding: 6px 8px;
-        border-bottom: 0;
-    }
-}
-// chatter column: white sheet as well
-.o-mail-Form-chatter, .o-mail-Chatter {
-    background: transparent;
 }
 .o-mail-Form-chatter.o-aside .o-mail-Chatter,
 .o-mail-Form-chatter:not(.o-aside) {
-    background: var(--bas-sheet);
-    border-radius: var(--bas-sheet-radius);
-    box-shadow: var(--bas-sheet-shadow);
+    @extend %ms-card;
     margin: 0 16px 16px;
+}
+.o-mail-Form-chatter, .o-mail-Chatter {
+    background: transparent;
 }
 
 // --- Kanban ------------------------------------------------------------------
@@ -78,49 +62,88 @@
     background: transparent !important;
     padding: 0 16px 16px !important;
     .o_kanban_group {
-        background: rgba(255, 255, 255, .35) !important;
-        border-radius: var(--bas-sheet-radius);
+        background: rgba(255, 255, 255, .45) !important;
+        border-radius: var(--ms-radius-card);
+        margin-right: 12px;
+        padding: 8px !important;
     }
-    .o_kanban_header_title, .o_column_title, .o_kanban_counter {
-        color: var(--bas-canvas-text);
+    .o_kanban_header, .o_kanban_header_title, .o_column_title, .o_kanban_counter,
+    .o_kanban_counter_side, .o_kanban_header .o_kanban_quick_add i {
+        color: var(--ms-navy) !important;
+    }
+    .o_column_title {
+        font-family: var(--ms-font-heading);
+        font-weight: 600;
+    }
+    .o_kanban_counter_progress {
+        background: var(--ms-border-light) !important;
     }
     .o_kanban_record {
-        border-radius: 3px;
-        box-shadow: var(--bas-sheet-shadow);
-        border-color: transparent;
+        color: var(--ms-ink) !important;
+        background: var(--ms-surface) !important;
+        border: 1px solid var(--ms-border-light) !important;
+        border-radius: var(--ms-radius) !important;
+        box-shadow: 0 1px 2px rgba(37, 66, 132, .06);
+        margin-bottom: 8px;
+        &:hover {
+            box-shadow: var(--ms-shadow);
+            border-color: var(--ms-border) !important;
+        }
+        .o_kanban_record_title, strong, .fw-bold, .fw-bolder {
+            color: var(--ms-navy);
+        }
+    }
+    // ungrouped kanban (contacts, products): cards on the canvas
+    &.o_kanban_ungrouped .o_kanban_record {
+        margin: 0 8px 8px 0;
     }
 }
 
-// --- Calendar, pivot, graph, activity, gantt-like renderers ------------------
-.o_calendar_renderer,
-.o_pivot,
-.o_graph_renderer,
+// --- Calendar, pivot, graph, activity, hierarchy -----------------------------
+// Scoped to the view roots: ".o_pivot" alone also matches the pivot button of the view switcher.
+.o_calendar_view .o_calendar_renderer,
+.o_pivot_view .o_content .o_pivot,
+.o_graph_view .o_graph_renderer,
 .o_activity_view .o_content > div,
-.o_hierarchy_renderer {
+.o_hierarchy_view .o_hierarchy_renderer {
+    @extend %ms-card;
     margin: 0 16px 16px;
-    background: var(--bas-sheet) !important;
-    border-radius: var(--bas-sheet-radius);
-    box-shadow: var(--bas-sheet-shadow);
+    overflow: hidden;
 }
 .o_calendar_view .o_calendar_container {
     background: transparent;
 }
+.o_calendar_view .o_calendar_renderer {
+    .fc-col-header-cell a, .fc-daygrid-day-number {
+        color: var(--ms-navy) !important;
+        text-decoration: none;
+    }
+}
 
 // --- Settings ----------------------------------------------------------------
 .o_settings_container, .o_setting_container .settings {
-    background: var(--bas-sheet);
+    color: var(--ms-ink);
+    background: var(--ms-surface);
+}
+.o_setting_container .settings_tab {
+    background: var(--ms-surface-alt);
+    .tab {
+        color: var(--ms-ink);
+        &.selected {
+            color: var(--ms-navy);
+            background: var(--ms-surface);
+            box-shadow: inset 3px 0 0 var(--ms-teal);
+        }
+    }
 }
 
-// --- Discuss (full-page chat) -------------------------------------------------
+// --- Discuss (full page) -----------------------------------------------------
 .o-mail-Discuss {
+    @extend %ms-card;
     margin: 0 16px 16px;
-    background: var(--bas-sheet);
-    border-radius: var(--bas-sheet-radius);
-    box-shadow: var(--bas-sheet-shadow);
     overflow: hidden;
 }
 
-// --- Empty-state helper ------------------------------------------------------
 .o_view_nocontent {
-    color: var(--bas-canvas-text);
+    color: var(--ms-ink);
 }

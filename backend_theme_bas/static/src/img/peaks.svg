@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <polygon points="0,120 260,20 560,120" fill="#1d9a8e" fill-opacity=".85"/>
+  <polygon points="380,120 720,0 1040,120" fill="#1d9a8e" fill-opacity=".55"/>
+  <polygon points="820,120 1060,40 1200,95 1200,120" fill="#34528f"/>
+  <polygon points="170,120 420,60 700,120" fill="#1b3169" fill-opacity=".6"/>
+</svg>

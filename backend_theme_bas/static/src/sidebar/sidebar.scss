@@ -1,7 +1,7 @@
-// BAS sections panel (left) + open windows panel, fixed under the top bar.
+// Navy sections panel continuing the top bar; open windows below; wave motif at the bottom.
 .o_bas_sidebar {
     position: fixed;
-    top: var(--o-navbar-height, 40px);
+    top: var(--o-navbar-height, 44px);
     bottom: 0;
     left: 0;
     z-index: 5;
@@ -9,11 +9,14 @@
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    overflow-y: auto;      // one scroll for the whole panel, never nested scrollbars
+    overflow-y: auto;      // one scroll for the whole panel
     scrollbar-width: thin;
-    background: var(--bas-sidebar-bg);
-    border-right: 1px solid var(--bas-sidebar-border);
-    color: var(--bas-canvas-text);
+    scrollbar-color: rgba(255, 255, 255, .25) transparent;
+    color: #ffffff;
+    background: var(--ms-navy) url("/backend_theme_bas/static/src/img/waves.svg") no-repeat left bottom 12px;
+    background-attachment: local;  // waves follow the end of the content, never under the items
+    padding-bottom: 72px;  // room for the waves
+    font-family: var(--ms-font-heading);
     font-size: 14px;
     user-select: none;
 
@@ -27,58 +30,65 @@
 
 .o_bas_sections {
     flex: 0 0 auto;
-    padding: 4px 0;
-    border-bottom: 1px solid var(--bas-sidebar-border);
+    padding: 8px 8px 10px;
 }
 
 .o_bas_section {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 6px 12px 6px 14px;
-    color: var(--bas-canvas-text) !important;
+    gap: 12px;
+    padding: 7px 10px;
+    margin-bottom: 2px;
+    border-radius: var(--ms-radius);
+    color: rgba(255, 255, 255, .86) !important;
     text-decoration: none !important;
+    font-weight: 600;
     white-space: nowrap;
 
     .fa {
+        flex: 0 0 18px;
         font-size: 16px;
-        width: 18px;
-        color: #3e5670;
+        text-align: center;
+        color: rgba(255, 255, 255, .62);
     }
     .o_bas_label {
         overflow: hidden;
         text-overflow: ellipsis;
     }
     &:hover {
-        background: var(--bas-sidebar-hover);
+        color: #ffffff !important;
+        background: var(--ms-navy-soft);
+        .fa { color: #ffffff; }
     }
     &.active {
-        background: #ffffff;
-        box-shadow: inset 3px 0 0 var(--bas-focus);
-        .fa {
-            color: #1d2a38;
-        }
+        color: #ffffff !important;
+        background: rgba(29, 154, 142, .22);
+        box-shadow: inset 3px 0 0 var(--ms-teal);
+        .fa { color: var(--ms-teal); }
     }
 }
 
 .o_bas_windows {
-    flex: 1 0 auto;
-    padding-bottom: 8px;
+    flex: 0 0 auto;
+    margin: 0 8px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, .14);
 }
 
 .o_bas_window {
     position: relative;
     display: flex;
     align-items: flex-start;
-    gap: 6px;
-    padding: 7px 24px 7px 8px;
-    border-bottom: 1px solid var(--bas-sidebar-border);
-    background: var(--bas-window-bg);
-    font-size: 13px;
-    line-height: 1.3;
+    gap: 8px;
+    padding: 6px 26px 6px 10px;
+    margin-bottom: 2px;
+    border-radius: var(--ms-radius);
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.35;
 
     a {
-        color: var(--bas-canvas-text) !important;
+        color: rgba(255, 255, 255, .78) !important;
         text-decoration: none !important;
         overflow: hidden;
         display: -webkit-box;
@@ -86,20 +96,23 @@
         -webkit-box-orient: vertical;
     }
     &:hover {
-        background: var(--bas-sidebar-hover);
+        background: var(--ms-navy-soft);
+        a { color: #ffffff !important; }
     }
     &.active {
-        background: #ffffff;
+        background: rgba(255, 255, 255, .12);
+        a { color: #ffffff !important; }
     }
     .o_bas_window_close {
         position: absolute;
-        right: 6px;
+        right: 8px;
         top: 5px;
-        color: #666666;
+        color: rgba(255, 255, 255, .7);
         font-size: 16px;
         line-height: 1;
         text-decoration: none;
         visibility: hidden;
+        &:hover { color: #ffffff; }
     }
     &:hover .o_bas_window_close,
     &.active .o_bas_window_close {
@@ -108,14 +121,17 @@
 }
 
 .o_bas_window_home {
-    color: var(--bas-canvas-text) !important;
+    color: #ffffff !important;
     text-decoration: none !important;
-    background: var(--bas-sidebar-bg);
-    font-size: 14px;
-    border-bottom: 2px solid var(--bas-sidebar-border);
+    font-family: var(--ms-font-heading);
+    font-size: 13.5px;
+    font-weight: 600;
+    padding-right: 10px;
+    margin-bottom: 6px;
+    .fa { color: var(--ms-teal); }
     &.active {
-        background: #ffffff;
-        box-shadow: inset 3px 0 0 var(--bas-focus);
+        background: rgba(29, 154, 142, .22);
+        box-shadow: inset 3px 0 0 var(--ms-teal);
     }
 }
 
@@ -127,26 +143,23 @@
     margin-left: var(--bas-sidebar-width-collapsed);
 }
 
-// Hamburger in the top bar (toggles the panel).
+// Hamburger in the top bar (collapses the panel).
 .o_bas_toggle {
     display: flex;
     align-items: center;
-    padding: 0 12px;
+    padding: 0 14px;
     color: #ffffff;
     font-size: 18px;
     border: 0;
     background: transparent;
     &:hover {
-        background: rgba(255, 255, 255, .12);
+        background: rgba(255, 255, 255, .10);
     }
 }
 
-// The sections panel replaces the apps grid button on desktop.
-.o_web_client:has(> .o_bas_sidebar) .o_main_navbar .o_navbar_apps_menu {
-    display: none;
-}
-
-// The current app is highlighted in the sections panel: its name is not repeated in the top bar.
-.o_web_client:has(> .o_bas_sidebar) .o_main_navbar .o_menu_brand {
-    display: none !important;
+// The panel replaces the apps grid button and the app name in the top bar.
+.o_web_client:has(> .o_bas_sidebar) .o_main_navbar {
+    .o_navbar_apps_menu, .o_menu_brand {
+        display: none !important;
+    }
 }

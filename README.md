@@ -4,7 +4,7 @@ Custom themes for Odoo 19.
 
 ## backend_theme_bas
 
-Backend (web client) theme that makes Odoo 19 look like the 1C / BAS "Taxi" interface,
+Maritime.Studio branded backend theme for Odoo 19 with a 1C / BAS-like layout,
 so that users coming from BAS feel at home:
 
 - light top bar with a hamburger, left **sections panel** with monochrome icons;

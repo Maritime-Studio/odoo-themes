@@ -1,38 +1,36 @@
-// Lists: grey header with frame, vertical grid lines, light-orange selected row, row numbers.
+// Lists: tinted header, light grid, row numbers, teal selection.
 .o_list_renderer .o_list_table {
     counter-reset: bas-row;
-    border: 1px solid var(--bas-border-light);
+    color: var(--ms-ink);
+    background: var(--ms-surface);
 
-    thead {
-        th {
-            background: var(--bas-panel);
-            color: #4d4d4d;
-            font-weight: normal;
-            border-right: 1px solid var(--bas-border-light);
-            border-bottom: 1px solid var(--bas-border-light);
-            padding-top: 5px;
-            padding-bottom: 5px;
-        }
+    thead th {
+        background: var(--ms-surface-alt);
+        color: var(--ms-navy);
+        font-weight: 600;
+        border-bottom: 1px solid var(--ms-border);
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 
     tbody > tr.o_data_row {
         counter-increment: bas-row;
         > td {
-            border-right: 1px solid #ececec;
-            border-bottom: 1px solid #ececec;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            border-bottom: 1px solid var(--ms-border-light);
+            padding-top: 6px;
+            padding-bottom: 6px;
+            background-color: var(--ms-surface);
         }
         &:hover > td {
-            background-color: var(--bas-hover-row);
+            background-color: var(--ms-surface-alt);
         }
         &.o_data_row_selected > td,
         &.o_selected_row > td {
-            background-color: var(--bas-selected) !important;
+            background-color: var(--ms-teal-tint) !important;
         }
     }
 
-    // Row number "N" in front of the record selector (main lists).
+    // Row number "N" before the record selector (BAS habit).
     thead th.o_list_record_selector::before {
         content: "N";
         display: inline-block;
@@ -46,12 +44,13 @@
         display: inline-block;
         min-width: 18px;
         margin-right: 6px;
-        color: #666666;
+        color: var(--ms-subtle);
         text-align: right;
+        vertical-align: middle;
     }
     thead th.o_list_record_selector,
     tbody td.o_list_record_selector {
-        width: 60px !important;
+        width: 62px !important;
         white-space: nowrap;
         > .o-checkbox, > .form-check, > div {
             display: inline-flex !important;   // overrides Bootstrap's d-flex
@@ -60,12 +59,13 @@
     }
 
     tfoot td {
-        background: var(--bas-panel-dark);
-        font-weight: bold;
+        background: var(--ms-surface-alt);
+        color: var(--ms-navy);
+        font-weight: 700;
     }
 }
 
-// Group rows
 .o_list_renderer .o_group_header {
-    background: #f7f7f7;
+    background: var(--ms-surface-alt);
+    color: var(--ms-navy);
 }
