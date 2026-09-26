@@ -37,10 +37,16 @@ export class BasHome extends Component {
                     loose.push(child);
                 }
             }
+            // a command that just repeats the section (Calendar > Calendar) is the section title itself
+            const own = (menu) => menu.name === app.name && menu.actionID === app.actionID;
+            for (const group of groups) {
+                group.links = group.links.filter((link) => !own(link));
+            }
+            loose.splice(0, loose.length, ...loose.filter((link) => !own(link)));
             if (loose.length) {
                 groups.unshift({ id: `${app.id}_main`, name: "", links: loose });
             }
-            return { app, icon: iconFor(app.xmlid), groups };
+            return { app, icon: iconFor(app.xmlid), groups: groups.filter((g) => g.links.length) };
         });
     }
 

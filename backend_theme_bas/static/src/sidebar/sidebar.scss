@@ -145,3 +145,8 @@
 .o_web_client:has(> .o_bas_sidebar) .o_main_navbar .o_navbar_apps_menu {
     display: none;
 }
+
+// The current app is highlighted in the sections panel: its name is not repeated in the top bar.
+.o_web_client:has(> .o_bas_sidebar) .o_main_navbar .o_menu_brand {
+    display: none !important;
+}
