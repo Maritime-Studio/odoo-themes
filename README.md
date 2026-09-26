@@ -11,7 +11,11 @@ launchers such as `home_theme`:
 - BAS habits: row numbers in lists, always-framed inputs, smart buttons shown as links;
 - every view type styled: lists, forms, kanban, calendar, pivot/graph, discuss, settings, dialogs.
 
-### Dashboards
+### Charts, dashboards and calendar
+
+Every chart of the web client uses one soft style (`static/src/charts/soft_charts.js`): graph views
+of all apps (patched in the lazy `web.assets_backend_lazy` bundle) and spreadsheet dashboards.
+The calendar gets rounded, taller event pills in the scheme palette and an accent "today".
 
 Spreadsheet dashboards follow the active scheme (loaded in the lazy `spreadsheet.o_spreadsheet`
 bundle, so the theme still only depends on `web`): Odoo's stock dashboard colours are mapped to

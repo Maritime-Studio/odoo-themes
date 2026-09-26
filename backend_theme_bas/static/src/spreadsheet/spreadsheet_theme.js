@@ -1,5 +1,15 @@
 import { registries } from "@odoo/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
+import {
+    hue,
+    luminance,
+    mix,
+    saturation,
+    softenChartConfig,
+    toHex,
+    toRgb,
+    tokens,
+} from "@backend_theme_bas/charts/soft_charts";
 
 /**
  * Spreadsheet dashboards follow the active colour scheme of the theme.
@@ -16,96 +26,6 @@ import { patch } from "@web/core/utils/patch";
  *   scheme's chart palette (--t-chart-1..6) and drawn in a soft style (smooth lines
  *   with a fading fill, rounded bars, dashed light grid, round legend markers).
  */
-
-// ---------------------------------------------------------------------------
-// Scheme tokens
-// ---------------------------------------------------------------------------
-
-let tokenCache = null;
-let tokenCacheTime = 0;
-
-function tokens() {
-    // re-read at most once a second (the scheme only changes with a page reload)
-    const now = Date.now();
-    if (tokenCache && now - tokenCacheTime < 1000) {
-        return tokenCache;
-    }
-    const css = getComputedStyle(document.documentElement);
-    const get = (name, fallback) => css.getPropertyValue(`--t-${name}`).trim() || fallback;
-    tokenCache = {
-        series: [1, 2, 3, 4, 5, 6].map((i) => get(`chart-${i}`, "#3860ac")),
-        up: get("chart-up", "#2f9e5b"),
-        down: get("chart-down", "#d0474b"),
-        ink: get("ink", "#1e2b4a"),
-        muted: get("muted", "#5b6b8c"),
-        heading: get("heading", "#254284"),
-        surface: get("surface", "#ffffff"),
-        surfaceAlt: get("surface-alt", "#f3f6fb"),
-        border: get("border-light", "#e2e8f1"),
-        font: get("font-body", "Arial, sans-serif"),
-    };
-    tokenCacheTime = now;
-    return tokenCache;
-}
-
-// ---------------------------------------------------------------------------
-// Colour helpers
-// ---------------------------------------------------------------------------
-
-function toRgb(color) {
-    if (typeof color !== "string") {
-        return null;
-    }
-    const hex = color.trim().replace("#", "");
-    if (/^[0-9a-f]{6}([0-9a-f]{2})?$/i.test(hex)) {
-        return [0, 2, 4].map((i) => parseInt(hex.slice(i, i + 2), 16));
-    }
-    if (/^[0-9a-f]{3}$/i.test(hex)) {
-        return [0, 1, 2].map((i) => parseInt(hex[i] + hex[i], 16));
-    }
-    const m = color.match(/rgba?\(([^)]+)\)/i);
-    return m ? m[1].split(",").slice(0, 3).map((v) => parseFloat(v)) : null;
-}
-
-function toHex(rgb) {
-    return "#" + rgb.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("");
-}
-
-function luminance(rgb) {
-    return (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255;
-}
-
-function saturation(rgb) {
-    const max = Math.max(...rgb);
-    const min = Math.min(...rgb);
-    return max === 0 ? 0 : (max - min) / max;
-}
-
-function hue(rgb) {
-    const [r, g, b] = rgb.map((v) => v / 255);
-    const max = Math.max(r, g, b);
-    const d = max - Math.min(r, g, b);
-    if (!d) {
-        return 0;
-    }
-    let h = max === r ? ((g - b) / d) % 6 : max === g ? (b - r) / d + 2 : (r - g) / d + 4;
-    h *= 60;
-    return h < 0 ? h + 360 : h;
-}
-
-function mix(color, other, weight) {
-    const a = toRgb(color);
-    const b = toRgb(other);
-    if (!a || !b) {
-        return color;
-    }
-    return toHex(a.map((v, i) => v * (1 - weight) + b[i] * weight));
-}
-
-function withAlpha(color, alpha) {
-    const rgb = toRgb(color);
-    return rgb ? `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})` : color;
-}
 
 // o-spreadsheet stock chart palette, in the order its ColorGenerator hands colours out
 // (small palette first, then the larger ones). A series using one of these colours
@@ -266,138 +186,6 @@ patchPlugin(registries.coreViewsPluginRegistry, "evaluation_chart", {
 // Chart.js: soft style
 // ---------------------------------------------------------------------------
 
-function fadingFill(color) {
-    return (context) => {
-        const { chart } = context;
-        const area = chart.chartArea;
-        if (!area) {
-            return withAlpha(color, 0.2);
-        }
-        const gradient = chart.ctx.createLinearGradient(0, area.top, 0, area.bottom);
-        gradient.addColorStop(0, withAlpha(color, 0.34));
-        gradient.addColorStop(1, withAlpha(color, 0));
-        return gradient;
-    };
-}
-
-function isInk(value) {
-    // a usable series colour: a string that is neither white nor fully transparent
-    const rgb = toRgb(value);
-    return rgb && luminance(rgb) < 0.97 && !/,\s*0(\.0+)?\s*\)$/.test(value);
-}
-
-function solidColor(dataset, kind) {
-    // lines carry their colour in borderColor, bars in backgroundColor (their border is white)
-    const order = kind === "line"
-        ? [dataset.borderColor, dataset.backgroundColor]
-        : [dataset.backgroundColor, dataset.borderColor];
-    return order.find((value) => typeof value === "string" && isInk(value)) || null;
-}
-
-function styleDatasets(chart, t) {
-    const type = chart.config.type;
-    const datasets = chart.config.data?.datasets || [];
-    const stacked = Object.values(chart.config.options?.scales || {}).some((scale) => scale?.stacked);
-    datasets.forEach((dataset, index) => {
-        const kind = dataset.type || type;
-        if (kind === "pie" || kind === "doughnut") {
-            if (Array.isArray(dataset.backgroundColor)) {
-                dataset.backgroundColor = dataset.backgroundColor.map((c, i) => seriesColor(c, i));
-            }
-            dataset.borderColor = t.surface;
-            dataset.borderWidth = 2;
-            dataset.hoverOffset = 6;
-            return;
-        }
-        if (dataset.xAxisID && String(dataset.xAxisID).includes("trend")) {
-            return; // trend lines keep their dashed style
-        }
-        const color = seriesColor(solidColor(dataset, kind), index);
-        if (kind === "line") {
-            const fill = dataset.fill || (!stacked && datasets.length <= 3 ? "origin" : false);
-            Object.assign(dataset, {
-                borderColor: color,
-                pointBackgroundColor: color,
-                pointBorderColor: t.surface,
-                pointRadius: 0,
-                pointHoverRadius: 5,
-                pointHoverBorderWidth: 2,
-                borderWidth: 3,
-                tension: 0.4,
-                fill,
-                backgroundColor: fill ? fadingFill(color) : color,
-            });
-        } else if (kind === "bar") {
-            Object.assign(dataset, {
-                backgroundColor: color,
-                borderColor: color,
-                borderWidth: 0,
-                borderRadius: 6,
-                borderSkipped: "start",
-                maxBarThickness: 22,
-            });
-        }
-    });
-}
-
-function styleOptions(chart, t) {
-    const options = chart.config.options || (chart.config.options = {});
-    const font = { family: t.font, size: 11 };
-    for (const [id, scale] of Object.entries(options.scales || {})) {
-        if (!scale || scale.display === false) {
-            continue;
-        }
-        const isX = id.startsWith("x") || scale.axis === "x";
-        scale.grid = {
-            ...scale.grid,
-            display: !isX,
-            color: t.border,
-            drawTicks: false,
-        };
-        scale.border = { ...scale.border, display: false, dash: [5, 5] };
-        scale.ticks = { ...scale.ticks, color: t.muted, padding: 8, font: { ...scale.ticks?.font, ...font } };
-        if (scale.title) {
-            scale.title = { ...scale.title, color: t.muted, font: { ...scale.title.font, ...font } };
-        }
-    }
-    const plugins = options.plugins || (options.plugins = {});
-    if (plugins.title) {
-        plugins.title = { ...plugins.title, color: t.heading, font: { ...plugins.title.font, family: t.font, weight: "600" } };
-    }
-    if (plugins.legend) {
-        const labels = plugins.legend.labels || {};
-        const generate = labels.generateLabels;
-        plugins.legend.labels = {
-            ...labels,
-            color: t.muted,
-            usePointStyle: true,
-            boxWidth: 8,
-            boxHeight: 8,
-            padding: 14,
-            font: { ...labels.font, ...font, size: 12 },
-            generateLabels: generate
-                ? (c) =>
-                      generate(c).map((item) => ({
-                          ...item,
-                          fillStyle: typeof item.fillStyle === "string" ? item.fillStyle : item.strokeStyle,
-                          strokeStyle: typeof item.strokeStyle === "string" ? item.strokeStyle : undefined,
-                          pointStyle: item.pointStyle === "line" && item.lineWidth === 3 ? "line" : "circle",
-                      }))
-                : labels.generateLabels,
-        };
-    }
-    plugins.tooltip = {
-        ...plugins.tooltip,
-        backgroundColor: t.ink,
-        titleColor: "#ffffff",
-        bodyColor: "#ffffff",
-        cornerRadius: 8,
-        padding: 10,
-        boxPadding: 4,
-        usePointStyle: true,
-    };
-}
-
 const softChartsPlugin = {
     id: "basSoftCharts",
     beforeInit(chart) {
@@ -409,13 +197,11 @@ const softChartsPlugin = {
 };
 
 function applySoftStyle(chart) {
-    // only charts of spreadsheets / dashboards, not the graph views of the web client
+    // charts of spreadsheets / dashboards (graph views are styled by graph_patch.js)
     if (!chart.canvas?.closest?.(".o-spreadsheet")) {
         return;
     }
-    const t = tokens();
-    styleDatasets(chart, t);
-    styleOptions(chart, t);
+    softenChartConfig(chart.config, seriesColor);
 }
 
 registries.chartJsExtensionRegistry.add("basSoftCharts", {

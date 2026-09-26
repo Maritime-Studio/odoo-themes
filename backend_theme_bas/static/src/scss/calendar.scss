@@ -1,0 +1,155 @@
+// Calendar in the Soft UI style: quiet grid, small caps weekdays, solid rounded event
+// pills in the scheme's palette (taller than Odoo's default), accent "today".
+
+// Odoo colour index (attendee / user colour) -> scheme series colour.
+@for $i from 0 through 11 {
+    .o_calendar_renderer .o_calendar_color_#{$i} {
+        --bas-event: var(--t-chart-#{($i + 5) % 6 + 1});
+    }
+}
+
+.o_calendar_renderer {
+    --o-cw-border-color: var(--t-border-light);
+    --fc-border-color: var(--t-border-light);
+    --fc-today-bg-color: transparent;
+
+    .fc {
+        font-family: var(--t-font-body);
+    }
+
+    // weekday header: small uppercase muted labels, no links look
+    .fc-col-header-cell {
+        background: var(--t-surface);
+        border-color: transparent !important;
+        padding: 10px 0 8px;
+        .fc-col-header-cell-cushion, a {
+            color: var(--t-subtle) !important;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            text-decoration: none !important;
+        }
+        // week view: big day number under the weekday
+        .o_cw_day_number, .o_cw_day_name {
+            text-decoration: none !important;
+        }
+        .o_cw_day_number {
+            color: var(--t-heading) !important;
+            font-weight: 700;
+        }
+    }
+
+    // month grid
+    .fc-daygrid-day {
+        background: var(--t-surface);
+        &.fc-day-other {
+            background: var(--t-surface-alt);
+            .fc-daygrid-day-number {
+                opacity: .45;
+            }
+        }
+        .fc-daygrid-day-number {
+            color: var(--t-muted) !important;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none !important;
+            padding: 6px 8px;
+        }
+    }
+    .fc-daygrid-week-number {
+        color: var(--t-subtle);
+        background: transparent;
+        font-size: 10px;
+    }
+
+    // today: accent circle instead of Odoo's red one
+    .fc-day-today {
+        --o-cw-bg: var(--t-accent) !important;
+        --o-cw-color: var(--t-accent-text) !important;
+        background: var(--t-selected) !important;
+        .fc-daygrid-day-number, .o_cw_day_number {
+            color: var(--t-accent-text) !important;
+            background: var(--t-accent) !important;
+            border-radius: 999px;
+            opacity: 1;
+        }
+    }
+
+    // events: solid rounded pills, white bold text, readable height
+    .fc-daygrid-event,
+    .fc-timegrid-event,
+    .o_event.fc-event {
+        &:not(.o_event_hatched):not(.o_attendee_status_tentative):not(.o_event_dot):not(.fc-bg-event) {
+            --fc-event-bg-color: var(--bas-event, var(--t-accent));
+            --fc-event-border-color: transparent;
+            background: var(--bas-event, var(--t-accent)) !important;
+            border: 0 !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 6px rgba(20, 30, 50, .14) !important;
+            color: #ffffff !important;
+            .fc-event-main, .fc-event-main *, .o_event_title, .fc-event-time {
+                color: #ffffff !important;
+            }
+        }
+    }
+    .fc-daygrid-event {
+        min-height: 26px;
+        margin: 2px 4px !important;
+        padding: 4px 8px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.3;
+        .fc-event-main {
+            margin: 0 !important;
+            max-height: none !important;
+        }
+        .o_event_title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    .fc-timegrid-event .fc-event-main {
+        padding: 4px 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    // unconfirmed events keep Odoo's hatching but get the same shape
+    .o_event_hatched, .o_attendee_status_tentative {
+        border-radius: 8px !important;
+        min-height: 26px;
+    }
+
+    // week / day time grid
+    .fc-timegrid-slot-label-cushion, .fc-timegrid-axis-cushion {
+        color: var(--t-subtle);
+        font-size: 11px;
+    }
+    .fc-timegrid-now-indicator-line {
+        border-color: var(--t-accent);
+    }
+}
+
+// calendar toolbar and side panel
+.o_calendar_view {
+    .o_calendar_header, .o_calendar_container > .o_calendar_header {
+        background: transparent;
+    }
+    .o_calendar_sidebar_container, .o_calendar_sidebar {
+        background: var(--t-surface);
+        color: var(--t-ink);
+    }
+    // mini calendar in the side panel: accent for today / selection
+    .o_calendar_sidebar {
+        .o_today > *, .o_date_item_cell.o_today .o_date_item_cell_inner {
+            color: var(--t-accent-text) !important;
+            background: var(--t-accent) !important;
+        }
+        .o_selected, .o_select_start, .o_select_end {
+            background: var(--t-selected) !important;
+        }
+    }
+}

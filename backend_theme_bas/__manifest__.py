@@ -22,7 +22,7 @@ No Python code, depends only on ``web``: installable on any Odoo 19 database,
 also through *Apps > Import Module*.
 """,
 
-    'version': '19.0.5.0.0',
+    'version': '19.0.6.0.0',
     'category': 'Themes/Backend',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
@@ -49,6 +49,7 @@ also through *Apps > Import Module*.
             'backend_theme_bas/static/src/scss/bas_list.scss',
             'backend_theme_bas/static/src/scss/bas_misc.scss',
             'backend_theme_bas/static/src/scss/bas_canvas.scss',
+            'backend_theme_bas/static/src/scss/calendar.scss',
             'backend_theme_bas/static/src/sidebar/sidebar_config.js',
             'backend_theme_bas/static/src/sidebar/open_windows_service.js',
             'backend_theme_bas/static/src/sidebar/sidebar.js',
@@ -64,6 +65,11 @@ also through *Apps > Import Module*.
             'backend_theme_bas/static/src/webclient/webclient_patch.js',
             'backend_theme_bas/static/src/webclient/webclient_patch.xml',
             'backend_theme_bas/static/src/spreadsheet/dashboard.scss',
+            'backend_theme_bas/static/src/charts/soft_charts.js',
+        ],
+        # graph / pivot views are loaded lazily in Odoo 19
+        'web.assets_backend_lazy': [
+            'backend_theme_bas/static/src/charts/graph_patch.js',
         ],
         # lazy bundle of spreadsheets / dashboards: only loaded when one is opened,
         # so the theme does not depend on the spreadsheet modules
