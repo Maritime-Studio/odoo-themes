@@ -54,7 +54,7 @@
         width: 60px !important;
         white-space: nowrap;
         > .o-checkbox, > .form-check, > div {
-            display: inline-block;
+            display: inline-flex !important;   // overrides Bootstrap's d-flex
             vertical-align: middle;
         }
     }
