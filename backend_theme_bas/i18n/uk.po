@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 21:22+0000\n"
-"PO-Revision-Date: 2026-09-26 21:22+0000\n"
+"POT-Creation-Date: 2026-09-26 21:34+0000\n"
+"PO-Revision-Date: 2026-09-26 21:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -30,19 +30,19 @@ msgstr "Застосувати"
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "BAS Classic"
 msgstr "BAS Класична"
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "BAS Steel"
 msgstr "BAS Сталь"
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "BAS layout on a steel-blue canvas: dark steel top bar, white sheets, yellow "
 "default button."
@@ -52,7 +52,7 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "Brand colours: Navy panels, Maritime Teal accents, rounded cards, Exo 2 "
 "headings."
@@ -77,6 +77,12 @@ msgstr "Закрити"
 
 #. module: backend_theme_bas
 #. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Cloudy Grey"
+msgstr "Хмарно-сірий"
+
+#. module: backend_theme_bas
+#. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
 msgid "Colour scheme applied, reloading…"
 msgstr "Колірну схему застосовано, перезавантаження…"
@@ -96,7 +102,7 @@ msgstr "Початкова сторінка"
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "Light 1C / BAS look: grey panels, flat white pages, yellow default button."
 msgstr ""
@@ -105,9 +111,21 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "Maritime.Studio"
 msgstr "Maritime.Studio"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Milk & Cocoa"
+msgstr "Молоко й какао"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Navy & Sand"
+msgstr "Синій і пісок"
 
 #. module: backend_theme_bas
 #. odoo-javascript
@@ -120,6 +138,34 @@ msgstr "Ще нічого не відкривали."
 #: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
 msgid "OK"
 msgstr "OK"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: concerto and cloudy sky greys, cinereous accents, blue anthracite "
+"text."
+msgstr ""
+"Пастель: світло- та хмарно-сірі тони, попелясті акценти, текст синього "
+"антрациту."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: milk and blush oat surfaces, dusty rose accents, espresso text."
+msgstr ""
+"Пастель: молочні та вівсяні поверхні, акценти пильної троянди, текст кольору"
+" еспресо."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: warm sand surfaces, golden accents, midnight navy text and top bar."
+msgstr ""
+"Пастель: теплі піщані поверхні, золотисті акценти, темно-синій текст і "
+"верхня панель."
 
 #. module: backend_theme_bas
 #. odoo-javascript

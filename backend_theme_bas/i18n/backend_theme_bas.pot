@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 21:22+0000\n"
-"PO-Revision-Date: 2026-09-26 21:22+0000\n"
+"POT-Creation-Date: 2026-09-26 21:34+0000\n"
+"PO-Revision-Date: 2026-09-26 21:34+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,19 +29,19 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "BAS Classic"
 msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "BAS Steel"
 msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "BAS layout on a steel-blue canvas: dark steel top bar, white sheets, yellow "
 "default button."
@@ -49,7 +49,7 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "Brand colours: Navy panels, Maritime Teal accents, rounded cards, Exo 2 "
 "headings."
@@ -67,6 +67,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/sidebar/sidebar.xml:0
 msgid "Close"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Cloudy Grey"
 msgstr ""
 
 #. module: backend_theme_bas
@@ -90,15 +96,27 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid ""
 "Light 1C / BAS look: grey panels, flat white pages, yellow default button."
 msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
-#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
 msgid "Maritime.Studio"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Milk & Cocoa"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid "Navy & Sand"
 msgstr ""
 
 #. module: backend_theme_bas
@@ -111,6 +129,28 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
 msgid "OK"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: concerto and cloudy sky greys, cinereous accents, blue anthracite "
+"text."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: milk and blush oat surfaces, dusty rose accents, espresso text."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/schemes_data.js:0
+msgid ""
+"Pastel: warm sand surfaces, golden accents, midnight navy text and top bar."
 msgstr ""
 
 #. module: backend_theme_bas
