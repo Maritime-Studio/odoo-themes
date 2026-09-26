@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="backend_theme_bas.Sidebar">
+        <aside class="o_bas_sidebar d-print-none" t-att-class="{ 'o_bas_sidebar_collapsed': state.collapsed }">
+            <nav class="o_bas_sections" aria-label="Sections">
+                <a t-foreach="apps" t-as="app" t-key="app.id"
+                   class="o_bas_section"
+                   t-att-class="{ 'active': app.id === currentAppId }"
+                   t-att-href="appHref(app)"
+                   t-att-title="app.name"
+                   t-att-data-menu-xmlid="app.xmlid"
+                   t-on-click.prevent="() => this.onAppClick(app)">
+                    <i t-attf-class="fa fa-fw {{ iconFor(app) }}" aria-hidden="true"/>
+                    <span class="o_bas_label" t-esc="app.name"/>
+                </a>
+            </nav>
+            <div class="o_bas_windows" t-if="!state.collapsed">
+                <a class="o_bas_window o_bas_window_home" href="/odoo" t-att-class="{ 'active': !state.current }">
+                    <i class="fa fa-fw fa-home" aria-hidden="true"/>
+                    <span>Home page</span>
+                </a>
+                <div t-foreach="state.items" t-as="item" t-key="item.url"
+                     class="o_bas_window" t-att-class="{ 'active': item.url === state.current }">
+                    <a t-att-href="item.url" t-att-title="item.title" t-esc="item.title"/>
+                    <button type="button" class="o_bas_window_close btn btn-link p-0"
+                            title="Close" aria-label="Close"
+                            t-on-click="() => this.closeWindow(item)">×</button>
+                </div>
+            </div>
+        </aside>
+    </t>
+
+</templates>

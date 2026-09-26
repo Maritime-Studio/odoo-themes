@@ -1,0 +1,30 @@
+// Light BAS top bar.
+.o_main_navbar {
+    box-shadow: none;
+
+    .o_menu_toggle, .o_menu_brand {
+        color: #333333;
+    }
+    .o_menu_brand {
+        font-weight: normal;
+    }
+    // app sections (Orders, Customers...) as flat dark links
+    .o_menu_sections .o_nav_entry,
+    .o_menu_sections .dropdown-toggle {
+        color: #333333;
+        &:hover {
+            color: #000000;
+        }
+    }
+    .o_menu_systray .o_nav_entry,
+    .o_menu_systray .dropdown-toggle,
+    .o_menu_systray .o-dropdown > button {
+        color: #444444;
+    }
+}
+
+// Command palette / search in the bar keeps the BAS look.
+.o_command_palette .o_command_palette_search input {
+    border: 1px solid var(--bas-border);
+    border-radius: 2px;
+}

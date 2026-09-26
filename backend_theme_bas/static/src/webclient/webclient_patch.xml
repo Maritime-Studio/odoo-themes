@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <!-- Sections panel between the top bar and the action area (desktop only). -->
+    <t t-inherit="web.WebClient" t-inherit-mode="extension">
+        <xpath expr="//ActionContainer" position="before">
+            <BasSidebar t-if="!state.fullscreen and !env.isSmall"/>
+        </xpath>
+    </t>
+
+    <!-- Hamburger at the far left of the top bar, like BAS. -->
+    <t t-inherit="web.NavBar" t-inherit-mode="extension">
+        <xpath expr="//nav[hasclass('o_main_navbar')]" position="inside">
+            <button t-if="!this.ui.isSmall" type="button" class="o_bas_toggle order-first"
+                    title="Sections panel" aria-label="Sections panel"
+                    t-on-click="onBasToggleSidebar">
+                <i class="fa fa-bars" aria-hidden="true"/>
+            </button>
+        </xpath>
+    </t>
+
+</templates>

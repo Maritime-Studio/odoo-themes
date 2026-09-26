@@ -1,0 +1,41 @@
+// Shared BAS palette as CSS custom properties, used by every other file of the theme.
+:root {
+    --bas-text: #333333;
+    --bas-muted: #808080;
+    --bas-link: #1f5fad;
+    --bas-title: #3279c5;              // section titles, dialog titles
+    --bas-border: #b4b4b4;             // inputs, buttons
+    --bas-border-light: #d6d6d6;       // grids, panels
+    --bas-panel: #f2f2f2;              // top bar, table headers, tabs
+    --bas-panel-dark: #e4e4e4;         // open windows, totals box
+    --bas-focus: #f5a623;              // orange focus frame
+    --bas-selected: #fbe3b3;           // selected list row
+    --bas-hover-row: #fdf3dc;
+    --bas-yellow: #fdd35b;             // primary button
+    --bas-yellow-top: #fee18d;
+    --bas-yellow-border: #d9a41f;
+    --bas-hint: #fbf3cf;               // hint / info boxes
+    --bas-sidebar-width: 230px;
+    --bas-sidebar-width-collapsed: 44px;
+}
+
+.o_web_client {
+    color: var(--bas-text);
+    background-color: #ffffff;
+}
+
+// Text selection in BAS is the classic blue highlight.
+.o_web_client ::selection {
+    background: #3399ff;
+    color: #ffffff;
+}
+
+// BAS hyperlinks are always underlined.
+.o_web_client .o_content a:not(.btn):not(.dropdown-item):not(.nav-link):not(.o_kanban_record *) {
+    color: var(--bas-link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover {
+        color: darken(#1f5fad, 10%);
+    }
+}

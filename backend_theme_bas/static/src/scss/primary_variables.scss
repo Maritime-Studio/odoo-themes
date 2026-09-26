@@ -1,0 +1,21 @@
+// BAS ("Taxi") palette. Plain values only: nothing from web is defined yet at this point.
+
+// Brand / action colour: BAS hyperlinks, checkboxes and focus accents are blue.
+$o-community-color: #1f5fad;
+
+// Typography: BAS uses Arial 10pt (~13px) everywhere.
+$o-font-family-sans-serif: Arial, "Helvetica Neue", Helvetica, "Liberation Sans", sans-serif;
+$o-headings-font-family: $o-font-family-sans-serif;
+$o-font-size-base: 0.8125rem;           // 13px
+$o-font-size-base-touch: 0.875rem;      // 14px on touch devices
+$o-font-size-base-small: 0.75rem;
+$o-main-text-color: #333333;
+
+// Light top bar with dark text instead of Odoo's coloured navbar.
+$o-navbar-height: 40px;
+$o-navbar-background: #f2f2f2;
+$o-navbar-border-bottom: 1px solid #cfcfcf;
+$o-navbar-entry-color: #333333;
+$o-navbar-entry-color--hover: #000000;
+$o-navbar-entry-bg--hover: rgba(0, 0, 0, .06);
+$o-navbar-brand-font-size: 1.15em;

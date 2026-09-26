@@ -1,0 +1,167 @@
+// Forms: flat white page, dense rows, blue section titles, hyperlink smart buttons.
+
+// Control panel: big plain title like "Замовлення покупця 729 від 24.09.2026".
+.o_control_panel {
+    background: #ffffff;
+    border-bottom: 0;
+    .breadcrumb {
+        font-size: 20px;
+        .breadcrumb-item {
+            color: var(--bas-muted);
+            a {
+                color: var(--bas-link);
+            }
+            &.active, &:last-child {
+                color: #222222;
+            }
+        }
+    }
+    .o_breadcrumb .active {
+        font-weight: normal;
+    }
+}
+
+// No card / shadow around the sheet: BAS forms are a flat white page.
+.o_form_view {
+    .o_form_sheet_bg {
+        background: #ffffff;
+        border-bottom: 0;
+    }
+    .o_form_sheet_bg > .o_form_sheet,
+    .o_form_sheet {
+        border: 0;
+        box-shadow: none;
+        margin-top: 0;
+        padding-top: 8px;
+    }
+
+    // Labels: normal weight, dark grey, BAS style "Label:".
+    .o_form_label, .o_td_label .o_form_label {
+        font-weight: normal;
+        color: #4d4d4d;
+    }
+    .o_inner_group > .o_wrap_field, .o_inner_group > div {
+        margin-bottom: 2px;
+    }
+    .o_cell {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    // Section titles ("Про контрагента", "Адреси, телефони"): blue, normal weight.
+    .o_horizontal_separator,
+    .o_group .o_horizontal_separator,
+    .o_inner_group .o_horizontal_separator {
+        color: var(--bas-title);
+        font-size: 17px;
+        font-weight: normal;
+        text-transform: none;
+        border-bottom: 0;
+        letter-spacing: normal;
+        margin: 10px 0 6px;
+    }
+    .oe_title h1, .oe_title .o_field_widget {
+        font-weight: normal;
+    }
+
+    // Status bar (header): BAS command bar - buttons on the left, state on the right.
+    .o_form_statusbar {
+        border-bottom: 1px solid var(--bas-border-light);
+        padding-bottom: 6px;
+        .o_statusbar_buttons .btn {
+            margin-right: 4px;
+        }
+    }
+    .o_statusbar_status {
+        .o_arrow_button {
+            color: var(--bas-muted);
+            background: var(--bas-panel);
+            &.o_arrow_button_current {
+                color: #000000;
+                background: var(--bas-selected);
+            }
+        }
+    }
+
+    // Smart buttons -> row of blue hyperlinks ("Документи  Договори  Банківські рахунки ...").
+    .o-form-buttonbox {
+        border: 0;
+        gap: 0 18px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 6px;
+
+        .oe_stat_button {
+            flex: 0 0 auto;
+            width: auto;
+            min-width: 0;
+            height: auto;
+            padding: 2px 0;
+            border: 0 !important;
+            background: transparent !important;
+            box-shadow: none;
+            color: var(--bas-link) !important;
+
+            .o_button_icon {
+                display: none;
+            }
+            .o_stat_info, .o_field_statinfo {
+                flex-direction: row;
+                align-items: baseline;
+                gap: 4px;
+                .o_stat_text { order: 0; }
+                .o_stat_value { order: 1; }
+                .o_stat_text, .o_stat_value {
+                    color: var(--bas-link);
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 1.3;
+                }
+                .o_stat_text {
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                }
+                .o_stat_value {
+                    color: var(--bas-muted);
+                }
+            }
+            &:hover .o_stat_text {
+                color: darken(#1f5fad, 12%);
+            }
+        }
+    }
+
+    // Notebook: boxed grey tabs, white active tab, like BAS page tabs.
+    .o_notebook {
+        .nav-tabs {
+            border-bottom: 1px solid var(--bas-border-light);
+            gap: 2px;
+            .nav-link {
+                padding: 5px 12px;
+                color: #333333;
+                background: var(--bas-panel);
+                border: 1px solid var(--bas-border-light);
+                border-bottom: 0;
+                border-radius: 2px 2px 0 0;
+                font-weight: normal;
+                &.active {
+                    background: #ffffff;
+                    color: #000000;
+                    margin-bottom: -1px;
+                    border-bottom: 1px solid #ffffff;
+                    box-shadow: none;
+                }
+                &:hover:not(.active) {
+                    background: #e8e8e8;
+                }
+            }
+        }
+    }
+
+    // Totals block (sale / purchase / invoice): grey box aligned right.
+    .oe_subtotal_footer, .o_tax_totals {
+        background: var(--bas-panel-dark);
+        padding: 6px 10px;
+        border-radius: 2px;
+    }
+}

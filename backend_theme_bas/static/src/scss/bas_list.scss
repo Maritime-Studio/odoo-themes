@@ -1,0 +1,71 @@
+// Lists: grey header with frame, vertical grid lines, light-orange selected row, row numbers.
+.o_list_renderer .o_list_table {
+    counter-reset: bas-row;
+    border: 1px solid var(--bas-border-light);
+
+    thead {
+        th {
+            background: var(--bas-panel);
+            color: #4d4d4d;
+            font-weight: normal;
+            border-right: 1px solid var(--bas-border-light);
+            border-bottom: 1px solid var(--bas-border-light);
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
+    tbody > tr.o_data_row {
+        counter-increment: bas-row;
+        > td {
+            border-right: 1px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        &:hover > td {
+            background-color: var(--bas-hover-row);
+        }
+        &.o_data_row_selected > td,
+        &.o_selected_row > td {
+            background-color: var(--bas-selected) !important;
+        }
+    }
+
+    // Row number "N" in front of the record selector (main lists).
+    thead th.o_list_record_selector::before {
+        content: "N";
+        display: inline-block;
+        min-width: 18px;
+        margin-right: 6px;
+        text-align: right;
+        vertical-align: middle;
+    }
+    tbody tr.o_data_row td.o_list_record_selector::before {
+        content: counter(bas-row);
+        display: inline-block;
+        min-width: 18px;
+        margin-right: 6px;
+        color: #666666;
+        text-align: right;
+    }
+    thead th.o_list_record_selector,
+    tbody td.o_list_record_selector {
+        width: 60px !important;
+        white-space: nowrap;
+        > .o-checkbox, > .form-check, > div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    tfoot td {
+        background: var(--bas-panel-dark);
+        font-weight: bold;
+    }
+}
+
+// Group rows
+.o_list_renderer .o_group_header {
+    background: #f7f7f7;
+}
