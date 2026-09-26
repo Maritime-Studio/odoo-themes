@@ -1,72 +1,64 @@
-// Dialogs, dropdowns, alerts, search.
-
+// Hint boxes, dialogs, dropdowns, search bar.
 .o_web_client, .modal {
     .alert-info, .alert-warning {
-        color: var(--ms-ink);
-        background: var(--ms-teal-tint);
+        color: var(--t-ink);
+        background: var(--t-hint-bg);
         border: 0;
-        border-left: 3px solid var(--ms-teal);
-        border-radius: var(--ms-radius);
-    }
-    .alert-warning {
-        background: #fdf4e3;
-        border-left-color: #e0a526;
+        border-left: 3px solid var(--t-hint-border);
+        border-radius: var(--t-radius);
     }
 }
 
 .modal .modal-content {
-    color: var(--ms-ink);
-    background: var(--ms-surface);
+    color: var(--t-ink);
+    background: var(--t-surface);
     border: 0;
-    border-radius: var(--ms-radius-card);
-    box-shadow: var(--ms-shadow-pop);
+    border-radius: var(--t-radius-card);
+    box-shadow: var(--t-shadow-pop);
     .modal-header {
-        border-bottom: 1px solid var(--ms-border-light);
+        border-bottom: 1px solid var(--t-border-light);
         .modal-title {
-            color: var(--ms-navy);
+            color: var(--t-dialog-title);
             font-size: 18px;
             font-weight: 600;
         }
     }
     .modal-footer {
-        border-top: 1px solid var(--ms-border-light);
+        border-top: 1px solid var(--t-border-light);
         justify-content: flex-start;
     }
 }
 
 .o_web_client, .o-overlay-container {
     .dropdown-menu, .o-autocomplete--dropdown-menu, .o_popover {
-        color: var(--ms-ink);
-        background: var(--ms-surface);
-        border: 1px solid var(--ms-border-light);
-        border-radius: var(--ms-radius);
-        box-shadow: var(--ms-shadow-pop);
-        padding: 4px;
+        color: var(--t-ink);
+        background: var(--t-surface);
+        border: 1px solid var(--t-border-light);
+        border-radius: var(--t-radius);
+        box-shadow: var(--t-shadow-pop);
     }
     .dropdown-item, .o-autocomplete--dropdown-item > a {
-        color: var(--ms-ink);
-        border-radius: 6px;
-        padding: 6px 10px;
+        color: var(--t-ink);
         &:hover, &.focus, &:focus, &.ui-state-active {
-            color: var(--ms-navy-dark);
-            background: var(--ms-surface-alt);
+            color: var(--t-ink);
+            background: var(--t-hover-row);
         }
         &.active, &.selected {
-            color: var(--ms-navy-dark);
-            background: var(--ms-teal-tint);
+            color: var(--t-ink);
+            background: var(--t-selected);
         }
     }
 }
 
 .o_control_panel .o_searchview {
-    background: var(--ms-surface);
-    border: 1px solid var(--ms-border);
-    border-radius: var(--ms-radius);
+    background: var(--t-surface);
+    border: 1px solid var(--t-border);
+    border-radius: var(--t-radius);
     &:focus-within {
-        border-color: var(--ms-teal);
-        box-shadow: var(--ms-focus-ring);
+        border-color: var(--t-focus);
+        box-shadow: var(--t-focus-ring);
     }
     .o_searchview_input {
-        color: var(--ms-ink);
+        color: var(--t-ink);
     }
 }

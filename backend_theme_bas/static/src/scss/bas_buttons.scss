@@ -1,58 +1,48 @@
-// Buttons: teal primary, white/navy secondary, 8px radius, one height everywhere.
+// Buttons: every style comes from the scheme tokens (flat teal, BAS yellow gradient...).
 .o_web_client, .modal, .o-overlay-container {
     .btn {
-        border-radius: var(--ms-radius);
-        font-weight: 600;
+        border-radius: var(--t-btn-radius);
+        font-weight: var(--t-btn-weight);
         box-shadow: none;
-        transition: background-color .12s, border-color .12s, color .12s;
         &:focus-visible {
-            box-shadow: var(--ms-focus-ring);
+            box-shadow: var(--t-focus-ring);
         }
     }
-
     .btn-primary {
-        color: #ffffff;
-        background: var(--ms-teal);
-        border: 1px solid var(--ms-teal);
-        &:hover, &:focus {
-            color: #ffffff;
-            background: var(--ms-teal-dark);
-            border-color: var(--ms-teal-dark);
-        }
-        &:active, &.active {
-            background: #0f635b;
-            border-color: #0f635b;
+        color: var(--t-btn-primary-text);
+        background: var(--t-btn-primary-bg);
+        border: 1px solid var(--t-btn-primary-border);
+        &:hover, &:focus, &:active, &.active {
+            color: var(--t-btn-primary-hover-text);
+            background: var(--t-btn-primary-hover-bg);
+            border-color: var(--t-btn-primary-hover-border);
         }
         &:disabled, &.disabled {
-            color: #ffffff;
+            color: var(--t-btn-primary-text);
             opacity: .55;
         }
     }
-
     .btn-secondary, .btn-light, .btn-outline-secondary, .btn-outline-primary {
-        color: var(--ms-navy);
-        background: var(--ms-surface);
-        border: 1px solid var(--ms-border);
+        color: var(--t-btn-text);
+        background: var(--t-btn-bg);
+        border: 1px solid var(--t-btn-border);
         &:hover, &:focus {
-            color: var(--ms-navy-dark);
-            background: var(--ms-surface-alt);
-            border-color: #aab8cf;
+            color: var(--t-btn-text);
+            background: var(--t-btn-hover-bg);
+            border-color: var(--t-btn-hover-border);
         }
         &:active, &.active {
-            color: var(--ms-navy-dark);
-            background: var(--ms-teal-tint);
-            border-color: var(--ms-teal);
+            color: var(--t-btn-active-text);
+            background: var(--t-btn-active-bg);
+            border-color: var(--t-btn-active-border);
         }
     }
-
     .btn-link {
-        color: var(--ms-teal-dark);
-        font-weight: 600;
+        color: var(--t-link);
     }
 }
 
-// Control panel buttons: aligned, same height (the button group used to stretch
-// its items to the row height, giving 48px and 32px buttons side by side).
+// Control panel buttons: one height, aligned (the group used to stretch them).
 .o_control_panel {
     .o_cp_switch_buttons {
         align-self: center;
@@ -64,13 +54,8 @@
             align-items: center;
             justify-content: center;
             border-radius: 0;
-            &:first-child { border-radius: var(--ms-radius) 0 0 var(--ms-radius); }
-            &:last-child { border-radius: 0 var(--ms-radius) var(--ms-radius) 0; }
-            &.active {
-                color: #ffffff;
-                background: var(--ms-navy);
-                border-color: var(--ms-navy);
-            }
+            &:first-child { border-radius: var(--t-btn-radius) 0 0 var(--t-btn-radius); }
+            &:last-child { border-radius: 0 var(--t-btn-radius) var(--t-btn-radius) 0; }
         }
     }
     .o_control_panel_main_buttons .btn,

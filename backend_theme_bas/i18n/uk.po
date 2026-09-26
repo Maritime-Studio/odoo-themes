@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 21:09+0000\n"
-"PO-Revision-Date: 2026-09-26 21:09+0000\n"
+"POT-Creation-Date: 2026-09-26 21:22+0000\n"
+"PO-Revision-Date: 2026-09-26 21:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -24,9 +24,68 @@ msgstr "Усі розділи та їхні команди в одному мі�
 
 #. module: backend_theme_bas
 #. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "BAS Classic"
+msgstr "BAS Класична"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "BAS Steel"
+msgstr "BAS Сталь"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"BAS layout on a steel-blue canvas: dark steel top bar, white sheets, yellow "
+"default button."
+msgstr ""
+"Розкладка BAS на сталево-блакитному тлі: темна верхня панель, білі аркуші, "
+"жовта основна кнопка."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"Brand colours: Navy panels, Maritime Teal accents, rounded cards, Exo 2 "
+"headings."
+msgstr ""
+"Фірмові кольори: темно-сині панелі, бірюзові акценти, заокруглені картки, "
+"заголовки Exo 2."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid ""
+"Choose the colour scheme of the interface. It applies to every user of this "
+"database."
+msgstr ""
+"Оберіть колірну схему інтерфейсу. Вона діє для всіх користувачів цієї бази."
+
+#. module: backend_theme_bas
+#. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/sidebar/sidebar.xml:0
 msgid "Close"
 msgstr "Закрити"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "Colour scheme applied, reloading…"
+msgstr "Колірну схему застосовано, перезавантаження…"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "Current"
+msgstr "Поточна"
 
 #. module: backend_theme_bas
 #. odoo-javascript
@@ -37,9 +96,30 @@ msgstr "Початкова сторінка"
 
 #. module: backend_theme_bas
 #. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"Light 1C / BAS look: grey panels, flat white pages, yellow default button."
+msgstr ""
+"Світлий вигляд 1С / BAS: сірі панелі, пласкі білі сторінки, жовта основна "
+"кнопка."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "Maritime.Studio"
+msgstr "Maritime.Studio"
+
+#. module: backend_theme_bas
+#. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/home/home.xml:0
 msgid "Nothing opened yet."
 msgstr "Ще нічого не відкривали."
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "OK"
+msgstr "OK"
 
 #. module: backend_theme_bas
 #. odoo-javascript
@@ -58,3 +138,11 @@ msgstr "Розділи"
 #: code:addons/backend_theme_bas/static/src/webclient/webclient_patch.xml:0
 msgid "Sections panel"
 msgstr "Панель розділів"
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+#: model:ir.actions.client,name:backend_theme_bas.action_theme_settings
+#: model:ir.ui.menu,name:backend_theme_bas.menu_theme_settings
+msgid "Theme"
+msgstr "Тема оформлення"

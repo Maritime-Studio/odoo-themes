@@ -2,7 +2,8 @@
 // Colours are set explicitly so the result does not depend on the colour scheme.
 
 .o_web_client > .o_action_manager {
-    background: var(--ms-canvas);
+    background-color: var(--t-canvas);
+    background-image: var(--t-canvas-image);
 }
 .o_action_manager > .o_action,
 .o_action_manager .o_content,
@@ -11,23 +12,23 @@
 }
 
 .o_action_manager .o_control_panel {
-    color: var(--ms-ink);
+    color: var(--t-ink);
     padding-top: 12px;
     padding-bottom: 12px;
     .breadcrumb {
         background: transparent;
     }
     .o_pager_value, .o_pager_limit, .o_pager_counter {
-        color: var(--ms-ink);
+        color: var(--t-ink);
     }
 }
 
 // shared card look
 %ms-card {
-    color: var(--ms-ink);
-    background: var(--ms-surface) !important;
-    border-radius: var(--ms-radius-card);
-    box-shadow: var(--ms-shadow);
+    color: var(--t-ink);
+    background: var(--t-surface) !important;
+    border-radius: var(--t-radius-card);
+    box-shadow: var(--t-shadow);
 }
 
 // --- Lists -------------------------------------------------------------------
@@ -62,35 +63,35 @@
     background: transparent !important;
     padding: 0 16px 16px !important;
     .o_kanban_group {
-        background: rgba(255, 255, 255, .45) !important;
-        border-radius: var(--ms-radius-card);
+        background: var(--t-kanban-col-bg) !important;
+        border-radius: var(--t-radius-card);
         margin-right: 12px;
         padding: 8px !important;
     }
     .o_kanban_header, .o_kanban_header_title, .o_column_title, .o_kanban_counter,
     .o_kanban_counter_side, .o_kanban_header .o_kanban_quick_add i {
-        color: var(--ms-navy) !important;
+        color: var(--t-heading) !important;
     }
     .o_column_title {
-        font-family: var(--ms-font-heading);
+        font-family: var(--t-font-heading);
         font-weight: 600;
     }
     .o_kanban_counter_progress {
-        background: var(--ms-border-light) !important;
+        background: var(--t-border-light) !important;
     }
     .o_kanban_record {
-        color: var(--ms-ink) !important;
-        background: var(--ms-surface) !important;
-        border: 1px solid var(--ms-border-light) !important;
-        border-radius: var(--ms-radius) !important;
-        box-shadow: 0 1px 2px rgba(37, 66, 132, .06);
+        color: var(--t-ink) !important;
+        background: var(--t-surface) !important;
+        border: 1px solid var(--t-border-light) !important;
+        border-radius: var(--t-radius) !important;
+        box-shadow: none;
         margin-bottom: 8px;
         &:hover {
-            box-shadow: var(--ms-shadow);
-            border-color: var(--ms-border) !important;
+            box-shadow: var(--t-shadow);
+            border-color: var(--t-border) !important;
         }
         .o_kanban_record_title, strong, .fw-bold, .fw-bolder {
-            color: var(--ms-navy);
+            color: var(--t-heading);
         }
     }
     // ungrouped kanban (contacts, products): cards on the canvas
@@ -115,24 +116,24 @@
 }
 .o_calendar_view .o_calendar_renderer {
     .fc-col-header-cell a, .fc-daygrid-day-number {
-        color: var(--ms-navy) !important;
+        color: var(--t-heading) !important;
         text-decoration: none;
     }
 }
 
 // --- Settings ----------------------------------------------------------------
 .o_settings_container, .o_setting_container .settings {
-    color: var(--ms-ink);
-    background: var(--ms-surface);
+    color: var(--t-ink);
+    background: var(--t-surface);
 }
 .o_setting_container .settings_tab {
-    background: var(--ms-surface-alt);
+    background: var(--t-surface-alt);
     .tab {
-        color: var(--ms-ink);
+        color: var(--t-ink);
         &.selected {
-            color: var(--ms-navy);
-            background: var(--ms-surface);
-            box-shadow: inset 3px 0 0 var(--ms-teal);
+            color: var(--t-heading);
+            background: var(--t-surface);
+            box-shadow: inset 3px 0 0 var(--t-accent);
         }
     }
 }
@@ -145,5 +146,5 @@
 }
 
 .o_view_nocontent {
-    color: var(--ms-ink);
+    color: var(--t-ink);
 }

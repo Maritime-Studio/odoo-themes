@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="backend_theme_bas.ThemeSettings">
+        <div class="o_action o_bas_theme_settings">
+            <div class="o_bas_ts_header">
+                <h1>Theme</h1>
+                <p>Choose the colour scheme of the interface. It applies to every user of this database.</p>
+            </div>
+            <div class="o_bas_ts_grid">
+                <button t-foreach="schemes" t-as="scheme" t-key="scheme.key" type="button"
+                        class="o_bas_ts_card" t-att-class="{ 'selected': state.selected === scheme.key }"
+                        t-att-data-scheme="scheme.key"
+                        t-on-click="() => this.select(scheme.key)">
+                    <div class="o_bas_ts_preview" t-att-style="previewStyle(scheme, 'frame')" aria-hidden="true">
+                        <div class="o_bas_ts_navbar" t-att-style="previewStyle(scheme, 'navbar')">
+                            <span>≡</span>
+                        </div>
+                        <div class="o_bas_ts_body">
+                            <div class="o_bas_ts_sidebar" t-att-style="previewStyle(scheme, 'sidebar')">
+                                <i/><i t-att-style="previewStyle(scheme, 'marker')"/><i/><i/>
+                            </div>
+                            <div class="o_bas_ts_page">
+                                <div class="o_bas_ts_sheet" t-att-style="previewStyle(scheme, 'card')">
+                                    <b t-att-style="previewStyle(scheme, 'title')"/>
+                                    <s t-att-style="previewStyle(scheme, 'line')"/>
+                                    <s t-att-style="previewStyle(scheme, 'line')"/>
+                                    <em t-att-style="previewStyle(scheme, 'button')">OK</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o_bas_ts_info">
+                        <div class="o_bas_ts_name">
+                            <span class="o_bas_ts_radio"/>
+                            <t t-esc="scheme.name"/>
+                            <span t-if="state.current === scheme.key" class="badge o_bas_ts_current">Current</span>
+                        </div>
+                        <p t-esc="scheme.description"/>
+                    </div>
+                </button>
+            </div>
+            <div class="o_bas_ts_actions">
+                <button type="button" class="btn btn-primary o_bas_ts_apply"
+                        t-att-disabled="state.saving or state.selected === state.current"
+                        t-on-click="apply">Apply</button>
+            </div>
+        </div>
+    </t>
+
+</templates>

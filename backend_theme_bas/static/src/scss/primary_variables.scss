@@ -1,23 +1,6 @@
-// Maritime.Studio brand applied to the Odoo web client. Plain values only:
-// nothing from web is defined yet when this file is compiled.
-
-// Brand / action colour = Maritime Teal (primary buttons, checkboxes, focus, active states).
-$o-community-color: #1d9a8e;
-$o-main-link-color: #147a70;          // darker teal: 5:1 contrast on white for small text
-
-// Typography: Open Sans for data, Exo 2 for headings.
-$o-font-family-sans-serif: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-$o-headings-font-family: "Exo 2", "Open Sans", Arial, sans-serif;
+// Scheme-independent Odoo variables (the colour schemes add their own file, see schemes/).
 $o-font-size-base: 0.8125rem;         // 13px: dense, accounting-friendly
 $o-font-size-base-touch: 0.875rem;
 $o-font-size-base-small: 0.75rem;
-$o-main-text-color: #1e2b4a;          // deep navy ink
-
-// Top bar: Navy Blue with white text.
-$o-navbar-height: 44px;
-$o-navbar-background: #254284;
-$o-navbar-border-bottom: 1px solid #1b3169;
-$o-navbar-entry-color: rgba(255, 255, 255, .88);
-$o-navbar-entry-color--hover: #ffffff;
-$o-navbar-entry-bg--hover: rgba(255, 255, 255, .10);
+$o-navbar-height: 42px;
 $o-navbar-brand-font-size: 1.1em;

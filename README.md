@@ -4,16 +4,26 @@ Custom themes for Odoo 19.
 
 ## backend_theme_bas
 
-Maritime.Studio branded backend theme for Odoo 19 with a 1C / BAS-like layout,
-so that users coming from BAS feel at home:
+Complete backend (web client) theme for Odoo 19 with a 1C / BAS-like layout, replacing app
+launchers such as `home_theme`:
 
-- light top bar with a hamburger, left **sections panel** with monochrome icons;
-- **open windows** panel (recently opened lists and records, per browser tab);
-- Arial 13px, boxed inputs with an orange focus frame, dropdown buttons;
-- yellow primary button, grey bordered buttons, blue section titles;
-- smart buttons shown as a row of blue hyperlinks;
-- boxed tabs, lists with grey header, grid lines, row numbers and light-orange selection;
-- yellow hint boxes, blue dialog titles, orange highlighted dropdown items.
+- left **sections panel**, **open windows** list and a **start page** with every section's commands;
+- BAS habits: row numbers in lists, always-framed inputs, smart buttons shown as links;
+- every view type styled: lists, forms, kanban, calendar, pivot/graph, discuss, settings, dialogs.
+
+### Colour schemes
+
+Chosen by an administrator in **Settings > Theme** (applies to every user):
+
+| Scheme | Look |
+|---|---|
+| BAS Classic | light 1C look: grey panels, flat white pages, yellow default button, Arial |
+| BAS Steel | steel-blue canvas with grain, dark steel top bar, white sheets, yellow default button |
+| Maritime.Studio | Navy panels, Maritime Teal accents, rounded cards, Exo 2 / Open Sans (self-hosted) |
+
+A scheme is a pair of `ir.asset` records (Odoo SCSS variables + CSS `--t-*` tokens,
+`static/src/schemes/`); the settings page activates one pair. Components only read the tokens,
+so adding a scheme means adding two files and two records.
 
 No Python code, only depends on `web`: works on any Odoo 19 (Community or Enterprise)
 and can be installed from a zip through *Apps > Import Module* (developer mode).

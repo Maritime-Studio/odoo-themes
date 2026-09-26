@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_theme_settings" model="ir.actions.client">
+        <field name="name">Theme</field>
+        <field name="tag">bas_theme_settings</field>
+    </record>
+
+    <menuitem id="menu_theme_settings"
+              name="Theme"
+              parent="base.menu_administration"
+              action="action_theme_settings"
+              groups="base.group_system"
+              sequence="2"/>
+</odoo>

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 21:09+0000\n"
-"PO-Revision-Date: 2026-09-26 21:09+0000\n"
+"POT-Creation-Date: 2026-09-26 21:22+0000\n"
+"PO-Revision-Date: 2026-09-26 21:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,62 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "Apply"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "BAS Classic"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "BAS Steel"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"BAS layout on a steel-blue canvas: dark steel top bar, white sheets, yellow "
+"default button."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"Brand colours: Navy panels, Maritime Teal accents, rounded cards, Exo 2 "
+"headings."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid ""
+"Choose the colour scheme of the interface. It applies to every user of this "
+"database."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/sidebar/sidebar.xml:0
 msgid "Close"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "Colour scheme applied, reloading…"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "Current"
 msgstr ""
 
 #. module: backend_theme_bas
@@ -36,8 +90,27 @@ msgstr ""
 
 #. module: backend_theme_bas
 #. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid ""
+"Light 1C / BAS look: grey panels, flat white pages, yellow default button."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.js:0
+msgid "Maritime.Studio"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/home/home.xml:0
 msgid "Nothing opened yet."
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+msgid "OK"
 msgstr ""
 
 #. module: backend_theme_bas
@@ -56,4 +129,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/backend_theme_bas/static/src/webclient/webclient_patch.xml:0
 msgid "Sections panel"
+msgstr ""
+
+#. module: backend_theme_bas
+#. odoo-javascript
+#: code:addons/backend_theme_bas/static/src/settings/theme_settings.xml:0
+#: model:ir.actions.client,name:backend_theme_bas.action_theme_settings
+#: model:ir.ui.menu,name:backend_theme_bas.menu_theme_settings
+msgid "Theme"
 msgstr ""

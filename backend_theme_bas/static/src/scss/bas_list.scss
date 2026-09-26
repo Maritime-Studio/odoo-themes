@@ -1,36 +1,34 @@
-// Lists: tinted header, light grid, row numbers, teal selection.
+// Lists: header, grid, BAS row numbers, selection colour.
 .o_list_renderer .o_list_table {
     counter-reset: bas-row;
-    color: var(--ms-ink);
-    background: var(--ms-surface);
+    color: var(--t-ink);
+    background: var(--t-surface);
 
     thead th {
-        background: var(--ms-surface-alt);
-        color: var(--ms-navy);
-        font-weight: 600;
-        border-bottom: 1px solid var(--ms-border);
-        padding-top: 8px;
-        padding-bottom: 8px;
+        background: var(--t-thead-bg);
+        color: var(--t-thead-text);
+        font-weight: var(--t-thead-weight);
+        border-bottom: 1px solid var(--t-border);
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
-
     tbody > tr.o_data_row {
         counter-increment: bas-row;
         > td {
-            border-bottom: 1px solid var(--ms-border-light);
+            border-bottom: 1px solid var(--t-grid);
             padding-top: 6px;
             padding-bottom: 6px;
-            background-color: var(--ms-surface);
+            background-color: var(--t-surface);
         }
         &:hover > td {
-            background-color: var(--ms-surface-alt);
+            background-color: var(--t-hover-row);
         }
         &.o_data_row_selected > td,
         &.o_selected_row > td {
-            background-color: var(--ms-teal-tint) !important;
+            background-color: var(--t-selected) !important;
         }
     }
 
-    // Row number "N" before the record selector (BAS habit).
     thead th.o_list_record_selector::before {
         content: "N";
         display: inline-block;
@@ -44,7 +42,7 @@
         display: inline-block;
         min-width: 18px;
         margin-right: 6px;
-        color: var(--ms-subtle);
+        color: var(--t-row-num);
         text-align: right;
         vertical-align: middle;
     }
@@ -57,15 +55,13 @@
             vertical-align: middle;
         }
     }
-
     tfoot td {
-        background: var(--ms-surface-alt);
-        color: var(--ms-navy);
+        background: var(--t-thead-bg);
+        color: var(--t-thead-text);
         font-weight: 700;
     }
 }
-
 .o_list_renderer .o_group_header {
-    background: var(--ms-surface-alt);
-    color: var(--ms-navy);
+    background: var(--t-thead-bg);
+    color: var(--t-thead-text);
 }

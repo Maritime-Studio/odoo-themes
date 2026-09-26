@@ -1,63 +1,38 @@
-// Maritime.Studio design tokens, shared by every file of the theme.
+// Global typography, colours and links, all read from the --t-* tokens.
 :root {
-    // brand
-    --ms-teal: #1d9a8e;
-    --ms-teal-dark: #147a70;       // links and hover (AA on white)
-    --ms-teal-tint: #e3f3f1;       // selected rows, info boxes
-    --ms-navy: #254284;
-    --ms-navy-dark: #1b3169;
-    --ms-navy-soft: #34528f;       // hover on navy surfaces
-    // text
-    --ms-ink: #1e2b4a;
-    --ms-muted: #5b6b8c;
-    --ms-subtle: #8a97b1;
-    // surfaces
-    --ms-canvas: #e3e9f2;          // light navy tint behind the white cards
-    --ms-surface: #ffffff;
-    --ms-surface-alt: #f3f6fb;     // table headers, hover, secondary fills
-    --ms-border: #c9d3e3;
-    --ms-border-light: #e2e8f1;
-    // shape
-    --ms-radius-card: 10px;
-    --ms-radius: 8px;
-    --ms-radius-input: 6px;
-    --ms-shadow: 0 1px 2px rgba(37, 66, 132, .08), 0 4px 14px rgba(37, 66, 132, .07);
-    --ms-shadow-pop: 0 8px 28px rgba(27, 49, 105, .22);
-    --ms-focus-ring: 0 0 0 3px rgba(29, 154, 142, .22);
-    // layout
     --bas-sidebar-width: 232px;
     --bas-sidebar-width-collapsed: 52px;
-    --ms-font-heading: "Exo 2", "Open Sans", Arial, sans-serif;
 }
 
+body.o_web_client, .o_web_client, .modal, .o-overlay-container {
+    font-family: var(--t-font-body);
+}
 .o_web_client {
-    color: var(--ms-ink);
-    background-color: var(--ms-canvas);
+    color: var(--t-ink);
+    background-color: var(--t-canvas);
 }
-
 .o_web_client ::selection {
-    background: rgba(29, 154, 142, .28);
+    background: var(--t-selected);
     color: inherit;
 }
 
-// Headings and titles use Exo 2.
-.o_web_client {
+.o_web_client, .modal {
     h1, h2, h3, h4, .h1, .h2, .h3, .h4,
     .o_control_panel .breadcrumb,
     .modal-title,
     .o_horizontal_separator,
     .o_kanban_header_title {
-        font-family: var(--ms-font-heading);
+        font-family: var(--t-font-heading);
     }
 }
 
-// Links: teal, underline on hover only.
 .o_web_client .o_form_view .o_form_sheet a:not(.btn):not(.dropdown-item):not(.nav-link):not(.badge):not(.o_tag *):not(.settings_tab *),
 .o_web_client .o_list_renderer .o_data_cell a:not(.btn) {
-    color: var(--ms-teal-dark);
-    text-decoration: none;
+    color: var(--t-link);
+    text-decoration: var(--t-link-decoration);
+    text-underline-offset: 2px;
     &:hover {
+        color: var(--t-link-hover);
         text-decoration: underline;
-        text-underline-offset: 2px;
     }
 }

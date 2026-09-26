@@ -1,30 +1,26 @@
-// Navy top bar, white text, teal marker on the open section menu.
+// Top bar.
 .o_main_navbar {
-    box-shadow: 0 1px 4px rgba(20, 35, 75, .35);
-    font-family: var(--ms-font-heading);
+    background: var(--t-navbar-bg) !important;
+    box-shadow: var(--t-navbar-shadow);
+    font-family: var(--t-navbar-font);
 
-    .o_menu_toggle, .o_menu_brand {
-        color: #ffffff;
-    }
+    .o_menu_toggle, .o_menu_brand, .o_bas_toggle,
     .o_menu_sections .o_nav_entry,
-    .o_menu_sections .dropdown-toggle {
-        color: rgba(255, 255, 255, .88);
-        font-weight: 600;
-        &:hover, &.show {
-            color: #ffffff;
-            background: rgba(255, 255, 255, .10);
-        }
-        &.show {
-            box-shadow: inset 0 -3px 0 var(--ms-teal);
-        }
-    }
+    .o_menu_sections .dropdown-toggle,
     .o_menu_systray .o_nav_entry,
     .o_menu_systray .dropdown-toggle,
     .o_menu_systray .o-dropdown > button,
     .o_menu_systray .o_switch_company_menu > button {
-        color: rgba(255, 255, 255, .88);
+        color: var(--t-navbar-text) !important;
         &:hover {
-            color: #ffffff;
+            color: var(--t-navbar-text-hover) !important;
+            background: var(--t-navbar-hover-bg);
         }
+    }
+    .o_menu_sections .dropdown-toggle.show,
+    .o_menu_sections .o_nav_entry.show {
+        color: var(--t-navbar-text-hover) !important;
+        background: var(--t-navbar-hover-bg);
+        box-shadow: inset 0 -3px 0 var(--t-navbar-marker);
     }
 }

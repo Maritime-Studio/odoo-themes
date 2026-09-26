@@ -1,7 +1,7 @@
-// Navy sections panel continuing the top bar; open windows below; wave motif at the bottom.
+// Sections panel + open windows, fixed under the top bar. Look comes from the scheme tokens.
 .o_bas_sidebar {
     position: fixed;
-    top: var(--o-navbar-height, 44px);
+    top: var(--o-navbar-height, 42px);
     bottom: 0;
     left: 0;
     z-index: 5;
@@ -9,70 +9,69 @@
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    overflow-y: auto;      // one scroll for the whole panel
+    overflow-y: auto;              // one scroll for the whole panel
     scrollbar-width: thin;
-    scrollbar-color: rgba(255, 255, 255, .25) transparent;
-    color: #ffffff;
-    background: var(--ms-navy) url("/backend_theme_bas/static/src/img/waves.svg") no-repeat left bottom 12px;
-    background-attachment: local;  // waves follow the end of the content, never under the items
-    padding-bottom: 72px;  // room for the waves
-    font-family: var(--ms-font-heading);
+    color: var(--t-sidebar-text);
+    background: var(--t-sidebar-bg);
+    background-attachment: local;  // decorations follow the end of the content
+    border-right: var(--t-sidebar-border);
+    padding-bottom: var(--t-sidebar-pad-bottom);
+    font-family: var(--t-sidebar-font);
     font-size: 14px;
     user-select: none;
 
     &.o_bas_sidebar_collapsed {
         width: var(--bas-sidebar-width-collapsed);
-        .o_bas_label {
-            display: none;
-        }
+        .o_bas_label { display: none; }
+        .o_bas_windows { display: none; }
     }
 }
 
 .o_bas_sections {
     flex: 0 0 auto;
-    padding: 8px 8px 10px;
+    padding: 6px 6px 8px;
 }
 
 .o_bas_section {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 7px 10px;
-    margin-bottom: 2px;
-    border-radius: var(--ms-radius);
-    color: rgba(255, 255, 255, .86) !important;
+    padding: 6px 10px;
+    margin-bottom: 1px;
+    border-radius: var(--t-sidebar-item-radius);
+    color: var(--t-sidebar-text) !important;
     text-decoration: none !important;
-    font-weight: 600;
+    font-weight: var(--t-sidebar-weight);
     white-space: nowrap;
 
     .fa {
         flex: 0 0 18px;
         font-size: 16px;
         text-align: center;
-        color: rgba(255, 255, 255, .62);
+        color: var(--t-sidebar-icon);
     }
     .o_bas_label {
         overflow: hidden;
         text-overflow: ellipsis;
     }
     &:hover {
-        color: #ffffff !important;
-        background: var(--ms-navy-soft);
-        .fa { color: #ffffff; }
+        color: var(--t-sidebar-hover-text) !important;
+        background: var(--t-sidebar-hover-bg);
+        .fa { color: var(--t-sidebar-hover-text); }
     }
     &.active {
-        color: #ffffff !important;
-        background: rgba(29, 154, 142, .22);
-        box-shadow: inset 3px 0 0 var(--ms-teal);
-        .fa { color: var(--ms-teal); }
+        color: var(--t-sidebar-active-text) !important;
+        background: var(--t-sidebar-active-bg);
+        box-shadow: inset 3px 0 0 var(--t-sidebar-marker);
+        .fa { color: var(--t-sidebar-active-icon); }
     }
 }
 
 .o_bas_windows {
     flex: 0 0 auto;
-    margin: 0 8px;
-    padding-top: 10px;
-    border-top: 1px solid rgba(255, 255, 255, .14);
+    margin: 0 6px;
+    padding-top: 8px;
+    border-top: 1px solid var(--t-sidebar-divider);
 }
 
 .o_bas_window {
@@ -81,14 +80,16 @@
     align-items: flex-start;
     gap: 8px;
     padding: 6px 26px 6px 10px;
-    margin-bottom: 2px;
-    border-radius: var(--ms-radius);
-    font-family: "Open Sans", Arial, sans-serif;
+    margin-bottom: 1px;
+    border-radius: var(--t-sidebar-item-radius);
+    background: var(--t-window-bg);
+    border-bottom: var(--t-window-border);
+    font-family: var(--t-font-body);
     font-size: 12.5px;
     line-height: 1.35;
 
     a {
-        color: rgba(255, 255, 255, .78) !important;
+        color: var(--t-window-text) !important;
         text-decoration: none !important;
         overflow: hidden;
         display: -webkit-box;
@@ -96,23 +97,22 @@
         -webkit-box-orient: vertical;
     }
     &:hover {
-        background: var(--ms-navy-soft);
-        a { color: #ffffff !important; }
+        background: var(--t-window-hover-bg);
+        a { color: var(--t-sidebar-hover-text) !important; }
     }
     &.active {
-        background: rgba(255, 255, 255, .12);
-        a { color: #ffffff !important; }
+        background: var(--t-window-active-bg);
+        a { color: var(--t-window-active-text) !important; }
     }
     .o_bas_window_close {
         position: absolute;
         right: 8px;
         top: 5px;
-        color: rgba(255, 255, 255, .7);
+        color: var(--t-window-text);
         font-size: 16px;
         line-height: 1;
         text-decoration: none;
         visibility: hidden;
-        &:hover { color: #ffffff; }
     }
     &:hover .o_bas_window_close,
     &.active .o_bas_window_close {
@@ -121,21 +121,23 @@
 }
 
 .o_bas_window_home {
-    color: #ffffff !important;
+    color: var(--t-sidebar-text) !important;
+    background: transparent;
     text-decoration: none !important;
-    font-family: var(--ms-font-heading);
+    font-family: var(--t-sidebar-font);
     font-size: 13.5px;
-    font-weight: 600;
+    font-weight: var(--t-sidebar-weight);
     padding-right: 10px;
-    margin-bottom: 6px;
-    .fa { color: var(--ms-teal); }
+    margin-bottom: 4px;
+    .fa { color: var(--t-sidebar-marker); }
+    &:hover { color: var(--t-sidebar-hover-text) !important; }
     &.active {
-        background: rgba(29, 154, 142, .22);
-        box-shadow: inset 3px 0 0 var(--ms-teal);
+        color: var(--t-sidebar-active-text) !important;
+        background: var(--t-sidebar-active-bg);
+        box-shadow: inset 3px 0 0 var(--t-sidebar-marker);
     }
 }
 
-// Shift the action area to the right of the fixed panel.
 .o_web_client:has(> .o_bas_sidebar) > .o_action_manager {
     margin-left: var(--bas-sidebar-width);
 }
@@ -143,18 +145,13 @@
     margin-left: var(--bas-sidebar-width-collapsed);
 }
 
-// Hamburger in the top bar (collapses the panel).
 .o_bas_toggle {
     display: flex;
     align-items: center;
     padding: 0 14px;
-    color: #ffffff;
     font-size: 18px;
     border: 0;
     background: transparent;
-    &:hover {
-        background: rgba(255, 255, 255, .10);
-    }
 }
 
 // The panel replaces the apps grid button and the app name in the top bar.

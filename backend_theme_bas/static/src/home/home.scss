@@ -1,23 +1,24 @@
 // Start page: navy hero with the brand's triangular peaks, then white cards.
 .o_bas_home {
     overflow: auto !important;
-    background: var(--ms-canvas);
+    background-color: var(--t-canvas);
+    background-image: var(--t-canvas-image);
 
     .o_bas_home_hero {
         position: relative;
-        padding: 26px 32px 58px;
-        color: #ffffff;
-        background: var(--ms-navy) url("/backend_theme_bas/static/src/img/peaks.svg") no-repeat center bottom / 100% 64px;
+        padding: var(--t-hero-padding);
+        color: var(--t-hero-text);
+        background: var(--t-hero-bg);
         h1 {
             margin: 0;
-            font-family: var(--ms-font-heading);
-            font-size: 28px;
+            font-family: var(--t-font-heading);
+            font-size: var(--t-hero-size);
             font-weight: 700;
-            color: #ffffff;
+            color: var(--t-hero-text);
         }
         p {
             margin: 4px 0 0;
-            color: rgba(255, 255, 255, .78);
+            color: var(--t-hero-sub);
             font-size: 14px;
         }
     }
@@ -39,10 +40,10 @@
         break-inside: avoid;
         margin-bottom: 16px;
         padding: 14px 18px 10px;
-        color: var(--ms-ink);
-        background: var(--ms-surface);
-        border-radius: var(--ms-radius-card);
-        box-shadow: var(--ms-shadow);
+        color: var(--t-ink);
+        background: var(--t-surface);
+        border-radius: var(--t-radius-card);
+        box-shadow: var(--t-shadow);
     }
 
     .o_bas_home_section_title {
@@ -50,8 +51,8 @@
         align-items: center;
         gap: 10px;
         margin-bottom: 8px;
-        color: var(--ms-navy) !important;
-        font-family: var(--ms-font-heading);
+        color: var(--t-heading) !important;
+        font-family: var(--t-font-heading);
         font-size: 17px;
         font-weight: 700;
         text-decoration: none !important;
@@ -61,13 +62,13 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border-radius: var(--ms-radius);
-            color: var(--ms-teal);
-            background: var(--ms-teal-tint);
+            border-radius: var(--t-radius);
+            color: var(--t-home-icon);
+            background: var(--t-home-icon-bg);
             font-size: 15px;
         }
         &:hover span {
-            color: var(--ms-teal-dark);
+            color: var(--t-link);
         }
     }
 
@@ -76,7 +77,7 @@
     }
     .o_bas_home_group_name {
         margin: 8px 0 2px;
-        color: var(--ms-subtle);
+        color: var(--t-subtle);
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
@@ -86,9 +87,10 @@
     .o_bas_home_link {
         display: block;
         padding: 3px 0;
-        color: var(--ms-teal-dark) !important;
+        color: var(--t-link) !important;
         font-weight: 600;
-        text-decoration: none;
+        text-decoration: var(--t-link-decoration);
+        text-underline-offset: 2px;
         &:hover {
             text-decoration: underline;
             text-underline-offset: 2px;
@@ -99,13 +101,13 @@
         flex: 0 0 290px;
         h2 {
             margin: 0 0 8px;
-            color: var(--ms-navy);
+            color: var(--t-heading);
             font-size: 17px;
             font-weight: 700;
         }
         .o_bas_home_link {
             font-weight: 400;
-            color: var(--ms-ink) !important;
+            color: var(--t-ink) !important;
         }
     }
 }

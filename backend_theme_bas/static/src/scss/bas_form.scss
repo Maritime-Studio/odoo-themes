@@ -1,18 +1,13 @@
-// Forms: white card sheet, navy section titles, smart buttons as a row of teal links.
-
+// Forms: section titles, labels, command bar, smart buttons as links, tabs, totals.
 .o_control_panel {
     border-bottom: 0;
     .breadcrumb {
         font-size: 20px;
         font-weight: 600;
         .breadcrumb-item {
-            color: var(--ms-muted);
-            a {
-                color: var(--ms-teal-dark);
-            }
-            &.active, &:last-child {
-                color: var(--ms-navy);
-            }
+            color: var(--t-muted);
+            a { color: var(--t-link); }
+            &.active, &:last-child { color: var(--t-heading); }
         }
     }
 }
@@ -23,33 +18,29 @@
         border: 0;
         padding-top: 12px;
     }
-
     .o_form_label, .o_td_label .o_form_label {
-        font-weight: 600;
-        color: var(--ms-muted);
+        font-weight: var(--t-label-weight);
+        color: var(--t-label);
     }
     .o_inner_group > .o_wrap_field, .o_inner_group > div {
-        margin-bottom: 4px;
+        margin-bottom: 3px;
     }
-
-    // Section titles ("Про контрагента", "Адреси, телефони")
     .o_horizontal_separator {
-        color: var(--ms-navy);
+        color: var(--t-heading);
         font-size: 16px;
         font-weight: 600;
         text-transform: none;
         letter-spacing: normal;
-        border-bottom: 1px solid var(--ms-border-light);
+        border-bottom: 1px solid var(--t-border-light);
         padding-bottom: 4px;
         margin: 14px 0 8px;
     }
     .oe_title h1, .oe_title .o_field_widget {
-        font-family: var(--ms-font-heading);
+        font-family: var(--t-font-heading);
         font-weight: 600;
-        color: var(--ms-navy);
+        color: var(--t-heading);
     }
 
-    // Command bar above the sheet: buttons directly on the canvas.
     .o_form_statusbar {
         border-bottom: 0;
         margin: 0 16px 10px;
@@ -60,23 +51,21 @@
         }
     }
     .o_statusbar_status .o_arrow_button {
-        color: var(--ms-muted);
-        background: var(--ms-surface);
-        font-weight: 600;
+        color: var(--t-muted);
+        background: var(--t-surface);
         &.o_arrow_button_current {
-            color: #ffffff;
-            background: var(--ms-teal);
+            color: var(--t-statusbar-current-text);
+            background: var(--t-statusbar-current-bg);
         }
     }
 
-    // Smart buttons -> row of teal links ("Документи 2  Договори 1 ...").
+    // Smart buttons -> row of links ("Документи 2  Договори 1 ...").
     .o-form-buttonbox {
         border: 0;
         gap: 0 20px;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 8px;
-
         .oe_stat_button {
             flex: 0 0 auto;
             width: auto;
@@ -86,51 +75,56 @@
             border: 0 !important;
             background: transparent !important;
             box-shadow: none;
-            .o_button_icon {
-                display: none;
-            }
+            .o_button_icon { display: none; }
             .o_stat_info, .o_field_statinfo {
                 flex-direction: row;
                 align-items: baseline;
                 gap: 5px;
-                .o_stat_text { order: 0; color: var(--ms-teal-dark); font-weight: 600; font-size: 13px; }
-                .o_stat_value { order: 1; color: var(--ms-muted); font-weight: 600; font-size: 13px; }
+                .o_stat_text {
+                    order: 0;
+                    color: var(--t-link);
+                    font-weight: 600;
+                    font-size: 13px;
+                    text-decoration: var(--t-link-decoration);
+                    text-underline-offset: 2px;
+                }
+                .o_stat_value { order: 1; color: var(--t-muted); font-weight: 600; font-size: 13px; }
             }
             &:hover .o_stat_text {
+                color: var(--t-link-hover);
                 text-decoration: underline;
-                text-underline-offset: 2px;
             }
         }
     }
 
-    // Notebook: navy text, teal underline on the active tab.
     .o_notebook .nav-tabs {
-        border-bottom: 1px solid var(--ms-border-light);
-        gap: 4px;
+        border-bottom: 1px solid var(--t-border-light);
+        gap: 3px;
         .nav-link {
-            padding: 8px 14px;
-            color: var(--ms-muted);
-            background: transparent;
-            border: 0;
-            border-bottom: 3px solid transparent;
-            border-radius: 0;
+            padding: 7px 14px;
+            color: var(--t-tab-text);
+            background: var(--t-tab-bg);
+            border: var(--t-tab-border);
+            border-bottom: 0;
+            border-radius: var(--t-tab-radius);
             font-weight: 600;
             &.active {
-                color: var(--ms-navy);
-                border-bottom-color: var(--ms-teal);
+                color: var(--t-tab-active-text);
+                background: var(--t-tab-active-bg);
+                box-shadow: var(--t-tab-active-shadow);
+                margin-bottom: -1px;
             }
             &:hover:not(.active) {
-                color: var(--ms-navy);
-                border-bottom-color: var(--ms-border);
+                color: var(--t-tab-active-text);
+                background: var(--t-tab-hover-bg);
             }
         }
     }
 
-    // Totals (sale / purchase / invoice)
     .oe_subtotal_footer, .o_tax_totals {
-        background: var(--ms-surface-alt);
+        background: var(--t-totals-bg);
         padding: 8px 12px;
-        border-radius: var(--ms-radius);
-        color: var(--ms-ink);
+        border-radius: var(--t-radius);
+        color: var(--t-ink);
     }
 }
