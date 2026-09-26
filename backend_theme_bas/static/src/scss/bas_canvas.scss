@@ -1,0 +1,126 @@
+// Steel-blue canvas behind every view; working surfaces are white sheets on top of it.
+
+.o_web_client > .o_action_manager {
+    background-color: var(--bas-canvas);
+    background-image: var(--bas-canvas-grain);
+}
+
+.o_action_manager > .o_action,
+.o_action_manager .o_content,
+.o_action_manager .o_control_panel {
+    background-color: transparent;
+}
+
+// Control panel text sits directly on the canvas.
+.o_action_manager .o_control_panel {
+    color: var(--bas-canvas-text);
+    .breadcrumb .breadcrumb-item,
+    .breadcrumb .breadcrumb-item.active,
+    .o_last_breadcrumb_item,
+    .o_pager_value, .o_pager_limit, .o_pager_counter {
+        color: var(--bas-canvas-text);
+    }
+    .breadcrumb .breadcrumb-item a {
+        color: #173f73;
+    }
+    .breadcrumb {
+        background: transparent;
+    }
+    .o_searchview {
+        background: #ffffff;
+    }
+}
+
+// --- Lists -------------------------------------------------------------------
+.o_list_view .o_content > .o_list_renderer,
+.o_list_view .o_list_renderer.o_renderer {
+    margin: 0 16px 16px;
+    background: var(--bas-sheet);
+    border-radius: var(--bas-sheet-radius);
+    box-shadow: var(--bas-sheet-shadow);
+}
+
+// --- Forms -------------------------------------------------------------------
+.o_form_view {
+    .o_form_sheet_bg {
+        background: transparent !important;
+    }
+    .o_form_sheet_bg > .o_form_sheet,
+    .o_form_sheet {
+        background: var(--bas-sheet);
+        border-radius: var(--bas-sheet-radius);
+        box-shadow: var(--bas-sheet-shadow) !important;
+        margin: 0 16px 16px !important;
+    }
+    // command bar (statusbar) as a light strip on top of the sheet
+    .o_form_statusbar {
+        background: rgba(255, 255, 255, .55);
+        border-radius: var(--bas-sheet-radius);
+        margin: 0 16px 8px;
+        padding: 6px 8px;
+        border-bottom: 0;
+    }
+}
+// chatter column: white sheet as well
+.o-mail-Form-chatter, .o-mail-Chatter {
+    background: transparent;
+}
+.o-mail-Form-chatter.o-aside .o-mail-Chatter,
+.o-mail-Form-chatter:not(.o-aside) {
+    background: var(--bas-sheet);
+    border-radius: var(--bas-sheet-radius);
+    box-shadow: var(--bas-sheet-shadow);
+    margin: 0 16px 16px;
+}
+
+// --- Kanban ------------------------------------------------------------------
+.o_kanban_renderer {
+    background: transparent !important;
+    padding: 0 16px 16px !important;
+    .o_kanban_group {
+        background: rgba(255, 255, 255, .35) !important;
+        border-radius: var(--bas-sheet-radius);
+    }
+    .o_kanban_header_title, .o_column_title, .o_kanban_counter {
+        color: var(--bas-canvas-text);
+    }
+    .o_kanban_record {
+        border-radius: 3px;
+        box-shadow: var(--bas-sheet-shadow);
+        border-color: transparent;
+    }
+}
+
+// --- Calendar, pivot, graph, activity, gantt-like renderers ------------------
+.o_calendar_renderer,
+.o_pivot,
+.o_graph_renderer,
+.o_activity_view .o_content > div,
+.o_hierarchy_renderer {
+    margin: 0 16px 16px;
+    background: var(--bas-sheet) !important;
+    border-radius: var(--bas-sheet-radius);
+    box-shadow: var(--bas-sheet-shadow);
+}
+.o_calendar_view .o_calendar_container {
+    background: transparent;
+}
+
+// --- Settings ----------------------------------------------------------------
+.o_settings_container, .o_setting_container .settings {
+    background: var(--bas-sheet);
+}
+
+// --- Discuss (full-page chat) -------------------------------------------------
+.o-mail-Discuss {
+    margin: 0 16px 16px;
+    background: var(--bas-sheet);
+    border-radius: var(--bas-sheet-radius);
+    box-shadow: var(--bas-sheet-shadow);
+    overflow: hidden;
+}
+
+// --- Empty-state helper ------------------------------------------------------
+.o_view_nocontent {
+    color: var(--bas-canvas-text);
+}

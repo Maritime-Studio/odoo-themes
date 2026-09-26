@@ -1,7 +1,7 @@
 import { reactive } from "@odoo/owl";
 import { browser } from "@web/core/browser/browser";
 import { registry } from "@web/core/registry";
-import { OPEN_WINDOWS_LIMIT } from "./sidebar_config";
+import { HOME_ACTION, OPEN_WINDOWS_LIMIT } from "./sidebar_config";
 
 const STORAGE_KEY = "backend_theme_bas.open_windows";
 const COLLAPSED_KEY = "backend_theme_bas.sidebar_collapsed";
@@ -46,7 +46,11 @@ export const openWindowsService = {
                 return;
             }
             // skip unsaved records and dialogs-only actions
-            if (/\/new(\?|$)/.test(url) || controller.action?.target === "new") {
+            if (
+                /\/new(\?|$)/.test(url) ||
+                controller.action?.target === "new" ||
+                controller.action?.tag === HOME_ACTION
+            ) {
                 return;
             }
             const title = (controller.displayName || controller.action?.name || "").toString().trim();

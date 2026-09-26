@@ -1,6 +1,6 @@
 import { Component, useState } from "@odoo/owl";
 import { useBus, useService } from "@web/core/utils/hooks";
-import { HIDDEN_APPS, LAST_APPS, iconFor, matchXmlid } from "./sidebar_config";
+import { HOME_ACTION, iconFor, menuHref, visibleApps } from "./sidebar_config";
 
 /**
  * BAS sections panel: the apps as a vertical list with monochrome icons, followed by
@@ -13,27 +13,22 @@ export class BasSidebar extends Component {
     setup() {
         this.menuService = useService("menu");
         this.openWindows = useService("bas_open_windows");
+        this.actionService = useService("action");
         this.state = useState(this.openWindows.state);
         useBus(this.env.bus, "MENUS:APP-CHANGED", () => this.render());
+        useBus(this.env.bus, "ACTION_MANAGER:UI-UPDATED", () => this.render());
     }
 
     get apps() {
-        const apps = this.menuService
-            .getApps()
-            .filter((app) => matchXmlid(app.xmlid, HIDDEN_APPS) === -1);
-        const rank = (app) => {
-            const index = matchXmlid(app.xmlid, LAST_APPS);
-            return index === -1 ? -1 : index;
-        };
-        // stable sort: regular apps keep the menu sequence, LAST_APPS go to the end
-        return apps
-            .map((app, index) => ({ app, index }))
-            .sort((a, b) => rank(a.app) - rank(b.app) || a.index - b.index)
-            .map(({ app }) => app);
+        return visibleApps(this.menuService);
+    }
+
+    get isHome() {
+        return this.actionService.currentController?.action?.tag === HOME_ACTION;
     }
 
     get currentAppId() {
-        return this.menuService.getCurrentApp()?.id;
+        return this.isHome ? undefined : this.menuService.getCurrentApp()?.id;
     }
 
     iconFor(app) {
@@ -41,7 +36,11 @@ export class BasSidebar extends Component {
     }
 
     appHref(app) {
-        return `/odoo/${app.actionPath || "action-" + app.actionID}`;
+        return menuHref(app);
+    }
+
+    openHome() {
+        this.actionService.doAction(HOME_ACTION, { clearBreadcrumbs: true });
     }
 
     onAppClick(app) {

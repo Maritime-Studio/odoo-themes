@@ -15,6 +15,18 @@
     --bas-yellow-top: #fee18d;
     --bas-yellow-border: #d9a41f;
     --bas-hint: #fbf3cf;               // hint / info boxes
+    // Steel-blue canvas (solid colour + fine grain, no gradient) behind white sheets.
+    --bas-canvas: #b3c3d2;
+    --bas-canvas-text: #1d2a38;
+    --bas-canvas-muted: #3f5064;
+    --bas-canvas-grain: url("/backend_theme_bas/static/src/img/grain.png");
+    --bas-sheet: #ffffff;
+    --bas-sheet-radius: 4px;
+    --bas-sheet-shadow: 0 1px 2px rgba(22, 38, 56, .18), 0 2px 8px rgba(22, 38, 56, .08);
+    --bas-sidebar-bg: #d4dee7;
+    --bas-sidebar-border: #a7b7c7;
+    --bas-sidebar-hover: #e3eaf0;
+    --bas-window-bg: #c4d1dc;
     --bas-sidebar-width: 230px;
     --bas-sidebar-width-collapsed: 44px;
 }
@@ -30,8 +42,9 @@
     color: #ffffff;
 }
 
-// BAS hyperlinks are always underlined.
-.o_web_client .o_content a:not(.btn):not(.dropdown-item):not(.nav-link):not(.o_kanban_record *) {
+// BAS hyperlinks inside documents are always underlined (not in calendars, kanban, menus).
+.o_web_client .o_form_view .o_form_sheet a:not(.btn):not(.settings_tab *):not(.o_setting_box *):not(.dropdown-item):not(.nav-link):not(.o_tag *):not(.badge),
+.o_web_client .o_list_renderer .o_data_cell a:not(.btn) {
     color: var(--bas-link);
     text-decoration: underline;
     text-underline-offset: 2px;

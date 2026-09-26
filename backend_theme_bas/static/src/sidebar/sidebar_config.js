@@ -63,3 +63,24 @@ export function iconFor(xmlid) {
     const index = matchXmlid(xmlid, keys);
     return index === -1 ? DEFAULT_ICON : APP_ICONS[keys[index]];
 }
+
+/**
+ * Apps shown in the sections panel and on the home page: hidden apps removed,
+ * LAST_APPS moved to the end, everything else in menu sequence order.
+ */
+export function visibleApps(menuService) {
+    const rank = (app) => matchXmlid(app.xmlid, LAST_APPS);
+    return menuService
+        .getApps()
+        .filter((app) => matchXmlid(app.xmlid, HIDDEN_APPS) === -1)
+        .map((app, index) => ({ app, index }))
+        .sort((a, b) => rank(a.app) - rank(b.app) || a.index - b.index)
+        .map(({ app }) => app);
+}
+
+export function menuHref(menu) {
+    return `/odoo/${menu.actionPath || "action-" + menu.actionID}`;
+}
+
+// Client action tag of the BAS start page (no dot: the router would read it as a model).
+export const HOME_ACTION = "bas_home";

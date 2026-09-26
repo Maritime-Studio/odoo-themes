@@ -1,25 +1,26 @@
-// Light BAS top bar.
+// Deep steel-blue top bar with white text.
 .o_main_navbar {
-    box-shadow: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
 
     .o_menu_toggle, .o_menu_brand {
-        color: #333333;
+        color: #ffffff;
     }
     .o_menu_brand {
         font-weight: normal;
     }
-    // app sections (Orders, Customers...) as flat dark links
+    // app sections (Orders, Customers...) as flat light links
     .o_menu_sections .o_nav_entry,
     .o_menu_sections .dropdown-toggle {
-        color: #333333;
-        &:hover {
-            color: #000000;
+        color: rgba(255, 255, 255, .88);
+        &:hover, &.show {
+            color: #ffffff;
         }
     }
     .o_menu_systray .o_nav_entry,
     .o_menu_systray .dropdown-toggle,
-    .o_menu_systray .o-dropdown > button {
-        color: #444444;
+    .o_menu_systray .o-dropdown > button,
+    .o_menu_systray .o_switch_company_menu > button {
+        color: rgba(255, 255, 255, .88);
     }
 }
 

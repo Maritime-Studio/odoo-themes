@@ -11,11 +11,11 @@ $o-font-size-base-touch: 0.875rem;      // 14px on touch devices
 $o-font-size-base-small: 0.75rem;
 $o-main-text-color: #333333;
 
-// Light top bar with dark text instead of Odoo's coloured navbar.
+// Top bar: deep steel blue with white text, the darkest tone of the palette.
 $o-navbar-height: 40px;
-$o-navbar-background: #f2f2f2;
-$o-navbar-border-bottom: 1px solid #cfcfcf;
-$o-navbar-entry-color: #333333;
-$o-navbar-entry-color--hover: #000000;
-$o-navbar-entry-bg--hover: rgba(0, 0, 0, .06);
+$o-navbar-background: #3e5670;
+$o-navbar-border-bottom: 1px solid #2f4459;
+$o-navbar-entry-color: rgba(255, 255, 255, .92);
+$o-navbar-entry-color--hover: #ffffff;
+$o-navbar-entry-bg--hover: rgba(255, 255, 255, .12);
 $o-navbar-brand-font-size: 1.15em;

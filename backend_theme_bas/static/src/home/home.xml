@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="backend_theme_bas.Home">
+        <div class="o_action o_bas_home">
+            <div class="o_bas_home_header">
+                <h1>Home page</h1>
+            </div>
+            <div class="o_bas_home_body">
+                <div class="o_bas_home_sections">
+                    <section t-foreach="sections" t-as="section" t-key="section.app.id" class="o_bas_home_section">
+                        <a class="o_bas_home_section_title" t-att-href="href(section.app)"
+                           t-att-data-menu-xmlid="section.app.xmlid"
+                           t-on-click.prevent="() => this.openMenu(section.app)">
+                            <i t-attf-class="fa fa-fw {{ section.icon }}" aria-hidden="true"/>
+                            <span t-esc="section.app.name"/>
+                        </a>
+                        <div t-foreach="section.groups" t-as="group" t-key="group.id" class="o_bas_home_group">
+                            <div t-if="group.name" class="o_bas_home_group_name" t-esc="group.name"/>
+                            <a t-foreach="group.links" t-as="link" t-key="link.id"
+                               class="o_bas_home_link" t-att-href="href(link)"
+                               t-att-data-menu-xmlid="link.xmlid"
+                               t-on-click.prevent="() => this.openMenu(link)"
+                               t-esc="link.name"/>
+                        </div>
+                    </section>
+                </div>
+                <aside class="o_bas_home_recent">
+                    <h2>Recently opened</h2>
+                    <p t-if="!recentWindows.length" class="text-muted">Nothing opened yet.</p>
+                    <a t-foreach="recentWindows" t-as="item" t-key="item.url"
+                       class="o_bas_home_link" t-att-href="item.url" t-esc="item.title"/>
+                </aside>
+            </div>
+        </div>
+    </t>
+
+</templates>

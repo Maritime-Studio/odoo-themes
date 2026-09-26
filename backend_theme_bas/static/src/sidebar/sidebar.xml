@@ -16,12 +16,13 @@
                 </a>
             </nav>
             <div class="o_bas_windows" t-if="!state.collapsed">
-                <a class="o_bas_window o_bas_window_home" href="/odoo" t-att-class="{ 'active': !state.current }">
+                <a class="o_bas_window o_bas_window_home" href="/odoo/bas_home" t-att-class="{ 'active': isHome }"
+                   t-on-click.prevent="openHome">
                     <i class="fa fa-fw fa-home" aria-hidden="true"/>
                     <span>Home page</span>
                 </a>
                 <div t-foreach="state.items" t-as="item" t-key="item.url"
-                     class="o_bas_window" t-att-class="{ 'active': item.url === state.current }">
+                     class="o_bas_window" t-att-class="{ 'active': !isHome and item.url === state.current }">
                     <a t-att-href="item.url" t-att-title="item.title" t-esc="item.title"/>
                     <button type="button" class="o_bas_window_close btn btn-link p-0"
                             title="Close" aria-label="Close"
