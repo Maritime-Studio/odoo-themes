@@ -11,6 +11,18 @@
     width: auto !important;
     min-width: 0 !important;
     max-width: 34%;
+    // narrow side chat: its button row wraps instead of scrolling sideways
+    .o-mail-Chatter-topbar {
+        flex-wrap: wrap;
+        row-gap: 6px;
+        height: auto !important;
+    }
+}
+
+// Chatter below the sheet: its margins must not add to a 100% width
+.o_form_view .o_form_renderer > .o-mail-Form-chatter:not(.o-aside) {
+    width: auto !important;
+    max-width: 100%;
 }
 
 // Chatter moved below while Odoo is in its wide (row) layout: stack like Odoo does on
@@ -23,7 +35,8 @@
         overflow: visible;
     }
     > .o-mail-Form-chatter {
-        width: 100%;
+        width: auto !important;
+        align-self: stretch;
         flex: 0 0 auto;
     }
 }
@@ -100,6 +113,29 @@
     overflow-x: clip;
 }
 
+// Notes + totals under invoice / order lines: no negative row gutters (they pushed the
+// totals box past the sheet edge); both columns inset like the lines table above.
+.o_form_view .o_form_sheet {
+    .oe_invoice_lines_tab {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        > [class*="col"] {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            padding-left: var(--bas-list-inset) !important;
+            padding-right: var(--bas-list-inset) !important;
+        }
+        .oe_subtotal_footer {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    .o_notebook_headers {
+        margin-left: calc(-1 * var(--bas-sheet-pad)) !important;
+        margin-right: calc(-1 * var(--bas-sheet-pad)) !important;
+    }
+}
+
 // totals never overflow the sheet
 .o_form_view {
     .oe_subtotal_footer, .o_tax_totals {
@@ -115,7 +151,28 @@
     }
 }
 
-// --- Command bar: opaque when it sticks on top, buttons wrap instead of overlapping
+// --- Sheet metrics shared by the rules above and below ---------------------------
+.o_form_view {
+    --bas-sheet-margin: 16px;
+    --bas-sheet-pad: 16px;
+    --bas-list-inset: 16px;
+}
+@media (max-width: 1600px) {
+    .o_form_view {
+        --bas-sheet-margin: 12px;
+        --bas-sheet-pad: 20px;
+        --bas-list-inset: 12px;
+    }
+}
+
+// --- Command bar: aligned with the sheet below it (left and right edges) ----------
+.o_form_view .o_form_sheet_bg > .o_form_statusbar {
+    margin-left: var(--bas-sheet-margin) !important;
+    margin-right: var(--bas-sheet-margin) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+// opaque when it sticks on top, buttons wrap instead of overlapping
 .o_form_view .o_form_statusbar {
     background: var(--t-canvas) !important;
     flex-wrap: wrap;
