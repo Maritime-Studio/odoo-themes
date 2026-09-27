@@ -1,0 +1,216 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction
+msgid "Action Needed"
+msgstr "Необхідна дія"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__active model:ir.model.fields,field_description:loyalty.field_loyalty_mail__active model:ir.model.fields,field_description:loyalty.field_loyalty_program__active model:ir.model.fields,field_description:loyalty.field_loyalty_reward__active model:ir.model.fields,field_description:loyalty.field_loyalty_rule__active model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_search
+msgid "Active"
+msgstr "Активно"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_search
+msgid "Archived"
+msgstr "Заархівовано"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
+msgid "Balance"
+msgstr "Баланс"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__card_id model:ir.model.fields,field_description:loyalty.field_loyalty_history__card_id
+msgid "Card"
+msgstr "Картка"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_category_id
+msgid "Categories"
+msgstr "Категорії"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__code
+msgid "Code"
+msgstr "Код"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__company_id model:ir.model.fields,field_description:loyalty.field_loyalty_history__company_id model:ir.model.fields,field_description:loyalty.field_loyalty_program__company_id model:ir.model.fields,field_description:loyalty.field_loyalty_reward__company_id model:ir.model.fields,field_description:loyalty.field_loyalty_rule__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: loyalty
+#: model:ir.model,name:loyalty.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: loyalty
+#: model:ir.model,website_form_label:loyalty.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_history__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_mail__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_program__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_reward__create_uid model:ir.model.fields,field_description:loyalty.field_loyalty_rule__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_history__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_mail__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_program__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_reward__create_date model:ir.model.fields,field_description:loyalty.field_loyalty_rule__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: loyalty
+#. odoo-python
+#: code:addons/loyalty/controllers/portal.py:0 model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
+msgid "Date"
+msgstr "Дата"
+
+#. module: loyalty
+#. odoo-python
+#: code:addons/loyalty/controllers/portal.py:0 model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__description model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__description model:ir.model.fields,field_description:loyalty.field_loyalty_history__description model:ir.model.fields,field_description:loyalty.field_loyalty_reward__description model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
+msgid "Description"
+msgstr "Опис"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__reward_type__discount model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
+msgid "Discount"
+msgstr "Знижка"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_base_partner_merge_automatic_wizard__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_card__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_history__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_mail__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_program__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_reward__display_name model:ir.model.fields,field_description:loyalty.field_loyalty_rule__display_name model:ir.model.fields,field_description:loyalty.field_product_pricelist__display_name model:ir.model.fields,field_description:loyalty.field_product_product__display_name model:ir.model.fields,field_description:loyalty.field_product_template__display_name model:ir.model.fields,field_description:loyalty.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (Партнери)"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__history_ids
+msgid "History"
+msgstr "Історія"
+
+#. module: loyalty
+#: model:ir.model.fields,help:loyalty.field_loyalty_card__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: loyalty
+#: model:ir.model.fields,help:loyalty.field_loyalty_card__message_has_error model:ir.model.fields,help:loyalty.field_loyalty_card__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_is_follower
+msgid "Is Follower"
+msgstr "Стежить"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_history__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_mail__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_program__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_reward__write_uid model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_history__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_mail__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_program__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_reward__write_date model:ir.model.fields,field_description:loyalty.field_loyalty_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставлення повідомлення"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: loyalty
+#: model:ir.model.fields,help:loyalty.field_loyalty_card__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: loyalty
+#: model:ir.model.fields,help:loyalty.field_loyalty_card__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_id model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__order model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: loyalty
+#: model:ir.model,name:loyalty.model_product_template model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_id
+msgid "Product"
+msgstr "Товар"
+
+#. module: loyalty
+#: model:ir.model,name:loyalty.model_product_product
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger_product_ids model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_ids
+msgid "Products"
+msgstr "Товари"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__coupon_qty
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_card__rating_ids
+msgid "Ratings"
+msgstr "Оцінювання"
+
+#. module: loyalty
+#: model:ir.model.fields,field_description:loyalty.field_loyalty_program__sequence
+msgid "Sequence"
+msgstr "Послідовність"

@@ -1,0 +1,3742 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/pos_order.js:0
+msgid " (Refund)"
+msgstr " (Повернення)"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/stock_warehouse.py:0
+msgid "%(name)s Picking POS"
+msgstr "%(name)s Комплектування POS"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(name)s REFUND"
+msgstr "%(name)s ПОВЕРНЕННЯ"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(old_pm)s changed to %(new_pm)s and from %(old_amount)s to %(new_amount)s"
+msgstr "%(old_pm)s змінено на %(new_pm)s та з %(old_amount)s на %(new_amount)s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(old_pm)s changed to %(new_pm)s for %(old_amount)s"
+msgstr "%(old_pm)s змінено на %(new_pm)s на суму %(old_amount)s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(product_name)s: Deleted line (quantity: %(qty)s)"
+msgstr "%(product_name)s: Видалено рядок (кількість: %(qty)s)"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(product_name)s: Ordered quantity: %(old_qty)s"
+msgstr "%(product_name)s: Замовлена кількість: %(old_qty)s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "%(refunded_order)s REFUND"
+msgstr "%(refunded_order)s ПОВЕРНЕННЯ"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "%(title)s %(product_name)s with %(taxes)s"
+msgstr "%(title)s %(product_name)s з %(taxes)s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "%s almost runs out of paper."
+msgstr "У %s майже закінчується папір."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid "%s required"
+msgstr "%s обов'язково"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js:0
+msgid "%s update not allowed"
+msgstr "Оновлення %s заборонено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
+msgid "(DUPLICATE !)"
+msgstr "(ДУБЛІКАТ !)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "(Replace [printer_ip] with the printer IP address)"
+msgstr "(Замініть [printer_ip] на IP-адресу принтера)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/optional_products_popup/optional_products_popup.xml:0
+msgid "+ Add"
+msgstr "+ Додати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid ", you can skip the system parameter section."
+msgstr ", можна пропустити розділ системних параметрів."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "19.1 or above"
+msgstr "19.1 або вище"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_template_blue_denim_jeans
+msgid "5-pocket jeans in cotton denim with a slight stretch for good comfort."
+msgstr "Джинси з 5 кишенями з бавовняного деніму з легким стрейчем для комфорту."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_template_blue_denim_jeans_slim
+msgid "5-pocket jeans in cotton denim.."
+msgstr "Джинси з 5 кишенями з бавовняного деніму.."
+
+#. module: point_of_sale
+#: model:mail.template,body_html:point_of_sale.email_template_pos_receipt
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"                    <t t-set=\"client_name\" t-value=\"object.partner_id.name\"/>\n"
+"                    <t t-set=\"store_name\" t-value=\"object.config_id.name\"/>\n"
+"                    <t t-set=\"tz\" t-value=\"object.company_id.partner_id.tz\"/>\n"
+"                    <t t-set=\"lg\" t-value=\"object.partner_id.lang or user.lang\"/>\n"
+"                    <div>\n"
+"                        <t t-if=\"client_name\">Hello <t t-out=\"client_name\">Client name</t>,</t>\n"
+"                        <t t-else=\"\">Hello,</t>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>Thank you for purchasing from <t t-out=\"store_name\">Store name</t>!</div>\n"
+"                    <div>Attached, you will find your receipt for the purchase of <span><t t-out=\"format_datetime(dt=object.date_order, tz=tz, dt_format=&quot;EEEE d MMMM&quot;,                          lang_code=lg) or ''\">date</t> <t t-out=\"format_time(time=object.date_order, tz=tz, time_format='short',                          lang_code=lg)\">time</t>.</span>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>With kind regards,</div>\n"
+"                    <br/>\n"
+"                    <t t-out=\"store_name\">Store name</t>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"                    <t t-set=\"client_name\" t-value=\"object.partner_id.name\"/>\n"
+"                    <t t-set=\"store_name\" t-value=\"object.config_id.name\"/>\n"
+"                    <t t-set=\"tz\" t-value=\"object.company_id.partner_id.tz\"/>\n"
+"                    <t t-set=\"lg\" t-value=\"object.partner_id.lang or user.lang\"/>\n"
+"                    <div>\n"
+"                        <t t-if=\"client_name\">Вітаємо, <t t-out=\"client_name\">Ім'я клієнта</t>,</t>\n"
+"                        <t t-else=\"\">Вітаємо,</t>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>Дякуємо за покупку в <t t-out=\"store_name\">Назва магазину</t>!</div>\n"
+"                    <div>У вкладенні ви знайдете чек за покупку від <span><t t-out=\"format_datetime(dt=object.date_order, tz=tz, dt_format=&quot;EEEE d MMMM&quot;,                          lang_code=lg) or ''\">дата</t> <t t-out=\"format_time(time=object.date_order, tz=tz, time_format='short',                          lang_code=lg)\">час</t>.</span>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>З повагою,</div>\n"
+"                    <br/>\n"
+"                    <t t-out=\"store_name\">Назва магазину</t>\n"
+"                </div>\n"
+"            "
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor             %(pos_name)s amounting in %(amount)s from %(company_name)s. </p>"
+msgstr "<p>Шановний(-а) %(client_name)s,<br/>Надсилаємо ваш чек %(is_invoiced)sдля             %(pos_name)s на суму %(amount)s від %(company_name)s. </p>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
+msgid "<span class=\"float-end\" invisible=\"is_total_cost_computed\">To be determined</span>"
+msgstr "<span class=\"float-end\" invisible=\"is_total_cost_computed\">Буде визначено</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_combo_view_form
+msgid "<span class=\"o_form_label oe_inline fw-bolder\">Includes</span>"
+msgstr "<span class=\"o_form_label oe_inline fw-bolder\">Включає</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_combo_view_form
+msgid "<span class=\"o_form_label oe_inline fw-bolder\">Maximum</span>"
+msgstr "<span class=\"o_form_label oe_inline fw-bolder\">Максимум</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Barcodes</span>\n"
+"                                    <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Штрихкоди</span>\n"
+"                                    <i class=\"fa fa-info-circle me-1\" title=\"Це налаштування спільне для всіх касових терміналів.\" pos-data-toggle=\"tooltip\"/>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "<span invisible=\"not is_return or pricelist_id\" class=\"oe_inline ps-2 text-info\">Tip: add a return pricelist (i.e. 0€)</span>"
+msgstr "<span invisible=\"not is_return or pricelist_id\" class=\"oe_inline ps-2 text-info\">Порада: додайте прайс-лист повернень (напр., 0€)</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
+msgid "<span>Ongoing</span>"
+msgstr "<span>Поточні</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
+msgid "<span>Opening</span>"
+msgstr "<span>Відкриття</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
+msgid "<span>Sold</span>"
+msgstr "<span>Продано</span>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
+msgid "<strong>Source Invoice</strong>"
+msgstr "<strong>Вихідний рахунок-фактура</strong>"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_pos_category_form_view
+msgid "<sup title=\"Only works for online and self order\">?</sup>"
+msgstr "<sup title=\"Працює лише для онлайн-замовлень і самообслуговування\">?</sup>"
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_note_name_unique
+msgid "A note with this name already exists"
+msgstr "Примітка з такою назвою вже існує"
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_unique_uuid
+msgid "A payment with this uuid already exists"
+msgstr "Платіж з таким uuid вже існує"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__sequence_number
+msgid "A session-unique sequence number for the order. Negative if generated from the client"
+msgstr "Унікальний у межах сесії порядковий номер замовлення. Від'ємний, якщо згенерований клієнтом"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Accept payments with Mercado Pago on a terminal"
+msgstr "Приймайте платежі через Mercado Pago на терміналі"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Accept payments with Viva.com on a terminal or tap on phone"
+msgstr "Приймайте платежі через Viva.com на терміналі або через Tap on Phone"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Accept payments with a Pine Labs payment terminal"
+msgstr "Приймайте платежі через платіжний термінал Pine Labs"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Accept payments with a QFPay payment terminal"
+msgstr "Приймайте платежі через платіжний термінал QFPay"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Accept payments with a Razorpay payment terminal"
+msgstr "Приймайте платежі через платіжний термінал Razorpay"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Access printer configuration panel by puttin this URL in your search bar:"
+msgstr "Відкрийте панель налаштування принтера, ввівши цю URL-адресу в адресний рядок:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Access the below URL but replace [printer_ip] with your current Pritner IP address"
+msgstr "Відкрийте URL-адресу нижче, замінивши [printer_ip] на поточну IP-адресу принтера"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__outstanding_account_id
+msgid "Account used as outstanding account when creating accounting payment records for bank payments."
+msgstr "Рахунок, що використовується як рахунок неузгоджених платежів під час створення облікових записів банківських платежів."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Action cancelled (%(ACTION)s)"
+msgstr "Дію скасовано (%(ACTION)s)"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__module_pos_sms model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_module_pos_sms
+msgid "Activate SMS feature for point_of_sale"
+msgstr "Увімкнути SMS для point_of_sale"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Add Printer"
+msgstr "Додати принтер"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/orderline_note_button/orderline_note_button.js:0
+msgid "Add a "
+msgstr "Додати "
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
+msgid "Add a new preparation printer"
+msgstr "Додати новий принтер приготування"
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_preset_form
+msgid "Add a new preset"
+msgstr "Додати новий пресет"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Add system parameter"
+msgstr "Додати системний параметр"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Added %(payment_method)s with %(amount)s"
+msgstr "Додано %(payment_method)s на суму %(amount)s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "After 19.1:"
+msgstr "Після 19.1:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+msgid "All Orders"
+msgstr "Усі замовлення"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "All notes"
+msgstr "Усі примітки"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_preset__is_return
+msgid "All quantity in the cart will be in negative. Ideal for return managment."
+msgstr "Уся кількість у кошику буде від'ємною. Ідеально для оформлення повернень."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Allow"
+msgstr "Дозволити"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Amount for %(old_pm)s changed from %(old_amount)s to %(new_amount)s"
+msgstr "Суму для %(old_pm)s змінено з %(old_amount)s на %(new_amount)s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/number_popup/number_popup.js:0
+msgid "Amount of guests"
+msgstr "Кількість гостей"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "An error occurred while closing the session. Unsynced orders will be available in the next session. The page will be reloaded."
+msgstr "Під час закриття сесії сталася помилка. Несинхронізовані замовлення будуть доступні в наступній сесії. Сторінку буде перезавантажено."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid "An error occurred while generating an invoice. You can try again from the order list."
+msgstr "Під час створення рахунку-фактури сталася помилка. Можна спробувати ще раз зі списку замовлень."
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_unique_uuid
+msgid "An order line with this uuid already exists"
+msgstr "Рядок замовлення з таким uuid вже існує"
+
+#. module: point_of_sale
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_unique_uuid
+msgid "An order with this uuid already exists"
+msgstr "Замовлення з таким uuid вже існує"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/retry_print_popup/retry_print_popup.js:0
+msgid "An unknown error occurred. Do you want to download the receipt instead?"
+msgstr "Сталася невідома помилка. Бажаєте натомість завантажити чек?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Any shop"
+msgstr "Будь-який магазин"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_apple_pie_product_template
+msgid "Apple Pie"
+msgstr "Яблучний пиріг"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "At least one bank account must be defined on the journal to allow registering QR code payments with Bank apps."
+msgstr "Для реєстрації платежів QR-кодом через банківські застосунки в журналі має бути вказано хоча б один банківський рахунок."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.sport_shoes_product_template
+msgid "Athletic sport shoes, designed for comfort and performance."
+msgstr "Спортивне взуття для атлетики, створене для комфорту та продуктивності."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_partner__fiscal_position_id model:ir.model.fields,field_description:point_of_sale.field_res_users__fiscal_position_id
+msgid "Automatic Fiscal Position"
+msgstr "Автоматична схема оподаткування"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_avatax model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_avatax
+msgid "AvaTax PoS Integration"
+msgstr "Інтеграція AvaTax з касовим терміналом"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_category__hour_after
+msgid "Availability After"
+msgstr "Доступно після"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_category__hour_until
+msgid "Availability Until"
+msgstr "Доступно до"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__available_payment_method_ids
+msgid "Available Payment Methods"
+msgstr "Доступні способи оплати"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__available_preset_ids model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_available_preset_ids
+msgid "Available Presets"
+msgstr "Доступні пресети"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_pos_category_form_view
+msgid "Available between"
+msgstr "Доступно між"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid "Backend Invoice"
+msgstr "Рахунок-фактура з бекенду"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__customer_display_bg_img_name model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_customer_display_bg_img_name
+msgid "Background Image Name"
+msgstr "Назва фонового зображення"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "Bakery Shop"
+msgstr "Пекарня"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "Bank App (QR Code)"
+msgstr "Банківський застосунок (QR-код)"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__basic_receipt model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_basic_receipt
+msgid "Basic Receipt"
+msgstr "Простий чек"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Be aware that it works only on chromium based browser:"
+msgstr "Зверніть увагу, що це працює лише в браузерах на основі Chromium:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Be aware that reloading data will delete unsaved orders."
+msgstr "Зверніть увагу, що перезавантаження даних видалить незбережені замовлення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Before 19.1:"
+msgstr "До 19.1:"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.t_shirt_black_embroidered_product_template
+msgid "Black embroidered t-shirt"
+msgstr "Чорна футболка з вишивкою"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_template_blue_denim_jeans
+msgid "Blue Denim Jeans"
+msgstr "Сині джинси"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_blueberry_muffin_product_template
+msgid "Blueberry Muffin"
+msgstr "Мафін з чорницею"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_brand
+msgid "Brand of card"
+msgstr "Бренд картки"
+
+#. module: point_of_sale
+#: model:pos.category,name:point_of_sale.pos_category_breads
+msgid "Breads"
+msgstr "Хліб"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Browser LNA Prompt"
+msgstr "Запит LNA браузера"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_butter_croissant_product_template
+msgid "Butter Croissant"
+msgstr "Вершковий круасан"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
+msgid "By:"
+msgstr "Від:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
+msgid "CUSTOMER NOTE"
+msgstr "ПРИМІТКА КЛІЄНТА"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.js:0
+msgid "Cancel Orders"
+msgstr "Скасувати замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/qr_code_popup/qr_code_popup.js:0
+msgid "Cancel Payment"
+msgstr "Скасувати платіж"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/order_summary/order_summary.js:0
+msgid "Cannot edit orderline"
+msgstr "Неможливо редагувати рядок замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_service.js:0
+msgid "Cannot weigh product - IoT Box is disconnected"
+msgstr "Неможливо зважити товар — IoT Box відключено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_service.js:0
+msgid "Cannot weigh product - Scale is not connected to IoT Box"
+msgstr "Неможливо зважити товар — ваги не підключені до IoT Box"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__card_no
+msgid "Card Number(Last 4 Digit)"
+msgstr "Номер картки (останні 4 цифри)"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__cardholder_name
+msgid "Card Owner name"
+msgstr "Ім'я власника картки"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_payment_form model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
+msgid "Card's Brand"
+msgstr "Бренд картки"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0
+msgid "Cash Count"
+msgstr "Підрахунок готівки"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0
+msgid "Cash In / Out"
+msgstr "Покласти / забрати готівку"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+msgid "Cash Rounding:"
+msgstr "Заокруглення готівки:"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Cash difference observed during the counting (Loss) - closing"
+msgstr "Різниця готівки, виявлена під час підрахунку (Збиток) — закриття"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Cash difference observed during the counting (Profit) - closing"
+msgstr "Різниця готівки, виявлена під час підрахунку (Прибуток) — закриття"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Cash drawer opened (%(ACTION)s)"
+msgstr "Грошову скриньку відкрито (%(ACTION)s)"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Cash move deleted: %s"
+msgstr "Рух готівки видалено: %s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/cash_move_popup/cash_move_list_popup/cash_move_list_popup.xml:0
+msgid "Cash move details"
+msgstr "Деталі руху готівки"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.casual_denim_short_product_template
+msgid "Casual Denim Short"
+msgstr "Повсякденні джинсові шорти"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.casual_t_shirt_product_template
+msgid "Casual T-shirt"
+msgstr "Повсякденна футболка"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.casual_denim_short_product_template
+msgid "Casual denim shorts, comfortable and stylish for everyday wear."
+msgstr "Повсякденні джинсові шорти, зручні та стильні на кожен день."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.t_shirt_black_embroidered_product_template
+msgid "Casual slim t-shirt 100% cotton with white embroidery. Various sizes available"
+msgstr "Повсякденна приталена футболка, 100% бавовна, з білою вишивкою. Доступні різні розміри"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.t_shirt_slim_product_template
+msgid "Casual slim t-shirt 100% cotton. Various sizes available"
+msgstr "Повсякденна приталена футболка, 100% бавовна. Доступні різні розміри"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.casual_t_shirt_product_template
+msgid "Casual t-shirt 100% cotton. Various colors and sizes available."
+msgstr "Повсякденна футболка, 100% бавовна. Доступні різні кольори та розміри."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Check if"
+msgstr "Перевірте, чи"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_uom_uom__is_pos_groupable
+msgid "Check if you want to group products of this unit in point of sale orders"
+msgstr "Позначте, якщо хочете групувати товари цієї одиниці в замовленнях касового терміналу"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
+msgid "Check list"
+msgstr "Контрольний список"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Check printer reachability:"
+msgstr "Перевірте доступність принтера:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid ""
+"Check the printer configuration for the 'Device ID' setting.\n"
+"It should be set to: 'local_printer'"
+msgstr ""
+"Перевірте в налаштуваннях принтера параметр 'Device ID'.\n"
+"Він має бути встановлений як: 'local_printer'"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/epson_printer.js:0
+msgid ""
+"Check the printer configuration for the 'Device ID' setting.\n"
+"It should be set to: local_printer"
+msgstr ""
+"Перевірте в налаштуваннях принтера параметр 'Device ID'.\n"
+"Він має бути встановлений як: local_printer"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Checking Local Network Access permission..."
+msgstr "Перевірка дозволу доступу до локальної мережі..."
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_cheese_croissant_product_template
+msgid "Cheese Croissant"
+msgstr "Круасан із сиром"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_cherry_pie_product_template
+msgid "Cherry Pie"
+msgstr "Вишневий пиріг"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_bagel_product_template
+msgid "Chewy and dense bagel, perfect for sandwiches or with cream cheese."
+msgstr "Щільний пружний бублик, ідеальний для сендвічів або з вершковим сиром."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/list_container/list_container.js:0
+msgid "Choose an order"
+msgstr "Виберіть замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_list.xml:0
+msgid "Choose customer"
+msgstr "Виберіть клієнта"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_company__point_of_sale_ticket_portal_url_display_mode model:ir.model.fields,help:point_of_sale.field_res_config_settings__point_of_sale_ticket_portal_url_display_mode
+msgid "Choose how the URL to the portal will be print on the receipt."
+msgstr "Виберіть, як URL-адреса порталу буде надрукована на чеку."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
+msgid "Choose the tax you want to apply"
+msgstr "Виберіть податок, який хочете застосувати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
+msgid "Choose your store"
+msgstr "Виберіть свій магазин"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_classic_brown_jacket_product_template
+msgid "Classic Brown Jacket"
+msgstr "Класична коричнева куртка"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.classic_leather_belt_product_template
+msgid "Classic Leather Belt"
+msgstr "Класичний шкіряний ремінь"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.classic_leather_belt_product_template
+msgid "Classic leather belt, a must-have accessory for any wardrobe."
+msgstr "Класичний шкіряний ремінь, обов'язковий аксесуар будь-якого гардероба."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0 code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0
+msgid "Close Register"
+msgstr "Закрити касу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Close debug widget"
+msgstr "Закрити віджет налагодження"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Closed Register"
+msgstr "Каса закрита"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_closing_entry_by_product model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_is_closing_entry_by_product model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Closing Entry by product"
+msgstr "Проведення закриття за товарами"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0
+msgid "Closing Register"
+msgstr "Закриття каси"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Closing counted: %s \n"
+msgstr "Підраховано при закритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Closing difference: %s \n"
+msgstr "Різниця при закритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Closing expected: %s \n"
+msgstr "Очікувано при закритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "Clothes Shop"
+msgstr "Магазин одягу"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__combo_item_id
+msgid "Combo Item"
+msgstr "Елемент комбо"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
+msgid "Configure"
+msgstr "Налаштувати"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Configure Presets"
+msgstr "Налаштувати пресети"
+
+#. module: point_of_sale
+#: model:ir.actions.act_window,name:point_of_sale.action_confirm_action_wizard
+msgid "Confirm Action"
+msgstr "Підтвердити дію"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/qr_code_popup/qr_code_popup.js:0
+msgid "Confirm Payment"
+msgstr "Підтвердити платіж"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_pos_confirmation_wizard
+msgid "Confirmation Wizard"
+msgstr "Майстер підтвердження"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Connect printer to internet (Ethernet cable recommended)"
+msgstr "Підключіть принтер до інтернету (рекомендовано кабель Ethernet)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/error_handlers.js:0
+msgid "Connection Lost"
+msgstr "З'єднання втрачено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Connection to the server has been lost. Please check your internet connection."
+msgstr "З'єднання з сервером втрачено. Перевірте підключення до інтернету."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
+msgid "Contact Info"
+msgstr "Контактна інформація"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/error_handlers.js:0
+msgid "Continue with limited functionality"
+msgstr "Продовжити з обмеженою функціональністю"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Continuous printing of high-density printing caused a printing error. Please retry later"
+msgstr "Безперервний друк високої щільності спричинив помилку друку. Спробуйте пізніше"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_preset__count_linked_config
+msgid "Count Linked Config"
+msgstr "Кількість пов'язаних налаштувань"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_preset__count_linked_orders
+msgid "Count Linked Orders"
+msgstr "Кількість пов'язаних замовлень"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.cozy_sweater_product_template
+msgid "Cozy Sweater"
+msgstr "Затишний светр"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.cozy_sweater_product_template
+msgid "Cozy sweater, perfect for colder weather. Available in various colors."
+msgstr "Затишний светр, ідеальний для холодної погоди. Доступний у різних кольорах."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0 code:addons/point_of_sale/wizard/pos_confirmation_wizard.py:0
+msgid "Create Invoice(s)"
+msgstr "Створити рахунки-фактури"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/select_lot_popup/select_lot_popup.js:0
+msgid "Create Lot/Serial number..."
+msgstr "Створити партію/серійний номер..."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0
+msgid "Create Product"
+msgstr "Створити товар"
+
+#. module: point_of_sale
+#: model:ir.model,website_form_label:point_of_sale.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.product_template_action_pos_product
+msgid "Create new product"
+msgstr "Створити новий товар"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_crocheted_poncho_unisize_product_template
+msgid "Crocheted Poncho Unisize"
+msgstr "В'язане пончо, універсальний розмір"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "Customer QR Code"
+msgstr "QR-код клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Customer address is required"
+msgstr "Потрібна адреса клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.js:0
+msgid "Dangerous: Too Many Products"
+msgstr "Небезпечно: забагато товарів"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/utils/indexed_db.js:0
+msgid "Database Connection Lost"
+msgstr "З'єднання з базою даних втрачено"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Default POS Receivable Account"
+msgstr "Рахунок дебіторської заборгованості POS за замовчуванням"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__default_preset_id model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_default_preset_id
+msgid "Default Preset"
+msgstr "Пресет за замовчуванням"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__default_qr
+msgid "Default Qr"
+msgstr "QR за замовчуванням"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__default_pos_receivable_account_name
+msgid "Default Receivable Account Name"
+msgstr "Назва рахунку дебіторської заборгованості за замовчуванням"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Define presets to manage taxes & prices for dine in, take out, members..."
+msgstr "Визначте пресети для керування податками та цінами для закладу, на винос, для учасників..."
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.product_template_action_pos_product
+msgid "Define products and categories for POS retail and restaurant"
+msgstr "Визначте товари та категорії для роздрібної торгівлі та ресторану в касовому терміналі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.js:0
+msgid "Delete Orders?"
+msgstr "Видалити замовлення?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Delete all indexed DB"
+msgstr "Видалити всі IndexedDB"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Delete paid orders"
+msgstr "Видалити оплачені замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Delete unpaid orders"
+msgstr "Видалити неоплачені замовлення"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_rye_bread_product_template
+msgid "Dense and dark, made with rye flour, perfect for sandwiches."
+msgstr "Щільний і темний, з житнього борошна, ідеальний для сендвічів."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_product_product__pos_sequence model:ir.model.fields,help:point_of_sale.field_product_template__pos_sequence
+msgid "Determine the display order in the POS Terminal"
+msgstr "Визначає порядок відображення в касовому терміналі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Device ID:"
+msgstr "ID пристрою:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__device_seq_id
+msgid "Device Sequence"
+msgstr "Послідовність пристрою"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
+msgid "Dine in"
+msgstr "У закладі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Disable \"Redirect HTTP to HTTPS\""
+msgstr "Вимкніть \"Redirect HTTP to HTTPS\""
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Disable debug mode"
+msgstr "Вимкнути режим налагодження"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "Display QR"
+msgstr "Показати QR"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Display and update your products information through electronic price tags"
+msgstr "Відображайте та оновлюйте інформацію про товари через електронні цінники"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_group_by_categ model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_iface_group_by_categ model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Display products grouped by categories."
+msgstr "Відображати товари, згруповані за категоріями."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__is_closing_entry_by_product model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_is_closing_entry_by_product model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Display the breakdown of sales lines by product in the automatically generated closing entry."
+msgstr "Відображати розбивку рядків продажу за товарами в автоматично створеному проведенні закриття."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_pricer
+msgid "Display the price of your products through electronic price tags"
+msgstr "Відображайте ціни товарів через електронні цінники"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Download IDB Errors"
+msgstr "Завантажити помилки IDB"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Download IndexedDB error logs from localStorage"
+msgstr "Завантажити журнали помилок IndexedDB з localStorage"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Download Logs"
+msgstr "Завантажити журнали"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Download logs"
+msgstr "Завантажити журнали"
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
+msgid ""
+"Each printer can be configured to print products from a specific category.\n"
+"            The printer will then only print updates for products belonging to one of\n"
+"            its linked categories."
+msgstr ""
+"Кожен принтер можна налаштувати для друку товарів певної категорії.\n"
+"            Тоді принтер друкуватиме лише оновлення товарів, що належать до однієї з\n"
+"            пов'язаних із ним категорій."
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_pos_preset
+msgid "Easily load a set of configuration options"
+msgstr "Легко завантажте набір параметрів налаштування"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+msgid "Edit Details"
+msgstr "Редагувати деталі"
+
+#. module: point_of_sale
+#: model:ir.actions.act_window,name:point_of_sale.res_partner_action_edit_pos
+msgid "Edit Partner"
+msgstr "Редагувати контакт"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Edit Payment"
+msgstr "Редагувати платіж"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Edited order(s) during the session:%s"
+msgstr "Замовлення, змінені протягом сесії:%s"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__user_id
+msgid "Employee who uses the cash register."
+msgstr "Співробітник, який використовує касу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Enable LNA on your database"
+msgstr "Увімкніть LNA у вашій базі даних"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__use_fast_payment model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_use_fast_payment
+msgid "Enable fast payment methods to validate orders on the product screen."
+msgstr "Увімкніть швидкі способи оплати, щоб підтверджувати замовлення на екрані товарів."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Enable the “Use Local Network Access” checkbox directly on the printer configuration."
+msgstr "Увімкніть прапорець «Use Local Network Access» безпосередньо в налаштуваннях принтера."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "Ensure that there is an existing bank journal. Check if chart of accounts is installed in your company."
+msgstr "Переконайтеся, що існує банківський журнал. Перевірте, чи встановлено план рахунків у вашій компанії."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Ensure you validate the refund before taking another order."
+msgstr "Обов'язково підтвердьте повернення, перш ніж приймати інше замовлення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Environment check"
+msgstr "Перевірка середовища"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Export PoS data"
+msgstr "Експортувати дані касового терміналу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Export data"
+msgstr "Експортувати дані"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__extra_tax_data
+msgid "Extra Tax Data"
+msgstr "Додаткові податкові дані"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Failed to print a test receipt. Check your printer."
+msgstr "Не вдалося надрукувати тестовий чек. Перевірте принтер."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Failed to reach the printer. Check the configured url. Make sure that the printer is online and you are on the same network."
+msgstr "Не вдалося зв'язатися з принтером. Перевірте налаштовану URL-адресу. Переконайтеся, що принтер онлайн і ви в тій самій мережі."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Failure to generate Payment QR Code"
+msgstr "Не вдалося згенерувати QR-код платежу"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__fallback_nomenclature_id model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_fallback_nomenclature_id model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Fallback Nomenclature"
+msgstr "Резервна номенклатура"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__fast_payment_method_ids model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_fast_payment_method_ids
+msgid "Fast Payment Methods"
+msgstr "Швидкі способи оплати"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__use_fast_payment model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_use_fast_payment
+msgid "Fast Payment Validation"
+msgstr "Швидке підтвердження оплати"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_butter_croissant_product_template
+msgid "Flaky all butter pastry, layered for a light and golden croissant."
+msgstr "Листкове тісто на вершковому маслі, шарувате для легкого золотистого круасана."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_cheese_croissant_product_template
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+msgstr "Листковий круасан з ніжною сирною начинкою, пікантна варіація класики."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Floor plan, tips, self order, etc."
+msgstr "План залу, чайові, самообслуговування тощо."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_flour_product_template
+msgid "Flour sold by the kilogram."
+msgstr "Борошно на вагу, за кілограм."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Food, but over the counter"
+msgstr "Їжа, але через прилавок"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_bill_tree
+msgid "For all point of sale."
+msgstr "Для всіх касових терміналів."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Force Cancel"
+msgstr "Примусово скасувати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Force cancel"
+msgstr "Примусово скасувати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/product_info_banner/product_info_banner.xml:0
+msgid "Free To Use:"
+msgstr "Безкоштовно:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_product_combo__qty_free
+msgid "Free quantity"
+msgstr "Вільна кількість"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Full Synchronization:"
+msgstr "Повна синхронізація:"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "Furniture Shop"
+msgstr "Меблевий магазин"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__general_customer_note
+msgid "General Customer Note"
+msgstr "Загальна примітка клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Google chrome, Microsoft Edge, Brave, Opera, Arc and others"
+msgstr "Google Chrome, Microsoft Edge, Brave, Opera, Arc та інші"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_green_hood_product_template
+msgid "Green Hood"
+msgstr "Зелене худі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.xml:0 code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Gross Weight:"
+msgstr "Вага брутто:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__iface_group_by_categ model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_iface_group_by_categ
+msgid "Group products by categories"
+msgstr "Групувати товари за категоріями"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__has_deleted_line
+msgid "Has Deleted Line"
+msgstr "Має видалений рядок"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_stock_picking_type__has_stock_reports_to_print
+msgid "Has Stock Reports To Print"
+msgstr "Має складські звіти для друку"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__hide_qr_code_method
+msgid "Hide Qr Code Method"
+msgstr "Приховати метод QR-коду"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/loader/critical_pos_error/critical_pos_error.xml:0
+msgid "Hide details"
+msgstr "Приховати деталі"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__group_pos_preset
+msgid "Hide or show the Presets menu in the Point of Sale configuration."
+msgstr "Приховати або показати меню пресетів у налаштуваннях касового терміналу."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Hide pictures in POS"
+msgstr "Приховати зображення в касовому терміналі"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_wholemeal_loaf_product_template
+msgid "High fibre loaf. Baked with fine wholemeal flour to give a soft texture."
+msgstr "Хліб з високим вмістом клітковини. Випечений з борошна тонкого помелу для м'якої текстури."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_template.py:0
+msgid ""
+"Hold up! Archiving products while POS sessions are active is like pulling a plate mid-meal.\n"
+"Make sure to close all sessions first to avoid any issues."
+msgstr ""
+"Стоп! Архівувати товари під час активних сесій касового терміналу все одно що забрати тарілку посеред обіду.\n"
+"Спочатку закрийте всі сесії, щоб уникнути проблем."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__preset_time
+msgid "Hour of the day for the order"
+msgstr "Година доби замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "How to configure my devices properly:"
+msgstr "Як правильно налаштувати пристрої:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "How to configure my printers"
+msgstr "Як налаштувати принтери"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "How to manage tax-included prices"
+msgstr "Як керувати цінами з податками"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "I have access to my router configuration (To fix device IP addresses)"
+msgstr "Я маю доступ до налаштувань маршрутизатора (щоб закріпити IP-адреси пристроїв)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "I use an Epson printer (Check supported printers in Odoo documentation)"
+msgstr "Я використовую принтер Epson (перевірте підтримувані принтери в документації Odoo)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/store/order_change_receipt_template.xml:0
+msgid "INTERNAL NOTE"
+msgstr "ВНУТРІШНЯ ПРИМІТКА"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If everything is correct, the Local Network Access status icon will turn green:"
+msgstr "Якщо все правильно, значок статусу доступу до локальної мережі стане зеленим:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If the permission is denied, refreshing the PoS will show this notification:"
+msgstr "Якщо дозвіл відхилено, після оновлення касового терміналу з'явиться таке сповіщення:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If the system parameter is set, but the browser doesn't support LNA, the PoS will show this notification:"
+msgstr "Якщо системний параметр встановлено, але браузер не підтримує LNA, касовий термінал покаже таке сповіщення:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If this endpoint does not returan a 404 error and displays a blank page, everything is ready."
+msgstr "Якщо ця кінцева точка не повертає помилку 404 і показує порожню сторінку, все готово."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If you have the secure printing setting, disable it"
+msgstr "Якщо ввімкнено налаштування захищеного друку, вимкніть його"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "If your database is version"
+msgstr "Якщо версія вашої бази даних"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Import data"
+msgstr "Імпортувати дані"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Import orders"
+msgstr "Імпортувати замовлення"
+
+#. module: point_of_sale
+#: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_update_stock_quantities__real
+msgid "In real time"
+msgstr "У реальному часі"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_template_form_view
+msgid "Information about your product."
+msgstr "Інформація про ваш товар."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
+msgid "Integrate with"
+msgstr "Інтегрувати з"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_preset__interval_time
+msgid "Interval time (in min)"
+msgstr "Інтервал часу (у хв)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js:0
+msgid "Invalid QR Code! Please, Scan again!"
+msgstr "Недійсний QR-код! Відскануйте ще раз!"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_partner__invoice_emails model:ir.model.fields,field_description:point_of_sale.field_res_users__invoice_emails
+msgid "Invoice Emails"
+msgstr "Електронні листи з рахунками"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
+msgid "IoT Customer Display Error"
+msgstr "Помилка екрана клієнта IoT"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "It seems like you don't have enough rights to create point of sale configurations."
+msgstr "Схоже, у вас недостатньо прав для створення налаштувань касового терміналу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "It seems like you don't have enough rights to load data."
+msgstr "Схоже, у вас недостатньо прав для завантаження даних."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/wizard/pos_confirmation_wizard.py:0
+msgid ""
+"It seems that the POS order(s) %(order_ref)s do not have a customer.\n"
+"\n"
+"Would you like to set %(customer_name)s as the customer for the selected POS order(s)?"
+msgstr ""
+"Схоже, замовлення POS %(order_ref)s не мають клієнта.\n"
+"\n"
+"Бажаєте встановити %(customer_name)s клієнтом для вибраних замовлень POS?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/epson_printer.js:0
+msgid "It seems that the printer runs out of paper."
+msgstr "Схоже, у принтері закінчився папір."
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.jean_jacket_product_template
+msgid "Jean Jacket"
+msgstr "Джинсова куртка"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Keep TLS settings enabled, otherwise the printer will not work with HTTPS."
+msgstr "Залиште налаштування TLS увімкненими, інакше принтер не працюватиме з HTTPS."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/wizard/pos_make_invoice.py:0
+msgid "Kindly ensure that each order contains a customer."
+msgstr "Переконайтеся, що кожне замовлення має клієнта."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "LNA Green Status"
+msgstr "Зелений статус LNA"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.js:0
+msgid "LNA Permission status"
+msgstr "Статус дозволу LNA"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "LNA not supported message"
+msgstr "Повідомлення про непідтримку LNA"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.js:0
+msgid "Large Product Count Detected"
+msgstr "Виявлено велику кількість товарів"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__last_data_change
+msgid "Last Write Date"
+msgstr "Дата останнього запису"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/tour_selector_popup/tour_selector_popup.xml:0
+msgid "Launch fake tours"
+msgstr "Запустити тестові тури"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.leather_jacket_product_template
+msgid "Leather Jacket"
+msgstr "Шкіряна куртка"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_template_blue_denim_jeans_slim
+msgid "Light Blue Jeans Slim"
+msgstr "Світло-сині джинси слім"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_classic_brown_jacket_product_template
+msgid "Lightweight bomber jacket in linen with a ribbed stand-up collar and zip down the front."
+msgstr "Легкий бомбер з льону з коміром-стійкою в рубчик і блискавкою спереду."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Limited"
+msgstr "Обмежено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Limited Synchronization:"
+msgstr "Обмежена синхронізація:"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Link Cashdrawer"
+msgstr "Підключити грошову скриньку"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_product_uom
+msgid "Link between products and their UoMs"
+msgstr "Зв'язок між товарами та їхніми од. вим."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "Link copied to clipboard"
+msgstr "Посилання скопійовано в буфер обміну"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Link your printers to your POS (ePOS)"
+msgstr "Підключіть принтери до касового терміналу (ePOS)"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_preset.py:0
+msgid "Linked Orders"
+msgstr "Пов'язані замовлення"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_preset.py:0
+msgid "Linked POS Configurations"
+msgstr "Пов'язані налаштування касових терміналів"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__reversed_move_ids
+msgid "List of account moves created when this POS order was reversed and invoiced after session close."
+msgstr "Список бухгалтерських проведень, створених, коли це замовлення POS було сторновано та виставлено рахунок після закриття сесії."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.xml:0
+msgid "Load Sample"
+msgstr "Завантажити зразок"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__epson_printer_ip model:ir.model.fields,help:point_of_sale.field_pos_printer__epson_printer_ip model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_epson_printer_ip
+msgid "Local IP address of an Epson receipt printer, or its serial number if the 'Automatic Certificate Update' option is enabled in the printer settings."
+msgstr "Локальна IP-адреса чекового принтера Epson або його серійний номер, якщо в налаштуваннях принтера ввімкнено опцію 'Automatic Certificate Update'."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0
+msgid "Local Network Access"
+msgstr "Доступ до локальної мережі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid ""
+"Local Network Access (LNA) is a Chrome feature that allows your browser to communicate \n"
+"                directly with your local network. It means you can make your browser communicate with \n"
+"                your devices without the need for importing certificates."
+msgstr ""
+"Доступ до локальної мережі (LNA) є функцією Chrome, яка дає змогу браузеру взаємодіяти \n"
+"                безпосередньо з вашою локальною мережею. Це означає, що браузер може взаємодіяти з \n"
+"                вашими пристроями без імпорту сертифікатів."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access configuration is enabled, but your browser is not Chromium-based. Please use a Chromium-based browser to benefit from this feature. Please note that IOS devices do not support Local Network Access yet."
+msgstr "Налаштування доступу до локальної мережі ввімкнено, але ваш браузер не на основі Chromium. Використовуйте браузер на основі Chromium, щоб користуватися цією функцією. Зверніть увагу, що пристрої iOS поки не підтримують доступ до локальної мережі."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access is enabled for this POS, but your browser version does not support it. Please update your browser to the latest version."
+msgstr "Доступ до локальної мережі ввімкнено для цього касового терміналу, але версія вашого браузера його не підтримує. Оновіть браузер до останньої версії."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access is not configured for this POS."
+msgstr "Доступ до локальної мережі не налаштовано для цього касового терміналу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access permission granted."
+msgstr "Дозвіл доступу до локальної мережі надано."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access permission is denied. Some hardware devices might not work properly. Please allow Local Network Access in your browser settings."
+msgstr "Дозвіл доступу до локальної мережі відхилено. Деякі пристрої можуть працювати неправильно. Дозвольте доступ до локальної мережі в налаштуваннях браузера."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/init_lna.js:0
+msgid "Local Network Access permission is not yet granted. Some hardware devices might not work properly. Please allow Local Network Access in your browser settings."
+msgstr "Дозвіл доступу до локальної мережі ще не надано. Деякі пристрої можуть працювати неправильно. Дозвольте доступ до локальної мережі в налаштуваннях браузера."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Log in with Employees"
+msgstr "Вхід через співробітників"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Lot/Serial number(s) required for"
+msgstr "Потрібна партія/серійний номер для"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Low voltage unrecoverable error occured, please check the printer"
+msgstr "Сталася невиправна помилка низької напруги, перевірте принтер"
+
+#. module: point_of_sale
+#: model:pos.category,name:point_of_sale.pos_category_lower
+msgid "Lower body"
+msgstr "Низ"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
+msgid "Make sure there is an IoT Box subscription associated with your Odoo database, then restart the IoT Box."
+msgstr "Переконайтеся, що з вашою базою даних Odoo пов'язана підписка IoT Box, а потім перезапустіть IoT Box."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Manage Printers"
+msgstr "Керувати принтерами"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_preset__use_timing
+msgid "Manage orders by time"
+msgstr "Керувати замовленнями за часом"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_product_combo__qty_max
+msgid "Maximum number of items to select in the combo."
+msgstr "Максимальна кількість позицій для вибору в комбо."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_product_combo__qty_max
+msgid "Maximum quantity"
+msgstr "Максимальна кількість"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Mechanical error, please check the printer"
+msgstr "Механічна помилка, перевірте принтер"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_mercado_pago
+msgid "Mercado Pago Payment Terminal"
+msgstr "Платіжний термінал Mercado Pago"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid "Missing required"
+msgstr "Відсутнє обов'язкове"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_blueberry_muffin_product_template
+msgid "Moist and fluffy muffins bursting with blueberries."
+msgstr "Вологі та пухкі мафіни, повні чорниць."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Multi colors and sizes"
+msgstr "Різні кольори та розміри"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_pos_make_invoice
+msgid "Multiple order invoice creation"
+msgstr "Створення рахунку-фактури для кількох замовлень"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "My browser is above version 142"
+msgstr "Мій браузер новіший за версію 142"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "My browser is chromium based (Chrome, Edge, Brave, etc.)"
+msgstr "Мій браузер на основі Chromium (Chrome, Edge, Brave тощо)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "My printer can be connected through ethernet cables (recommended)"
+msgstr "Мій принтер можна підключити кабелем Ethernet (рекомендовано)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "NOTE UPDATE"
+msgstr "ОНОВЛЕННЯ ПРИМІТКИ"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Need an invoice?"
+msgstr "Потрібен рахунок-фактура?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.xml:0 code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Net Weight:"
+msgstr "Вага нетто:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Next number:"
+msgstr "Наступний номер:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/base_printer.js:0
+msgid "No Internet Connection"
+msgstr "Немає підключення до інтернету"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "No PoS configuration found"
+msgstr "Налаштування касового терміналу не знайдено"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
+msgid "No Point of Sale"
+msgstr "Немає касового терміналу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.xml:0
+msgid "No Product Yet?"
+msgstr "Ще немає товарів?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/cash_move_popup/cash_move_list_popup/cash_move_list_popup.xml:0
+msgid "No cash move found"
+msgstr "Рух готівки не знайдено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_list.xml:0
+msgid "No customers found, press enter to load more."
+msgstr "Клієнтів не знайдено, натисніть Enter, щоб завантажити більше."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/select_lot_popup/select_lot_popup.js:0
+msgid "No existing Lot/Serial number found..."
+msgstr "Не знайдено наявної партії/серійного номера..."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "No existing serial/lot number"
+msgstr "Немає наявного серійного номера/партії"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "No invoice journal configured for this POS session."
+msgstr "Для цієї сесії касового терміналу не налаштовано журнал рахунків-фактур."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "No open session available. Please open a new session to capture the order."
+msgstr "Немає відкритої сесії. Відкрийте нову сесію, щоб прийняти замовлення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js:0
+msgid "No other products found for \"%s\"."
+msgstr "Інших товарів для \"%s\" не знайдено."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/preset_slots_popup/preset_slots_popup.xml:0
+msgid "No slot available for this day"
+msgstr "На цей день немає вільних слотів"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/wizard/pos_make_invoice.py:0
+msgid "No valid orders were selected. No new invoices could be generated"
+msgstr "Не вибрано жодного дійсного замовлення. Не вдалося створити нові рахунки-фактури"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "None required"
+msgstr "Не потрібно"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/base_printer.js:0
+msgid "Not implemented"
+msgstr "Не реалізовано"
+
+#. module: point_of_sale
+#: model:ir.model.fields.selection,name:point_of_sale.selection__pos_preset__identification__none
+msgid "Not required"
+msgstr "Не обов'язково"
+
+#. module: point_of_sale
+#: model:ir.actions.act_window,name:point_of_sale.action_pos_note_model model:ir.model.fields,field_description:point_of_sale.field_pos_config__note_ids model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_note_ids model:ir.ui.menu,name:point_of_sale.menu_pos_note_model model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_note_tree
+msgid "Note Models"
+msgstr "Моделі приміток"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Now your printer is properly configured to work with LNA"
+msgstr "Тепер принтер правильно налаштовано для роботи з LNA"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js:0
+msgid "Number by page"
+msgstr "Кількість на сторінці"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_product_combo__qty_free
+msgid "Number of free items included in the combo."
+msgstr "Кількість безкоштовних позицій, включених у комбо."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__refund_orders_count
+msgid "Number of orders where items from this order were refunded"
+msgstr "Кількість замовлень, у яких позиції з цього замовлення було повернено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Number stack:"
+msgstr "Стек номерів:"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
+msgid "Odoo Sneakers"
+msgstr "Кросівки Odoo"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "One-click Payment"
+msgstr "Оплата в один клік"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_appointment model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_appointment
+msgid "Online Booking"
+msgstr "Онлайн-бронювання"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Online payment, delivery payment, terminal payment, and methods that require customer identification are not supported for fast payment validation."
+msgstr "Онлайн-оплата, оплата при доставці, оплата через термінал і способи, що потребують ідентифікації клієнта, не підтримуються для швидкого підтвердження оплати."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Online reservation for Point of Sale"
+msgstr "Онлайн-бронювання для касового терміналу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/loader/critical_pos_error/critical_pos_error.xml:0
+msgid "Oops!"
+msgstr "Ой!"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Oops.."
+msgstr "Ой.."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "Open Customer Display"
+msgstr "Відкрити екран клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/opening_control_popup/opening_control_popup.xml:0 code:addons/point_of_sale/static/src/app/screens/login_screen/login_screen.xml:0 model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
+msgid "Open Register"
+msgstr "Відкрити касу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Open debug widget"
+msgstr "Відкрити віджет налагодження"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Open your POS and try to print a ticket"
+msgstr "Відкрийте касовий термінал і спробуйте надрукувати чек"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/opening_control_popup/opening_control_popup.xml:0
+msgid "Opening Balance Eg: 123"
+msgstr "Початковий залишок, напр.: 123"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Opening cash counted: %s \n"
+msgstr "Підраховано готівки при відкритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Opening cash difference: %s \n"
+msgstr "Різниця готівки при відкритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Opening cash expected: %s \n"
+msgstr "Очікувано готівки при відкритті: %s \n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Opening control message: "
+msgstr "Повідомлення контролю відкриття: "
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_product_product__pos_optional_product_ids model:ir.model.fields,help:point_of_sale.field_product_template__pos_optional_product_ids
+msgid "Optional products are suggested when customers add items to their cart (e.g., adding a burger suggests cold drinks or fries)."
+msgstr "Додаткові товари пропонуються, коли клієнти додають позиції в кошик (напр., при додаванні бургера пропонуються холодні напої або картопля фрі)."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__order_backend_seq_id
+msgid "Order Backend Sequence"
+msgstr "Послідовність замовлень бекенду"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__order_line_seq_id
+msgid "Order Line Sequence"
+msgstr "Послідовність рядків замовлення"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__floating_order_name
+msgid "Order Name"
+msgstr "Назва замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Order Outdated"
+msgstr "Замовлення застаріло"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__order_seq_id
+msgid "Order Sequence"
+msgstr "Послідовність замовлень"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_order__refunded_order_id
+msgid "Order from which items were refunded in this order"
+msgstr "Замовлення, з якого позиції було повернено в цьому замовленні"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "Order(s)"
+msgstr "Замовлення"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0 code:addons/point_of_sale/static/src/app/components/popups/opening_control_popup/opening_control_popup.xml:0
+msgid "Orders status"
+msgstr "Статус замовлень"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
+msgid "Original Tax"
+msgstr "Початковий податок"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_template_search_view_pos model_terms:ir.ui.view,arch_db:point_of_sale.product_template_view_form_normalized_pos
+msgid "POS Category"
+msgstr "Категорія POS"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "POS LNA denied message"
+msgstr "Повідомлення про відхилення LNA у POS"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_product_product__pos_optional_product_ids model:ir.model.fields,field_description:point_of_sale.field_product_template__pos_optional_product_ids
+msgid "POS Optional Products"
+msgstr "Додаткові товари POS"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_account_bank_statement_line__pos_order_count model:ir.model.fields,field_description:point_of_sale.field_account_move__pos_order_count
+msgid "POS Order Count"
+msgstr "Кількість замовлень POS"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_product_product__pos_sequence model:ir.model.fields,field_description:point_of_sale.field_product_template__pos_sequence
+msgid "POS Sequence"
+msgstr "Послідовність POS"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_account_bank_statement_line__pos_session_ids model:ir.model.fields,field_description:point_of_sale.field_account_move__pos_session_ids
+msgid "POS Sessions"
+msgstr "Сесії POS"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "POS device from config #%s"
+msgstr "Пристрій POS з налаштування #%s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "POS order backend from config #%s"
+msgstr "Замовлення POS з бекенду з налаштування #%s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "POS order from config #%s"
+msgstr "Замовлення POS з налаштування #%s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "POS order line from config #%s"
+msgstr "Рядок замовлення POS з налаштування #%s"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_authcode
+msgid "Payment APPR Code"
+msgstr "Код авторизації платежу"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_issuer_bank
+msgid "Payment Issuer Bank"
+msgstr "Банк-емітент платежу"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_method_payment_mode
+msgid "Payment Mode"
+msgstr "Режим оплати"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Payment changes:"
+msgstr "Зміни платежів:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__payment_ref_no
+msgid "Payment reference number"
+msgstr "Референсний номер платежу"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment__payment_ref_no
+msgid "Payment reference number from payment provider terminal"
+msgstr "Референсний номер платежу з термінала платіжного провайдера"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_pecan_pie_product_template
+msgid "Pecan Pie"
+msgstr "Пиріг з пеканом"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Pick which product PoS categories are available"
+msgstr "Виберіть, які категорії товарів POS доступні"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_pine_labs
+msgid "Pine Labs Payment Terminal"
+msgstr "Платіжний термінал Pine Labs"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/pos_order.js:0
+msgid "Please add a valid customer to the order."
+msgstr "Додайте до замовлення дійсного клієнта."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Please configure a valid ePoS url in order to test the printer"
+msgstr "Налаштуйте дійсну URL-адресу ePoS, щоб перевірити принтер"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/base_printer.js:0
+msgid "Please ensure the IoT box is turned on and connected to the network before retrying."
+msgstr "Переконайтеся, що IoT Box увімкнений і підключений до мережі, перш ніж повторити спробу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/base_printer.js:0
+msgid "Please ensure you are connected to the internet before retrying."
+msgstr "Переконайтеся, що ви підключені до інтернету, перш ніж повторити спробу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/qr_code_popup/qr_code_popup.js:0 code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+msgid "Please scan the QR code with %s"
+msgstr "Відскануйте QR-код за допомогою %s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_status/payment_status.xml:0
+msgid "Please select a payment method"
+msgstr "Виберіть спосіб оплати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/pos_order.js:0
+msgid "Please select a time slot before proceeding."
+msgstr "Виберіть часовий слот, перш ніж продовжити."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_partner__pos_contact_address model:ir.model.fields,field_description:point_of_sale.field_res_users__pos_contact_address
+msgid "PoS Address"
+msgstr "Адреса касового терміналу"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "PoS Config"
+msgstr "Налаштування касового терміналу"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.js:0
+msgid "PoS Customer Display opened in a new window"
+msgstr "Екран клієнта касового терміналу відкрито в новому вікні"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_pos_note
+msgid "PoS Note"
+msgstr "Примітка касового терміналу"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_pos_load_mixin
+msgid "PoS data loading mixin"
+msgstr "Міксин завантаження даних касового терміналу"
+
+#. module: point_of_sale
+#: model:mail.template,name:point_of_sale.email_template_pos_receipt
+msgid "Point of Sale: Receipt"
+msgstr "Касовий термінал: Чек"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Point of sale configuration:"
+msgstr "Налаштування касового терміналу:"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_crocheted_poncho_unisize_product_template
+msgid "Poncho in a soft, crochet-look knit with a round, gently draped neckline."
+msgstr "Пончо з м'якого в'язання під гачок з круглим м'яко задрапованим вирізом."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Preparation"
+msgstr "Приготування"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "Preparation capacity"
+msgstr "Потужність приготування"
+
+#. module: point_of_sale
+#: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
+msgid ""
+"Preparation printers are typically used by restaurants and bars to print the\n"
+"            orders at the kitchen/bar when the waiter updates an order."
+msgstr ""
+"Принтери приготування зазвичай використовують ресторани та бари, щоб друкувати\n"
+"            замовлення на кухні/барі, коли офіціант оновлює замовлення."
+
+#. module: point_of_sale
+#: model:res.groups,name:point_of_sale.group_pos_preset
+msgid "Preset Menu"
+msgstr "Меню пресетів"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
+msgid "Preset time"
+msgstr "Час пресету"
+
+#. module: point_of_sale
+#: model:ir.actions.act_window,name:point_of_sale.action_pos_preset_form model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__group_pos_preset model:ir.ui.menu,name:point_of_sale.menu_pos_preset model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_tree
+msgid "Presets"
+msgstr "Пресети"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_type
+msgid "Price Type"
+msgstr "Тип ціни"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Price discount from %(original_price)s to %(discounted_price)s"
+msgstr "Знижка на ціну з %(original_price)s до %(discounted_price)s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/product_info_popup/product_info_popup.xml:0
+msgid "Price incl. Tax:"
+msgstr "Ціна з податком:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_pricer
+msgid "Pricer electronic price tags"
+msgstr "Електронні цінники Pricer"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Pricer tags"
+msgstr "Цінники Pricer"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Print Basic Receipt"
+msgstr "Друкувати простий чек"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Print Full Receipt"
+msgstr "Друкувати повний чек"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__basic_receipt model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_basic_receipt model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Print basic ticket without prices. Can be used for gifts."
+msgstr "Друкувати простий чек без цін. Можна використовувати для подарунків."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_company__point_of_sale_use_ticket_qr_code model:ir.model.fields,help:point_of_sale.field_res_config_settings__point_of_sale_use_ticket_qr_code model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Print information on the receipt to allow the customer to easily access the invoice anytime, from Odoo's portal."
+msgstr "Друкувати на чеку інформацію, щоб клієнт міг будь-коли легко отримати доступ до рахунку-фактури на порталі Odoo."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Printer Checkbox"
+msgstr "Прапорець принтера"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Printer Password Location"
+msgstr "Розташування пароля принтера"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Printer cover is open, please close it before printing"
+msgstr "Кришка принтера відкрита, закрийте її перед друком"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/epson_printer.js:0
+msgid "Printer cover is open. Please close it and try again!"
+msgstr "Кришка принтера відкрита. Закрийте її та спробуйте ще раз!"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Printer's local IP address is printerd"
+msgstr "Локальна IP-адреса принтера надрукована"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.js:0
+msgid "Proceed Anyway"
+msgstr "Все одно продовжити"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/feedback_screen/feedback_screen.xml:0
+msgid "Processing..."
+msgstr "Обробка..."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Product & PoS categories"
+msgstr "Категорії товарів і POS"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_product_combo
+msgid "Product Combo"
+msgstr "Комбо товарів"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_product_combo_item
+msgid "Product Combo Item"
+msgstr "Елемент комбо товарів"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.xml:0
+msgid "Product Info"
+msgstr "Інформація про товар"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__note
+msgid "Product Note"
+msgstr "Примітка до товару"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__product_uom_id
+msgid "Product Unit"
+msgstr "Одиниця товару"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_qfpay
+msgid "QFPay Payment Terminal"
+msgstr "Платіжний термінал QFPay"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__qr_code_method
+msgid "QR Code Format"
+msgstr "Формат QR-коду"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/qr_code_popup/qr_code_popup.js:0
+msgid "QR Code Payment"
+msgstr "Оплата QR-кодом"
+
+#. module: point_of_sale
+#: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_ticket_portal_url_display_mode__qr_code
+msgid "QR code"
+msgstr "QR-код"
+
+#. module: point_of_sale
+#: model:ir.model.fields.selection,name:point_of_sale.selection__res_company__point_of_sale_ticket_portal_url_display_mode__qr_code_and_url
+msgid "QR code + URL"
+msgstr "QR-код + URL"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Quickly refresh essential data."
+msgstr "Швидко оновити основні дані."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_razorpay
+msgid "Razorpay Payment Terminal"
+msgstr "Платіжний термінал Razorpay"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Receipt and invoice sent successfully"
+msgstr "Чек і рахунок-фактуру успішно надіслано"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Receipt sent successfully"
+msgstr "Чек успішно надіслано"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_template_form_view
+msgid "Recommend when 'Adding to Cart'"
+msgstr "Рекомендувати під час «Додавання в кошик»"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_stock_reference
+msgid "Reference between stock documents"
+msgstr "Посилання між складськими документами"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.xml:0
+msgid "Refresh customer display"
+msgstr "Оновити екран клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "Refund Initiated"
+msgstr "Повернення ініційовано"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Refund Successful"
+msgstr "Повернення успішне"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Refund in process"
+msgstr "Повернення обробляється"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Related Session: %(link)s"
+msgstr "Пов'язана сесія: %(link)s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/utils/indexed_db.js:0
+msgid "Reload"
+msgstr "Перезавантажити"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.js:0 code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0 code:addons/point_of_sale/static/src/app/components/popups/confirmation_dialog/confirmation_dialog.js:0 code:addons/point_of_sale/static/src/app/components/popups/confirmation_dialog/confirmation_dialog.xml:0
+msgid "Reload Data"
+msgstr "Перезавантажити дані"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "Reload all data (may take longer depending on the amount of data)."
+msgstr "Перезавантажити всі дані (може тривати довше залежно від обсягу даних)."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/loader/critical_pos_error/critical_pos_error.xml:0
+msgid "Reload data"
+msgstr "Перезавантажити дані"
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_product_removal
+msgid "Removal Strategy"
+msgstr "Стратегія вилучення"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Removed %(payment_method)s with %(amount)s"
+msgstr "Видалено %(payment_method)s на суму %(amount)s"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.ticket_request_with_code
+msgid "Request Invoice"
+msgstr "Запросити рахунок-фактуру"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "Rescue Sessions"
+msgstr "Відновлювальні сесії"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_preset__is_return model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "Return mode"
+msgstr "Режим повернення"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__reversed_move_ids
+msgid "Reversal Account Moves"
+msgstr "Сторнувальні проведення"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_account_bank_statement_line__reversed_pos_order_id model:ir.model.fields,field_description:point_of_sale.field_account_move__reversed_pos_order_id
+msgid "Reversed POS Order"
+msgstr "Сторноване замовлення POS"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.js:0
+msgid "Review Orders"
+msgstr "Переглянути замовлення"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_pain_au_chocolat_product_template
+msgid "Rich buttery pastry with a dark chocolate center."
+msgstr "Насичена вершкова випічка з начинкою з темного шоколаду."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/tour_selector_popup/tour_selector_popup.xml:0
+msgid "Running a fake tour will create random orders. Use at your own risk."
+msgstr "Запуск тестового туру створить випадкові замовлення. Використовуйте на власний ризик."
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_rye_bread_product_template
+msgid "Rye Bread"
+msgstr "Житній хліб"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_sms model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_sms
+msgid "SMS Enabled"
+msgstr "SMS увімкнено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "SSL Settings"
+msgstr "Налаштування SSL"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.js:0
+msgid "Scale error"
+msgstr "Помилка ваг"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "Scan QR"
+msgstr "Сканувати QR"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.xml:0
+msgid "Scan a barcode to create automatically, or load our sample data."
+msgstr "Відскануйте штрихкод, щоб створити автоматично, або завантажте наші демонстраційні дані."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "Schedule based on"
+msgstr "Розклад на основі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/ticket_screen/search_bar/search_bar.xml:0
+msgid "Search Products"
+msgstr "Пошук товарів"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0
+msgid "Search products..."
+msgstr "Пошук товарів..."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Secure printing"
+msgstr "Захищений друк"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/preset_slots_popup/preset_slots_popup.xml:0
+msgid "Select a preset"
+msgstr "Виберіть пресет"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Select an order or scan QR code"
+msgstr "Виберіть замовлення або відскануйте QR-код"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Select preset"
+msgstr "Вибрати пресет"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
+msgid "Selection of outstanding account is required"
+msgstr "Потрібно вибрати рахунок неузгоджених платежів"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Self-ordering interfaces are not impacted."
+msgstr "Інтерфейси самообслуговування не зачіпаються."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_company__point_of_sale_use_ticket_qr_code model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__point_of_sale_use_ticket_qr_code
+msgid "Self-service invoicing"
+msgstr "Самостійне виставлення рахунків"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+msgid "Send Refund Request"
+msgstr "Надіслати запит на повернення"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Send Text receipt Using sms"
+msgstr "Надсилати текстовий чек через SMS"
+
+#. module: point_of_sale
+#: model:mail.template,description:point_of_sale.email_template_pos_receipt
+msgid "Sent to customers with the receipt in attachment"
+msgstr "Надсилається клієнтам із чеком у вкладенні"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.js:0
+msgid "Served by %s"
+msgstr "Обслуговує %s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/receipt_header/receipt_header.xml:0
+msgid "Served by:"
+msgstr "Обслуговує:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "Server communication problem"
+msgstr "Проблема зв'язку з сервером"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "Session already closed"
+msgstr "Сесію вже закрито"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Set the background image of your customer display"
+msgstr "Встановіть фонове зображення екрана клієнта"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/order_summary/order_summary.js:0
+msgid "Set the new price"
+msgstr "Встановіть нову ціну"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_apple_pie_product_template
+msgid "Shortcrust pastry with a Bramley apple filling."
+msgstr "Пісочне тісто з яблучною начинкою Bramley."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_cherry_pie_product_template
+msgid "Shortcrust pastry with a Morello cherry filling."
+msgstr "Пісочне тісто з вишневою начинкою Morello."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Shortcut to skip payment screen"
+msgstr "Швидкий перехід без екрана оплати"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Show category images"
+msgstr "Показувати зображення категорій"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__show_category_images model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_show_category_images
+msgid "Show category images in the Point of Sale interface."
+msgstr "Показувати зображення категорій в інтерфейсі касового терміналу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/loader/critical_pos_error/critical_pos_error.xml:0
+msgid "Show details"
+msgstr "Показати деталі"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Show margins & costs"
+msgstr "Показувати маржу та собівартість"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Show product images"
+msgstr "Показувати зображення товарів"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__show_product_images model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_show_product_images
+msgid "Show product images in the Point of Sale interface."
+msgstr "Показувати зображення товарів в інтерфейсі касового терміналу."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Some orders are already being invoiced. Please try again later."
+msgstr "Для деяких замовлень вже виставляються рахунки. Спробуйте пізніше."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/main.js:0
+msgid "Some paid orders have not been synced to the server yet. Closing or reloading now may cause data loss."
+msgstr "Деякі оплачені замовлення ще не синхронізовано з сервером. Закриття або перезавантаження зараз може призвести до втрати даних."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid "Some required information is missing."
+msgstr "Відсутня деяка обов'язкова інформація."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/loader/critical_pos_error/critical_pos_error.xml:0
+msgid "Something went wrong... If you really are stuck, share the report with your friendly support service"
+msgstr "Щось пішло не так... Якщо ви справді застрягли, надішліть звіт нашій службі підтримки"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_sourdough_loaf_product_template
+msgid "Sourdough Loaf"
+msgstr "Хліб на заквасці"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.sport_shoes_product_template
+msgid "Sport Shoes"
+msgstr "Спортивне взуття"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Stock variation for %s"
+msgstr "Зміна запасу для %s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Stock, product configurator, replenishment, discounts"
+msgstr "Склад, конфігуратор товарів, поповнення, знижки"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/navbar/navbar.xml:0
+msgid "Stop Barcode Scanner"
+msgstr "Зупинити сканер штрихкодів"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__order_edit_tracking model:ir.model.fields,help:point_of_sale.field_pos_order__order_edit_tracking model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_order_edit_tracking model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Store edited orders in the backend"
+msgstr "Зберігати змінені замовлення в бекенді"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.leather_jacket_product_template
+msgid "Stylish leather jacket, durable and fashionable for all occasions."
+msgstr "Стильна шкіряна куртка, міцна та модна для будь-якої нагоди."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Succesfully printed a test receipt"
+msgstr "Тестовий чек успішно надруковано"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.summer_hat_product_template
+msgid "Summer Hat"
+msgstr "Літній капелюх"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.summer_hat_product_template
+msgid "Summer hat, ideal for beach days and sunny weather."
+msgstr "Літній капелюх, ідеальний для пляжу та сонячної погоди."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_pecan_pie_product_template
+msgid "Sweet pie filled with pecans, with a rich, buttery filling and flaky saltt."
+msgstr "Солодкий пиріг з пеканами, з насиченою вершковою начинкою та розсипчастим тістом."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "System Parameter Setup"
+msgstr "Налаштування системного параметра"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.t_shirt_slim_product_template
+msgid "T shirt slim"
+msgstr "Футболка слім"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_t_shirt_pants_product_template
+msgid "T-shirt & Pants Combo"
+msgstr "Комбо футболка і штани"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.js:0
+msgid "Tables, menus, kitchen display, etc."
+msgstr "Столи, меню, кухонний екран тощо."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Take out / Delivery / Members"
+msgstr "На винос / Доставка / Учасники"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_screen.xml:0
+msgid "Tare"
+msgstr "Тара"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Tare Weight:"
+msgstr "Вага тари:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal
+msgid "Tax Excl."
+msgstr "Без податку"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal_incl
+msgid "Tax Incl."
+msgstr "З податком"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "Terminal"
+msgstr "Термінал"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Thank you."
+msgstr "Дякуємо."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_category.py:0
+msgid "The Availability After must be set between 00:00 and 24:00"
+msgstr "«Доступно після» має бути в межах від 00:00 до 24:00"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_category.py:0
+msgid "The Availability Until must be greater than Availability After."
+msgstr "«Доступно до» має бути пізніше, ніж «Доступно після»."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_category.py:0
+msgid "The Availability Until must be set between 00:00 and 24:00"
+msgstr "«Доступно до» має бути в межах від 00:00 до 24:00"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/select_lot_popup/select_lot_popup.js:0
+msgid "The Lot/Serial number is already added."
+msgstr "Цю партію/серійний номер вже додано."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/select_lot_popup/select_lot_popup.js:0
+msgid "The Lot/Serial number is not valid"
+msgstr "Партія/серійний номер недійсний"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/controllers/main.py:0
+msgid "The Ticket Number should be at least 12 characters long."
+msgstr "Номер чека має містити щонайменше 12 символів."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/order_payment_validation.js:0
+msgid ""
+"The amount of your payment lines must be rounded to validate the transaction.\n"
+"The rounding precision is %(rounding)s so you should set %(expectedAmount)s as payment amount instead of %(paidAmount)s."
+msgstr ""
+"Суму рядків оплати потрібно заокруглити, щоб підтвердити транзакцію.\n"
+"Точність заокруглення становить %(rounding)s, тому вкажіть суму оплати %(expectedAmount)s замість %(paidAmount)s."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid "The company must have a fiscal country set."
+msgstr "Для компанії має бути встановлено країну оподаткування."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/utils/indexed_db.js:0
+msgid "The connection to the local database was lost. Reloading the page will restore it and prevent any loss of unsaved orders."
+msgstr "З'єднання з локальною базою даних втрачено. Перезавантаження сторінки відновить його і запобіже втраті незбережених замовлень."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "The cutter has a foreign matter, please check the cutter mechanism"
+msgstr "У різаку сторонній предмет, перевірте механізм різака"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "The device is not connected, please check the printer power / connection"
+msgstr "Пристрій не підключено, перевірте живлення / підключення принтера"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid ""
+"The existing serial/lot numbers could not be retrieved. \n"
+"Continue without checking the validity of serial/lot numbers ?"
+msgstr ""
+"Не вдалося отримати наявні серійні номери/партії. \n"
+"Продовжити без перевірки дійсності серійних номерів/партій?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/epson_printer.js:0
+msgid ""
+"The following error code was given by the printer: %s \n"
+"To find more details on the error reason, please search online for: Epson Server Direct Print %s "
+msgstr ""
+"Принтер повернув такий код помилки: %s \n"
+"Щоб дізнатися більше про причину помилки, пошукайте в інтернеті: Epson Server Direct Print %s "
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/wizard/pos_make_invoice.py:0
+msgid ""
+"The following refund orders can't be part of a consolidated invoice because they refunded invoiced orders. Each refund order should be handled separately.\n"
+"\n"
+"%s"
+msgstr ""
+"Наведені нижче замовлення на повернення не можуть бути частиною зведеного рахунку-фактури, оскільки вони повертають замовлення з виставленими рахунками. Кожне замовлення на повернення слід обробляти окремо.\n"
+"\n"
+"%s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_combo.py:0
+msgid "The free quantity must be smaller or equal to the maximum quantity."
+msgstr "Безкоштовна кількість має бути меншою або рівною максимальній кількості."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_combo.py:0
+msgid "The free quantity of a combo must be greater or equal to 0."
+msgstr "Безкоштовна кількість комбо має бути більшою або рівною 0."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "The mail template with xmlid %s has been deleted."
+msgstr "Шаблон листа з xmlid %s було видалено."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_combo.py:0
+msgid "The maximum quantity of a combo must be greater or equal to 1."
+msgstr "Максимальна кількість комбо має бути більшою або рівною 1."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "The message will appear from the browser."
+msgstr "Повідомлення з'явиться в браузері."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.js:0
+msgid "The money counted doesn't match what we expected. Want to log the difference for the books?"
+msgstr "Підрахована сума не збігається з очікуваною. Бажаєте записати різницю в облік?"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "The order delivery / pickup date is in the future. You cannot cancel it."
+msgstr "Дата доставки / самовивозу замовлення в майбутньому. Його не можна скасувати."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid ""
+"The order has been modified on another device. If you have modified existing order lines, check that your changes have not been overwritten.\n"
+"\n"
+"The order will be sent to the server with the last changes made on this device."
+msgstr ""
+"Замовлення змінено на іншому пристрої. Якщо ви змінювали наявні рядки замовлення, перевірте, чи не перезаписано ваші зміни.\n"
+"\n"
+"Замовлення буде надіслано на сервер з останніми змінами, зробленими на цьому пристрої."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "The paid amount is different from the total amount of the order."
+msgstr "Сплачена сума відрізняється від загальної суми замовлення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "The paper is empty, please load paper into the printer"
+msgstr "Закінчився папір, заправте папір у принтер"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "The password is located on the back of the printer (remove covers)."
+msgstr "Пароль розташований на задній панелі принтера (зніміть кришки)."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "The points of sale for the payment method %s must belong to its company."
+msgstr "Касові термінали для способу оплати %s мають належати до його компанії."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_account_bank_statement_line__reversed_pos_order_id model:ir.model.fields,help:point_of_sale.field_account_move__reversed_pos_order_id
+msgid "The pos order that was reverted after closing the session to create an invoice for it."
+msgstr "Замовлення POS, яке було сторновано після закриття сесії, щоб виставити на нього рахунок-фактуру."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__note_ids model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_note_ids
+msgid "The predefined notes of this point of sale."
+msgstr "Попередньо визначені примітки цього касового терміналу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/epson_printer.js:0
+msgid "The printer is not reachable."
+msgstr "Принтер недоступний."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "The printers are properly configured and the LNA is activated."
+msgstr "Принтери правильно налаштовано, і LNA активовано."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_category__hour_after
+msgid "The product will be available after this hour for online order and self order."
+msgstr "Товар буде доступний після цієї години для онлайн-замовлень і самообслуговування."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_category__hour_until
+msgid "The product will be available until this hour for online order and self order."
+msgstr "Товар буде доступний до цієї години для онлайн-замовлень і самообслуговування."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/models/pos_order_line.js:0
+msgid "The requested quantity to be refunded is higher than the refundable quantity."
+msgstr "Запитана кількість для повернення перевищує кількість, доступну для повернення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "The session is being closed by another user. The page will be reloaded."
+msgstr "Сесію закриває інший користувач. Сторінку буде перезавантажено."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_preset.py:0
+msgid "The start time must be before the end time."
+msgstr "Час початку має бути раніше часу завершення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
+msgid "The tip has been added to the order. However,the selected payment line does not allow tips to be added."
+msgstr "Чайові додано до замовлення. Однак вибраний рядок оплати не дозволяє додавати чайові."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "The transactions are processed by Mercado Pago on terminal"
+msgstr "Транзакції обробляються Mercado Pago на терміналі"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_mercado_pago
+msgid "The transactions are processed by Mercado Pago. Set your Mercado Pago credentials on the related payment method."
+msgstr "Транзакції обробляються Mercado Pago. Вкажіть облікові дані Mercado Pago у відповідному способі оплати."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "The transactions are processed by Pine Labs on the terminal."
+msgstr "Транзакції обробляються Pine Labs на терміналі."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_pine_labs
+msgid "The transactions are processed by Pine Labs. Set your Pine Labs credentials on the related payment method."
+msgstr "Транзакції обробляються Pine Labs. Вкажіть облікові дані Pine Labs у відповідному способі оплати."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "The transactions are processed by QFPay on the terminal."
+msgstr "Транзакції обробляються QFPay на терміналі."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_qfpay
+msgid "The transactions are processed by QFPay. Set your QFPay credentials on the related payment method."
+msgstr "Транзакції обробляються QFPay. Вкажіть облікові дані QFPay у відповідному способі оплати."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_razorpay model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "The transactions are processed by Razorpay. Set your Razorpay credentials on the related payment method."
+msgstr "Транзакції обробляються Razorpay. Вкажіть облікові дані Razorpay у відповідному способі оплати."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_viva_com model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "The transactions are processed by Viva.com on terminal or tap on phone."
+msgstr "Транзакції обробляються Viva.com на терміналі або через Tap on Phone."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment__card_type
+msgid "The type of the payment card (e.g. CREDIT CARD OR DEBIT CARD)"
+msgstr "Тип платіжної картки (напр., CREDIT CARD OR DEBIT CARD)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.js:0
+msgid "There are %(count)s products available for this PoS (configured limit: %(limit)s). Loading all products may slow down the Point of Sale. Do you want to continue with Full Synchronization?"
+msgstr "Для цього касового терміналу доступно %(count)s товарів (налаштований ліміт: %(limit)s). Завантаження всіх товарів може сповільнити касовий термінал. Продовжити з повною синхронізацією?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.js:0
+msgid "There are %(count)s products available for this PoS (configured limit: %(limit)s). Loading this many products will severely slow down the system and may cause it to crash or become unresponsive. It is strongly recommended to use Limited Synchronization instead. Do you still want to proceed?"
+msgstr "Для цього касового терміналу доступно %(count)s товарів (налаштований ліміт: %(limit)s). Завантаження такої кількості товарів суттєво сповільнить систему і може спричинити збій або зависання. Наполегливо рекомендуємо натомість використовувати обмежену синхронізацію. Усе одно продовжити?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "There is no serial/lot number for the selected product, and their creation is not allowed from the Point of Sale app."
+msgstr "Для вибраного товару немає серійного номера/партії, а їх створення в застосунку Касовий термінал заборонено."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__fast_payment_method_ids model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_fast_payment_method_ids
+msgid "These payment methods will be available for fast payment"
+msgstr "Ці способи оплати будуть доступні для швидкої оплати"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/barcode_reader_service.js:0
+msgid "This barcode is not compatible with the GS1 standard. Consider configuring a fallback barcode parser from the PoS settings."
+msgstr "Цей штрихкод не сумісний зі стандартом GS1. Налаштуйте резервний парсер штрихкодів у налаштуваннях касового терміналу."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "This device"
+msgstr "Цей пристрій"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "This invoice has been created from the point of sale session:%s"
+msgstr "Цей рахунок-фактуру створено із сесії касового терміналу:%s"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/debug/debug_widget.js:0
+msgid "This operation will destroy all ${"
+msgstr "Ця операція знищить усі ${"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "This order has already been paid. You cannot set it back to draft or edit it."
+msgstr "Це замовлення вже оплачено. Його не можна повернути в чернетку чи редагувати."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/pos_store.js:0
+msgid "This order is currently syncing, please wait a moment before loading it."
+msgstr "Це замовлення зараз синхронізується, зачекайте трохи, перш ніж завантажувати його."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/order_summary/order_summary.js:0
+msgid "This orderline has already been sent to the kitchen and cannot be edited."
+msgstr "Цей рядок замовлення вже надіслано на кухню, і його не можна редагувати."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "This payment method is not configured to generate QR codes."
+msgstr "Цей спосіб оплати не налаштовано для генерування QR-кодів."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_tiger_white_loaf_product_template
+msgid "Tiger bloomer. Baked for a soft inside, with its distinctive savoury crackled crust."
+msgstr "Тигровий батон. Випечений з м'якою серединою та характерною хрусткою скоринкою."
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_tiger_white_loaf_product_template
+msgid "Tiger white loaf"
+msgstr "Тигровий білий хліб"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/test_epos/test_epos.js:0
+msgid "Timeout occured, please try again"
+msgstr "Час очікування минув, спробуйте ще раз"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_product.py:0 code:addons/point_of_sale/models/product_template.py:0
+msgid ""
+"To delete a product, make sure all point of sale sessions are closed.\n"
+"\n"
+"Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
+msgstr ""
+"Щоб видалити товар, переконайтеся, що всі сесії касового терміналу закрито.\n"
+"\n"
+"Видалити товар, доступний у сесії, все одно що вихопити гамбургер з рук клієнта, коли той саме відкусує: настане хаос, і кетчуп з майонезом розлетяться всюди!"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
+msgid "To enable invoice creation, please add a journal for it in the settings."
+msgstr "Щоб увімкнути створення рахунків-фактур, додайте для цього журнал у налаштуваннях."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/product_info_popup/product_info_popup.xml:0
+msgid "Total Price incl. Tax:"
+msgstr "Загальна ціна з податком:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/product_info_popup/product_info_popup.js:0
+msgid "Total VAT:"
+msgstr "Усього ПДВ:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__order_edit_tracking model:ir.model.fields,field_description:point_of_sale.field_pos_order__order_edit_tracking model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_order_edit_tracking
+msgid "Track orders edits"
+msgstr "Відстежувати зміни замовлень"
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_odoo_sneakers_product_template
+msgid "Trainers in cotton canvas with a padded top edge, tongue and lacing at the front."
+msgstr "Кросівки з бавовняної парусини з м'яким верхнім краєм, язиком і шнурівкою спереду."
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__qr_code_method
+msgid "Type of QR-code to be generated for this payment method."
+msgstr "Тип QR-коду, що генерується для цього способу оплати."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/scale_screen/scale_service.js:0
+msgid "Unnamed Product"
+msgstr "Товар без назви"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/services/barcode_reader_service.js:0
+msgid "Unsupported Barcode Format"
+msgstr "Непідтримуваний формат штрихкоду"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/error_handlers.js:0
+msgid "Until the connection is reestablished, Odoo Point of Sale will operate with limited functionality."
+msgstr "Доки з'єднання не буде відновлено, касовий термінал Odoo працюватиме з обмеженою функціональністю."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "Update the printer firmware"
+msgstr "Оновіть прошивку принтера"
+
+#. module: point_of_sale
+#: model:pos.category,name:point_of_sale.pos_category_upper
+msgid "Upper body"
+msgstr "Верх"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__use_presets model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_use_presets
+msgid "Use Presets"
+msgstr "Використовувати пресети"
+
+#. module: point_of_sale
+#: model:ir.model.fields.selection,name:point_of_sale.selection__pos_printer__printer_type__iot
+msgid "Use a printer connected to the IoT Box"
+msgstr "Використовувати принтер, підключений до IoT Box"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Use automatic taxes mapping with Avatax"
+msgstr "Використовувати автоматичне зіставлення податків з Avatax"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_config__module_pos_avatax model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_module_pos_avatax
+msgid "Use automatic taxes mapping with Avatax in PoS"
+msgstr "Використовувати автоматичне зіставлення податків з Avatax у касовому терміналі"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "Validation Error: You cannot assign the same Cash payment method to multiple POS Shops. Please create a separate Cash payment method for each shop."
+msgstr "Помилка перевірки: не можна призначити той самий спосіб оплати готівкою кільком магазинам POS. Створіть окремий спосіб оплати готівкою для кожного магазину."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.product_green_hood_product_template
+msgid "Versatile cotton hoodie with an adjustable drawstring hood and front zipper closure."
+msgstr "Універсальне бавовняне худі з капюшоном на регульованому шнурку та застібкою-блискавкою спереду."
+
+#. module: point_of_sale
+#: model:product.template,description_sale:point_of_sale.jean_jacket_product_template
+msgid "Vintage jean jacket, a timeless piece for any casual outfit."
+msgstr "Вінтажна джинсова куртка, вічна класика для будь-якого повсякденного образу."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__module_pos_viva_com
+msgid "Viva.com Payment Terminal"
+msgstr "Платіжний термінал Viva.com"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "Warning, the paid amount is higher than the total amount. (Difference: %s)"
+msgstr "Увага, сплачена сума перевищує загальну суму. (Різниця: %s)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "We duly advise you to use Chrome or Brave browser."
+msgstr "Радимо використовувати браузер Chrome або Brave."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Weighing Product:"
+msgstr "Зважування товару:"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/customer_display/customer_display.xml:0
+msgid "Welcome."
+msgstr "Ласкаво просимо."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "What is it?"
+msgstr "Що це?"
+
+#. module: point_of_sale
+#: model:product.template,name:point_of_sale.product_wholemeal_loaf_product_template
+msgid "Wholemeal loaf"
+msgstr "Хліб з цільнозернового борошна"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/retry_print_popup/retry_print_popup.xml:0
+msgid "Would you like to continue without printing or retry?"
+msgstr "Бажаєте продовжити без друку чи повторити спробу?"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/main.js:0
+msgid "You are currently offline. Reloading the page may cause you to lose unsaved data."
+msgstr "Ви зараз офлайн. Перезавантаження сторінки може призвести до втрати незбережених даних."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/customer_display/customer_display_qr_code_popup.xml:0
+msgid "You can either use it on this device or scan the QR code to display it on another device"
+msgstr "Можна використовувати його на цьому пристрої або відсканувати QR-код, щоб відобразити на іншому пристрої"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/account_journal.py:0
+msgid "You can not archive this journal because it is set on the following payment method : %s."
+msgstr "Неможливо архівувати цей журнал, оскільки його встановлено в такому способі оплати: %s."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js:0
+msgid "You can not change the %s of the refund order."
+msgstr "Неможливо змінити %s замовлення на повернення."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You can only cancel a session that is in opening control state and has no orders."
+msgstr "Скасувати можна лише сесію в стані контролю відкриття без замовлень."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "You can only refund products from the same order."
+msgstr "Повертати можна лише товари з одного замовлення."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/sync_popup/sync_popup.xml:0
+msgid "You can update it by selecting one of the following options:"
+msgstr "Можна оновити його, вибравши один із таких варіантів:"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/account_move.py:0
+msgid "You can't reset this invoice to draft because the POS session is still open. Please close the ongoing session first, then try again."
+msgstr "Неможливо повернути цей рахунок-фактуру в чернетку, оскільки сесія касового терміналу ще відкрита. Спочатку закрийте поточну сесію, а потім спробуйте ще раз."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/stock_picking.py:0
+msgid "You cannot archive '%(picking_type)s' as it is used by POS configuration '%(config)s'."
+msgstr "Неможливо архівувати '%(picking_type)s', оскільки він використовується в налаштуваннях касового терміналу '%(config)s'."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/product_template.py:0
+msgid "You cannot archive a product that is set as a special product in a Point of Sale configuration. Please change the configuration first."
+msgstr "Неможливо архівувати товар, встановлений як спеціальний товар у налаштуваннях касового терміналу. Спочатку змініть налаштування."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "You cannot change the payment of a printed order."
+msgstr "Неможливо змінити оплату надрукованого замовлення."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You cannot close the POS while there are still draft orders for the day."
+msgstr "Неможливо закрити касовий термінал, доки є чернетки замовлень за день."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You cannot create a session starting before: %(lock_date_info)s"
+msgstr "Неможливо створити сесію, що починається раніше: %(lock_date_info)s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You cannot delete a cash move that is not linked to this session."
+msgstr "Неможливо видалити рух готівки, не пов'язаний із цією сесією."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/res_partner.py:0
+msgid "You cannot delete a customer that has point of sales orders. You can archive it instead."
+msgstr "Неможливо видалити клієнта, який має замовлення касового терміналу. Натомість його можна архівувати."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_preset.py:0
+msgid "You cannot delete a preset that is linked to a POS configuration."
+msgstr "Неможливо видалити пресет, пов'язаний із налаштуваннями касового терміналу."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/account_cash_rounding.py:0
+msgid "You cannot delete a rounding method that is used in a Point of Sale configuration."
+msgstr "Неможливо видалити метод заокруглення, що використовується в налаштуваннях касового терміналу."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/ir_sequence.py:0
+msgid "You cannot delete a sequence used in an active POS config: %s"
+msgstr "Неможливо видалити послідовність, що використовується в активних налаштуваннях касового терміналу: %s"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment.py:0
+msgid "You cannot edit a payment for a posted order."
+msgstr "Неможливо редагувати платіж проведеного замовлення."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You don't have the access rights to delete a cash in/out."
+msgstr "У вас немає прав доступу для видалення внесення/вилучення готівки."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You don't have the access rights to get the cash in/out list."
+msgstr "У вас немає прав доступу для отримання списку внесень/вилучень готівки."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_session.py:0
+msgid "You don't have the access rights to perform a cash in/out."
+msgstr "У вас немає прав доступу для внесення/вилучення готівки."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "You must select a QR-code method to generate QR-codes for this payment method."
+msgstr "Потрібно вибрати метод QR-коду, щоб генерувати QR-коди для цього способу оплати."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0 code:addons/point_of_sale/static/src/app/components/popups/opening_control_popup/opening_control_popup.xml:0
+msgid "You still have"
+msgstr "У вас ще є"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/utils/printer/base_printer.js:0
+msgid "Your IoT box cannot find the printer, please ensure it is connected and turned on before retrying."
+msgstr "Ваш IoT Box не може знайти принтер, переконайтеся, що він підключений і увімкнений, перш ніж повторити спробу."
+
+#. module: point_of_sale
+#: model:mail.template,subject:point_of_sale.email_template_pos_receipt
+msgid "Your {{ object.config_id.name }} receipt"
+msgstr "Ваш чек {{ object.config_id.name }}"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "access"
+msgstr "доступ"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/orderline/orderline.xml:0
+msgid "discount off on"
+msgstr "знижка на"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.product_template_view_form_normalized_pos
+msgid "e.g. 1234567890"
+msgstr "напр., 1234567890"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "e.g. Dine in"
+msgstr "напр., У закладі"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "ePOS print enabled"
+msgstr "Друк ePOS увімкнено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "ePOS printers (Epson) configuration"
+msgstr "Налаштування принтерів ePOS (Epson)"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "ePoS Printer Service"
+msgstr "Служба принтера ePoS"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "failed. Please try again"
+msgstr "не вдалося. Спробуйте ще раз"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "iOS devices (iPad, iPhones) are not compatible yet."
+msgstr "Пристрої iOS (iPad, iPhone) поки не сумісні."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
+msgid "in progress"
+msgstr "виконується"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/combo_configurator_popup/combo_configurator_popup.xml:0
+msgid "included"
+msgstr "включено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
+msgid "install a chart of accounts"
+msgstr "встановіть план рахунків"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "is enabled"
+msgstr "увімкнено"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/opening_control_popup/opening_control_popup.xml:0
+msgid "open orders for the next few days."
+msgstr "відкритих замовлень на найближчі дні."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.xml:0
+msgid "open orders planned for later."
+msgstr "відкритих замовлень, запланованих на пізніше."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_preset_form
+msgid "orders per"
+msgstr "замовлень за"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_payment_method.py:0
+msgid "terminal"
+msgstr "термінал"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/pos_kanban_view/pos_kanban_view.xml:0
+msgid "to activate the buttons."
+msgstr "щоб активувати кнопки."
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/backend/lna_checklist/lna_checklist.xml:0
+msgid "with a value of"
+msgstr "зі значенням"

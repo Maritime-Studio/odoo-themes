@@ -1,0 +1,1482 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/report/hr_leave_employee_type_report.py:0
+msgid ""
+"\n"
+"                <p class=\"o_view_nocontent_empty_folder\">\n"
+"                    No Balance yet!\n"
+"                </p>\n"
+"                <p>\n"
+"                    Why don't you start by <a type=\"action\" class=\"text-link\" name=\"%d\">Allocating Time off</a> ?\n"
+"                </p>\n"
+"            "
+msgstr ""
+"\n"
+"                <p class=\"o_view_nocontent_empty_folder\">\n"
+"                    Ще немає балансу!\n"
+"                </p>\n"
+"                <p>\n"
+"                    Почніть із <a type=\"action\" class=\"text-link\" name=\"%d\">розподілу відпусток</a>.\n"
+"                </p>\n"
+"            "
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid " to %(date_to_utc)s"
+msgstr " до %(date_to_utc)s"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.resource_calendar_view_tree
+msgid "# Public Holidays"
+msgstr "# Офіційні вихідні"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "%(employee)s on Time Off : %(duration)s"
+msgstr "%(employee)s у відпустці : %(duration)s"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "%(employee_name)s from %(date_from)s to %(date_to)s - %(state)s"
+msgstr "%(employee_name)s з %(date_from)s до %(date_to)s - %(state)s"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/hr_presence_status/hr_presence_status.js:0
+msgid "%(label)s, back on %(date)s"
+msgstr "%(label)s, повернеться %(date)s"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "%(leave_name)s has been cancelled for the following reason: %(reason)s"
+msgstr "%(leave_name)s скасовано з такої причини: %(reason)s"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
+msgid "%(name)s (%(duration)s %(request_unit)s(s))"
+msgstr "%(name)s (%(duration)s %(request_unit)s)"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_type.py:0
+msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
+msgstr "%(name)s (залишилось %(time)g з %(maximum)g днів)"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_type.py:0
+msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
+msgstr "%(name)s (залишилось %(time)g з %(maximum)g годин)"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "%(name)s does not have a valid allocation for the leave type %(leave_type)s to cover that request."
+msgstr "%(name)s не має дійсного розподілу для типу відпустки %(leave_type)s, щоб покрити цей запит."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
+msgstr "%(person)s у %(leave_type)s: %(duration)s (%(start)s)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
+msgid "'s summary ("
+msgstr ": зведення ("
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
+msgid "'s summary in this period"
+msgstr ": зведення за цей період"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/hr_presence_status/hr_presence_status.js:0
+msgid ", back on "
+msgstr ", повернеться "
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "- '%(version)s' from %(start_date)s to %(end_date)s"
+msgstr "- '%(version)s' з %(start_date)s до %(end_date)s"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
+msgid ""
+"<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Days</span>\n"
+"                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
+msgstr ""
+"<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Дні</span>\n"
+"                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Години</span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
+msgid ""
+"<span class=\"mx-2\" invisible=\"request_unit == 'hour'\">days</span>\n"
+"                                        <span class=\"mx-2\" invisible=\"request_unit != 'hour'\">hours</span>"
+msgstr ""
+"<span class=\"mx-2\" invisible=\"request_unit == 'hour'\">днів</span>\n"
+"                                        <span class=\"mx-2\" invisible=\"request_unit != 'hour'\">годин</span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
+msgid "<span class=\"mx-2\">up to</span>"
+msgstr "<span class=\"mx-2\">до</span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
+msgid ""
+"<span>\n"
+"                                                        Current balance\n"
+"                                                    </span>"
+msgstr ""
+"<span>\n"
+"                                                        Поточний баланс\n"
+"                                                    </span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
+msgid ""
+"<span>\n"
+"                                                    Current balance\n"
+"                                                </span>"
+msgstr ""
+"<span>\n"
+"                                                    Поточний баланс\n"
+"                                                </span>"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_mandatory_day_action
+msgid ""
+"<span>\n"
+"                    Set mandatory days to prevent employees\n"
+"                </span>\n"
+"                <span>\n"
+"                    from taking days off during critical periods.\n"
+"                </span>"
+msgstr ""
+"<span>\n"
+"                    Встановіть обов'язкові дні, щоб заборонити співробітникам\n"
+"                </span>\n"
+"                <span>\n"
+"                    брати вихідні в критичні періоди.\n"
+"                </span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
+msgid "<span>The allocated days cannot be used, because the allocation is set to finish in the past.</span>"
+msgstr "<span>Розподілені дні не можна використати, оскільки розподіл завершується в минулому.</span>"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
+msgid ""
+"<span>The employee has a different timezone than yours! Here dates and times are displayed in the employee's work timezone</span>\n"
+"                                ("
+msgstr ""
+"<span>Часовий пояс співробітника відрізняється від вашого! Тут дати й час відображаються в робочому часовому поясі співробітника</span>\n"
+"                                ("
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "A balance cap is set to"
+msgstr "Обмеження балансу встановлено на"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "A cancelled leave cannot be modified."
+msgstr "Скасовану відпустку не можна змінити."
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_action_approve_department
+msgid "A great way to keep track on employee’s time off, sick days, and approval status."
+msgstr "Чудовий спосіб відстежувати відпустки, лікарняні та статус підтвердження співробітників."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid ""
+"A leave cannot be set across multiple versions with different working schedules.\n"
+"\n"
+"Please create one time off for each version period.\n"
+"\n"
+"Time off:\n"
+"%(time_off)s\n"
+"\n"
+"Versions:\n"
+"%(versions)s"
+msgstr ""
+"Відпустка не може охоплювати кілька версій з різними робочими графіками.\n"
+"\n"
+"Створіть окрему відпустку для кожного періоду версії.\n"
+"\n"
+"Відпустка:\n"
+"%(time_off)s\n"
+"\n"
+"Версії:\n"
+"%(versions)s"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "A yearly cap is set to"
+msgstr "Річне обмеження встановлено на"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_accident_lt
+msgid "Accident leave"
+msgstr "Відпустка через нещасний випадок"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "According to your working schedule you are expected to work %(days)s days in this period, but %(nb_days)s days will be used because this leave %(leave_type_name)s can only be taken by days."
+msgstr "Згідно з вашим робочим графіком, у цьому періоді ви маєте працювати %(days)s днів, але буде використано %(nb_days)s днів, оскільки відпустку %(leave_type_name)s можна брати лише днями."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "Accrual frequency :"
+msgstr "Частота нарахування :"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
+msgid "Active but on leave"
+msgstr "Активний, але у відпустці"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
+msgid "Activities of"
+msgstr "Дії"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "Add a milestone"
+msgstr "Додати етап"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.resource_calendar_leaves_tree_inherit
+msgid "All Schedules"
+msgstr "Усі графіки"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
+msgid "Allocate Time Off"
+msgstr "Розподілити відпустки"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
+msgid "Allocated"
+msgstr "Розподілено"
+
+#. module: hr_holidays
+#: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval model:mail.activity.type,summary:hr_holidays.mail_act_leave_allocation_second_approval
+msgid "Allocation Second Approval"
+msgstr "Друге підтвердження розподілу"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Allocation must be \"To Approve\" in order to approve it."
+msgstr "Щоб підтвердити розподіл, він має бути в статусі \"На підтвердженні\"."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Allocation request must be confirmed, second approval or validated in order to refuse it."
+msgstr "Щоб відхилити запит на розподіл, він має бути підтверджений, на другому підтвердженні або затверджений."
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__allow_request_on_top
+msgid "Allow Request on Top"
+msgstr "Дозволити запит поверх"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_dashboard model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager_dashboard
+msgid "Ask for"
+msgstr "Запросити"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__virtual_remaining_leaves model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__virtual_remaining_leaves
+msgid "Available Time Off"
+msgstr "Доступні відпустки"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/res_users.py:0
+msgid "Back on"
+msgstr "Повернеться"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/res_partner_model_patch.js:0
+msgid "Back on %(date)s"
+msgstr "Повернеться %(date)s"
+
+#. module: hr_holidays
+#: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation_generate_multi_wizard__allocation_type__accrual
+msgid "Based on Accrual Plan"
+msgstr "На основі плану нарахування"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_small_unemployment_birth
+msgid "Brief Holiday (Birth)"
+msgstr "Коротка відпустка (народження дитини)"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__can_refuse
+msgid "Can Refuse"
+msgstr "Може відхиляти"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__can_validate
+msgid "Can Validate"
+msgstr "Може затверджувати"
+
+#. module: hr_holidays
+#: model:res.groups,comment:hr_holidays.group_hr_holidays_manager
+msgid ""
+"Can manage and configure all holidays and leave requests.\n"
+"\n"
+"A user without any rights on Time Off will be able to see the application, create his own holidays and manage the requests of the users he's manager of."
+msgstr ""
+"Може керувати всіма відпустками й запитами на відпустку та налаштовувати їх.\n"
+"\n"
+"Користувач без прав на Відпустки зможе бачити застосунок, створювати власні відпустки та керувати запитами користувачів, керівником яких він є."
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date
+msgid "Carried over days expiration date"
+msgstr "Дата закінчення перенесених днів"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
+msgid "Carry Over Options"
+msgstr "Опції перенесення"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_version.py:0
+msgid ""
+"Changing the contract on this employee changes their working schedule in a period they already took leaves. Changing this working schedule changes the duration of these leaves in such a way the employee no longer has the required allocation for them. Please review these leaves and/or allocations before changing the contract.\n"
+"\n"
+"This error has been triggered by:\n"
+msgstr ""
+"Зміна контракту цього співробітника змінює його робочий графік у періоді, в якому він уже брав відпустки. Зміна цього робочого графіка змінює тривалість цих відпусток так, що співробітник більше не має необхідного розподілу для них. Перегляньте ці відпустки та/або розподіли, перш ніж змінювати контракт.\n"
+"\n"
+"Цю помилку спричинили:\n"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.action_hr_leave_report
+msgid "Check back later to overview all time off requests"
+msgstr "Поверніться пізніше, щоб переглянути всі запити на відпустку"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.action_hr_available_holidays_report
+msgid "Check back later to review all your employees' time off"
+msgstr "Поверніться пізніше, щоб переглянути відпустки всіх ваших співробітників"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
+msgid "Click on the 22nd"
+msgstr "Натисніть на 22-ге"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
+msgid "Click on the 25st"
+msgstr "Натисніть на 25-те"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
+msgid "Click on this button to request a time-off"
+msgstr "Натисніть цю кнопку, щоб запросити відпустку"
+
+#. module: hr_holidays
+#: model:ir.model,name:hr_holidays.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: hr_holidays
+#: model:ir.model,website_form_label:hr_holidays.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_all model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
+msgid "Create a new allocation request"
+msgstr "Створити новий запит на розподіл"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.open_view_accrual_plans
+msgid "Create an Accrual Plan"
+msgstr "Створити план нарахування"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__dashboard_warning_message
+msgid "Dashboard Warning Message"
+msgstr "Попереджувальне повідомлення панелі"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_date_to_period
+msgid "Date Period End"
+msgstr "Кінець періоду дати"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_death
+msgid "Death Leave"
+msgstr "Відпустка у зв'язку зі смертю"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_mx_leave_type_disability_due_to_illness_imss
+msgid "Disability due to illness (IMSS)"
+msgstr "Непрацездатність через хворобу (IMSS)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "Do you want to save the changes made to the accrual plan before creating a new milestone?"
+msgstr "Бажаєте зберегти зміни в плані нарахування перед створенням нового етапу?"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "Do you want to save the changes made to the accrual plan before editing this milestone?"
+msgstr "Бажаєте зберегти зміни в плані нарахування перед редагуванням цього етапу?"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_emergency
+msgid "Emergency Leave"
+msgstr "Екстрена відпустка"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
+msgid "Employee's image"
+msgstr "Зображення співробітника"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
+msgid "End date has been updated because the employee will leave the company on %(departure_date)s."
+msgstr "Дату завершення оновлено, оскільки співробітник залишає компанію %(departure_date)s."
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_european
+msgid "European Time Off"
+msgstr "Європейська відпустка"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_extra_legal
+msgid "Extra Legal Time Off"
+msgstr "Додаткова позаконна відпустка"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
+msgid "For your reference, the equivalent times in your timezone are displayed below."
+msgstr "Для довідки нижче наведено еквівалентний час у вашому часовому поясі."
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
+msgid "Generate Time Off"
+msgstr "Створити відпустки"
+
+#. module: hr_holidays
+#: model:ir.model,name:hr_holidays.model_hr_leave_allocation_generate_multi_wizard model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
+msgid "Generate time off allocations for multiple employees"
+msgstr "Створення розподілів відпусток для кількох співробітників"
+
+#. module: hr_holidays
+#: model:ir.model,name:hr_holidays.model_hr_leave_generate_multi_wizard model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
+msgid "Generate time off for multiple employees"
+msgstr "Створення відпусток для кількох співробітників"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
+msgid "Generated Allocations"
+msgstr "Створені розподіли"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
+msgid "Generated Time Off"
+msgstr "Створені відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_annual_leave
+msgid "HK Annual Leaves"
+msgstr "HK Щорічні відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_compassionate_leave
+msgid "HK Compassionate Leaves"
+msgstr "HK Відпустки у зв'язку з утратою"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_compensation_leave
+msgid "HK Compensation Leaves"
+msgstr "HK Компенсаційні відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_examination_leave
+msgid "HK Examination Leaves"
+msgstr "HK Екзаменаційні відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_marriage_leave
+msgid "HK Marriage Leaves"
+msgstr "HK Відпустки у зв'язку з одруженням"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_maternity_leave
+msgid "HK Maternity Leaves"
+msgstr "HK Відпустки по вагітності та пологах"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_maternity_leave_80
+msgid "HK Maternity Leaves 80%"
+msgstr "HK Відпустки по вагітності та пологах 80%"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_paternity_leave
+msgid "HK Paternity Leaves"
+msgstr "HK Відпустки для батька"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_paternity_leave_80
+msgid "HK Paternity Leaves 80%"
+msgstr "HK Відпустки для батька 80%"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_sick_leave
+msgid "HK Sick Leaves"
+msgstr "HK Лікарняні"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_sick_leave_80
+msgid "HK Sick Leaves 80%"
+msgstr "HK Лікарняні 80%"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_hk_leave_type_unpaid_leave
+msgid "HK Unpaid Leaves"
+msgstr "HK Відпустки без збереження зарплати"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_hajj model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_hajj
+msgid "Hajj Leave"
+msgstr "Відпустка для хаджу"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__has_department_manager_access
+msgid "Has Department Manager Access"
+msgstr "Має доступ керівника відділу"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_annual_leave
+msgid "ID Annual Leaves"
+msgstr "ID Щорічні відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_bereavement_leave
+msgid "ID Bereavement Leaves"
+msgstr "ID Відпустки у зв'язку з утратою"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_marriage_leave
+msgid "ID Marriage Leaves"
+msgstr "ID Відпустки у зв'язку з одруженням"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_maternity_leave
+msgid "ID Maternity Leaves"
+msgstr "ID Відпустки по вагітності та пологах"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_paternity_leave
+msgid "ID Paternity Leaves"
+msgstr "ID Відпустки для батька"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_sick_leave
+msgid "ID Sick Leaves"
+msgstr "ID Лікарняні"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_id_leave_type_unpaid_leave
+msgid "ID Unpaid Leaves"
+msgstr "ID Відпустки без збереження зарплати"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_iddah
+msgid "Iddah Leave"
+msgstr "Відпустка ідда"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__allow_request_on_top
+msgid "If checked, users can request another leave on top of the ones of this type."
+msgstr "Якщо позначено, користувачі можуть запитувати іншу відпустку поверх відпусток цього типу."
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_illness_lt
+msgid "Illness leave"
+msgstr "Лікарняна відпустка"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_interruption_of_work_lt
+msgid "Interruption of Work"
+msgstr "Перерва в роботі"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
+msgid "Is Name Custom"
+msgstr "Назва користувацька"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__is_used
+msgid "Is Used"
+msgstr "Використовується"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_my model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_new_request
+msgid "Keep track of your requests."
+msgstr "Відстежуйте свої запити."
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_res_partner__leave_date_to
+msgid "Leave Date To"
+msgstr "Дата завершення відпустки"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
+msgid "Let's discover the <strong>Time Off</strong> app!"
+msgstr "Ознайомимося із застосунком <strong>Відпустки</strong>!"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_marriage model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_marriage
+msgid "Marriage Leave"
+msgstr "Відпустка у зв'язку з одруженням"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_mx_leave_type_maternity_imss
+msgid "Maternity (IMSS)"
+msgstr "Материнство (IMSS)"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_maternity_lt
+msgid "Maternity / Paternity leave"
+msgstr "Відпустка у зв'язку з народженням дитини"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_maternity model:hr.leave.type,name:hr_holidays.l10n_jo_leave_type_maternity model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_maternity
+msgid "Maternity Leave"
+msgstr "Відпустка по вагітності та пологах"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_maternity model:hr.leave.type,name:hr_holidays.l10n_sk_leave_type_maternity
+msgid "Maternity Time Off"
+msgstr "Відпустка по вагітності та пологах"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_allowed_negative
+msgid "Maximum Excess Amount"
+msgstr "Максимальна сума перевищення"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
+msgid "Milestone Edition"
+msgstr "Редагування етапу"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_military_lt
+msgid "Military leave"
+msgstr "Військова відпустка"
+
+#. module: hr_holidays
+#: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
+msgid "Multiple Requests"
+msgstr "Кілька запитів"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "New !"
+msgstr "Нове !"
+
+#. module: hr_holidays
+#: model:ir.actions.act_window,name:hr_holidays.hr_leave_allocation_action_form
+msgid "New allocation"
+msgstr "Новий розподіл"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.open_view_public_holiday
+msgid "No Public Holidays yet!"
+msgstr "Ще немає офіційних вихідних!"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.action_hr_available_holidays_report model_terms:ir.actions.act_window,help:hr_holidays.action_hr_leave_report
+msgid "No Time off yet!"
+msgstr "Ще немає відпусток!"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_mandatory_day_action
+msgid "No mandatory days yet!"
+msgstr "Ще немає обов'язкових днів!"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "No, keep the old version"
+msgstr "Ні, залишити стару версію"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.action_hr_holidays_dashboard
+msgid "Nobody here ? All of the people you're looking for will be working at that time."
+msgstr "Нікого немає? Усі, кого ви шукаєте, працюватимуть у цей час."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Not possible state. State Approve is only used for leave needed 2 approvals"
+msgstr "Неможливий стан. Стан Підтвердити використовується лише для відпусток, що потребують 2 підтверджень"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "On Leave"
+msgstr "У відпустці"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "On Leave (Busy)"
+msgstr "У відпустці (зайнятий)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "On Leave (Idle)"
+msgstr "У відпустці (неактивний)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "On Leave (Online)"
+msgstr "У відпустці (онлайн)"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Only a Time Off Officer/Manager can approve a leave."
+msgstr "Лише відповідальний/менеджер з відпусток може підтвердити відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Only a Time Off Officer/Manager can approve an allocation."
+msgstr "Лише відповідальний/менеджер з відпусток може підтвердити розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Only a Time Off Officer/Manager can refuse a leave."
+msgstr "Лише відповідальний/менеджер з відпусток може відхилити відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Only a Time Off Officer/Manager can refuse an allocation."
+msgstr "Лише відповідальний/менеджер з відпусток може відхилити розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Only a Time Off Officer/Manager can validate a leave."
+msgstr "Лише відповідальний/менеджер з відпусток може затвердити відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Only a Time Off Officer/Manager can validate an allocation."
+msgstr "Лише відповідальний/менеджер з відпусток може затвердити розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Only a manager can modify a canceled leave."
+msgstr "Лише менеджер може змінити скасовану відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "Only a time off Administrator can approve/refuse their own requests."
+msgstr "Лише адміністратор відпусток може підтверджувати/відхиляти власні запити."
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__is_based_on_worked_time
+msgid "Only excludes requests where the time off type is set as unpaid kind of."
+msgstr "Виключає лише запити, у яких тип відпустки встановлено як неоплачуваний."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "Oops! %(state)s Time-Off requests can only be deleted by Administrators."
+msgstr "Ой! Запити на відпустку в статусі %(state)s можуть видаляти лише адміністратори."
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_pl_leave_type_sick_leave
+msgid "PL Sick Leaves 80% "
+msgstr "PL Лікарняні 80% "
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_paid_sick_time_off
+msgid "Paid Sick time off"
+msgstr "Оплачуваний лікарняний"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_jo_leave_type_paternity model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_paternity
+msgid "Paternity Leave"
+msgstr "Відпустка для батька"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_jo_leave_type_pilgrimage
+msgid "Pilgrimage Leave"
+msgstr "Відпустка для паломництва"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.open_view_public_holiday
+msgid "Public Holidays are non-working days that don't impact employees' balances"
+msgstr "Офіційні вихідні є неробочими днями, які не впливають на баланс співробітників"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_recovery
+msgid "Recovery Bank Holiday"
+msgstr "Компенсація державного свята"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__validation_type model:ir.model.fields,help:hr_holidays.field_hr_leave_type__allocation_validation_type
+msgid ""
+"Select the level of approval needed in case of request by employee\n"
+"            #     - No validation needed: The employee's request is automatically approved.\n"
+"            #     - Approved by Time Off Officer: The employee's request need to be manually approved\n"
+"            #       by the Time Off Officer, Employee's Approver or both."
+msgstr ""
+"Виберіть рівень підтвердження, необхідний для запиту співробітника\n"
+"            #     - Підтвердження не потрібне: запит співробітника підтверджується автоматично.\n"
+"            #     - Підтверджує відповідальний за відпустки: запит співробітника має бути вручну підтверджений\n"
+"            #       відповідальним за відпустки, керівником співробітника або обома."
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_sick_leave_100
+msgid "Sick Leave (100% Paid)"
+msgstr "Лікарняний (оплата 100%)"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_sick_leave_75 model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_sick_leave_75
+msgid "Sick Leave (75% Paid)"
+msgstr "Лікарняний (оплата 75%)"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_eg_leave_type_sick_leave_unpaid model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_sick_leave_0
+msgid "Sick Leave (UnPaid)"
+msgstr "Лікарняний (без оплати)"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_jo_leave_type_unpaid_sick
+msgid "Sick Leave (Unpaid)"
+msgstr "Лікарняний (без оплати)"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ae_leave_type_sick_leave_0
+msgid "Sick Leave 0%"
+msgstr "Лікарняний 0%"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ae_leave_type_sick_leave_50
+msgid "Sick Leave 50%"
+msgstr "Лікарняний 50%"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_sick_leave_without_certificate
+msgid "Sick Leave Without Certificate"
+msgstr "Лікарняний без довідки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_small_unemployment
+msgid "Small Unemployment"
+msgstr "Часткове безробіття"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
+msgid ""
+"Some employees already have time off requests in hours that overlap with the selected period, Odoo cannot automatically adjust or split hourly leaves during batch generation. Conflicting time off:\n"
+"%s"
+msgstr ""
+"Деякі співробітники вже мають погодинні запити на відпустку, що перетинаються з вибраним періодом; Odoo не може автоматично скоригувати або розділити погодинні відпустки під час пакетного створення. Конфліктні відпустки:\n"
+"%s"
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_unit_hours
+msgid "Specific Time"
+msgstr "Певний час"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_strike
+msgid "Strike"
+msgstr "Страйк"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_jo_leave_type_study model:hr.leave.type,name:hr_holidays.l10n_sa_leave_type_study
+msgid "Study Leave"
+msgstr "Навчальна відпустка"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
+msgid "Switch employees to the new accrual level:"
+msgstr "Перевести співробітників на новий рівень нарахування:"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_type.py:0
+msgid "The allocation requirement of a time off type cannot be changed once leaves of that type have been taken. You should create a new time off type instead."
+msgstr "Вимогу розподілу для типу відпустки не можна змінити після того, як відпустки цього типу вже було використано. Натомість створіть новий тип відпустки."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/res_company.py:0
+msgid "The company country cannot be changed while time off leaves or allocations with the country exist."
+msgstr "Країну компанії не можна змінити, доки існують відпустки або розподіли з цією країною."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
+msgid "The employee will leave the company on %(departure_date)s."
+msgstr "Співробітник залишає компанію %(departure_date)s."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+msgid "The first day must be lower than the second day."
+msgstr "Перший день має бути меншим за другий."
+
+#. module: hr_holidays
+#: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_type_check_negative
+msgid "The maximum excess amount should be greater than 0. If you want to set 0, disable the negative cap instead."
+msgstr "Максимальна сума перевищення має бути більшою за 0. Якщо хочете встановити 0, натомість вимкніть від'ємне обмеження."
+
+#. module: hr_holidays
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__expiring_carryover_days
+msgid "The number of carried over days that will expire on carried_over_days_expiration_date"
+msgstr "Кількість перенесених днів, термін яких закінчиться carried_over_days_expiration_date"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__state
+msgid ""
+"The status is 'To Approve', when an allocation request is created.\n"
+"The status is 'Refused', when an allocation request is refused by manager.\n"
+"The status is 'Approved', when an allocation request is approved by manager."
+msgstr ""
+"Статус «На підтвердженні», коли створено запит на розподіл.\n"
+"Статус «Відхилено», коли менеджер відхилив запит на розподіл.\n"
+"Статус «Підтверджено», коли менеджер підтвердив запит на розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "The time off request has been cancelled for the following reason:%(reason)s"
+msgstr "Запит на відпустку скасовано з такої причини:%(reason)s"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_allocation__second_approver_id
+msgid "This area is automatically filled by the user who validates the allocation with second level (If time off type need second validation)"
+msgstr "Це поле автоматично заповнюється користувачем, який затверджує розподіл на другому рівні (якщо тип відпустки потребує другого затвердження)"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
+msgid "This field defines the unit of time after which the accrual ends."
+msgstr "Це поле визначає одиницю часу, після якої нарахування завершується."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "This time off cannot be cancelled."
+msgstr "Цю відпустку не можна скасувати."
+
+#. module: hr_holidays
+#: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_report
+msgid "Time Off by Type"
+msgstr "Відпустки за типом"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
+msgid "Time off type"
+msgstr "Тип відпустки"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_lu_leave_type_situational_unemployment
+msgid "Unemployment (Weather / Situational)"
+msgstr "Безробіття (погода / обставини)"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
+msgid "Unnamed Plan"
+msgstr "План без назви"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_ch_swissdec_unpaid_lt
+msgid "Unpaid leave"
+msgstr "Відпустка без збереження зарплати"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_unpredictable
+msgid "Unpredictable Reason"
+msgstr "Непередбачувана причина"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "Unused days will be lost."
+msgstr "Невикористані дні буде втрачено."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "Unused days will be transferred totally on each"
+msgstr "Невикористані дні буде повністю перенесено кожного"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "Unused days will be transferred with a max of"
+msgstr "Невикористані дні буде перенесено з максимумом"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.open_view_accrual_plans
+msgid "Use accrual plans to give determined amount of time following the rules you define"
+msgstr "Використовуйте плани нарахування, щоб надавати визначену кількість часу згідно з вашими правилами"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
+msgid "User is busy"
+msgstr "Користувач зайнятий"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "User is on leave"
+msgstr "Користувач у відпустці"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "User is on leave and busy"
+msgstr "Користувач у відпустці та зайнятий"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "User is on leave and idle"
+msgstr "Користувач у відпустці та неактивний"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/im_status_patch.xml:0
+msgid "User is on leave and online"
+msgstr "Користувач у відпустці та онлайн"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
+msgid "Validity End date has been updated because the employee will leave the company on %(departure_date)s."
+msgstr "Дату закінчення дії оновлено, оскільки співробітник залишає компанію %(departure_date)s."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+msgid "Weekday must be selected to use the frequency weekly"
+msgstr "Щоб використовувати щотижневу частоту, потрібно вибрати день тижня"
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time
+msgid "When the field is checked the balance of an allocation using this accrual plan will never exceed the specified amount."
+msgstr "Якщо позначено, баланс розподілу за цим планом нарахування ніколи не перевищуватиме вказаної кількості."
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
+msgid "When the time is accrued?"
+msgstr "Коли нараховується час?"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
+msgid "Why do you want to cancel this approved time off ?"
+msgstr "Чому ви хочете скасувати цю підтверджену відпустку?"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_be_leave_type_work_accident
+msgid "Work Accident Time Off"
+msgstr "Відпустка через нещасний випадок на виробництві"
+
+#. module: hr_holidays
+#: model:hr.leave.type,name:hr_holidays.l10n_mx_leave_type_work_risk_imss
+msgid "Work risk (IMSS)"
+msgstr "Виробничий ризик (IMSS)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "Yes, save changes"
+msgstr "Так, зберегти зміни"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/report/hr_leave_report_calendar.py:0
+msgid "You are not allowed to approve this leave request."
+msgstr "Вам не дозволено підтверджувати цей запит на відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/report/hr_leave_report_calendar.py:0
+msgid "You are not allowed to refuse this leave request."
+msgstr "Вам не дозволено відхиляти цей запит на відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You are not allowed to request time off on a Mandatory Day"
+msgstr "Не можна запитувати відпустку на обов'язковий день"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_all model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_my
+msgid "You can create a new allocation or follow the approval status of the current ones."
+msgstr "Можна створити новий розподіл або відстежувати статус підтвердження поточних."
+
+#. module: hr_holidays
+#: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
+msgid "You can define a period of time where the days carried over will be available"
+msgstr "Можна визначити період, протягом якого перенесені дні будуть доступні"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can only cancel your own leave. You can cancel a leave only if this leave is approved, validated or refused."
+msgstr "Можна скасувати лише власну відпустку. Відпустку можна скасувати, лише якщо вона підтверджена, затверджена або відхилена."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can only validate a leave with validation by Time Off Manager."
+msgstr "Можна затвердити лише відпустку із затвердженням менеджером з відпусток."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can only validate an allocation with validation by Time Off Manager."
+msgstr "Можна затвердити лише розподіл із затвердженням менеджером з відпусток."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
+msgid "You can select the period you need to take off"
+msgstr "Можна вибрати період, на який вам потрібна відпустка"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can't approve a validated allocation."
+msgstr "Не можна підтвердити затверджений розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't approve a validated leave."
+msgstr "Не можна підтвердити затверджену відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can't approve this refused allocation."
+msgstr "Не можна підтвердити цей відхилений розподіл."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't approve this refused leave."
+msgstr "Не можна підтвердити цю відхилену відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't delete a time off request that is in the past."
+msgstr "Не можна видалити запит на відпустку в минулому."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0 code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can't do the same action twice."
+msgstr "Не можна виконати ту саму дію двічі."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't refuse a leave with validation by Time Off Officer."
+msgstr "Не можна відхилити відпустку із затвердженням відповідальним за відпустки."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can't refuse an allocation with validation by Time Off Officer."
+msgstr "Не можна відхилити розподіл із затвердженням відповідальним за відпустки."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't reset a leave. Cancel/delete this one and create an other"
+msgstr "Не можна скинути відпустку. Скасуйте/видаліть цю та створіть іншу"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_allocation.py:0
+msgid "You can't reset an allocation. Cancel/delete this one and create an other"
+msgstr "Не можна скинути розподіл. Скасуйте/видаліть цей та створіть інший"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You can't validate this leave."
+msgstr "Не можна затвердити цю відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_type.py:0
+msgid "You cannot allow requests on top of leaves of type 'Absence'."
+msgstr "Не можна дозволити запити поверх відпусток типу 'Відсутність'."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You cannot approve this leave."
+msgstr "Не можна підтвердити цю відпустку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+msgid "You cannot have a balance cap on accrued time set to 0."
+msgstr "Обмеження балансу нарахованого часу не може дорівнювати 0."
+
+#. module: hr_holidays
+#: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_valid_yearly_cap_value
+msgid "You cannot have a cap on yearly accrued time without setting a maximum amount."
+msgstr "Не можна встановити обмеження на річний нарахований час без визначення максимальної кількості."
+
+#. module: hr_holidays
+#: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_valid_postpone_max_days_value
+msgid "You cannot have a maximum quantity to carryover set to 0."
+msgstr "Максимальна кількість для перенесення не може дорівнювати 0."
+
+#. module: hr_holidays
+#: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_valid_accrual_validity_value
+msgid "You cannot have an accrual validity time set to 0."
+msgstr "Термін дії нарахування не може дорівнювати 0."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_type.py:0
+msgid "You cannot modify the 'Public Holiday Included' setting since one or more leaves for that                         time off type are overlapping with public holidays, meaning that the balance of those employees would be affected by this change."
+msgstr "Не можна змінити налаштування «Включно з офіційними вихідними», оскільки одна або кілька відпусток цього                         типу перетинаються з офіційними вихідними, тобто ця зміна вплине на баланс цих співробітників."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid ""
+"You do not have any allocation for this time off type.\n"
+"Please request an allocation before submitting your time off request."
+msgstr ""
+"У вас немає розподілу для цього типу відпустки.\n"
+"Запросіть розподіл, перш ніж подавати запит на відпустку."
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.action_my_days_off_dashboard_calendar
+msgid "You have no time off yet!"
+msgstr "У вас ще немає відпусток!"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "You've already booked time off which overlaps with this period:"
+msgstr "Ви вже забронювали відпустку, яка перетинається з цим періодом:"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
+msgid "Your Timezone"
+msgstr "Ваш часовий пояс"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
+msgid "Your frequency selection is not correct: please choose a frequency between theses options:Hourly, Daily, Weekly, Twice a month, Monthly, Twice a year and Yearly."
+msgstr "Неправильно вибрано частоту: виберіть одну з таких опцій: Щогодини, Щодня, Щотижня, Двічі на місяць, Щомісяця, Двічі на рік і Щороку."
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
+msgid "Your time off has been cancelled."
+msgstr "Вашу відпустку скасовано."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "allocation date"
+msgstr "дата розподілу"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "and a balance cap is set to"
+msgstr "і обмеження балансу встановлено на"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_form
+msgid "dates"
+msgstr "дати"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "day(s)"
+msgstr "день(днів)"
+
+#. module: hr_holidays
+#: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_mandatory_day_action
+msgid "e.g. Company Event"
+msgstr "напр., Корпоративний захід"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
+msgid "e.g. Extra recuperation, Company unavailability, ..."
+msgstr "напр., Додаткове відновлення, Недоступність компанії, ..."
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.resource_calendar_leaves_tree_inherit
+msgid "e.g. New Year's Day"
+msgstr "напр., Новий рік"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
+msgid "e.g. Seniority Plan, PTO, RTT, ..."
+msgstr "напр., План за стажем, PTO, RTT, ..."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "every day."
+msgstr "щодня."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "every hour."
+msgstr "щогодини."
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "every month on the"
+msgstr "щомісяця"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "every week on"
+msgstr "щотижня в"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "every year on the"
+msgstr "щороку"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "hour(s)"
+msgstr "година(години)"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "on each"
+msgstr "кожного"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
+msgid "select a day"
+msgstr "виберіть день"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
+msgid "select a month"
+msgstr "виберіть місяць"
+
+#. module: hr_holidays
+#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
+msgid "select a weekday"
+msgstr "виберіть день тижня"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
+msgid "start of the year"
+msgstr "початок року"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "twice a month on the"
+msgstr "двічі на місяць"
+
+#. module: hr_holidays
+#. odoo-javascript
+#: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
+msgid "twice a year on the"
+msgstr "двічі на рік"
+
+#. module: hr_holidays
+#. odoo-python
+#: code:addons/hr_holidays/models/hr_leave.py:0
+msgid "undefined"
+msgstr "не визначено"

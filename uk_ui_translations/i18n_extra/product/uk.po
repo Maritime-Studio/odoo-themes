@@ -1,0 +1,732 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+"%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
+"Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+msgstr ""
+"%(base)s з %(discount)s %% %(discount_type)s та додатковою платою %(surcharge)s\n"
+"Приклад: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "%(item_name)s: end date (%(end_date)s) should be after start date (%(start_date)s)"
+msgstr "%(item_name)s: дата завершення (%(end_date)s) має бути пізнішою за дату початку (%(start_date)s)"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
+msgstr "%(percentage)s %% %(discount_type)s на %(base)s %(extra)s"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "%(percentage)s %% discount on %(pricelist)s"
+msgstr "%(percentage)s %% знижки на %(pricelist)s"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "%(percentage)s %% discount on sales price"
+msgstr "%(percentage)s %% знижки на ціну продажу"
+
+#. module: product
+#: model:ir.actions.report,print_report_name:product.report_product_packaging
+msgid "'Products packaging - %s' % (object.uom_id.name)"
+msgstr "'Упаковки товарів - %s' % (object.uom_id.name)"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "+ %(amount)s extra fee"
+msgstr "+ %(amount)s додаткової плати"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "- %(amount)s rebate"
+msgstr "- %(amount)s знижки"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_4_product_template
+msgid "160x80cm, with large legs"
+msgstr "160x80 см, з великими ніжками"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_duration_year_2
+msgid "2 years"
+msgstr "2 роки"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_duration_month_6
+msgid "6 months"
+msgstr "6 місяців"
+
+#. module: product
+#: model_terms:product.template,website_description:product.product_product_4_product_template
+msgid "<a href=\"/contactus\" class=\"mb-2 btn btn-primary o_translate_inline\">Contact Us</a>"
+msgstr "<a href=\"/contactus\" class=\"mb-2 btn btn-primary o_translate_inline\">Зв’язатися з нами</a>"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.uom_uom_form_view_inherit
+msgid "<span class=\"o_stat_text\">Packaging Barcodes</span>"
+msgstr "<span class=\"o_stat_text\">Штрихкоди упаковок</span>"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
+msgid "<span class=\"o_stat_text\">Products</span>"
+msgstr "<span class=\"o_stat_text\">Товари</span>"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_combo.py:0
+msgid "A combo choice can't contain duplicate products."
+msgstr "Вибір комбо не може містити однакові товари."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_combo_item.py:0
+msgid "A combo choice can't contain products of type \"combo\"."
+msgstr "Вибір комбо не може містити товари типу \"комбо\"."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_combo.py:0
+msgid "A combo choice must contain at least 1 product."
+msgstr "Вибір комбо має містити принаймні 1 товар."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_template.py:0
+msgid "A combo product must contain at least 1 combo choice."
+msgstr "Комбо-товар має містити принаймні 1 вибір комбо."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "A pricelist item with \"Other Pricelist\" as base must have a base_pricelist_id."
+msgstr "Позиція прайс-листа з базою \"Інший прайс-лист\" повинна мати base_pricelist_id."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_template.py:0
+msgid "A sellable combo product can only contain sellable products."
+msgstr "Комбо-товар для продажу може містити лише товари для продажу."
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
+msgid "Add Products to pricelist report"
+msgstr "Додати товари до звіту прайс-листа"
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+msgid ""
+"Add products using the \"Add Products\" button at the top right to\n"
+"                                include them in the report."
+msgstr ""
+"Додайте товари за допомогою кнопки \"Додати товари\" у верхньому правому куті, щоб\n"
+"                                включити їх у звіт."
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__add
+msgid "Add to existing products"
+msgstr "Додати до наявних товарів"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
+msgid "Add to products"
+msgstr "Додати до товарів"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_product__uom_ids model:ir.model.fields,help:product.field_product_template__uom_ids
+msgid "Additional packagings for this product which can be used for sales"
+msgstr "Додаткові упаковки для цього товару, які можна використовувати для продажу"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view_from_product
+msgid "All variants"
+msgstr "Усі варіанти"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_attribute_value__is_custom model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
+msgid "Allow customers to set their own value"
+msgstr "Дозволити клієнтам встановлювати власне значення"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_beige
+msgid "Beige"
+msgstr "Бежевий"
+
+#. module: product
+#: model:product.template,description_sale:product.consu_delivery_02_product_template
+msgid "Big table seats 10–12 for team discussions"
+msgstr "Великий стіл на 10–12 місць для командних обговорень"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_7_product_template
+msgid "Blue plastic bin for flexible office storage"
+msgstr "Синій пластиковий контейнер для гнучкого зберігання в офісі"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0 code:addons/product/models/product_template.py:0
+msgid ""
+"Changing the unit of measure for your product will apply a conversion 1 %(old_uom_name)s = 1 %(new_uom_name)s.\n"
+"All existing records (Sales orders, Purchase orders, etc.) using this product will be updated by replacing the unit name."
+msgstr ""
+"Зміна одиниці вимірювання товару призведе до перерахунку 1 %(old_uom_name)s = 1 %(new_uom_name)s.\n"
+"У всіх наявних записах (замовлення на продаж, замовлення на купівлю тощо) з цим товаром буде замінено назву одиниці."
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
+msgid "Combo Choice"
+msgstr "Вибір комбо"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_combo__combo_item_ids
+msgid "Combo Item"
+msgstr "Елемент комбо"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_combo__base_price
+msgid "Combo Price"
+msgstr "Ціна комбо"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_template.py:0
+msgid "Combo products can't have attributes."
+msgstr "Комбо-товари не можуть мати атрибутів."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_template.py:0
+msgid "Combos allow to choose one product amongst a selection of choices per category."
+msgstr "Комбо дозволяють вибрати один товар із набору варіантів у кожній категорії."
+
+#. module: product
+#: model:product.template,description_sale:product.product_delivery_01_product_template
+msgid "Comfortable yellow chair for daily work"
+msgstr "Зручний жовтий стілець для щоденної роботи"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_label_layout__custom_quantity
+msgid "Copies"
+msgstr "Копії"
+
+#. module: product
+#: model:ir.model,website_form_label:product.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__1
+msgid "Cubic Feet (ft³)"
+msgstr "Кубічні фути (ft³)"
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__0
+msgid "Cubic Meters (m³)"
+msgstr "Кубічні метри (м³)"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price_changed
+msgid "Default Extra Price Changed"
+msgstr "Типову додаткову ціну змінено"
+
+#. module: product
+#: model:product.template,description_sale:product.product_order_01_product_template
+msgid "Design and plan smart offices with ease"
+msgstr "Проєктуйте та плануйте розумні офіси з легкістю"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_3_product_template
+msgid "Desk combination, black-brown: chair + desk + drawer"
+msgstr "Комплект меблів, чорно-коричневий: стілець + стіл + шухляда"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__display_applied_on
+msgid "Display Applied On"
+msgstr "Відображення застосовано до"
+
+#. module: product
+#: model_terms:product.template,description:product.product_product_27_product_template
+msgid "Drawer with two routing possiblities"
+msgstr "Шухляда з двома варіантами маршрутизації"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "Duplicate values in attribute values are not allowed: %s"
+msgstr "Повторювані значення атрибутів не дозволено: %s"
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
+msgid "Error exporting file. Please try again."
+msgstr "Помилка експорту файлу. Спробуйте ще раз."
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_combo_item__extra_price model:ir.model.fields,field_description:product.field_product_template_attribute_value__price_extra
+msgid "Extra Price"
+msgstr "Додаткова ціна"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_options_file_cabinets
+msgid "File cabinets"
+msgstr "Шафи для документів"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_attribute_value__is_custom model:ir.model.fields,field_description:product.field_product_template_attribute_value__is_custom
+msgid "Free text"
+msgstr "Довільний текст"
+
+#. module: product
+#: model:product.template,name:product.product_product_furniture_product_template
+msgid "Furniture Assembly"
+msgstr "Складання меблів"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_fabric_glass
+msgid "Glass"
+msgstr "Скло"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_product__type model:ir.model.fields,help:product.field_product_template__type
+msgid ""
+"Goods are tangible materials and merchandise you provide.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Товари: матеріальні цінності та продукція, які ви надаєте.\n"
+"Послуга: нематеріальний продукт, який ви надаєте."
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_gray
+msgid "Gray"
+msgstr "Сірий"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_document__has_thumbnail
+msgid "Has Thumbnail"
+msgstr "Має мініатюру"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_12_product_template
+msgid "High-back office chair with great support"
+msgstr "Офісне крісло з високою спинкою та чудовою підтримкою"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_attribute__active
+msgid "If unchecked, it will allow you to hide the attribute without removing it."
+msgstr "Якщо не позначено, можна приховати атрибут, не видаляючи його."
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__is_dynamically_created model:ir.model.fields,field_description:product.field_product_template__is_dynamically_created
+msgid "Is Dynamically Created"
+msgstr "Створено динамічно"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__is_in_selected_section_of_order
+msgid "Is In Selected Section Of Order"
+msgstr "Знаходиться у вибраному розділі замовлення"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__is_pricelist_required
+msgid "Is Pricelist Required"
+msgstr "Прайс-лист обов’язковий"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "It is not possible to import different values for the same attribute: %s"
+msgstr "Неможливо імпортувати різні значення для одного атрибута: %s"
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__0
+msgid "Kilograms (kg)"
+msgstr "Кілограми (кг)"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0 code:addons/product/models/product_template.py:0
+msgid "Labels cannot be printed for products of service type"
+msgstr "Етикетки не можна друкувати для товарів типу послуга"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_13_product_template
+msgid "Left-sided workspace with storage"
+msgstr "Робоче місце з лівостороннім розташуванням і місцем для зберігання"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_fabric_linen
+msgid "Linen"
+msgstr "Льон"
+
+#. module: product
+#: model:ir.model,name:product.model_product_uom
+msgid "Link between products and their UoMs"
+msgstr "Зв'язок між товарами та їхніми од. вим."
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_markup model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
+msgid "Markup"
+msgstr "Націнка"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_maroon
+msgid "Maroon"
+msgstr "Бордовий"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_fabric_metal
+msgid "Metal"
+msgstr "Метал"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_8_product_template
+msgid "Minimalist wooden desk for executive use"
+msgstr "Мінімалістичний дерев’яний стіл для керівника"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_navy
+msgid "Navy"
+msgstr "Темно-синій"
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+msgid "No products found in the report"
+msgstr "У звіті не знайдено товарів"
+
+#. module: product
+#: model:product.template,description_sale:product.product_template_acoustic_bloc_screens
+msgid "Noise-reducing panels for open spaces"
+msgstr "Шумопоглинальні панелі для відкритих просторів"
+
+#. module: product
+#: model:product.template,name:product.office_combo_product_template
+msgid "Office Combo"
+msgstr "Офісний комбо"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_olive
+msgid "Olive"
+msgstr "Оливковий"
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
+msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
+msgstr "Ой! '%(fileName)s' не завантажено, оскільки його формат не дозволено."
+
+#. module: product
+#: model:product.template,name:product.product_template_dining_table
+msgid "Outdoor dining table"
+msgstr "Вуличний обідній стіл"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_options_overhead_shelves
+msgid "Overhead shelves"
+msgstr "Навісні полиці"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/uom_uom.py:0 model_terms:ir.ui.view,arch_db:product.product_uom_list_view
+msgid "Packaging Barcodes"
+msgstr "Штрихкоди упаковок"
+
+#. module: product
+#: model:ir.actions.report,name:product.report_product_packaging
+msgid "Packaging Barcodes (PDF)"
+msgstr "Штрихкоди упаковок (PDF)"
+
+#. module: product
+#. odoo-javascript
+#: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
+msgid "Please select some products first."
+msgstr "Спочатку виберіть товари."
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__1
+msgid "Pounds (lb)"
+msgstr "Фунти (lb)"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist.py:0
+msgid "Pricelist Report Preview"
+msgstr "Попередній перегляд звіту прайс-листа"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_24_product_template
+msgid "Private pod with desk and chair"
+msgstr "Приватна кабінка зі столом і стільцем"
+
+#. module: product
+#: model:ir.model,name:product.model_product_combo
+msgid "Product Combo"
+msgstr "Комбо товарів"
+
+#. module: product
+#: model:ir.model,name:product.model_product_combo_item
+msgid "Product Combo Item"
+msgstr "Елемент комбо товарів"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__import_attribute_values model:ir.model.fields,field_description:product.field_product_template__import_attribute_values
+msgid "Product Values"
+msgstr "Значення товару"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/controllers/pricelist_report.py:0
+msgid "Quantity (%s UoM)"
+msgstr "Кількість (%s од. вим.)"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "Recursive pricelist rules detected: %s"
+msgstr "Виявлено рекурсивні правила прайс-листа: %s"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_5_product_template
+msgid "Right-aligned desk with storage"
+msgstr "Стіл із правостороннім розташуванням і місцем для зберігання"
+
+#. module: product
+#: model:product.attribute,name:product.pa_shoe_size
+msgid "Shoes size"
+msgstr "Розмір взуття"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_template_search_view
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: product
+#: model:product.template,description_sale:product.product_product_9_product_template
+msgid "Soft-close pedal bin for office use"
+msgstr "Відро з педаллю та плавним закриванням для офісу"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_res_partner__specific_property_product_pricelist model:ir.model.fields,field_description:product.field_res_users__specific_property_product_pricelist
+msgid "Specific Property Product Pricelist"
+msgstr "Прайс-лист товару за певною властивістю"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_color_tan
+msgid "Tan"
+msgstr "Світло-коричневий"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
+msgid "Template Values"
+msgstr "Значення шаблону"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "The Reference '%s' already exists."
+msgstr "Референс '%s' вже існує."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0 code:addons/product/models/product_template.py:0
+msgid "The cost of a product can't be negative."
+msgstr "Собівартість товару не може бути від’ємною."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "The exitings product has different attribute value. \"%(imported_values)s\" is not equivalent to \"%(existing_values)s\" for \"%(external_id)s\", \"%(id)s\""
+msgstr "Наявний товар має інше значення атрибута. \"%(imported_values)s\" не відповідає \"%(existing_values)s\" для \"%(external_id)s\", \"%(id)s\""
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_combo__base_price
+msgid "The minimum price among the products in this combo. This value will be used to prorate the price of this combo with respect to the other combos in a combo product. This heuristic ensures that whatever product the user chooses in a combo, it will always be the same price."
+msgstr "Мінімальна ціна серед товарів у цьому комбо. Це значення використовується для пропорційного розподілу ціни цього комбо відносно інших комбо в комбо-товарі. Цей підхід гарантує, що незалежно від того, який товар користувач вибере в комбо, ціна завжди буде однаковою."
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_supplierinfo__min_qty
+msgid "The quantity to purchase from this vendor to benefit from the unit price. If a vendor unit is set, quantity should be specified in this unit, otherwise it should be specified in the default unit of the product."
+msgstr "Кількість, яку потрібно придбати в цього постачальника, щоб отримати ціну за одиницю. Якщо встановлено одиницю постачальника, кількість слід вказувати в цій одиниці, інакше в типовій одиниці товару."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_template.py:0
+msgid "This product is part of a combo, so its type can't be changed to \"combo\"."
+msgstr "Цей товар входить до комбо, тому його тип не можна змінити на \"комбо\"."
+
+#. module: product
+#: model:product.template,name:product.consu_delivery_01_product_template
+msgid "Two-Seat Sofa"
+msgstr "Двомісний диван"
+
+#. module: product
+#: model:product.template,description_sale:product.consu_delivery_01_product_template
+msgid "Two-Seater Sofa with Oak Wood Frame"
+msgstr "Двомісний диван із каркасом з дуба"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "Unable to import products with attribute value without attribute name (defined as: attribute:value): %s"
+msgstr "Неможливо імпортувати товари зі значенням атрибута без назви атрибута (задається як атрибут:значення): %s"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0
+msgid "Unable to import products with attribute values but without name of product set"
+msgstr "Неможливо імпортувати товари зі значеннями атрибутів без вказаної назви товару"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_options_under_desk_pedestals
+msgid "Under-desk pedestals"
+msgstr "Підстольні тумби"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__product_uom_ids
+msgid "Unit Barcode"
+msgstr "Штрихкод одиниці"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
+msgid "Update extra prices"
+msgstr "Оновити додаткові ціни"
+
+#. module: product
+#: model:ir.model,name:product.model_update_product_attribute_value
+msgid "Update product attribute value"
+msgstr "Оновити значення атрибута товару"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_attribute_value.py:0
+msgid "Update product extra prices"
+msgstr "Оновити додаткові ціни товару"
+
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__update_extra_price
+msgid "Update the extra price on existing products"
+msgstr "Оновити додаткову ціну в наявних товарах"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__additional_product_tag_ids
+msgid "Variant Tags"
+msgstr "Теги варіантів"
+
+#. module: product
+#: model:product.attribute.value,name:product.pav_fabric_velvet
+msgid "Velvet"
+msgstr "Оксамит"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_tag__visible_to_customers
+msgid "Visible to customers"
+msgstr "Видимо для клієнтів"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_product.py:0 code:addons/product/models/product_template.py:0
+msgid "What to expect ?"
+msgstr "Чого очікувати?"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_tag__visible_to_customers
+msgid "Whether the tag is displayed to customers."
+msgstr "Чи відображається тег клієнтам."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/wizard/update_product_attribute_value.py:0
+msgid "You are about to add the value \"%(attribute_value)s\" to %(product_count)s products."
+msgstr "Ви збираєтеся додати значення \"%(attribute_value)s\" до %(product_count)s товарів."
+
+#. module: product
+#. odoo-python
+#: code:addons/product/wizard/update_product_attribute_value.py:0
+msgid "You are about to update the extra price of %s products."
+msgstr "Ви збираєтеся оновити додаткову ціну %s товарів."
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
+msgid "You can apply a mark-up on the cost"
+msgstr "Ви можете застосувати націнку до собівартості"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_attribute.py:0
+msgid "You cannot archive this attribute as there are still products linked to it"
+msgstr "Не можна архівувати цей атрибут, оскільки з ним досі пов’язані товари"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist.py:0
+msgid ""
+"You cannot delete pricelist(s):\n"
+"(%(pricelists)s)\n"
+"They are used within pricelist(s):\n"
+"%(other_pricelists)s"
+msgstr ""
+"Не можна видалити прайс-лист(и):\n"
+"(%(pricelists)s)\n"
+"Вони використовуються в прайс-листі(ах):\n"
+"%(other_pricelists)s"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_attribute_value.py:0
+msgid ""
+"You cannot delete the value %(value)s because it is used on the following products:\n"
+"%(products)s\n"
+msgstr ""
+"Не можна видалити значення %(value)s, оскільки воно використовується в таких товарах:\n"
+"%(products)s\n"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
+msgid "e.g. 1234567890"
+msgstr "напр., 1234567890"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
+msgid "e.g. Burger Choice"
+msgstr "напр. Вибір бургера"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_template_form_view
+msgid "e.g. Starter - Meal - Desert"
+msgstr "напр. Закуска - Основна страва - Десерт"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "markup"
+msgstr "націнка"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid "product cost"
+msgstr "собівартість товару"
+
+#. module: product
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0 model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
+msgid "sales price"
+msgstr "ціна продажу"

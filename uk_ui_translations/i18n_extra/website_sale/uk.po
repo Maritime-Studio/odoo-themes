@@ -1,0 +1,1985 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid ""
+"&amp;copy;\n"
+"                <span class=\"o_footer_copyright_name align-baseline\">Company name</span>\n"
+"                 -"
+msgstr ""
+"&amp;copy;\n"
+"                <span class=\"o_footer_copyright_name align-baseline\">Назва компанії</span>\n"
+"                 -"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.tax_indication
+msgid "(Tax excluded)"
+msgstr "(Без податку)"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.tax_indication
+msgid "(Tax included)"
+msgstr "(З податком)"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "1 Column"
+msgstr "1 колонка"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "2 Columns"
+msgstr "2 колонки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.suggested_products_list
+msgid ""
+"<i class=\"d-md-none fa fa-shopping-cart\" role=\"presentation\"/>\n"
+"                                    <span class=\"d-none d-md-inline\">Add to cart</span>"
+msgstr ""
+"<i class=\"d-md-none fa fa-shopping-cart\" role=\"presentation\"/>\n"
+"                                    <span class=\"d-none d-md-inline\">Додати в кошик</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.navigation_buttons
+msgid ""
+"<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
+"                    Continue shopping"
+msgstr ""
+"<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
+"                    Продовжити покупки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.shop_product_buttons
+msgid ""
+"<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
+"                    <span class=\"o_label small ms-1\">Add to Cart</span>"
+msgstr ""
+"<i class=\"fa fa-fw fa-shopping-cart o_not-animable\" role=\"presentation\"/>\n"
+"                    <span class=\"o_label small ms-1\">Додати в кошик</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "<i class=\"fa fa-long-arrow-right\"/> All Products"
+msgstr "<i class=\"fa fa-long-arrow-right\"/> Усі товари"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address_edit_button
+msgid "<i class=\"fa fa-pencil me-1\"/>Want an invoice?"
+msgstr "<i class=\"fa fa-pencil me-1\"/>Потрібен рахунок-фактура?"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.quick_reorder_button
+msgid "<i class=\"fa fa-rotate-left me-2\"/>Quick reorder"
+msgstr "<i class=\"fa fa-rotate-left me-2\"/>Швидке повторне замовлення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_products_item
+msgid "<i class=\"fa fa-shopping-cart fa-fw\" role=\"presentation\"/><span class=\"o_label small ms-1\">Add to Cart</span>"
+msgstr "<i class=\"fa fa-shopping-cart fa-fw\" role=\"presentation\"/><span class=\"o_label small ms-1\">Додати в кошик</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.cta_wrapper
+msgid ""
+"<i class=\"fa fa-shopping-cart me-2\"/>\n"
+"                    Add to cart"
+msgstr ""
+"<i class=\"fa fa-shopping-cart me-2\"/>\n"
+"                    Додати в кошик"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
+msgid "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
+msgstr "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" role=\"img\" aria-label=\"Попередній\" title=\"Попередній\"/>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
+msgid "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+msgstr "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" role=\"img\" aria-label=\"Наступний\" title=\"Наступний\"/>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.billing_address_list model_terms:ir.ui.view,arch_db:website_sale.delivery_address_list
+msgid "<i class=\"oi oi-plus me-2\"/>Add Address"
+msgstr "<i class=\"oi oi-plus me-2\"/>Додати адресу"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid ""
+"<small class=\"mx-auto\"><b>Clear Filters</b></small>\n"
+"                                        <i class=\"oi oi-close\" role=\"presentation\"/>"
+msgstr ""
+"<small class=\"mx-auto\"><b>Очистити фільтри</b></small>\n"
+"                                        <i class=\"oi oi-close\" role=\"presentation\"/>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_terms_and_conditions
+msgid ""
+"<small class=\"text-muted mb-0\">\n"
+"            <a href=\"/terms\" class=\"o_translate_inline text-muted\"><u>Terms and Conditions</u></a><br/>\n"
+"            30-day money-back guarantee<br/>\n"
+"            Shipping: 2-3 Business Days\n"
+"        </small>"
+msgstr ""
+"<small class=\"text-muted mb-0\">\n"
+"            <a href=\"/terms\" class=\"o_translate_inline text-muted\"><u>Умови та положення</u></a><br/>\n"
+"            Гарантія повернення коштів протягом 30 днів<br/>\n"
+"            Доставка: 2-3 робочі дні\n"
+"        </small>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "<span class=\"align-middle\">Already have an account?</span>"
+msgstr "<span class=\"align-middle\">Вже маєте обліковий запис?</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.confirmation
+msgid "<span class=\"align-middle\">to follow your order.</span>"
+msgstr "<span class=\"align-middle\">щоб відстежувати своє замовлення.</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_method
+msgid ""
+"<span class=\"o_wsale_delivery_price_badge text-muted fw-bold text-end\" name=\"price\">\n"
+"                <small class=\"fw-normal\">Select to compute delivery rate</small>\n"
+"            </span>"
+msgstr ""
+"<span class=\"o_wsale_delivery_price_badge text-muted fw-bold text-end\" name=\"price\">\n"
+"                <small class=\"fw-normal\">Виберіть, щоб розрахувати вартість доставки</small>\n"
+"            </span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid ""
+"<span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-dollar fa-fw o_not-animable\"/> Low Prices\n"
+"                                </span>\n"
+"                                <span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-shopping-basket fa-fw o_not-animable\"/>\n"
+"                                    Easy Returns\n"
+"                                </span>\n"
+"                                <span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-truck fa-fw o_not-animable\"/> Fast Shipping\n"
+"                                </span>"
+msgstr ""
+"<span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-dollar fa-fw o_not-animable\"/> Низькі ціни\n"
+"                                </span>\n"
+"                                <span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-shopping-basket fa-fw o_not-animable\"/>\n"
+"                                    Просте повернення\n"
+"                                </span>\n"
+"                                <span class=\"s_badge badge text-bg-primary o_animable\" data-name=\"Badge\">\n"
+"                                    <i class=\"fa fa-truck fa-fw o_not-animable\"/> Швидка доставка\n"
+"                                </span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "<span class=\"text-muted\">Search results for </span>'"
+msgstr "<span class=\"text-muted\">Результати пошуку для </span>'"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "<span class=\"text-muted\">Searching</span>"
+msgstr "<span class=\"text-muted\">Пошук</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "<span class=\"text-muted\">in</span>"
+msgstr "<span class=\"text-muted\">у</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.cta_wrapper_boxed
+msgid "<span name=\"o_wsale_cta_wrapper_boxed_price_label\" class=\"text-muted\">Price</span>"
+msgstr "<span name=\"o_wsale_cta_wrapper_boxed_price_label\" class=\"text-muted\">Ціна</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.billing_address_list
+msgid ""
+"<span name=\"use_delivery_as_billing_text\">\n"
+"                        Same as delivery address\n"
+"                    </span>"
+msgstr ""
+"<span name=\"use_delivery_as_billing_text\">\n"
+"                        Така сама, як адреса доставки\n"
+"                    </span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_document_kanban
+msgid "<span>Publish on website</span>"
+msgstr "<span>Опублікувати на вебсайті</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_form_view
+msgid "<span>days after publication.</span>"
+msgstr "<span>днів після публікації.</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_form_view
+msgid "<span>for</span>"
+msgstr "<span>для</span>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product
+msgid "<strong>Documents</strong>"
+msgstr "<strong>Документи</strong>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_form
+msgid "<strong>No suitable delivery method could be found.</strong>"
+msgstr "<strong>Не вдалося знайти відповідний спосіб доставки.</strong>"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
+msgid "A detailed,formatted description to promote your product on                                      this page. Use '/' to discover more features."
+msgstr "Детальний форматований опис для просування вашого товару на                                      цій сторінці. Введіть '/', щоб відкрити більше функцій."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_feed.py:0
+msgid "A single feed cannot contain more than %(limit)s products. Please separate products with Categories."
+msgstr "Один фід не може містити більше %(limit)s товарів. Розділіть товари за категоріями."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/checkout_page_option.xml:0
+msgid "Accept Terms"
+msgstr "Прийняти умови"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Add More"
+msgstr "Додати ще"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Add a reference price per UoM on products (i.e $/kg), in addition to the                           sale price"
+msgstr "Додайте до товарів референсну ціну за од. вим. (напр., $/кг), на додаток до                           ціни продажу"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_product__compare_list_price model:ir.model.fields,help:website_sale.field_product_template__compare_list_price model:ir.model.fields,help:website_sale.field_res_config_settings__group_product_price_comparison
+msgid "Add a strikethrough price to your /shop and product pages for comparison purposes.It will not be displayed if pricelists apply."
+msgstr "Додайте перекреслену ціну на сторінки /shop і товарів для порівняння. Вона не відображатиметься, якщо застосовуються прайс-листи."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.billing_address_list model_terms:ir.ui.view,arch_db:website_sale.delivery_address_list
+msgid "Add an address"
+msgstr "Додати адресу"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__align_category_content
+msgid "Align Category Content"
+msgstr "Вирівнювання вмісту категорії"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_public_category__align_category_content
+msgid "Align the category content on the shop page. Corresponds to the 'Center Content' editor option."
+msgstr "Вирівнювання вмісту категорії на сторінці магазину. Відповідає опції редактора 'Центрувати вміст'."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Allow customers to pick up their online purchases at your store and pay in person"
+msgstr "Дозвольте клієнтам забирати онлайн-покупки у вашому магазині та оплачувати на місці"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Apparel"
+msgstr "Одяг"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Apply specific prices or currency per country, customer, products, etc."
+msgstr "Застосовуйте спеціальні ціни або валюту за країною, клієнтом, товарами тощо."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_ribbon_options_plugin.js:0
+msgid "Are you sure you want to delete this ribbon?"
+msgstr "Ви впевнені, що хочете видалити цю стрічку?"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_multimedia_augmented_reality
+msgid "Augmented Reality Tools"
+msgstr "Інструменти доповненої реальності"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Auto-crop"
+msgstr "Автообрізання"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Automate abandoned checkout emails"
+msgstr "Автоматизуйте листи про покинуте оформлення замовлення"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website_checkout_step__back_button_label
+msgid "Back Button Label"
+msgstr "Мітка кнопки «Назад»"
+
+#. module: website_sale
+#: model:website.checkout.step,back_button_label:website_sale.checkout_step_delivery
+msgid "Back to address"
+msgstr "Назад до адреси"
+
+#. module: website_sale
+#: model:website.checkout.step,back_button_label:website_sale.checkout_step_extra
+msgid "Back to extra info"
+msgstr "Назад до додаткової інформації"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Background Zoom"
+msgstr "Масштаб фону"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets_bathroom
+msgid "Bathroom Cabinets"
+msgstr "Шафи для ванної"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Beauty"
+msgstr "Краса"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_beds
+msgid "Beds"
+msgstr "Ліжка"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_category_options.xml:0
+msgid "Blocks Design"
+msgstr "Дизайн блоків"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Boost your sales with multiple kinds of programs: Coupons, Promotions,                            Gift Card, Loyalty. Specific conditions can be set (products, customers,                            minimum purchase amount, period). Rewards can be discounts (% or amount)                            or free products."
+msgstr "Збільшуйте продажі за допомогою різних програм: купони, акції,                            подарункові картки, лояльність. Можна задати певні умови (товари, клієнти,                            мінімальна сума покупки, період). Винагородами можуть бути знижки (% або сума)                            або безкоштовні товари."
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_res_config_settings__website_sale_contact_us_button_url
+msgid "Button Url"
+msgstr "URL кнопки"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_website__shop_opt_products_design_classes
+msgid "CSS class for shop products design"
+msgstr "CSS-клас для дизайну товарів магазину"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_feed__cache_expiry
+msgid "Cache Expiry"
+msgstr "Термін дії кешу"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_products_option.xml:0
+msgid "Cards Design"
+msgstr "Дизайн карток"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__website_footer
+msgid "Category Footer"
+msgstr "Футер категорії"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_public_category_default
+msgid "Category Image"
+msgstr "Зображення категорії"
+
+#. module: website_sale
+#: model:ir.actions.server,name:website_sale.dynamic_snippet_category_list model:website.snippet.filter,name:website_sale.dynamic_filter_category_list model_terms:ir.ui.view,arch_db:website_sale.snippets
+msgid "Category List"
+msgstr "Список категорій"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.filmstrip_categories
+msgid "Category image"
+msgstr "Зображення категорії"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_lamps_ceiling
+msgid "Ceiling Lamps"
+msgstr "Стельові світильники"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_header_category_options.xml:0 code:addons/website_sale/static/src/website_builder/product_header_shop_options.xml:0
+msgid "Center Content"
+msgstr "Центрувати вміст"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_lamps_chandelier
+msgid "Chandeliers"
+msgstr "Люстри"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_method
+msgid "Change location"
+msgstr "Змінити розташування"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Chips"
+msgstr "Чипи"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Chips Contained"
+msgstr "Чипи в контейнері"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
+msgid "Choose a pick-up point"
+msgstr "Виберіть пункт самовивозу"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Choose one pre-made preset and customise it as you wish"
+msgstr "Виберіть один готовий пресет і налаштуйте його на свій смак"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0 code:addons/website_sale/static/src/js/location_selector/map_container/map_container.js:0
+msgid "Choose this location"
+msgstr "Вибрати це розташування"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Classic Grid"
+msgstr "Класична сітка"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Clear search for this category"
+msgstr "Очистити пошук для цієї категорії"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_category_options.xml:0
+msgid "Clickable items"
+msgstr "Клікабельні елементи"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Collapse sidebar sections"
+msgstr "Згортати розділи бічної панелі"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes_collapsible
+msgid "Collapsible Boxes"
+msgstr "Складані коробки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Color combinations are defined in the Theme Tab"
+msgstr "Колірні комбінації визначаються на вкладці «Тема»"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/interactions/checkout.js:0
+msgid "Computed after delivery"
+msgstr "Розраховується після доставки"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Condensed List"
+msgstr "Стислий список"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Configure Delivery Methods"
+msgstr "Налаштувати способи доставки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Configure Methods"
+msgstr "Налаштувати способи"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Configure delivery methods or work with delivery providers using existing integrations."
+msgstr "Налаштуйте способи доставки або працюйте з провайдерами доставки через наявні інтеграції."
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_res_config_settings__confirmation_email_template_id model:ir.model.fields,field_description:website_sale.field_website__confirmation_email_template_id
+msgid "Confirmation Email Template"
+msgstr "Шаблон листа-підтвердження"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Connect your eCommerce via a product file."
+msgstr "Підключіть свою електронну комерцію через файл товарів."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_feed_form model_terms:ir.ui.view,arch_db:website_sale.product_feed_list
+msgid "Copy URL"
+msgstr "Копіювати URL"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.checkout_layout
+msgid "Coupon, Gift card, Promo-code?"
+msgstr "Купон, подарункова картка, промокод?"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_category_template
+msgid "Crafting Beautiful Spaces"
+msgstr "Створюємо красиві простори"
+
+#. module: website_sale
+#: model:ir.model,website_form_label:website_sale.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_category_options.xml:0
+msgid "Darken overlay"
+msgstr "Затемнене накладання"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Default Color"
+msgstr "Колір за замовчуванням"
+
+#. module: website_sale
+#: model_terms:ir.actions.act_window,help:website_sale.product_ribbon_action
+msgid "Define a new ribbon"
+msgstr "Визначте нову стрічку"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_ribbon__assign
+msgid ""
+"Defines how this ribbon is assigned to products:\n"
+"- Manually: You assign the ribbon manually to products.\n"
+"- Sale: Applied when the product is visibly on sale.\n"
+"- New: Applied based on the New period you will define.\n"
+"- Out Of Stock: Applied when the product is out of stock."
+msgstr ""
+"Визначає, як ця стрічка призначається товарам:\n"
+"- Вручну: ви призначаєте стрічку товарам вручну.\n"
+"- Розпродаж: застосовується, коли на товар діє помітна знижка.\n"
+"- Новинка: застосовується відповідно до періоду новинки, який ви визначите.\n"
+"- Немає в наявності: застосовується, коли товару немає в наявності."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_ribbon__style
+msgid ""
+"Defines the display style:\n"
+"- Ribbon: Shows a ribbon banner on the product image.\n"
+"- Badge: Shows a small badge label on the product image."
+msgstr ""
+"Визначає стиль відображення:\n"
+"- Стрічка: показує банер-стрічку на зображенні товару.\n"
+"- Значок: показує невелику мітку-значок на зображенні товару."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_ribbon_options.xml:0
+msgid "Delete Ribbon"
+msgstr "Видалити стрічку"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address_on_checkout
+msgid "Deliver to pickup point"
+msgstr "Доставити до пункту самовивозу"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address_on_checkout
+msgid "Delivery &amp; Billing"
+msgstr "Доставка &amp; оплата"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_address_list
+msgid "Delivery address"
+msgstr "Адреса доставки"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_services_delivery_and_installation
+msgid "Delivery and Installation"
+msgstr "Доставка та монтаж"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_form
+msgid "Delivery method"
+msgstr "Спосіб доставки"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_services_design_and_planning
+msgid "Design and Planning"
+msgstr "Дизайн і планування"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_category_template
+msgid "Designing elegant, inviting environments that inspire and delight."
+msgstr "Створюємо елегантні, затишні простори, що надихають і радують."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_lamps_desk
+msgid "Desk Lamps"
+msgstr "Настільні лампи"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Desktop Ratio"
+msgstr "Співвідношення для комп'ютера"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Desktop ratio in enforced with this design"
+msgstr "У цьому дизайні застосовується співвідношення для комп'ютера"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_public_category__show_category_description
+msgid "Display the category description on the shop page. Corresponds to the 'Show Description' editor option."
+msgstr "Відображати опис категорії на сторінці магазину. Відповідає опції редактора 'Показати опис'."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_public_category__show_category_title
+msgid "Display the category title on the shop page. Corresponds to the 'Show Title' editor option."
+msgstr "Відображати назву категорії на сторінці магазину. Відповідає опції редактора 'Показати заголовок'."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_public_category__cover_image
+msgid "Displayed only in the Category List Snippet."
+msgstr "Відображається лише в блоці «Список категорій»."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid ""
+"Drag building blocks here to customize the footer for\n"
+"                                    \""
+msgstr ""
+"Перетягніть сюди блоки, щоб налаштувати футер для\n"
+"                                    \""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid ""
+"Drag building blocks here to customize the header for\n"
+"                                        \""
+msgstr ""
+"Перетягніть сюди блоки, щоб налаштувати хедер для\n"
+"                                        \""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Drag building blocks here to customize the header for the shop page."
+msgstr "Перетягніть сюди блоки, щоб налаштувати хедер сторінки магазину."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
+msgid "Ecommerce"
+msgstr "Електронна комерція"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_res_config_settings__ecommerce_access model:ir.model.fields,field_description:website_sale.field_website__ecommerce_access
+msgid "Ecommerce Access"
+msgstr "Доступ до електронної комерції"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
+msgid "Ecommerce Description"
+msgstr "Опис для електронної комерції"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
+msgid "Ecommerce Shop"
+msgstr "Інтернет-магазин"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "Edit address"
+msgstr "Редагувати адресу"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_multimedia_education
+msgid "Education Tools"
+msgstr "Освітні інструменти"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Essentials"
+msgstr "Основне"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/snippets/s_dynamic_snippet_categories/dynamic_snippet_category.js:0
+msgid "Explore Now"
+msgstr "Переглянути зараз"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Extra Media"
+msgstr "Додаткові медіа"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_feed__feed_cache
+msgid "Feed Cache"
+msgstr "Кеш фіду"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_feed.py:0
+msgid "Feed cache successfully reset."
+msgstr "Кеш фіду успішно скинуто."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_drawers_file
+msgid "File Drawers"
+msgstr "Шафи для документів"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_template.py:0
+msgid "Final price may vary based on selection. Tax will be calculated at checkout."
+msgstr "Остаточна ціна може змінюватися залежно від вибору. Податок буде розраховано під час оформлення замовлення."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Find a Delivery Provider"
+msgstr "Знайти провайдера доставки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Fitness"
+msgstr "Фітнес"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Fixed 33%"
+msgstr "Фіксовано 33%"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Fixed 33% width"
+msgstr "Фіксована ширина 33%"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Fixed 50%"
+msgstr "Фіксовано 50%"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Fixed 50% width"
+msgstr "Фіксована ширина 50%"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Fixed 66%"
+msgstr "Фіксовано 66%"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Floating"
+msgstr "Плаваюча"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Floating sticky Toolbar"
+msgstr "Плаваюча закріплена панель інструментів"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Focused"
+msgstr "У фокусі"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_foldable
+msgid "Foldable Desks"
+msgstr "Складані столи"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Follow up abandoned carts"
+msgstr "Відстежувати залишені кошики"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_bins_storage
+msgid "Food Storage Bins"
+msgstr "Контейнери для зберігання продуктів"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_pricelist_item_form
+msgid ""
+"For formula or fixed pricing, the original price isn’t shown in\n"
+"                    sale orders or checkout."
+msgstr ""
+"Для формульних або фіксованих цін початкова ціна не відображається в\n"
+"                    замовленнях на продаж або під час оформлення замовлення."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_container__fluid model:ir.model.fields.selection,name:website_sale.selection__website__shop_page_container__fluid
+msgid "Full-width"
+msgstr "На всю ширину"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_feed.py:0
+msgid "GMC: Product Limit Exceeded"
+msgstr "GMC: перевищено ліміт товарів"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Gadgets"
+msgstr "Гаджети"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_gaming
+msgid "Gaming Desks"
+msgstr "Ігрові столи"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_glass
+msgid "Glass Desks"
+msgstr "Скляні столи"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_category_options.xml:0
+msgid "Global options for all inner blocks."
+msgstr "Загальні параметри для всіх внутрішніх блоків."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/combo_configurator_dialog/combo_configurator_dialog.xml:0 code:addons/website_sale/static/src/js/product_configurator_dialog/product_configurator_dialog.xml:0
+msgid "Go to Checkout"
+msgstr "Перейти до оформлення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Google Address Validation"
+msgstr "Перевірка адрес Google"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__shop_gap
+msgid "Grid-gap on the shop"
+msgstr "Відступ сітки в магазині"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__has_published_products
+msgid "Has Published Products"
+msgstr "Має опубліковані товари"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Hide Images"
+msgstr "Приховати зображення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Hide all filters"
+msgstr "Приховати всі фільтри"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio__6_5 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio_mobile__6_5
+msgid "Horizontal (6/5)"
+msgstr "Горизонтальне (6/5)"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__product_attribute__preview_variants__hover
+msgid "Hover"
+msgstr "Наведення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Hover Effect"
+msgstr "Ефект наведення"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_pricelist__website_id
+msgid "If you want a pricelist to be available on a website,you must fill in this field or make it selectable.Otherwise, the pricelist will not apply to any website."
+msgstr "Якщо ви хочете, щоб прайс-лист був доступний на вебсайті, заповніть це поле або зробіть його доступним для вибору. Інакше прайс-лист не застосовуватиметься до жодного вебсайту."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Image Grid"
+msgstr "Сітка зображень"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Image Ratio"
+msgstr "Співвідношення зображення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Image Shadow"
+msgstr "Тінь зображення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Images Area"
+msgstr "Область зображень"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Inherit desktop"
+msgstr "Успадкувати від комп'ютера"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_attribute__preview_variants
+msgid "Instantly created variants are available for selection from your /shop page."
+msgstr "Миттєво створені варіанти доступні для вибору на сторінці /shop."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Invalid category."
+msgstr "Недійсна категорія."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid "Invalid request parameters."
+msgstr "Недійсні параметри запиту."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Invalid video URL provided."
+msgstr "Надано недійсну URL-адресу відео."
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__website__product_page_cols_order__inverse
+msgid "Inverse order"
+msgstr "Зворотний порядок"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Invoice automatically on payment."
+msgstr "Автоматично виставляти рахунок після оплати."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/delivery.py:0
+msgid "It seems that there is already a transaction for your order; you can't change the delivery method anymore."
+msgstr "Схоже, для вашого замовлення вже є транзакція; змінити спосіб доставки більше не можна."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets_kitchen
+msgid "Kitchen Cabinets"
+msgstr "Кухонні шафи"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_drawers_kitchen
+msgid "Kitchen Drawer Units"
+msgstr "Кухонні шухлядні модулі"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Large Grid"
+msgstr "Велика сітка"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Large Image"
+msgstr "Велике зображення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Large Images"
+msgstr "Великі зображення"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_feed__last_notification_date
+msgid "Last Notification Date"
+msgstr "Дата останнього сповіщення"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_bins_laundry
+msgid "Laundry Bins"
+msgstr "Кошики для білизни"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Link Color"
+msgstr "Колір посилання"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__website__ecommerce_access__logged_in
+msgid "Logged in users"
+msgstr "Авторизовані користувачі"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.quick_reorder_button
+msgid "Login to reorder"
+msgstr "Увійдіть, щоб замовити повторно"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes_luxury
+msgid "Luxury Boxes"
+msgstr "Розкішні коробки"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website_checkout_step__main_button_label
+msgid "Main Button Label"
+msgstr "Мітка головної кнопки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Main Image"
+msgstr "Головне зображення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Manage feeds"
+msgstr "Керувати фідами"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets_medicine
+msgid "Medicine Cabinets"
+msgstr "Аптечки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Mobile Ratio"
+msgstr "Співвідношення для мобільних"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/const.py:0
+msgid "Modern Grid"
+msgstr "Сучасна сітка"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Needs 'Reviews' to be enabled in the Product Page"
+msgstr "Потрібно ввімкнути 'Відгуки' на сторінці товару"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Needs at least two images to be defined in the Product Page"
+msgstr "Потрібно визначити щонайменше два зображення на сторінці товару"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_form_view
+msgid "New Collection"
+msgstr "Нова колекція"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_ribbon__new_period
+msgid "New Period"
+msgstr "Період новинки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "New address"
+msgstr "Нова адреса"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_drawers_nightstand
+msgid "Nightstand Drawers"
+msgstr "Тумбочки з шухлядами"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/website_sale_utils.js:0 model_terms:ir.ui.view,arch_db:website_sale.quick_reorder_button
+msgid "No previous products available for reorder."
+msgstr "Немає попередніх товарів для повторного замовлення."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/product/product.xml:0
+msgid "Not available for sale"
+msgstr "Недоступно для продажу"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/reorder.py:0
+msgid "Nothing can be reordered in this order"
+msgstr "У цьому замовленні немає нічого для повторного замовлення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Off-screen Menu"
+msgstr "Позаекранне меню"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_office
+msgid "Office Desks"
+msgstr "Офісні столи"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_attribute__preview_variants
+msgid "On Product Cards"
+msgstr "На картках товарів"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__product_ribbon__assign__sale
+msgid "On Sale"
+msgstr "Розпродаж"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_pricelist_item_form
+msgid "On the website original price is crossed out."
+msgstr "На вебсайті початкову ціну перекреслено."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "One product might have different attributes (size, color, etc.)"
+msgstr "Один товар може мати різні атрибути (розмір, колір тощо)"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/client_actions/configurator/shopPageSelectionScreen.xml:0
+msgid "Online catalog"
+msgstr "Онлайн-каталог"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_ribbon.py:0
+msgid "Only one ribbon with the assign %s is allowed."
+msgstr "Дозволено лише одну стрічку з призначенням %s."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Opacity of the overlay"
+msgstr "Непрозорість накладання"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/location/location.js:0 code:addons/website_sale/static/src/js/location_selector/map_container/map_container.js:0
+msgid "Opening hours"
+msgstr "Години роботи"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.cart
+msgid "Order summary"
+msgstr "Підсумок замовлення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Orders Assignment"
+msgstr "Призначення замовлень"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.price_dynamic_filter_template_product_product model_terms:ir.ui.view,arch_db:website_sale.products_item
+msgid "Original price"
+msgstr "Початкова ціна"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.template_footer_website_sale
+msgid "Our payment methods"
+msgstr "Наші способи оплати"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Page Width"
+msgstr "Ширина сторінки"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/payment.py:0
+msgid "Payment is already being processed."
+msgstr "Оплата вже обробляється."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
+msgid "Pickup Location"
+msgstr "Місце самовивозу"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Presets"
+msgstr "Пресети"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.quick_reorder_history
+msgid "Press 'Enter' to add to cart"
+msgstr "Натисніть 'Enter', щоб додати в кошик"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_products_item model_terms:ir.ui.view,arch_db:website_sale.products_item
+msgid "Price information"
+msgstr "Інформація про ціну"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.total
+msgid "Price will be updated after choosing a delivery method"
+msgstr "Ціну буде оновлено після вибору способу доставки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Product Details"
+msgstr "Деталі товару"
+
+#. module: website_sale
+#: model:ir.model,name:website_sale.model_product_feed model:res.groups,name:website_sale.group_product_feed model_terms:ir.ui.view,arch_db:website_sale.product_feed_form
+msgid "Product Feed"
+msgstr "Фід товарів"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/res_config_settings.py:0 model:ir.actions.act_window,name:website_sale.action_product_feeds model:ir.ui.menu,name:website_sale.menu_product_feeds model_terms:ir.ui.view,arch_db:website_sale.product_feed_list
+msgid "Product Feeds"
+msgstr "Фіди товарів"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_products_option.xml:0
+msgid "Product Names"
+msgstr "Назви товарів"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__product_page_container
+msgid "Product Page Container"
+msgstr "Контейнер сторінки товару"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_ratio
+msgid "Product Page Image Ratio"
+msgstr "Співвідношення зображення сторінки товару"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_ratio_mobile
+msgid "Product Page Image Ratio Mobile"
+msgstr "Співвідношення зображення сторінки товару (мобільні)"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_roundness
+msgid "Product Page Image Roundness"
+msgstr "Заокруглення зображення сторінки товару"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__product_page_cols_order
+msgid "Product Page main columns order"
+msgstr "Порядок основних колонок сторінки товару"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_view_tree
+msgid "Product Ribbon"
+msgstr "Стрічка товару"
+
+#. module: website_sale
+#: model:ir.actions.act_window,name:website_sale.product_ribbon_action model:ir.ui.menu,name:website_sale.product_catalog_product_ribbons
+msgid "Product Ribbons"
+msgstr "Стрічки товарів"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0 code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Products Design"
+msgstr "Дизайн товарів"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Promote"
+msgstr "Просувати"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Promotions, coupons, loyalty cards, gift cards & eWallet"
+msgstr "Акції, купони, картки лояльності, подарункові картки та eWallet"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_document__shown_on_product_page
+msgid "Publish on website"
+msgstr "Опублікувати на вебсайті"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Purchase Options"
+msgstr "Опції покупки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Purchase Style"
+msgstr "Стиль покупки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.quick_reorder_sidebar
+msgid "Quick reorder"
+msgstr "Швидке повторне замовлення"
+
+#. module: website_sale
+#: model:ir.actions.server,name:website_sale.dynamic_snippet_latest_viewed_products_action model:website.snippet.filter,name:website_sale.dynamic_filter_latest_viewed_products
+msgid "Recently Viewed Products (per user)"
+msgstr "Нещодавно переглянуті товари (на користувача)"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_recliners
+msgid "Recliners"
+msgstr "Крісла-реклайнери"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__website__product_page_cols_order__regular
+msgid "Regular order"
+msgstr "Звичайний порядок"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_services_relocation_and_moving
+msgid "Relocation and Moving"
+msgstr "Переїзд і перевезення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Remove All"
+msgstr "Видалити все"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_products_item
+msgid "Remove from recently viewed"
+msgstr "Видалити з нещодавно переглянутих"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Render a button to show the Off-screen Menu"
+msgstr "Показати кнопку для відкриття позаекранного меню"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_services_repair_and_maintenance
+msgid "Repair and Maintenance"
+msgstr "Ремонт і обслуговування"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_image_option.xml:0
+msgid "Replace image"
+msgstr "Замінити зображення"
+
+#. module: website_sale
+#: model:ir.actions.server,name:website_sale.action_invalidate_cache
+msgid "Reset Cache"
+msgstr "Скинути кеш"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Responsive"
+msgstr "Адаптивний"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_delivery_carrier__website_id model:ir.model.fields,help:website_sale.field_product_product__website_id model:ir.model.fields,help:website_sale.field_product_public_category__website_id model:ir.model.fields,help:website_sale.field_product_tag__website_id model:ir.model.fields,help:website_sale.field_product_template__website_id model:ir.model.fields,help:website_sale.field_website_checkout_step__website_id
+msgid "Restrict to a specific website."
+msgstr "Обмежити певним вебсайтом."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Reverses the horizontal order of items on desktop and larger screens (mobile layout remains unchanged)"
+msgstr "Змінює горизонтальний порядок елементів на комп'ютерах і більших екранах (мобільний макет не змінюється)"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_ribbon__name
+msgid "Ribbon Name"
+msgstr "Назва стрічки"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_category_options.xml:0 code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Roundness"
+msgstr "Заокругленість"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes_rustic
+msgid "Rustic Boxes"
+msgstr "Рустикальні коробки"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products_item
+msgid "Sale price"
+msgstr "Ціна продажу"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.floating_bar model_terms:ir.ui.view,arch_db:website_sale.product model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Search Products"
+msgstr "Пошук товарів"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Search globally"
+msgstr "Шукати всюди"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.o_wsale_offcanvas model_terms:ir.ui.view,arch_db:website_sale.product model_terms:ir.ui.view,arch_db:website_sale.product_search model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Search in"
+msgstr "Шукати в"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.filter_radio_and_multi_attributes
+msgid "Search {{0}} ({{1}})"
+msgstr "Пошук {{0}} ({{1}})"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.products
+msgid "Search {{0}} globally"
+msgstr "Шукати {{0}} всюди"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Secondary Image"
+msgstr "Додаткове зображення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.delivery_method
+msgid "Select a location"
+msgstr "Виберіть розташування"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
+msgid "Select a website"
+msgstr "Виберіть вебсайт"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_feed__lang_id
+msgid "Select the language to translate product names, descriptions, and other text in the feed."
+msgstr "Виберіть мову для перекладу назв товарів, описів та іншого тексту у фіді."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Shadow-In"
+msgstr "Тінь всередину"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Shadow-Out"
+msgstr "Тінь назовні"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Shop Checkout"
+msgstr "Оформлення замовлення в магазині"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Shop Checkout - Extra Information"
+msgstr "Оформлення замовлення в магазині — Додаткова інформація"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Shop Confirmation"
+msgstr "Підтвердження в магазині"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__shop_opt_products_design_classes
+msgid "Shop Design Class"
+msgstr "Клас дизайну магазину"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_header_shop_option_plugin.js:0
+msgid "Shop Header"
+msgstr "Хедер магазину"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__shop_page_container
+msgid "Shop Page Container"
+msgstr "Контейнер сторінки магазину"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Shop Payment"
+msgstr "Оплата в магазині"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Shop, products, cart and wishlist visibility"
+msgstr "Видимість магазину, товарів, кошика та списку побажань"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/website_sale_show_empty_option.xml:0
+msgid "Shopping Cart"
+msgstr "Кошик"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/checkout_page_option.xml:0
+msgid "Show B2B Fields"
+msgstr "Показати поля B2B"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__show_category_description
+msgid "Show Category Description"
+msgstr "Показати опис категорії"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__show_category_title
+msgid "Show Category Title"
+msgstr "Показати назву категорії"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_header_category_options.xml:0
+msgid "Show Description"
+msgstr "Показати опис"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_attribute__is_thumbnail_visible
+msgid "Show Thumbnails"
+msgstr "Показати мініатюри"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_header_category_options.xml:0 code:addons/website_sale/static/src/website_builder/product_header_shop_options.xml:0
+msgid "Show Title"
+msgstr "Показати заголовок"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Show a filmstrip navigation at the Top"
+msgstr "Показати навігацію-стрічку мініатюр угорі"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Show filters into Sidebar"
+msgstr "Показати фільтри на бічній панелі"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Show into Sidebar"
+msgstr "Показати на бічній панелі"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/website_sale_show_empty_option.xml:0
+msgid "Show the button even if the Cart/Wishlist is empty"
+msgstr "Показувати кнопку, навіть якщо кошик/список побажань порожній"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/dynamic_snippet_products_option.xml:0
+msgid "Show variants"
+msgstr "Показати варіанти"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_sofas
+msgid "Sofas"
+msgstr "Дивани"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Sorry, we are unable to ship your order."
+msgstr "На жаль, ми не можемо відправити ваше замовлення."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_feed__pricelist_id
+msgid ""
+"Specify a pricelist to localize the feed with a specific currency. If not set, the default website pricelist will be used.\n"
+"Note that the pricelist must be selectable on the website."
+msgstr ""
+"Вкажіть прайс-лист, щоб локалізувати фід у певній валюті. Якщо не встановлено, використовуватиметься прайс-лист вебсайту за замовчуванням.\n"
+"Зверніть увагу, що прайс-лист має бути доступним для вибору на вебсайті."
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes_stackable
+msgid "Stackable Boxes"
+msgstr "Коробки, що складаються одна на одну"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_desks_standing
+msgid "Standing Desks"
+msgstr "Столи для роботи стоячи"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_cabinets_storage
+msgid "Storage Cabinets"
+msgstr "Шафи для зберігання"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Subtle"
+msgstr "Ледь помітний"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_product__variants_default_code model:ir.model.fields,help:website_sale.field_product_template__variants_default_code
+msgid "Technical field to enhance performance when looking up default code of productvariants (LIKE/ILIKE)"
+msgstr "Технічне поле для підвищення продуктивності під час пошуку внутрішнього коду варіантів товарів (LIKE/ILIKE)"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Text & content"
+msgstr "Текст і вміст"
+
+#. module: website_sale
+#: model:website.snippet.filter,help:website_sale.dynamic_filter_latest_viewed_products
+msgid "The building block will remain empty until the user visits a product page."
+msgstr "Блок залишатиметься порожнім, доки користувач не відвідає сторінку товару."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/payment.py:0
+msgid "The cart has already been paid. Please refresh the page."
+msgstr "Кошик вже оплачено. Оновіть сторінку."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid "The company of the website you are trying to sell from (%(website_company)s) is different than the one you want to use (%(company)s)"
+msgstr "Компанія вебсайту, з якого ви намагаєтеся продавати (%(website_company)s), відрізняється від тієї, яку ви хочете використати (%(company)s)"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid "The delivery method is not compatible with your delivery address."
+msgstr "Спосіб доставки несумісний з вашою адресою доставки."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/product_feed.py:0
+msgid "The feed %(feed_name)s contains more than %(limit)s products, which may not be fully updated. Consider refining the feed by adjusting the product categories."
+msgstr "Фід %(feed_name)s містить понад %(limit)s товарів, які можуть оновитися не повністю. Уточніть фід, скоригувавши категорії товарів."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_delivery_carrier__website_absolute_url model:ir.model.fields,help:website_sale.field_product_template__website_absolute_url model:ir.model.fields,help:website_sale.field_website_checkout_step__website_absolute_url
+msgid "The full absolute URL to access the document through the website."
+msgstr "Повна абсолютна URL-адреса для доступу до документа через вебсайт."
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_delivery_carrier__website_url model:ir.model.fields,help:website_sale.field_product_template__website_url model:ir.model.fields,help:website_sale.field_website_checkout_step__website_url
+msgid "The full relative URL to access the document through the website."
+msgstr "Повна відносна URL-адреса для доступу до документа через вебсайт."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "The mode selected here applies as invoicing policy of any new product                            created but not of products already existing."
+msgstr "Вибраний тут режим застосовується як політика виставлення рахунків для будь-якого нового товару,                            але не для вже наявних товарів."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/payment.py:0
+msgid "The order has been cancelled."
+msgstr "Замовлення скасовано."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Theme Preset n°"
+msgstr "Пресет теми №"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Theme Preset n°1 (default)"
+msgstr "Пресет теми №1 (за замовчуванням)"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Theme default"
+msgstr "За замовчуванням теми"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/map_container/map_container.js:0
+msgid "There was an error loading the map"
+msgstr "Під час завантаження карти сталася помилка"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.alternative_products
+msgid "These other products might interest you"
+msgstr "Вас також можуть зацікавити ці товари"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.accordion_more_information
+msgid "This content will be shared across all product pages."
+msgstr "Цей вміст буде спільним для всіх сторінок товарів."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid "This product is not available (anymore) in this unit of measure."
+msgstr "Цей товар (більше) недоступний у цій одиниці вимірювання."
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_website__send_abandoned_cart_email_activation_time
+msgid "Time when the 'Send abandoned cart email' feature was activated."
+msgstr "Час, коли було активовано функцію 'Надсилати лист про залишений кошик'."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Title Style"
+msgstr "Стиль заголовка"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "To send invitations in B2B mode, open a contact or select several ones                            in list view and click on 'Portal Access Management' option in the                            dropdown menu *Action*."
+msgstr "Щоб надіслати запрошення в режимі B2B, відкрийте контакт або виберіть кілька                            у вигляді списку та натисніть опцію «Керування доступом до порталу» у                            випадному меню *Дія*."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_list_page_option.xml:0
+msgid "Toolbar"
+msgstr "Панель інструментів"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_lamps_touch
+msgid "Touch Lamps"
+msgstr "Сенсорні лампи"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_bins_toy
+msgid "Toy Bins"
+msgstr "Контейнери для іграшок"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_drawers_underbed
+msgid "Under-bed Drawers"
+msgstr "Шухляди під ліжко"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__website__product_page_container__unset
+msgid "Unset"
+msgstr "Не встановлено"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Use Google Places API to validate addresses"
+msgstr "Використовувати Google Places API для перевірки адрес"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Use auto values or force the link-color defined in the Theme Tab"
+msgstr "Використовувати автоматичні значення або примусово колір посилань, визначений на вкладці «Тема»"
+
+#. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_product_attribute__is_thumbnail_visible
+msgid "Use product variant images instead of the attribute values displays."
+msgstr "Використовувати зображення варіантів товару замість відображення значень атрибутів."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/snippets/s_add_to_cart/add_to_cart_snippet.js:0
+msgid "User Error"
+msgstr "Помилка користувача"
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_product__variants_default_code model:ir.model.fields,field_description:website_sale.field_product_template__variants_default_code
+msgid "Variants Default Code"
+msgstr "Внутрішній код варіантів"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/interactions/website_sale.js:0
+msgid "View Less"
+msgstr "Показати менше"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/interactions/website_sale.js:0 model_terms:ir.ui.view,arch_db:website_sale.filter_radio_and_multi_attributes
+msgid "View More"
+msgstr "Показати більше"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_boxes_vintage
+msgid "Vintage Boxes"
+msgstr "Вінтажні коробки"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_multimedia_virtual_design
+msgid "Virtual Design Tools"
+msgstr "Інструменти віртуального дизайну"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/add_to_cart_option.xml:0
+msgid "Visitor's Choice"
+msgstr "Вибір відвідувачів"
+
+#. module: website_sale
+#: model:product.public.category,name:website_sale.public_category_furnitures_wardrobes
+msgid "Wardrobes"
+msgstr "Гардеробні шафи"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
+msgid "Warranty (2 year)"
+msgstr "Гарантія (2 роки)"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid "We weren't able to update your cart. Please refresh your page before trying again."
+msgstr "Не вдалося оновити ваш кошик. Оновіть сторінку, перш ніж спробувати ще раз."
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_delivery_carrier__website_absolute_url model:ir.model.fields,field_description:website_sale.field_product_template__website_absolute_url model:ir.model.fields,field_description:website_sale.field_website_checkout_step__website_absolute_url
+msgid "Website Absolute URL"
+msgstr "Абсолютна URL-адреса вебсайту"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_product_view_form_normalized
+msgid "Website Category"
+msgstr "Категорія вебсайту"
+
+#. module: website_sale
+#: model:ir.model,name:website_sale.model_website_checkout_step
+msgid "Website Checkout Step"
+msgstr "Етап оформлення замовлення на вебсайті"
+
+#. module: website_sale
+#: model:ir.model.fields.selection,name:website_sale.selection__product_ribbon__assign__new
+msgid "When New"
+msgstr "Коли новинка"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio__16_9 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio_mobile__16_9
+msgid "Wide (16/9)"
+msgstr "Широке (16/9)"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio__21_9 model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_ratio_mobile__21_9
+msgid "Wider (21/9)"
+msgstr "Ширше (21/9)"
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/main.py:0
+msgid "Wrong format: got `pricelist=%s`, expected an integer"
+msgstr "Неправильний формат: отримано `pricelist=%s`, очікувалося ціле число"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid ""
+"You are editing your <b>delivery and billing</b> addresses\n"
+"                            at the same time!<br/>\n"
+"                            If you want to modify your billing address, create a\n"
+"                            <a class=\"o_translate_inline\" href=\"/shop/address?address_type=billing\">new address</a>."
+msgstr ""
+"Ви редагуєте адреси <b>доставки та оплати</b>\n"
+"                            одночасно!<br/>\n"
+"                            Якщо хочете змінити адресу для оплати, створіть\n"
+"                            <a class=\"o_translate_inline\" href=\"/shop/address?address_type=billing\">нову адресу</a>."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/controllers/delivery.py:0
+msgid "Your cart is empty."
+msgstr "Ваш кошик порожній."
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
+msgid "Your postal code"
+msgstr "Ваш поштовий індекс"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/product_page_option.xml:0
+msgid "Zoom on click"
+msgstr "Збільшення при кліку"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Zoom-In"
+msgstr "Наближення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Zoom-In Light"
+msgstr "Легке наближення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Zoom-Out"
+msgstr "Віддалення"
+
+#. module: website_sale
+#. odoo-javascript
+#: code:addons/website_sale/static/src/website_builder/products_design_panel.xml:0
+msgid "Zoom-Out Light"
+msgstr "Легке віддалення"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_attribute_view_form
+msgid "eCommerce Filter"
+msgstr "Фільтр електронної комерції"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
+msgid "eCommerce Media"
+msgstr "Медіа електронної комерції"
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "hours."
+msgstr "год."
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_products_item
+msgid "{{0}} image"
+msgstr "Зображення {{0}}"

@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: website_sale_collect
+#: model:ir.model.fields,field_description:website_sale_collect.field_payment_provider__custom_mode
+msgid "Custom Mode"
+msgstr "Власний режим"
+
+#. module: website_sale_collect
+#: model_terms:ir.ui.view,arch_db:website_sale_collect.in_store_delivery_method
+msgid "Delivery method"
+msgstr "Спосіб доставки"
+
+#. module: website_sale_collect
+#: model:ir.model.fields,field_description:website_sale_collect.field_delivery_carrier__display_name model:ir.model.fields,field_description:website_sale_collect.field_payment_provider__display_name model:ir.model.fields,field_description:website_sale_collect.field_payment_transaction__display_name model:ir.model.fields,field_description:website_sale_collect.field_product_template__display_name model:ir.model.fields,field_description:website_sale_collect.field_res_config_settings__display_name model:ir.model.fields,field_description:website_sale_collect.field_sale_order__display_name model:ir.model.fields,field_description:website_sale_collect.field_stock_warehouse__display_name model:ir.model.fields,field_description:website_sale_collect.field_website__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: website_sale_collect
+#. odoo-javascript
+#: code:addons/website_sale_collect/static/src/js/location_selector/location/location.xml:0
+msgid "Out of stock"
+msgstr "Немає на складі"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_payment_provider
+msgid "Payment Provider"
+msgstr "Провайдер платежу"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "Платіжна операція"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_product_template
+msgid "Product"
+msgstr "Товар"
+
+#. module: website_sale_collect
+#: model:ir.model.fields,field_description:website_sale_collect.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "Провайдер"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_sale_order
+msgid "Sales Order"
+msgstr "Замовлення на продаж"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "Способи доставки"
+
+#. module: website_sale_collect
+#. odoo-python
+#: code:addons/website_sale_collect/controllers/main.py:0
+msgid "Sorry, we are unable to ship your order."
+msgstr "На жаль, ми не можемо відправити ваше замовлення."
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Склад"
+
+#. module: website_sale_collect
+#: model:ir.model,name:website_sale_collect.model_website
+msgid "Website"
+msgstr "Веб-сайт"

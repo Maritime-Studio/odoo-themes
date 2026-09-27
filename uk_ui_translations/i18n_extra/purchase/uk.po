@@ -1,0 +1,722 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid ", it's 100% free! You'll save time creating beautiful quotations and track sales."
+msgstr ", це 100% безкоштовно! Ви заощадите час на створенні гарних комерційних пропозицій і відстежуватимете продажі."
+
+#. module: purchase
+#: model:mail.template,body_html:purchase.email_template_edi_purchase
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Here is in attachment a request for quotation <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        If you have any questions, please do not hesitate to contact us.\n"
+"        <br/><br/>\n"
+"        Best regards,\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Шановний(а) <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        У вкладенні надсилаємо запит на комерційну пропозицію <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            з посиланням: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        від <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        Якщо у вас виникнуть запитання, звертайтеся до нас.\n"
+"        <br/><br/>\n"
+"        З повагою,\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid ""
+"<i class=\"fa fa-lock\"/>\n"
+"                        Locked"
+msgstr ""
+"<i class=\"fa fa-lock\"/>\n"
+"                        Заблоковано"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "<i class=\"fa fa-print me-1\"/>Download / Print"
+msgstr "<i class=\"fa fa-print me-1\"/>Завантажити / Друкувати"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "<span class=\"o_stat_text\">Bill Matching</span>"
+msgstr "<span class=\"o_stat_text\">Зіставлення рахунків</span>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "<span class=\"o_stat_text\">Price Comparison</span>"
+msgstr "<span class=\"o_stat_text\">Порівняння цін</span>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
+msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
+msgstr "<span class=\"o_stat_text\">Зіставлення закупівель</span>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "<span>Warning: this order might be a duplicate of</span>"
+msgstr "<span>Попередження: це замовлення може бути дублікатом</span>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+msgstr "<strong class=\"d-block mt-3\">Адреса доставки</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Buyer</strong>"
+msgstr "<strong>Покупець</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Disc.</strong>"
+msgstr "<strong>Знижка</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Expected Arrival:</strong>"
+msgstr "<strong>Очікуване прибуття:</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Payment Terms: </strong>"
+msgstr "<strong>Умови оплати: </strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong>Requested Ship Date:</strong>"
+msgstr "<strong>Запитувана дата відвантаження:</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
+msgid "<strong>Your Order Reference</strong>"
+msgstr "<strong>Ваш номер замовлення</strong>"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+msgid "A blanket purchase order is a purchase agreement between a buyer and a supplier to deliver goods or services to the buyer at a preset price for a period of time."
+msgstr "Рамкове замовлення на купівлю є угодою про закупівлю між покупцем і постачальником щодо постачання товарів або послуг покупцю за наперед встановленою ціною протягом певного періоду."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Acknowledge"
+msgstr "Підтвердити отримання"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__acknowledged
+msgid "Acknowledged"
+msgstr "Отримання підтверджено"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
+msgid "Activities of"
+msgstr "Дії"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+msgid "Add Down Payment"
+msgstr "Додати попередню оплату"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Add to PO"
+msgstr "Додати до ЗНК"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Add to Purchase Order"
+msgstr "Додати до замовлення на купівлю"
+
+#. module: purchase
+#: model:ir.actions.act_window,name:purchase.mail_followers_edit_action_from_purchase
+msgid "Add/Remove Followers"
+msgstr "Додати/видалити підписників"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "All Days to Order"
+msgstr "Усі дні до замовлення"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "All Late Receipt POs"
+msgstr "Усі ЗНК із простроченим надходженням"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "All Not Acknowledged POs"
+msgstr "Усі непідтверджені ЗНК"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "All Sent RFQs"
+msgstr "Усі надіслані ЗНКП"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__allowed_uom_ids
+msgid "Allowed Uom"
+msgstr "Дозволені од. вим."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__aml_id
+msgid "Aml"
+msgstr "Рядок журналу"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
+msgid "Are you sure you want to cancel the selected RFQs/Orders?"
+msgstr "Ви впевнені, що хочете скасувати вибрані ЗНКП/замовлення?"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/product.py:0
+msgid "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already been used for this product, the change of unit of measure can not be done.If you want to change it, please archive the product and create a new one."
+msgstr "Оскільки для цього товару вже використовувалися інші одиниці вимірювання (напр.: %(problem_uom)s), ніж %(uom)s, змінити одиницю вимірювання неможливо. Якщо ви хочете її змінити, архівуйте товар і створіть новий."
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_vendor_bill_id model:ir.model.fields,help:purchase.field_account_move__purchase_vendor_bill_id
+msgid "Auto-complete from a previous bill, refund, or purchase order."
+msgstr "Автозаповнення з попереднього рахунку, повернення або замовлення на купівлю."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Bill Matching"
+msgstr "Зіставлення рахунків"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_bill_to_po_wizard
+msgid "Bill to Purchase Order"
+msgstr "Рахунок до замовлення на купівлю"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__billed_amount_untaxed
+msgid "Billed Amount Untaxed"
+msgstr "Виставлена сума без податків"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order_line.py:0
+msgid "Cannot delete a purchase order line which is in state “%s”."
+msgstr "Неможливо видалити рядок замовлення на купівлю зі статусом “%s”."
+
+#. module: purchase
+#: model:ir.actions.server,name:purchase.action_confirm_rfqs
+msgid "Confirm RFQ"
+msgstr "Підтвердити ЗНКП"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Connect with your software!"
+msgstr "Під'єднайтеся до свого програмного забезпечення!"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "Connect your software"
+msgstr "Під'єднайте своє програмне забезпечення"
+
+#. module: purchase
+#: model:ir.model,website_form_label:purchase.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "Days to Order"
+msgstr "Днів до замовлення"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/wizard/bill_to_po_wizard.py:0
+msgid "Down Payment (ref: %(ref)s)"
+msgstr "Попередня оплата (посилання: %(ref)s)"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Drag and drop the request for quotation PDF file into your list of quotations in Odoo. Enjoy the automation!"
+msgstr "Перетягніть PDF-файл запиту на комерційну пропозицію у список комерційних пропозицій в Odoo. Насолоджуйтеся автоматизацією!"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__duplicated_order_ids
+msgid "Duplicated Order"
+msgstr "Дубльоване замовлення"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Generated Orders"
+msgstr "Створені замовлення"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order_line__product_type
+msgid ""
+"Goods are tangible materials and merchandise you provide.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Товари: матеріальні цінності та продукція, які ви надаєте.\n"
+"Послуга: нематеріальний продукт, який ви надаєте."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Import Template for Requests for Quotation"
+msgstr "Шаблон імпорту для запитів на комерційну пропозицію"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"In selected purchase order to merge these details must be same\n"
+"Vendor, currency, destination, dropship address and agreement"
+msgstr ""
+"У вибраних замовленнях на купівлю для об'єднання мають збігатися такі дані:\n"
+"постачальник, валюта, призначення, адреса дропшипінгу та угода"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_warning_text model:ir.model.fields,help:purchase.field_account_move__purchase_warning_text model:ir.model.fields,help:purchase.field_purchase_order__purchase_warning_text
+msgid "Internal warning for the partner or the products as set by the user."
+msgstr "Внутрішнє попередження для контакту або товарів, встановлене користувачем."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_product_product__is_in_purchase_order
+msgid "Is In Purchase Order"
+msgstr "У замовленні на купівлю"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__is_purchase_matched model:ir.model.fields,field_description:purchase.field_account_move__is_purchase_matched
+msgid "Is Purchase Matched"
+msgstr "Зіставлено із закупівлею"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order__acknowledged
+msgid "It indicates that the vendor has acknowledged the receipt of the purchase order."
+msgstr "Вказує, що постачальник підтвердив отримання замовлення на купівлю."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_amount_untaxed
+msgid "Line Amount Untaxed"
+msgstr "Сума рядка без податків"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_qty
+msgid "Line Qty"
+msgstr "К-сть у рядку"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_uom_id
+msgid "Line Uom"
+msgstr "Од. вим. рядка"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order__locked
+msgid "Locked Purchase Orders cannot be modified."
+msgstr "Заблоковані замовлення на купівлю не можна змінювати."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+msgid "Manage blanket orders and purchase templates"
+msgstr "Керуйте рамковими замовленнями та шаблонами закупівель"
+
+#. module: purchase
+#: model:ir.actions.server,name:purchase.action_merger
+msgid "Merge RFQs"
+msgstr "Об'єднати ЗНКП"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Merged RFQs"
+msgstr "Об'єднані ЗНКП"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "My"
+msgstr "Мої"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "My Days to Order"
+msgstr "Мої дні до замовлення"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "My Late Receipt POs"
+msgstr "Мої ЗНК із простроченим надходженням"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
+msgid "My Not Acknowledged POs"
+msgstr "Мої непідтверджені ЗНК"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/product_catalog/kanban_renderer.xml:0
+msgid "No Products for the selected Vendor."
+msgstr "Немає товарів для вибраного постачальника."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Not using Odoo?"
+msgstr "Не використовуєте Odoo?"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Order due %(date)s"
+msgstr "Термін замовлення %(date)s"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__parent_id
+msgid "Parent Section Line"
+msgstr "Батьківський рядок розділу"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Please select at least two purchase orders with state RFQ and RFQ sent to merge."
+msgstr "Виберіть щонайменше два замовлення на купівлю зі статусом ЗНКП або ЗНКП надіслано для об'єднання."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Please select bill lines with the same vendor."
+msgstr "Виберіть рядки рахунків з однаковим постачальником."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
+msgid "Pol"
+msgstr "Рядок замовлення на купівлю"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_price
+msgid "Product Uom Price"
+msgstr "Ціна за од. вим. товару"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty
+msgid "Product Uom Qty"
+msgstr "К-сть в од. вим. товару"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_amount_untaxed
+msgid "Purchase Amount Untaxed"
+msgstr "Сума купівлі без податків"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Purchase Bill Lines"
+msgstr "Рядки рахунків на купівлю"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Purchase Comparison for %s"
+msgstr "Порівняння закупівель для %s"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_move_line__purchase_line_warn_msg model:ir.model.fields,field_description:purchase.field_purchase_order_line__purchase_line_warn_msg
+msgid "Purchase Line Warn Msg"
+msgstr "Попередження для рядка купівлі"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_purchase_bill_line_match
+msgid "Purchase Line and Vendor Bill line matching view"
+msgstr "Зіставлення рядків купівлі та рядків рахунків постачальників"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/account_invoice.py:0
+msgid "Purchase Matching"
+msgstr "Зіставлення закупівель"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_order_name model:ir.model.fields,field_description:purchase.field_account_move__purchase_order_name
+msgid "Purchase Order Name"
+msgstr "Назва замовлення на купівлю"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_warning_text model:ir.model.fields,field_description:purchase.field_account_move__purchase_warning_text model:ir.model.fields,field_description:purchase.field_purchase_order__purchase_warning_text
+msgid "Purchase Warning"
+msgstr "Попередження щодо купівлі"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__qty_to_invoice
+msgid "Qty to invoice"
+msgstr "К-сть до виставлення рахунку"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
+msgstr "ЗНКП об'єднано з %(oldest_rfq_name)s та %(cancelled_rfq)s"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "RFQ merged with %s"
+msgstr "ЗНКП об'єднано з %s"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Read the documentation"
+msgstr "Читати документацію"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Select Vendor Bill lines to add to a Purchase Order"
+msgstr "Виберіть рядки рахунків постачальника, щоб додати їх до замовлення на купівлю"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
+msgid "Select a purchase document"
+msgstr "Виберіть документ купівлі"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__selected_seller_id
+msgid "Selected Seller"
+msgstr "Вибраний продавець"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
+msgid "Sell and purchase products in different units of measure or packagings"
+msgstr "Продавайте й купуйте товари в різних одиницях вимірювання або пакуваннях"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Send RFQ"
+msgstr "Надіслати ЗНКП"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__show_comparison
+msgid "Show Comparison"
+msgstr "Показати порівняння"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Some order lines are missing a product, you need to correct them before going further."
+msgstr "У деяких рядках замовлення не вказано товар, виправте їх, перш ніж продовжити."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Start on Odoo"
+msgstr "Почніть в Odoo"
+
+#. module: purchase
+#: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_subsection
+msgid "Subsection"
+msgstr "Підрозділ"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
+msgid "Subsection Name"
+msgstr "Назва підрозділу"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__technical_price_unit
+msgid "Technical Price Unit"
+msgstr "Технічна ціна за одиницю"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order_line__technical_price_unit
+msgid "Technical field for price computation"
+msgstr "Технічне поле для розрахунку ціни"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order_line__selected_seller_id
+msgid "Technical field to get the vendor pricelist used to generate this line"
+msgstr "Технічне поле для отримання прайс-листа постачальника, використаного для створення цього рядка"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order_line__price_unit_product_uom
+msgid "The Price of one unit of the product's Unit of Measure"
+msgstr "Ціна однієї одиниці в одиниці вимірювання товару"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/wizard/bill_to_po_wizard.py:0
+msgid "There are no products to add to the Purchase Order. Are these Down Payments?"
+msgstr "Немає товарів для додавання до замовлення на купівлю. Можливо, це попередні оплати?"
+
+#. module: purchase
+#: model:ir.model.fields,help:purchase.field_res_partner__property_purchase_currency_id model:ir.model.fields,help:purchase.field_res_users__property_purchase_currency_id
+msgid "This currency will be used for purchases from the current partner"
+msgstr "Ця валюта використовуватиметься для купівель у цього контакту"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
+msgid "Total Billed"
+msgstr "Усього виставлено рахунків"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
+msgid "Total Qty purchased"
+msgstr "Загальна к-сть куплено"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total_cc
+msgid "Total in currency"
+msgstr "Усього у валюті"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
+msgid "Total purchased amount"
+msgstr "Загальна сума купівлі"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__translated_product_name
+msgid "Translated Product Name"
+msgstr "Перекладена назва товару"
+
+#. module: purchase
+#. odoo-javascript
+#: code:addons/purchase/static/src/product_catalog/kanban_renderer.xml:0
+msgid "Try removing the top filter to broaden your search"
+msgstr "Спробуйте видалити верхній фільтр, щоб розширити пошук"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Unable to cancel purchase order(s): %s. You must first cancel their related vendor bills."
+msgstr "Неможливо скасувати замовлення на купівлю: %s. Спочатку скасуйте пов'язані рахунки постачальників."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Unable to cancel purchase order(s): %s. You must first unlock them."
+msgstr "Неможливо скасувати замовлення на купівлю: %s. Спочатку розблокуйте їх."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_unit_product_uom
+msgid "Unit Price Product UoM"
+msgstr "Ціна за одиницю в од. вим. товару"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "Unsupported operator"
+msgstr "Непідтримуваний оператор"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Use the above REST URL to get structured data of the purchase order in UBL format."
+msgstr "Використовуйте наведену вище REST URL-адресу, щоб отримати структуровані дані замовлення на купівлю у форматі UBL."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Vendor Bill lines can only be added to one Purchase Order."
+msgstr "Рядки рахунку постачальника можна додати лише до одного замовлення на купівлю."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "Want to import this document in Odoo?"
+msgstr "Хочете імпортувати цей документ в Odoo?"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
+msgid "Warning on Purchase Orders"
+msgstr "Попередження в замовленнях на купівлю"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_buttons
+msgid "Warning on Purchase Orders and Bills"
+msgstr "Попередження в замовленнях на купівлю та рахунках"
+
+#. module: purchase
+#. odoo-javascript
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0 code:addons/purchase/static/src/components/purchase_file_uploader/purchase_file_uploader.js:0
+msgid "You can only upload a bill for a single vendor at a time."
+msgstr "Можна завантажувати рахунок лише одного постачальника за раз."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "You don't use a good CRM software?"
+msgstr "Не користуєтеся хорошою CRM-системою?"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "You must select at least one Purchase Order line to match or create bill."
+msgstr "Виберіть щонайменше один рядок замовлення на купівлю, щоб зіставити або створити рахунок."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
+msgid "e.g. There is a newer version of this product."
+msgstr "напр., Існує новіша версія цього товару."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_buttons
+msgid "e.g. This vendor is on vacation until the end of August."
+msgstr "напр., Цей постачальник у відпустці до кінця серпня."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
+msgid "or create new"
+msgstr "або створіть новий"
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "to create quotes automatically."
+msgstr "щоб автоматично створювати комерційні пропозиції."
+
+#. module: purchase
+#: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
+msgid "to learn all the ways to connect your software with"
+msgstr "щоб дізнатися про всі способи підключення вашого програмного забезпечення до"

@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: website_event_track
+#. odoo-javascript
+#: code:addons/website_event_track/static/src/xml/website_event_track_email_reminder.xml:0 model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
+msgid "Close"
+msgstr "Закрити"
+
+#. module: website_event_track
+#. odoo-javascript
+#: code:addons/website_event_track/static/src/xml/website_event_track_email_reminder.xml:0
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: website_event_track
+#. odoo-javascript
+#: code:addons/website_event_track/static/src/interactions/event_track_reminder.js:0
+msgid "Invalid email"
+msgstr "Недійсна ел. пошта"
+
+#. module: website_event_track
+#: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
+msgid "My Activities"
+msgstr "Мої дії"
+
+#. module: website_event_track
+#: model:ir.model.fields,help:website_event_track.field_event_track__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__rating_ids
+msgid "Ratings"
+msgstr "Оцінювання"
+
+#. module: website_event_track
+#: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: website_event_track
+#: model:ir.model.fields,help:website_event_track.field_event_track__website_absolute_url
+msgid "The full absolute URL to access the document through the website."
+msgstr "Повна абсолютна URL-адреса для доступу до документа через вебсайт."
+
+#. module: website_event_track
+#: model:ir.model.fields,help:website_event_track.field_event_track__website_url
+msgid "The full relative URL to access the document through the website."
+msgstr "Повна відносна URL-адреса для доступу до документа через вебсайт."
+
+#. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__website_absolute_url
+msgid "Website Absolute URL"
+msgstr "Абсолютна URL-адреса вебсайту"

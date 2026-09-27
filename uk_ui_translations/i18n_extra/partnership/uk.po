@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__active
+msgid "Active"
+msgstr "Активно"
+
+#. module: partnership
+#: model_terms:ir.ui.view,arch_db:partnership.res_partner_grade_view_search
+msgid "Archived"
+msgstr "Заархівовано"
+
+#. module: partnership
+#: model:ir.model,name:partnership.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: partnership
+#: model:ir.model,name:partnership.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: partnership
+#: model:ir.model,name:partnership.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: partnership
+#: model:ir.model,website_form_label:partnership.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_product_pricelist__display_name model:ir.model.fields,field_description:partnership.field_product_template__display_name model:ir.model.fields,field_description:partnership.field_res_company__display_name model:ir.model.fields,field_description:partnership.field_res_config_settings__display_name model:ir.model.fields,field_description:partnership.field_res_partner__display_name model:ir.model.fields,field_description:partnership.field_res_partner_grade__display_name model:ir.model.fields,field_description:partnership.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partnership
+#: model:ir.model,name:partnership.model_product_template
+msgid "Product"
+msgstr "Товар"
+
+#. module: partnership
+#: model:ir.model,name:partnership.model_sale_order
+msgid "Sales Order"
+msgstr "Замовлення на продаж"
+
+#. module: partnership
+#: model:ir.model.fields,field_description:partnership.field_res_partner_grade__sequence
+msgid "Sequence"
+msgstr "Послідовність"

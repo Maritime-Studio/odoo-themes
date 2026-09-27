@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_ro_edi_stock_batch
+#: model:ir.model,name:l10n_ro_edi_stock_batch.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "Групове переміщення"
+
+#. module: l10n_ro_edi_stock_batch
+#: model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_l10n_ro_edi_document__display_name model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_stock_picking__display_name model:ir.model.fields,field_description:l10n_ro_edi_stock_batch.field_stock_picking_batch__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_ro_edi_stock_batch
+#: model:ir.model.fields.selection,name:l10n_ro_edi_stock_batch.selection__stock_picking_batch__l10n_ro_edi_stock_end_loc_type__location model:ir.model.fields.selection,name:l10n_ro_edi_stock_batch.selection__stock_picking_batch__l10n_ro_edi_stock_start_loc_type__location
+msgid "Location"
+msgstr "Розташування"
+
+#. module: l10n_ro_edi_stock_batch
+#: model_terms:ir.ui.view,arch_db:l10n_ro_edi_stock_batch.l10n_ro_edi_stock_view_batch_form
+msgid "Transport"
+msgstr "Транспорт"

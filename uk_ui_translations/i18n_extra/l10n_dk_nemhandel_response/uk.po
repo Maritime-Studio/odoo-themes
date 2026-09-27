@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model,name:l10n_dk_nemhandel_response.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model,website_form_label:l10n_dk_nemhandel_response.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__create_uid model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__create_date model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_edi_proxy_client_user__display_name model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_account_move__display_name model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__display_name model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__display_name model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields.selection,name:l10n_dk_nemhandel_response.selection__nemhandel_response__nemhandel_state__done
+msgid "Done"
+msgstr "Виконано"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__write_uid model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_dk_nemhandel_response
+#: model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_rejection_wizard__write_date model:ir.model.fields,field_description:l10n_dk_nemhandel_response.field_nemhandel_response__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

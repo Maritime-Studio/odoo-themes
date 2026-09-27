@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.xml:0
+msgid "(recording keyboard)"
+msgstr "(запис клавіатури)"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.xml:0
+msgid "(run:"
+msgstr "(запуск:"
+
+#. module: web_tour
+#: model:ir.model.constraint,message:web_tour.constraint_web_tour_tour_uniq_name
+msgid "A tour already exists with this name . Tour's name must be unique!"
+msgstr "Тур із такою назвою вже існує. Назва туру має бути унікальною!"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/tour_utils.js:0
+msgid "Click the top left corner to navigate across apps."
+msgstr "Натисніть верхній лівий кут, щоб переходити між застосунками."
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.js:0
+msgid "Custom tour '%s' couldn't be saved!"
+msgstr "Не вдалося зберегти власний тур '%s'!"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.js:0
+msgid "Custom tour '%s' has been added."
+msgstr "Власний тур '%s' додано."
+
+#. module: web_tour
+#: model:ir.actions.server,name:web_tour.tour_export_js_action
+msgid "Export JS"
+msgstr "Експорт JS"
+
+#. module: web_tour
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__rainbow_man_message
+msgid "Rainbow Man Message"
+msgstr "Повідомлення Rainbow Man"
+
+#. module: web_tour
+#: model_terms:ir.ui.view,arch_db:web_tour.tour_form
+msgid "Rainbow Man Message..."
+msgstr "Повідомлення Rainbow Man..."
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/views/tour_controller.xml:0
+msgid "Record Tour"
+msgstr "Записати тур"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_pointer/tour_pointer_state.js:0
+msgid "Scroll left to reach the next step."
+msgstr "Прокрутіть ліворуч, щоб перейти до наступного кроку."
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_pointer/tour_pointer_state.js:0
+msgid "Scroll right to reach the next step."
+msgstr "Прокрутіть праворуч, щоб перейти до наступного кроку."
+
+#. module: web_tour
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__sharing_url
+msgid "Sharing URL"
+msgstr "URL для поширення"
+
+#. module: web_tour
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__url
+msgid "Starting URL"
+msgstr "Початковий URL"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.xml:0
+msgid "Steps:"
+msgstr "Кроки:"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/widgets/tour_start.xml:0
+msgid "Test Tour"
+msgstr "Тестувати тур"
+
+#. module: web_tour
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour_step__tooltip_position
+msgid "Tooltip Position"
+msgstr "Положення підказки"
+
+#. module: web_tour
+#: model:ir.model,name:web_tour.model_web_tour_tour_step
+msgid "Tour's step"
+msgstr "Крок туру"
+
+#. module: web_tour
+#: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__user_consumed_ids
+msgid "User Consumed"
+msgstr "Користувач пройшов"
+
+#. module: web_tour
+#: model_terms:ir.ui.view,arch_db:web_tour.tour_form
+msgid "e.g. My_Tour"
+msgstr "напр. My_Tour"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.xml:0
+msgid "n°"
+msgstr "№"
+
+#. module: web_tour
+#. odoo-javascript
+#: code:addons/web_tour/static/src/js/tour_recorder/tour_recorder.xml:0
+msgid "trigger"
+msgstr "тригер"

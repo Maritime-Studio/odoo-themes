@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/models/ir_mail_server.py:0
+msgid "Incorrect Connection Security for Outlook mail server “%s”. Please set it to \"TLS (STARTTLS)\"."
+msgstr "Неправильне налаштування безпеки з’єднання для поштового сервера Outlook “%s”. Встановіть значення \"TLS (STARTTLS)\"."
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
+msgid "Oops, we could not authenticate you. Please try again later."
+msgstr "Ой, не вдалося вас автентифікувати. Спробуйте пізніше."
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/controllers/main.py:0
+msgid "Oops, you're creating an authorization to send from %(email_login)s but your address is %(email_server)s. Make sure your addresses match!"
+msgstr "Ой, ви створюєте авторизацію для надсилання з %(email_login)s, але у вас адреса %(email_server)s. Переконайтеся, що адреси збігаються!"
+
+#. module: microsoft_outlook
+#: model:ir.model.fields,field_description:microsoft_outlook.field_res_users__outgoing_mail_server_type
+msgid "Outgoing Mail Server Type"
+msgstr "Тип сервера вихідної пошти"
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/models/microsoft_outlook_mixin.py:0
+msgid "Please enter a valid email address."
+msgstr "Введіть дійсну адресу електронної пошти."
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/models/ir_mail_server.py:0
+msgid "Please leave the password field empty for Outlook mail server “%s”. The OAuth process does not require it"
+msgstr "Залиште поле пароля порожнім для поштового сервера Outlook “%s”. Для процесу OAuth він не потрібен"
+
+#. module: microsoft_outlook
+#. odoo-python
+#: code:addons/microsoft_outlook/models/fetchmail_server.py:0
+msgid "SSL is required for server “%s”."
+msgstr "Для сервера “%s” потрібен SSL."

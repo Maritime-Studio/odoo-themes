@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__code
+msgid "Code"
+msgstr "Код"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_account_edi_xml_ubl_ro__display_name model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__display_name model:ir.model.fields,field_description:l10n_ro_cpv_code.field_product_template__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model.fields,field_description:l10n_ro_cpv_code.field_l10n_ro_cpv_code__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: l10n_ro_cpv_code
+#: model:ir.model,name:l10n_ro_cpv_code.model_product_template
+msgid "Product"
+msgstr "Товар"

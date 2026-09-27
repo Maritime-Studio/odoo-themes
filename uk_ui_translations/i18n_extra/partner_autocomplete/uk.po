@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: partner_autocomplete
+#: model:iap.service,description:partner_autocomplete.iap_service_partner_autocomplete
+msgid "Automatically enrich your contact base with corporate data."
+msgstr "Автоматично доповнюйте свою базу контактів корпоративними даними."
+
+#. module: partner_autocomplete
+#: model:ir.model,website_form_label:partner_autocomplete.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: partner_autocomplete
+#: model:iap.service,unit_name:partner_autocomplete.iap_service_partner_autocomplete
+msgid "Enrichments"
+msgstr "Доповнення даних"
+
+#. module: partner_autocomplete
+#. odoo-javascript
+#: code:addons/partner_autocomplete/static/src/xml/partner_autocomplete.xml:0
+msgid "Search Worldwide 🌎"
+msgstr "Шукати по всьому світу 🌎"
+
+#. module: partner_autocomplete
+#. odoo-python
+#: code:addons/partner_autocomplete/models/res_partner.py:0
+msgid "Unable to enrich company (no credit was consumed)."
+msgstr "Не вдалося доповнити дані компанії (кредити не списано)."

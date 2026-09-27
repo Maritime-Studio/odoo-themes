@@ -1,5 +1,6 @@
 import { registries } from "@odoo/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
+import { translatedTermsGlobal } from "@web/core/l10n/translation";
 import {
     hue,
     luminance,
@@ -202,6 +203,18 @@ function applySoftStyle(chart) {
         return;
     }
     softenChartConfig(chart.config, seriesColor);
+    translateAxisTitles(chart);
+}
+
+// Axis titles of the dashboards' charts ("Revenue"...) are not passed through the
+// translations by o-spreadsheet: look them up like the other dashboard texts.
+function translateAxisTitles(chart) {
+    for (const scale of Object.values(chart.config.options?.scales || {})) {
+        const title = scale?.title;
+        if (title && typeof title.text === "string" && translatedTermsGlobal[title.text]) {
+            title.text = translatedTermsGlobal[title.text];
+        }
+    }
 }
 
 registries.chartJsExtensionRegistry.add("basSoftCharts", {

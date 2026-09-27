@@ -1,0 +1,170 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_needaction
+msgid "Action Needed"
+msgstr "Необхідна дія"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__active
+msgid "Active"
+msgstr "Активно"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: l10n_my_edi
+#: model_terms:ir.ui.view,arch_db:l10n_my_edi.myinvois_consolidate_invoice_wizard_form model_terms:ir.ui.view,arch_db:l10n_my_edi.myinvois_document_status_update_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__code
+msgid "Code"
+msgstr "Код"
+
+#. module: l10n_my_edi
+#: model:ir.model,name:l10n_my_edi.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_my_edi
+#: model:ir.model,name:l10n_my_edi.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: l10n_my_edi
+#: model:ir.model,name:l10n_my_edi.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: l10n_my_edi
+#: model:ir.model,website_form_label:l10n_my_edi.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__create_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_consolidate_invoice_wizard__create_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__create_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document_status_update_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__create_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_consolidate_invoice_wizard__create_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__create_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document_status_update_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_account_edi_proxy_client_user__display_name model:ir.model.fields,field_description:l10n_my_edi.field_account_edi_xml_ubl_myinvois_my__display_name model:ir.model.fields,field_description:l10n_my_edi.field_account_move__display_name model:ir.model.fields,field_description:l10n_my_edi.field_account_move_line__display_name model:ir.model.fields,field_description:l10n_my_edi.field_account_move_send__display_name model:ir.model.fields,field_description:l10n_my_edi.field_account_tax__display_name model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__display_name model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_consolidate_invoice_wizard__display_name model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__display_name model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document_status_update_wizard__display_name model:ir.model.fields,field_description:l10n_my_edi.field_product_template__display_name model:ir.model.fields,field_description:l10n_my_edi.field_res_company__display_name model:ir.model.fields,field_description:l10n_my_edi.field_res_config_settings__display_name model:ir.model.fields,field_description:l10n_my_edi.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_my_edi
+#. odoo-python
+#: code:addons/l10n_my_edi/models/myinvois_document.py:0
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (Партнери)"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,help:l10n_my_edi.field_myinvois_document__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,help:l10n_my_edi.field_myinvois_document__message_has_error model:ir.model.fields,help:l10n_my_edi.field_myinvois_document__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_is_follower
+msgid "Is Follower"
+msgstr "Стежить"
+
+#. module: l10n_my_edi
+#: model:ir.model,name:l10n_my_edi.model_account_move_line
+msgid "Journal Item"
+msgstr "Запис у журналі"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__write_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_consolidate_invoice_wizard__write_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__write_uid model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document_status_update_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__write_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_consolidate_invoice_wizard__write_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__write_date model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document_status_update_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставлення повідомлення"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_l10n_my_edi_industry_classification__name model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,help:l10n_my_edi.field_myinvois_document__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,help:l10n_my_edi.field_myinvois_document__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: l10n_my_edi
+#: model:ir.model,name:l10n_my_edi.model_product_template
+msgid "Product"
+msgstr "Товар"
+
+#. module: l10n_my_edi
+#: model:ir.model.fields,field_description:l10n_my_edi.field_myinvois_document__rating_ids
+msgid "Ratings"
+msgstr "Оцінювання"

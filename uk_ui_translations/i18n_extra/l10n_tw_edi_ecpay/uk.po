@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_bank_statement_line__l10n_tw_edi_carrier_type model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move__l10n_tw_edi_carrier_type
+msgid "Carrier Type"
+msgstr "Тип перевізника"
+
+#. module: l10n_tw_edi_ecpay
+#: model_terms:ir.ui.view,arch_db:l10n_tw_edi_ecpay.l10n_tw_edi_invoice_cancel_form model_terms:ir.ui.view,arch_db:l10n_tw_edi_ecpay.l10n_tw_edi_invoice_print_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model,name:l10n_tw_edi_ecpay.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model,name:l10n_tw_edi_ecpay.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model,name:l10n_tw_edi_ecpay.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model,website_form_label:l10n_tw_edi_ecpay.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_cancel__create_uid model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_print__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_cancel__create_date model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_print__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_bank_statement_line__l10n_tw_edi_invoice_create_date model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move__l10n_tw_edi_invoice_create_date
+msgid "Creation Date"
+msgstr "Дата створення"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move_line__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move_reversal__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_move_send__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_account_tax__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_cancel__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_print__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_res_company__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_res_config_settings__display_name model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model,name:l10n_tw_edi_ecpay.model_account_move_line
+msgid "Journal Item"
+msgstr "Запис у журналі"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_cancel__write_uid model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_print__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_cancel__write_date model:ir.model.fields,field_description:l10n_tw_edi_ecpay.field_l10n_tw_edi_invoice_print__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_tw_edi_ecpay
+#: model:ir.model.fields.selection,name:l10n_tw_edi_ecpay.selection__account_move_reversal__l10n_tw_edi_refund_agreement_type__online
+msgid "Online"
+msgstr "Онлайн"

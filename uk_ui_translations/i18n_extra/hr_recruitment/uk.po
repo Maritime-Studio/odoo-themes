@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: hr_recruitment
+#: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
+msgid "Activities of"
+msgstr "Дії"
+
+#. module: hr_recruitment
+#: model:ir.actions.act_window,name:hr_recruitment.mail_followers_edit_action_from_hr_recruitment
+msgid "Add/Remove Followers"
+msgstr "Додати/видалити підписників"
+
+#. module: hr_recruitment
+#: model:ir.model,website_form_label:hr_recruitment.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: hr_recruitment
+#: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__rotting_days
+msgid "Day count since this resource was last updated"
+msgstr "Кількість днів з моменту останнього оновлення цього ресурсу"
+
+#. module: hr_recruitment
+#: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__rotting_days
+msgid "Days Rotting"
+msgstr "Дні застою"
+
+#. module: hr_recruitment
+#: model:ir.model.fields,help:hr_recruitment.field_applicant_get_refuse_reason__lang model:ir.model.fields,help:hr_recruitment.field_applicant_send_mail__lang
+msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the main partner's language will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. {{ object.partner_id.lang }}."
+msgstr "Необов'язкова мова перекладу (код ISO) для вибору під час надсилання листа. Якщо не встановлено, використовується мова основного контакту. Зазвичай це вираз-заповнювач, що надає відповідну мову, напр. {{ object.partner_id.lang }}."
+
+#. module: hr_recruitment
+#: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__is_rotting model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
+msgid "Rotting"
+msgstr "Застій"
+
+#. module: hr_recruitment
+#: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_search_bis
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: hr_recruitment
+#: model:ir.model.fields,help:hr_recruitment.field_hr_job__user_id
+msgid "The Recruiter will be the default value for all Applicants in this job             position. The Recruiter is automatically added to all meetings with the Applicant."
+msgstr "Рекрутер буде значенням за замовчуванням для всіх кандидатів на цю             вакансію. Рекрутер автоматично додається до всіх зустрічей з кандидатом."

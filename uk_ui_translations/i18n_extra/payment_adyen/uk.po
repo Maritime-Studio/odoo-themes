@@ -1,0 +1,45 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_key
+msgid "API Key"
+msgstr "Ключ API"
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__code
+msgid "Code"
+msgstr "Код"
+
+#. module: payment_adyen
+#: model:ir.model.fields,field_description:payment_adyen.field_payment_capture_wizard__display_name model:ir.model.fields,field_description:payment_adyen.field_payment_provider__display_name model:ir.model.fields,field_description:payment_adyen.field_payment_token__display_name model:ir.model.fields,field_description:payment_adyen.field_payment_transaction__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_payment_capture_wizard
+msgid "Payment Capture Wizard"
+msgstr "Помічник фіксування платежу"
+
+#. module: payment_adyen
+#: model:ir.model,name:payment_adyen.model_payment_provider
+msgid "Payment Provider"
+msgstr "Провайдер платежу"
+
+#. module: payment_adyen
+#. odoo-javascript
+#: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
+msgid "Payment processing failed"
+msgstr "Не вдалося обробити платіж"
+
+#. module: payment_adyen
+#: model:ir.model.fields,help:payment_adyen.field_payment_provider__code
+msgid "The technical code of this payment provider."
+msgstr "Технічний код цього платіжного провайдера."

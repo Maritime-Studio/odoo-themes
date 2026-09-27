@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: pos_loyalty
+#. odoo-javascript
+#: code:addons/pos_loyalty/static/src/app/components/popups/manage_giftcard_popup/manage_giftcard_popup.xml:0
+msgid "Amount"
+msgstr "Сума"
+
+#. module: pos_loyalty
+#. odoo-javascript
+#: code:addons/pos_loyalty/static/src/app/screens/receipt_screen/order_receipt/order_receipt.xml:0
+msgid "Balance"
+msgstr "Баланс"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: pos_loyalty
+#: model:ir.model,website_form_label:pos_loyalty.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_account_move_line__display_name model:ir.model.fields,field_description:pos_loyalty.field_barcode_rule__display_name model:ir.model.fields,field_description:pos_loyalty.field_loyalty_card__display_name model:ir.model.fields,field_description:pos_loyalty.field_loyalty_mail__display_name model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__display_name model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__display_name model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__display_name model:ir.model.fields,field_description:pos_loyalty.field_pos_config__display_name model:ir.model.fields,field_description:pos_loyalty.field_pos_order__display_name model:ir.model.fields,field_description:pos_loyalty.field_pos_order_line__display_name model:ir.model.fields,field_description:pos_loyalty.field_pos_session__display_name model:ir.model.fields,field_description:pos_loyalty.field_product_product__display_name model:ir.model.fields,field_description:pos_loyalty.field_product_template__display_name model:ir.model.fields,field_description:pos_loyalty.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_account_move_line
+msgid "Journal Item"
+msgstr "Запис у журналі"
+
+#. module: pos_loyalty
+#. odoo-javascript
+#: code:addons/pos_loyalty/static/src/app/screens/product_screen/order_summary/order_summary.js:0
+msgid "No"
+msgstr "Ні"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pos_ok model_terms:ir.ui.view,arch_db:pos_loyalty.loyalty_program_view_form_inherit_pos_loyalty
+msgid "Point of Sale"
+msgstr "Точка продажу"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Налаштування точки продажу"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Рядки замовлення точки продажу"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Замовлення точки продажу"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Сесія точки продажу"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_product_template
+msgid "Product"
+msgstr "Товар"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_product_product
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_barcode_rule__type
+msgid "Type"
+msgstr "Тип"
+
+#. module: pos_loyalty
+#. odoo-javascript
+#: code:addons/pos_loyalty/static/src/app/screens/product_screen/order_summary/order_summary.js:0
+msgid "Yes"
+msgstr "Так"

@@ -1,0 +1,160 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction
+msgid "Action Needed"
+msgstr "Необхідна дія"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__active
+msgid "Active"
+msgstr "Активно"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model,name:l10n_in_ewaybill.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model,name:l10n_in_ewaybill.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__create_uid model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__create_uid model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__create_date model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__create_date model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_chart_template__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_account_move__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_ir_attachment__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_company__display_name model:ir.model.fields,field_description:l10n_in_ewaybill.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__distance
+msgid "Distance"
+msgstr "Відстань"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__type_id
+msgid "Document Type"
+msgstr "Тип документа"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (Партнери)"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_is_follower
+msgid "Is Follower"
+msgstr "Стежить"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__write_uid model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__write_uid model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__write_date model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_cancel__write_date model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставлення повідомлення"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: l10n_in_ewaybill
+#. odoo-python
+#: code:addons/l10n_in_ewaybill/models/error_codes.py:0
+msgid "No record found"
+msgstr "Запис не знайдено"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,help:l10n_in_ewaybill.field_l10n_in_ewaybill__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill__cancel_reason__4 model:ir.model.fields.selection,name:l10n_in_ewaybill.selection__l10n_in_ewaybill_cancel__cancel_reason__4
+msgid "Others"
+msgstr "Інші"
+
+#. module: l10n_in_ewaybill
+#: model_terms:ir.ui.view,arch_db:l10n_in_ewaybill.report_ewaybill
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill__rating_ids
+msgid "Ratings"
+msgstr "Оцінювання"
+
+#. module: l10n_in_ewaybill
+#: model:ir.model.fields,field_description:l10n_in_ewaybill.field_l10n_in_ewaybill_type__name
+msgid "Type"
+msgstr "Тип"

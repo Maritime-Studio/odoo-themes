@@ -1,0 +1,69 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model,name:l10n_account_withholding_tax.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__company_id model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__company_id model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model,name:l10n_account_withholding_tax.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_uid model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_date model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_tax__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_withholding_line__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_product_template__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_company__display_name model:ir.model.fields,field_description:l10n_account_withholding_tax.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_uid model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_register_withholding_line__write_date model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment_register
+msgid "Pay"
+msgstr "Оплатити"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model.fields,field_description:l10n_account_withholding_tax.field_account_payment_withholding_line__payment_id
+msgid "Payment"
+msgstr "Оплата"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model,name:l10n_account_withholding_tax.model_account_payment
+msgid "Payments"
+msgstr "Платежі"
+
+#. module: l10n_account_withholding_tax
+#: model:ir.model,name:l10n_account_withholding_tax.model_product_template
+msgid "Product"
+msgstr "Товар"

@@ -1,0 +1,278 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Average Order"
+msgstr "Середнє замовлення"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Average order amount"
+msgstr "Середня сума замовлення"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Category"
+msgstr "Найкраща категорія"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Seller"
+msgstr "Бестселер"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Sellers by Revenue"
+msgstr "Бестселери за доходом"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Sellers by Units Sold"
+msgstr "Бестселери за проданими одиницями"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Selling Categories"
+msgstr "Найпопулярніші категорії"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best Selling Products"
+msgstr "Найпопулярніші товари"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best selling category"
+msgstr "Найпопулярніша категорія"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Best selling product"
+msgstr "Найпопулярніший товар"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Category"
+msgstr "Категорія"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Country"
+msgstr "Країна"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Current"
+msgstr "Поточний"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Customer"
+msgstr "Клієнт"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Draft quotations"
+msgstr "Чернетки комерційних пропозицій"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Medium"
+msgstr "Канал"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Monthly Sales"
+msgstr "Продажі за місяць"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Name"
+msgstr "Назва"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Orders"
+msgstr "Замовлення"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "Period"
+msgstr "Період"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Previous"
+msgstr "Попередній"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0 model:spreadsheet.dashboard,name:spreadsheet_dashboard_sale.spreadsheet_dashboard_product
+msgid "Product"
+msgstr "Товар"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Quotations"
+msgstr "Комерційні пропозиції"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Quotations sent"
+msgstr "Надіслані комерційні пропозиції"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Revenue"
+msgstr "Дохід"
+
+#. module: spreadsheet_dashboard_sale
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_sale.spreadsheet_dashboard_sales
+msgid "Sales"
+msgstr "Продажі"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Sales Team"
+msgstr "Команда продажу"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Salesperson"
+msgstr "Продавець"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Source"
+msgstr "Джерело"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Categories"
+msgstr "Топ категорій"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Countries"
+msgstr "Топ країн"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Customers"
+msgstr "Топ клієнтів"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Mediums"
+msgstr "Топ каналів"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Products"
+msgstr "Топ товарів"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Quotations"
+msgstr "Топ комерційних пропозицій"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Sales Orders"
+msgstr "Топ замовлень на продаж"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Sales Teams"
+msgstr "Топ команд продажу"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Salespeople"
+msgstr "Топ продавців"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Top Sources"
+msgstr "Топ джерел"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Total orders"
+msgstr "Усього замовлень"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "Total quotations"
+msgstr "Усього комерційних пропозицій"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
+msgid "Unit sold"
+msgstr "Продано одиниць"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "Units"
+msgstr "Одиниці"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_sample_dashboard.json:0
+msgid "since last period"
+msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
+msgid "sold"
+msgstr "продано"

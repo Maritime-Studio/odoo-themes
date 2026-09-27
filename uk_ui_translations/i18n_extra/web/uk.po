@@ -1,0 +1,1356 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_processor.js:0
+msgid ": not"
+msgstr ": не"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login_oauth
+msgid "<em class=\"d-block my-3 small text-center text-muted\">- or -</em>"
+msgstr "<em class=\"d-block my-3 small text-center text-muted\">- або -</em>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid ""
+"<select class=\"form-select\" name=\"profile_aggregation_mode\" id=\"profile_aggregation_mode\">\n"
+"                                        <option value=\"tabs\">Separated (one per tab)</option>\n"
+"                                        <option value=\"temporal\">Temporal (experimental)</option>\n"
+"                                    </select>\n"
+"                                    <span id=\"temporal_warning\" class=\"alert alert-warning\" style=\"display:none\"><b>Warning:</b> Temporal mode will merge all samples.<br/>It can lead to partially invalid result in case of concurrent profiles.<br/>Use with caution </span>"
+msgstr ""
+"<select class=\"form-select\" name=\"profile_aggregation_mode\" id=\"profile_aggregation_mode\">\n"
+"                                        <option value=\"tabs\">Окремо (по одному на вкладку)</option>\n"
+"                                        <option value=\"temporal\">Часовий (експериментальний)</option>\n"
+"                                    </select>\n"
+"                                    <span id=\"temporal_warning\" class=\"alert alert-warning\" style=\"display:none\"><b>Увага:</b> Часовий режим об'єднає всі вибірки.<br/>Це може призвести до частково недійсного результату в разі одночасних профілів.<br/>Використовуйте обережно </span>"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.js:0
+msgid "A name for your new action is required."
+msgstr "Потрібно вказати назву нової дії."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/cog_menu/cog_menu.xml:0
+msgid "Actions menu"
+msgstr "Меню дій"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_items.js:0
+msgid "Activate Test Mode"
+msgstr "Активувати тестовий режим"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_providers.js:0
+msgid "Activate debug mode"
+msgstr "Активувати режим налагодження"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/contact_image/contact_image_field.xml:0
+msgid "Add Photo"
+msgstr "Додати фото"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.xml:0
+msgid "Add Property"
+msgstr "Додати властивість"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_renderer.xml:0
+msgid "Add a"
+msgstr "Додати"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
+msgid "Add nested rule"
+msgstr "Додати вкладене правило"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
+msgid "Add rule"
+msgstr "Додати правило"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_dialogs/select_create_dialog.xml:0
+msgid "Adjust your filters or create a new record."
+msgstr "Змініть фільтри або створіть новий запис."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Aggregate SQL"
+msgstr "Агрегувати SQL"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Aggregation mode"
+msgstr "Режим агрегування"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/navbar/navbar.xml:0
+msgid "All Apps"
+msgstr "Усі застосунки"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+msgid "Allow expressions"
+msgstr "Дозволити вирази"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/binary/binary_field.js:0
+msgid "Allowed file mimetype"
+msgstr "Дозволений MIME-тип файлу"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/image/image_field.js:0
+msgid "Alternative text"
+msgstr "Альтернативний текст"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_confirmation_dialog.js:0
+msgid "Among the %(total)s selected records, %(valid_count)s are valid for this update."
+msgstr "Серед %(total)s вибраних записів %(valid_count)s придатні для цього оновлення."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.js:0
+msgid "An action with the same name already exists."
+msgstr "Дія з такою назвою вже існує."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
+msgid "Application name"
+msgstr "Назва застосунку"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/model/relational_model/dynamic_list.js:0
+msgid "Are you sure that you want to duplicate all the selected records?"
+msgstr "Ви впевнені, що хочете дублювати всі вибрані записи?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.js:0
+msgid "Are you sure that you want to remove this embedded action?"
+msgstr "Ви впевнені, що хочете вилучити цю вбудовану дію?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_components/multi_selection_buttons.js:0
+msgid "Are you sure you want to delete the %(nbSelected)s selected records?"
+msgstr "Ви впевнені, що хочете видалити вибрані записи (%(nbSelected)s)?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_components/multi_selection_buttons.js:0
+msgid "Are you sure you want to delete the selected record?"
+msgstr "Ви впевнені, що хочете видалити вибраний запис?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "Are you sure you want to delete this property field?"
+msgstr "Ви впевнені, що хочете видалити це поле властивості?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_confirmation_dialog.js:0
+msgid "Are you sure you want to update %(count)s records?"
+msgstr "Ви впевнені, що хочете оновити записи (%(count)s)?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/breadcrumbs/breadcrumbs.js:0
+msgid "Back to “%s” form"
+msgstr "Повернутися до форми «%s»"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/badge_selection_with_filter/badge_selection_field_with_filter.js:0
+msgid "Badges for Selection With Filter"
+msgstr "Значки для вибору з фільтром"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
+msgid "Barcode Video Scanner could not be mounted properly."
+msgstr "Не вдалося коректно підключити відеосканер штрихкодів."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
+msgid "C"
+msgstr "Кт"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/search_panel/search_panel.xml:0
+msgid "CLEAR ALL"
+msgstr "ОЧИСТИТИ ВСЕ"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/public/caps_lock_warning.xml:0
+msgid "Caps Lock is on!"
+msgstr "Увімкнено Caps Lock!"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/barcode/barcode_dialog.js:0
+msgid "Check your browser permissions"
+msgstr "Перевірте дозволи браузера"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/user_switch/user_switch.xml:0
+msgid "Choose a user"
+msgstr "Виберіть користувача"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Choose which maximal precision (days, months, ...) you want in the datetime picker."
+msgstr "Виберіть максимальну точність (дні, місяці, ...) у засобі вибору дати й часу."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Choose which minimal precision (days, months, ...) you want in the datetime picker."
+msgstr "Виберіть мінімальну точність (дні, місяці, ...) у засобі вибору дати й часу."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/search_panel/search_panel.xml:0
+msgid "Clear All"
+msgstr "Очистити все"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_items.xml:0 code:addons/web/static/src/views/debug_items.js:0
+msgid "Computed Arch"
+msgstr "Обчислена архітектура"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Constant Time"
+msgstr "Постійний час"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/contact_statistics/contact_statistics.js:0
+msgid "Contact Statistics"
+msgstr "Статистика контакту"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/image/image_field.js:0
+msgid "Convert to webp"
+msgstr "Перетворити на webp"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
+msgid "Could not start scanning. %(message)s"
+msgstr "Не вдалося почати сканування. %(message)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+msgid "Count Limit"
+msgstr "Ліміт кількості"
+
+#. module: web
+#: model:ir.model,website_form_label:web.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.js:0
+msgid "Custom Embedded Action"
+msgstr "Власна вбудована дія"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
+msgid "Custom range"
+msgstr "Власний діапазон"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/debug_items.js:0
+msgid "Data: %(model)s(%(id)s)"
+msgstr "Дані: %(model)s(%(id)s)"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Decades"
+msgstr "Десятиліття"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/many2many_tags/many2many_tags_field.js:0 code:addons/web/static/src/views/fields/many2one/many2one_field.js:0
+msgid "Defines the minimum number of characters to perform the search. If not set, the search is performed on focus."
+msgstr "Визначає мінімальну кількість символів для виконання пошуку. Якщо не задано, пошук виконується при фокусуванні."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "Delete Field"
+msgstr "Видалити поле"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
+msgid "Delete rule"
+msgstr "Видалити правило"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/search_bar_menu/search_bar_menu.xml:0
+msgid "Disabled due to invalid configuration"
+msgstr "Вимкнено через недійсну конфігурацію"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Discard all changes"
+msgstr "Скасувати всі зміни"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Display presets"
+msgstr "Показати пресети"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Displays or hides the seconds in the datetime value. Affect only the readable datetime format."
+msgstr "Показує або приховує секунди у значенні дати й часу. Впливає лише на читабельний формат дати й часу."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Displays the date either in 31/01/%(year)s or in Jan 31, %(year)s"
+msgstr "Відображає дату у форматі 31/01/%(year)s або 31 січ. %(year)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/char/char_field.js:0
+msgid "Displays the value of the selected field as a textual hint. If the selected field is empty, the static placeholder attribute is displayed instead."
+msgstr "Відображає значення вибраного поля як текстову підказку. Якщо вибране поле порожнє, натомість відображається статичний атрибут placeholder."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/expression_editor_dialog/expression_editor_dialog.xml:0
+msgid "Edit Condition"
+msgstr "Редагувати умову"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_controller.js:0
+msgid "Edit Properties"
+msgstr "Редагувати властивості"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/many2many_tags/many2many_tags_field.js:0
+msgid "Edit Tags"
+msgstr "Редагувати мітки"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/search_bar_menu/search_bar_menu.xml:0
+msgid "Edit favorite"
+msgstr "Редагувати обране"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_res_users_settings__embedded_actions_config_ids
+msgid "Embedded Actions Config"
+msgstr "Налаштування вбудованих дій"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/dynamic_placeholder_popover.xml:0
+msgid "Enter a default value"
+msgstr "Введіть значення за замовчуванням"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Enter your email"
+msgstr "Введіть свою ел. пошту"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.login
+msgid "Enter your password"
+msgstr "Введіть ваш пароль"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
+msgid "Entry Count"
+msgstr "Кількість записів"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
+msgid "Exclusively implies"
+msgstr "Виключно передбачає"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/search_model.js:0
+msgid "Failed to evaluate the context: %(context)s."
+msgstr "Не вдалося обчислити контекст: %(context)s."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/field_selector/field_selector_field.js:0
+msgid "Field Selector"
+msgstr "Вибір поля"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
+msgid "For example, if the value is \"1\" and you enter \"+=2\", it will be updated to \"3\"."
+msgstr "Наприклад, якщо значення «1» і ви вводите «+=2», його буде оновлено до «3»."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Frames"
+msgstr "Кадри"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Frames + sql (Combined)"
+msgstr "Кадри + sql (разом)"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/google_slide_viewer/google_slide_viewer.js:0 code:addons/web/static/src/views/fields/google_slide_viewer/google_slide_viewer.xml:0
+msgid "Google Slide Viewer"
+msgstr "Переглядач Google Slides"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/model/relational_model/record.js:0
+msgid "Heads up! Your recent changes are too large to save automatically. Please click the %(upload_icon)s button now to ensure your work is saved before you exit this tab."
+msgstr "Увага! Ваші останні зміни завеликі для автоматичного збереження. Натисніть кнопку %(upload_icon)s зараз, щоб зберегти роботу перед закриттям цієї вкладки."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+msgid "Hide technical details"
+msgstr "Приховати технічні подробиці"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/float/float_field.js:0 code:addons/web/static/src/views/fields/monetary/monetary_field.js:0
+msgid "Hide trailing zeros"
+msgstr "Приховати кінцеві нулі"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/password/password_field.js:0
+msgid "Hide value"
+msgstr "Приховати значення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/float/float_field.js:0 code:addons/web/static/src/views/fields/monetary/monetary_field.js:0
+msgid "Hide zeros to the right of the last non-zero digit, e.g. 1.20 becomes 1.2"
+msgstr "Приховувати нулі праворуч від останньої ненульової цифри, напр. 1.20 стає 1.2"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/many2many_tags/many2many_tags_field.js:0
+msgid "If checked, clicking on the tag will open the form that allows to directly edit it. Note that if a color field is also set, the tag edition will prevail. So, the color picker will not be displayed on click on the tag."
+msgstr "Якщо позначено, натискання на тег відкриє форму для його безпосереднього редагування. Зауважте, що якщо також задано поле кольору, пріоритет матиме редагування тегу, тож засіб вибору кольору не відображатиметься після натискання на тег."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/json_checkboxes/json_checkboxes_field.js:0
+msgid "If checked, the checkboxes will be displayed in a column. Otherwise, they will be inlined."
+msgstr "Якщо позначено, прапорці відображатимуться в стовпці. Інакше вони відображатимуться в рядок."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+msgid "If true, non-literals are accepted"
+msgstr "Якщо true, приймаються не літерали"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
+msgid "Implied by"
+msgstr "Передбачається"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
+msgid "Incompatibility"
+msgstr "Несумісність"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/char/char_field.xml:0 code:addons/web/static/src/views/fields/text/text_field.xml:0
+msgid "Insert Field"
+msgstr "Вставити поле"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/pwa/install_prompt.xml:0
+msgid "Install the app on your device to access it easily. Here are the steps to follow:"
+msgstr "Встановіть застосунок на свій пристрій для зручного доступу. Виконайте такі кроки:"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_record_quick_create.js:0
+msgid "Invalid Display Name"
+msgstr "Недійсна відображувана назва"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/json.py:0
+msgid "Invalid default search filter name for %s"
+msgstr "Недійсна назва фільтра пошуку за замовчуванням для %s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_invite_users.js:0
+msgid "Invalid email addresses: %(two_addresses)s"
+msgstr "Недійсні адреси ел. пошти: %(two_addresses)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_components/multi_create_popover.js:0
+msgid "Invalid time range"
+msgstr "Недійсний часовий діапазон"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/json.py:0
+msgid "Invalid view type '%(view_type)s' for action id=%(action)s"
+msgstr "Недійсний тип подання '%(view_type)s' для дії id=%(action)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/model/relational_model/errors.js:0
+msgid "It seems the records with IDs %s cannot be found. They might have been deleted."
+msgstr "Схоже, записи з ID %s не знайдено. Можливо, їх видалено."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "It will be removed for everyone using the \"%(parentName)s\" %(parentFieldLabel)s."
+msgstr "Його буде вилучено для всіх, хто використовує %(parentFieldLabel)s «%(parentName)s»."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "It will be removed for everyone!"
+msgstr "Його буде вилучено для всіх!"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Jan 31, %s"
+msgstr "31 січ. %s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
+msgid "Jointly implies"
+msgstr "Спільно передбачає"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_record.js:0
+msgid "Kanban: no action for type: %(type)s"
+msgstr "Канбан: немає дії для типу: %(type)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_renderer.xml:0
+msgid "Lack of inspiration?"
+msgstr "Бракує натхнення?"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
+msgid "Last 12 months"
+msgstr "Останні 12 місяців"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_items.js:0
+msgid "Leave Debug Mode"
+msgstr "Вийти з режиму налагодження"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/graph/graph_renderer.xml:0
+msgid "Load everything anyway."
+msgstr "Все одно завантажити все."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.xml:0
+msgid "Make this embedded action available to other users"
+msgstr "Зробити цю вбудовану дію доступною для інших користувачів"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/gauge/gauge_field.js:0
+msgid "Max value"
+msgstr "Максимальне значення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/gauge/gauge_field.js:0
+msgid "Max: %(max)s"
+msgstr "Макс.: %(max)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Maximal precision"
+msgstr "Максимальна точність"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Memory (heuristic)"
+msgstr "Пам'ять (евристика)"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Minimal precision"
+msgstr "Мінімальна точність"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/float/float_field.js:0
+msgid "Minimum Digits"
+msgstr "Мінімум цифр"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+msgid "Missing Action"
+msgstr "Відсутня дія"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/json.py:0
+msgid "Missing record id"
+msgstr "Відсутній ID запису"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/model/relational_model/record.js:0
+msgid "Missing required fields"
+msgstr "Відсутні обов'язкові поля"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/field_tooltip.xml:0
+msgid "Model field:"
+msgstr "Поле моделі:"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/actions/debug_items.js:0
+msgid "Model: %s"
+msgstr "Модель: %s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
+msgid "Month to date"
+msgstr "З початку місяця"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/navbar/navbar.xml:0
+msgid "More Menu"
+msgstr "Меню «Більше»"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Multiple profile"
+msgstr "Кілька профілів"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/pivot.py:0
+msgid "No data to export"
+msgstr "Немає даних для експорту"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/emoji_picker/emoji_picker.xml:0
+msgid "No emojis match your search"
+msgstr "Немає емодзі, що відповідають пошуку"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_dialogs/select_create_dialog.xml:0
+msgid "No record found"
+msgstr "Запис не знайдено"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/action_menus/action_menus.js:0
+msgid "No report available."
+msgstr "Немає доступного звіту."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/settings_form_view/settings_form_view.xml:0
+msgid "No settings found"
+msgstr "Налаштувань не знайдено"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_renderer.xml:0
+msgid "No stages yet, let's create some!"
+msgstr "Етапів ще немає, створімо їх!"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
+msgid "Not possible to create monetary field because there is no currency on current model."
+msgstr "Неможливо створити грошове поле, оскільки в поточній моделі немає валюти."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/model/relational_model/dynamic_list.js:0
+msgid "Of the %(selectedRecord)s selected records, only the first %(firstRecords)s have been archived/unarchived."
+msgstr "З %(selectedRecord)s вибраних записів архівовано/розархівовано лише перші %(firstRecords)s."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/file_handler.js:0
+msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
+msgstr "Ой! '%(fileName)s' не завантажено, оскільки його формат не дозволено."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "Oops! A %(parentFieldLabel)s is needed to add property fields."
+msgstr "Ой! Щоб додати поля властивостей, потрібен %(parentFieldLabel)s."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/properties/properties_field.js:0
+msgid "Oops! You cannot edit the %(parentFieldLabel)s \"%(parentName)s\"."
+msgstr "Ой! Ви не можете редагувати %(parentFieldLabel)s «%(parentName)s»."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
+msgid "Opacity"
+msgstr "Непрозорість"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.view_view_form_inherit_view
+msgid ""
+"Please note that your view includes invalid locators.<br/>\n"
+"                    These nodes could not be anchored to the parent view and have no effect.<br/>\n"
+"                    This issue may have arisen as a result of manual modifications or during the upgrade process.<br/>\n"
+"                    For your reference, invalid xpath nodes are highlighted in red."
+msgstr ""
+"Зверніть увагу, що ваше подання містить недійсні локатори.<br/>\n"
+"                    Ці вузли не вдалося прив'язати до батьківського подання, і вони не діють.<br/>\n"
+"                    Ця проблема могла виникнути внаслідок ручних змін або під час оновлення.<br/>\n"
+"                    Для зручності недійсні вузли xpath виділено червоним."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/x2many/x2many_field.js:0 code:addons/web/static/src/views/list/list_renderer.js:0
+msgid "Please save your changes first"
+msgstr "Спершу збережіть зміни"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_value_editors.js:0
+msgid "Press \"Enter\" to add criterion"
+msgstr "Натисніть «Enter», щоб додати умову"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/cog_menu/cog_menu.js:0
+msgid "Print report: %s"
+msgstr "Друкувати звіт: %s"
+
+#. module: web
+#: model:ir.model,name:web.model_properties_base_definition
+msgid "Properties Base Definition"
+msgstr "Базове визначення властивостей"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
+msgid "Record memory"
+msgstr "Записувати пам'ять"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_items.js:0
+msgid "Regenerate Assets"
+msgstr "Перегенерувати ресурси"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/user_switch/user_switch.xml:0
+msgid "Remove user from switcher"
+msgstr "Вилучити користувача з перемикача"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/password/password_field.js:0
+msgid "Reveal value"
+msgstr "Показати значення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/clickbot/clickbot_loader.js:0
+msgid "Run Click Everywhere"
+msgstr "Запустити Click Everywhere"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_providers.js:0 code:addons/web/static/src/webclient/debug/debug_items.js:0
+msgid "Run Unit Tests"
+msgstr "Запустити модульні тести"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "SQL density"
+msgstr "Щільність SQL"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "SQL no gap"
+msgstr "SQL без проміжків"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
+msgid "Saturation and brightness color picker."
+msgstr "Засіб вибору кольору за насиченістю та яскравістю."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.js:0
+msgid "Saturation: %(saturationLvl)s %. Brightness: %(brightnessLvl)s %"
+msgstr "Насиченість: %(saturationLvl)s %. Яскравість: %(brightnessLvl)s %"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.xml:0
+msgid "Save View"
+msgstr "Зберегти подання"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/translation_button.js:0
+msgid "Save this record and its parent to translate"
+msgstr "Збережіть цей запис і його батьківський запис, щоб перекласти"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/emoji_picker/emoji_picker.js:0
+msgid "Search emoji"
+msgstr "Пошук емодзі"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+msgid "See technical details"
+msgstr "Переглянути технічні подробиці"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/model_field_selector/model_field_selector_popover.js:0
+msgid "Select a field"
+msgstr "Виберіть поле"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_components/selection_box.xml:0
+msgid "Select all records matching the search"
+msgstr "Вибрати всі записи, що відповідають пошуку"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_value_editors.js:0
+msgid "Select one or several criteria"
+msgstr "Виберіть одну або кілька умов"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_items.xml:0 code:addons/web/static/src/views/debug_items.js:0
+msgid "Set Default Values"
+msgstr "Встановити значення за замовчуванням"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/badge/badge_field.js:0 code:addons/web/static/src/views/fields/badge_selection/list_badge_selection_field.js:0
+msgid "Set an integer field to use colors with the badge."
+msgstr "Вкажіть цілочисельне поле для використання кольорів у значку."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/model_field_selector/model_field_selector_popover.xml:0
+msgid "Show options"
+msgstr "Показати параметри"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "Show seconds"
+msgstr "Показувати секунди"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.xml:0
+msgid "Something went wrong... If you really are stuck, share the report with your friendly support service"
+msgstr "Щось пішло не так... Якщо ви справді застрягли, надішліть звіт нашій службі підтримки"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view_components/multi_create_popover.js:0
+msgid "Start time should be before end time"
+msgstr "Час початку має передувати часу завершення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/relational_utils.js:0
+msgid "Start typing %s characters"
+msgstr "Почніть вводити %s символів"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/statusbar/statusbar_field.xml:0
+msgid "Statusbar"
+msgstr "Рядок статусу"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/switch_company_menu/switch_company_menu.js:0
+msgid "Switch Company"
+msgstr "Змінити компанію"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.view_base_document_layout
+msgid "Tagline"
+msgstr "Слоган"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/action.py:0
+msgid "The action “%s” does not exist"
+msgstr "Дія «%s» не існує"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/action.py:0
+msgid "The action “%s” does not exist."
+msgstr "Дія «%s» не існує."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
+msgid "The app cannot be installed with this browser"
+msgstr "Застосунок не можна встановити в цьому браузері"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
+msgid "The app seems to be installed on your device"
+msgstr "Схоже, застосунок уже встановлено на вашому пристрої"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+msgid "The domain involves non-literals. Their evaluation might fail."
+msgstr "Домен містить не літерали. Їх обчислення може завершитися помилкою."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+msgid "The domain should not involve non-literals"
+msgstr "Домен не повинен містити не літерали"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/utils/files.js:0
+msgid "The file is not an image, resizing is not possible"
+msgstr "Файл не є зображенням, змінити розмір неможливо"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/models/res_users_settings_embedded_action.py:0
+msgid "The ids in %(field_name)s must not be duplicated: “%(action_ids)s”"
+msgstr "ID у %(field_name)s не повинні повторюватися: «%(action_ids)s»"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/models/res_users_settings_embedded_action.py:0
+msgid "The ids in %(field_name)s must only be integers or \"false\": “%(action_ids)s”"
+msgstr "ID у %(field_name)s мають бути лише цілими числами або \"false\": «%(action_ids)s»"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+msgid "The request sent to the server was too large"
+msgstr "Запит, надісланий на сервер, завеликий"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/utils/files.js:0
+msgid "The resizing of the image failed"
+msgstr "Не вдалося змінити розмір зображення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/utils/files.js:0
+msgid "The selected file (%(size)sB) is larger than the maximum allowed file size (%(maxSize)sB)."
+msgstr "Вибраний файл (%(size)sB) перевищує максимально дозволений розмір файлу (%(maxSize)sB)."
+
+#. module: web
+#: model:ir.model.constraint,message:web.constraint_res_users_settings_embedded_action_res_user_settings_e_91890fa3
+msgid "The user should have one unique embedded action setting per user setting, action and record id."
+msgstr "Користувач повинен мати одне унікальне налаштування вбудованої дії на кожне налаштування користувача, дію та ID запису."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/graph/graph_renderer.xml:0
+msgid "There are too many data. The graph only shows a sample. Use the filters to refine the scope."
+msgstr "Забагато даних. Графік показує лише вибірку. Використайте фільтри, щоб звузити обсяг."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
+msgid "This date is in the future"
+msgstr "Ця дата в майбутньому"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.js:0
+msgid "This embedded action is global and will be removed for everyone."
+msgstr "Ця вбудована дія глобальна і буде вилучена для всіх."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
+msgid "Time Limit (seconds)"
+msgstr "Ліміт часу (секунди)"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/emoji_picker/emoji_picker.xml:0
+msgid "To next categories"
+msgstr "До наступних категорій"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/emoji_picker/emoji_picker.xml:0
+msgid "To previous categories"
+msgstr "До попередніх категорій"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/datetime/datetime_picker.xml:0
+msgid "Toggle date range mode"
+msgstr "Перемкнути режим діапазону дат"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/debug/debug_menu_basic.js:0
+msgid "Tours & Testing"
+msgstr "Тури та тестування"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/settings_form_view/settings_form_view.xml:0
+msgid "Try searching for another keyword"
+msgstr "Спробуйте пошукати за іншим ключовим словом"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/action_helper.xml:0
+msgid ""
+"Try to add some records, or make sure that there is no\n"
+"                        active filter in the search bar."
+msgstr ""
+"Спробуйте додати записи або переконайтеся, що в рядку пошуку немає\n"
+"                        активних фільтрів."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/many2many_tags/many2many_tags_field.js:0 code:addons/web/static/src/views/fields/many2one/many2one_field.js:0
+msgid "Typeahead search"
+msgstr "Пошук під час введення"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/barcode/barcode_dialog.xml:0
+msgid "Unable to access camera"
+msgstr "Не вдалося отримати доступ до камери"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/actions/reports/utils.js:0
+msgid "Unable to find Wkhtmltopdf on this system. The report will be shown in html.%(link)s"
+msgstr "Не вдалося знайти Wkhtmltopdf у цій системі. Звіт буде показано в HTML.%(link)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Unable to save. Correct the issue or discard all changes"
+msgstr "Не вдалося зберегти. Виправте проблему або скасуйте всі зміни"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/json.py:0
+msgid "Unsupported server action"
+msgstr "Непідтримувана серверна дія"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/user_switch/user_switch.xml:0
+msgid "Use another user"
+msgstr "Використати іншого користувача"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.config_speedscope_index
+msgid "Use execution context"
+msgstr "Використовувати контекст виконання"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
+msgid "Use the operators \"+=\", \"-=\", \"*=\" and \"/=\" to update the current value."
+msgstr "Використовуйте оператори \"+=\", \"-=\", \"*=\" і \"/=\" для оновлення поточного значення."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/color_picker/custom_color_picker/custom_color_picker.xml:0
+msgid "Use up and down arrow keys to adapt the brightness. Use left and right arrow keys to adapt the saturation. Press the Control or Command key at the same time to have finer control."
+msgstr "Змінюйте яскравість клавішами зі стрілками вгору та вниз, а насиченість клавішами вліво та вправо. Для точнішого керування одночасно утримуйте клавішу Control або Command."
+
+#. module: web
+#: model:ir.model,name:web.model_res_users_settings_embedded_action
+msgid "User Settings for Embedded Actions"
+msgstr "Налаштування користувача для вбудованих дій"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/gauge/gauge_field.js:0
+msgid "Value: %(value)s"
+msgstr "Значення: %(value)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_renderer.xml:0
+msgid "View Button"
+msgstr "Кнопка подання"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/widgets/documentation_link/documentation_link.xml:0
+msgid "View Documentation"
+msgstr "Переглянути документацію"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/res_user_group_ids_field/res_user_group_ids_popover.xml:0
+msgid "View extra groups"
+msgstr "Переглянути додаткові групи"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/search/control_panel/control_panel.xml:0
+msgid "View related documents"
+msgstr "Переглянути пов'язані документи"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.unit_tests_suite
+msgid "Web Unit Tests"
+msgstr "Модульні тести вебклієнта"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/dynamic_placeholder_popover.xml:0
+msgid "What should we write if the field is empty"
+msgstr "Що писати, якщо поле порожнє"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.view_base_document_layout
+msgid "Write your phone, email, bank account, tax ID, ..."
+msgstr "Вкажіть свій телефон, ел. пошту, банківський рахунок, податковий номер, ..."
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_components.js:0
+msgid "Year to date"
+msgstr "З початку року"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
+msgid "You can install the app from the browser menu"
+msgstr "Ви можете встановити застосунок через меню браузера"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/models/properties_base_definition.py:0
+msgid "You can not read that field definition."
+msgstr "Ви не можете прочитати визначення цього поля."
+
+#. module: web
+#: model:ir.model.fields,help:web.field_base_document_layout__vat
+msgid "You can use '/' to indicate that the customer has no Tax ID."
+msgstr "Можна використати '/', щоб вказати, що клієнт не має податкового номера."
+
+#. module: web
+#. odoo-python
+#: code:addons/web/models/models.py:0
+msgid "You don't have access to this record"
+msgstr "У вас немає доступу до цього запису"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/json.py:0
+msgid "You need export permissions to use the /json route"
+msgstr "Для використання маршруту /json потрібні права на експорт"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/actions/reports/utils.js:0
+msgid "You should upgrade your version of Wkhtmltopdf to at least 0.12.0 in order to get a correct display of headers and footers as well as support for table-breaking between pages.%(link)s"
+msgstr "Оновіть Wkhtmltopdf принаймні до версії 0.12.0, щоб коректно відображалися верхні та нижні колонтитули, а таблиці розривалися між сторінками.%(link)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/actions/reports/utils.js:0
+msgid "Your installation of Wkhtmltopdf seems to be broken. The report will be shown in html.%(link)s"
+msgstr "Схоже, встановлення Wkhtmltopdf пошкоджене. Звіт буде показано в HTML.%(link)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "before"
+msgstr "до"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "between"
+msgstr "між"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/actions/blank_component.xml:0
+msgid "empty"
+msgstr "порожнє"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "greater or equal to"
+msgstr "більше або дорівнює"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "lower or equal to"
+msgstr "менше або дорівнює"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "lower than"
+msgstr "менше ніж"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "match"
+msgstr "відповідає"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "match none of"
+msgstr "не відповідає жодному з"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "matches"
+msgstr "відповідає"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "matches none of"
+msgstr "не відповідає жодному з"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
+msgid "no records"
+msgstr "немає записів"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "not %(operator_label)s"
+msgstr "не %(operator_label)s"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_processor.js:0
+msgid "not ="
+msgstr "не ="
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/tree_editor/tree_editor_operator_editor.js:0
+msgid "starts with"
+msgstr "починається з"
+
+#. module: web
+#. odoo-python
+#: code:addons/web/controllers/vcard.py:0
+msgid "vobject library is not installed"
+msgstr "Бібліотеку vobject не встановлено"

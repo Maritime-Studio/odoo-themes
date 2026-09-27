@@ -1,0 +1,194 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_needaction
+msgid "Action Needed"
+msgstr "Необхідна дія"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_account_payment__amount model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__amount model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__amount
+msgid "Amount"
+msgstr "Сума"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: l10n_latam_check
+#: model_terms:ir.ui.view,arch_db:l10n_latam_check.view_l10n_latam_payment_mass_transfer_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__payment_method_code
+msgid "Code"
+msgstr "Код"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__company_id model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__company_id model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__company_id model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_payment_search
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__create_uid model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__create_uid model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__create_date model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__create_date model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_latam_check
+#: model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_own_check_tree model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_third_party_check_operations_tree
+msgid "Customer"
+msgstr "Клієнт"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_account_chart_template__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_journal__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_move__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_move_line__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_payment__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_payment_method__display_name model:ir.model.fields,field_description:l10n_latam_check.field_account_payment_register__display_name model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__display_name model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__display_name model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (Партнери)"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__has_message
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__message_has_error model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_is_follower
+msgid "Is Follower"
+msgstr "Стежить"
+
+#. module: l10n_latam_check
+#: model:ir.model,name:l10n_latam_check.model_account_move_line
+msgid "Journal Item"
+msgstr "Запис у журналі"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__write_uid model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__write_uid model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__write_date model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_mass_transfer__write_date model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_payment_register_check__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__payment_method_line_id
+msgid ""
+"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
+"Check: Pay bills by check and print it from Odoo.\n"
+"Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
+"SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_iso20022 is necessary.\n"
+"SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_iso20022 is necessary.\n"
+"U.S. ISO20022: Pay in the US by submitting an ISO20022 file to your bank. Module account_iso20022 is necessary.\n"
+msgstr ""
+"Вручну: оплата або отримання оплати будь-яким способом поза Odoo.\n"
+"Платіжні провайдери: кожен платіжний провайдер має власний спосіб оплати. Запит транзакції з картки/на картку за допомогою платіжного токена, збереженого контактом під час онлайн-покупки або підписки.\n"
+"Чек: оплата рахунків чеком із друком з Odoo.\n"
+"Груповий депозит: збирайте кілька чеків клієнтів одночасно, формуючи та подаючи груповий депозит до банку. Потрібен модуль account_batch_payment.\n"
+"Кредитовий переказ SEPA: оплата в зоні SEPA через подання файлу SEPA Credit Transfer до банку. Потрібен модуль account_iso20022.\n"
+"Прямий дебет SEPA: отримання оплати в зоні SEPA на підставі мандата, наданого вам контактом. Потрібен модуль account_iso20022.\n"
+"U.S. ISO20022: оплата в США через подання файлу ISO20022 до банку. Потрібен модуль account_iso20022.\n"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставлення повідомлення"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: l10n_latam_check
+#: model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_payment_search
+msgid "My Activities"
+msgstr "Мої дії"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, які вимагають дії"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень з помилкою доставки"
+
+#. module: l10n_latam_check
+#: model:ir.model,name:l10n_latam_check.model_account_payment_register
+msgid "Pay"
+msgstr "Оплатити"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__payment_id
+msgid "Payment"
+msgstr "Оплата"
+
+#. module: l10n_latam_check
+#: model:ir.model,name:l10n_latam_check.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Способи оплати"
+
+#. module: l10n_latam_check
+#. odoo-python
+#: code:addons/l10n_latam_check/wizards/l10n_latam_payment_mass_transfer.py:0 model:ir.model,name:l10n_latam_check.model_account_payment
+msgid "Payments"
+msgstr "Платежі"
+
+#. module: l10n_latam_check
+#: model:ir.model.fields,field_description:l10n_latam_check.field_l10n_latam_check__rating_ids
+msgid "Ratings"
+msgstr "Оцінювання"
+
+#. module: l10n_latam_check
+#: model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_payment_search
+msgid "Show all records whose next activity date is past"
+msgstr "Показати всі записи з простроченою датою наступної дії"
+
+#. module: l10n_latam_check
+#: model_terms:ir.ui.view,arch_db:l10n_latam_check.view_account_payment_search
+msgid "State"
+msgstr "Статус"

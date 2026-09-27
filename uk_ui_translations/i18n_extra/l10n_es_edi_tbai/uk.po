@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model,name:l10n_es_edi_tbai.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model,name:l10n_es_edi_tbai.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_line__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_reversal__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_account_move_send__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_certificate_certificate__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_company__display_name model:ir.model.fields,field_description:l10n_es_edi_tbai.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model,name:l10n_es_edi_tbai.model_account_move_line
+msgid "Journal Item"
+msgstr "Запис у журналі"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_es_edi_tbai
+#: model:ir.model.fields,field_description:l10n_es_edi_tbai.field_l10n_es_edi_tbai_document__name
+msgid "Name"
+msgstr "Назва"

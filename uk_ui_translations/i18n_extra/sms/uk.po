@@ -1,0 +1,313 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.iap_account_view_form
+msgid "<i class=\"fa fa-warning\"/> An error occurred with your account. Please contact the support for more information..."
+msgstr "<i class=\"fa fa-warning\"/> З вашим обліковим записом сталася помилка. Для отримання додаткової інформації зверніться до служби підтримки..."
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.iap_account_view_form
+msgid "<i class=\"fa fa-warning\"/> You cannot send SMS while your account is not registered."
+msgstr "<i class=\"fa fa-warning\"/> Ви не можете надсилати SMS, поки ваш обліковий запис не зареєстровано."
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.iap_account_view_form
+msgid ""
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Register"
+msgstr ""
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Зареєструватися"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.iap_account_view_form
+msgid ""
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Set Sender Name"
+msgstr ""
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Встановити ім’я відправника"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.ir_actions_server_view_form
+msgid ""
+"<span invisible=\"sms_method != 'sms'\">\n"
+"                                    The message will be sent as an SMS to the recipients of the template\n"
+"                                    and will not appear in the messaging history.\n"
+"                                </span>\n"
+"                                <span invisible=\"sms_method != 'note'\">\n"
+"                                    The SMS will not be sent, it will only be posted as an\n"
+"                                    internal note in the messaging history.\n"
+"                                </span>\n"
+"                                <span invisible=\"sms_method != 'comment'\">\n"
+"                                    The SMS will be sent as an SMS to the recipients of the\n"
+"                                    template and it will also be posted as an internal note\n"
+"                                    in the messaging history.\n"
+"                                </span>"
+msgstr ""
+"<span invisible=\"sms_method != 'sms'\">\n"
+"                                    Повідомлення буде надіслано як SMS одержувачам шаблону\n"
+"                                    і не з’явиться в історії повідомлень.\n"
+"                                </span>\n"
+"                                <span invisible=\"sms_method != 'note'\">\n"
+"                                    SMS не буде надіслано, його буде лише опубліковано як\n"
+"                                    внутрішню примітку в історії повідомлень.\n"
+"                                </span>\n"
+"                                <span invisible=\"sms_method != 'comment'\">\n"
+"                                    SMS буде надіслано одержувачам\n"
+"                                    шаблону, а також опубліковано як внутрішню примітку\n"
+"                                    в історії повідомлень.\n"
+"                                </span>"
+
+#. module: sms
+#. odoo-javascript
+#: code:addons/sms/static/src/core/failure_model_patch.js:0
+msgid "An error occurred when sending an SMS on “%(record_name)s”"
+msgstr "Під час надсилання SMS для “%(record_name)s” сталася помилка"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "An unknown error occurred. Please contact Odoo support if this error persists."
+msgstr "Сталася невідома помилка. Якщо помилка повторюється, зверніться до служби підтримки Odoo."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/controllers/main.py:0
+msgid "Bad parameters"
+msgstr "Неправильні параметри"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/models/iap_account.py:0 code:addons/sms/wizard/sms_account_code.py:0 model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid "Choose your sender name"
+msgstr "Виберіть ім’я відправника"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
+msgid "Enter a phone number to get an SMS with a verification code."
+msgstr "Введіть номер телефону, щоб отримати SMS із кодом підтвердження."
+
+#. module: sms
+#. odoo-javascript
+#: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
+msgid "Insert Field"
+msgstr "Вставити поле"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "Invalid phone number. Please make sure to follow the international format, i.e. a plus sign (+), then country code, city code, and local phone number. For example: +1 555-555-555"
+msgstr "Недійсний номер телефону. Дотримуйтеся міжнародного формату: знак плюс (+), потім код країни, код міста та місцевий номер телефону. Наприклад: +1 555-555-555"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid "Note that this is not required, if you don't set a sender name, your SMS will be sent from a short code."
+msgstr "Це не обов’язково: якщо ви не встановите ім’я відправника, ваші SMS надсилатимуться з короткого номера."
+
+#. module: sms
+#: model:ir.model.fields,help:sms.field_sms_template__lang
+msgid "Optional translation language (ISO code) to select when sending out an email. If not set, the main partner's language will be used. This should usually be a placeholder expression that provides the appropriate language, e.g. {{ object.partner_id.lang }}."
+msgstr "Необов'язкова мова перекладу (код ISO) для вибору під час надсилання листа. Якщо не встановлено, використовується мова основного контакту. Зазвичай це вираз-заповнювач, що надає відповідну мову, напр. {{ object.partner_id.lang }}."
+
+#. module: sms
+#: model:ir.model.fields,help:sms.field_sms_composer__use_exclusion_list
+msgid "Prevent sending messages to blacklisted contacts. Disable only when absolutely necessary."
+msgstr "Запобігати надсиланню повідомлень контактам із чорного списку. Вимикайте лише в разі крайньої необхідності."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/models/iap_account.py:0 code:addons/sms/wizard/sms_account_phone.py:0
+msgid "Register Account"
+msgstr "Зареєструвати обліковий запис"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_code_view_form model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
+msgid "Register your SMS account"
+msgstr "Зареєструйте свій обліковий запис SMS"
+
+#. module: sms
+#. odoo-javascript
+#: code:addons/sms/static/src/thread/message_patch.js:0
+msgid "SMS Account"
+msgstr "Обліковий запис SMS"
+
+#. module: sms
+#: model:ir.model,name:sms.model_sms_account_phone
+msgid "SMS Account Registration Phone Number Wizard"
+msgstr "Помічник номера телефону для реєстрації облікового запису SMS"
+
+#. module: sms
+#: model:ir.model,name:sms.model_sms_account_sender
+msgid "SMS Account Sender Name Wizard"
+msgstr "Помічник імені відправника облікового запису SMS"
+
+#. module: sms
+#: model:ir.model,name:sms.model_sms_account_code
+msgid "SMS Account Verification Code Wizard"
+msgstr "Помічник коду підтвердження облікового запису SMS"
+
+#. module: sms
+#. odoo-javascript
+#: code:addons/sms/static/src/messaging_menu/messaging_menu_patch.js:0
+msgid "SMS Failure: %(modelName)s"
+msgstr "Помилка SMS: %(modelName)s"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/models/ir_actions_server.py:0
+msgid "Send %(template_name)s"
+msgstr "Надіслати %(template_name)s"
+
+#. module: sms
+#: model:iap.service,description:sms.iap_service_sms
+msgid "Send SMS to your contacts directly from your database."
+msgstr "Надсилайте SMS своїм контактам безпосередньо з бази даних."
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_phone_view_form
+msgid "Send verification code"
+msgstr "Надіслати код підтвердження"
+
+#. module: sms
+#: model:ir.model.fields,field_description:sms.field_iap_account__sender_name model:ir.model.fields,field_description:sms.field_sms_account_sender__sender_name
+msgid "Sender Name"
+msgstr "Ім’я відправника"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/models/ir_actions_server.py:0
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+msgstr "Надсилати SMS можна лише для нетранзитної моделі mail.thread"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid "Set sender name"
+msgstr "Встановити ім’я відправника"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid "Skip for now"
+msgstr "Пропустити поки що"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "The SMS Service is currently unavailable for new users and new accounts registrations are suspended."
+msgstr "Сервіс SMS наразі недоступний для нових користувачів, реєстрацію нових облікових записів призупинено."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "The verification code is incorrect."
+msgstr "Код підтвердження неправильний."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "This account already has an existing sender name and it cannot be changed."
+msgstr "Цей обліковий запис уже має ім’я відправника, і його не можна змінити."
+
+#. module: sms
+#: model:ir.model.fields,help:sms.field_iap_account__sender_name
+msgid "This is the name that will be displayed as the sender of the SMS."
+msgstr "Це ім’я, яке відображатиметься як відправник SMS."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "This phone number/account has been banned from our service."
+msgstr "Цей номер телефону/обліковий запис заблоковано в нашому сервісі."
+
+#. module: sms
+#: model:ir.model.fields,help:sms.field_ir_actions_server__state model:ir.model.fields,help:sms.field_ir_cron__state
+msgid ""
+"Type of server action. The following values are available:\n"
+"- 'Update a Record': update the values of a record\n"
+"- 'Create Activity': create an activity (Discuss)\n"
+"- 'Send Email': post a message, a note or send an email (Discuss)\n"
+"- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
+"- 'Create Record': create a new record with new values\n"
+"- 'Execute Code': a block of Python code that will be executed\n"
+"- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
+"- 'Multi Actions': define an action that triggers several other server actions\n"
+msgstr ""
+"Тип серверної дії. Доступні такі значення:\n"
+"- «Оновити запис»: оновити значення запису\n"
+"- «Створити дію»: створити дію (Обговорення)\n"
+"- «Надіслати лист»: опублікувати повідомлення, примітку або надіслати лист (Обговорення)\n"
+"- «Надіслати SMS»: надіслати SMS, зареєструвати їх у документах (SMS)- «Додати/видалити підписників»: додати або видалити підписників запису (Обговорення)\n"
+"- «Створити запис»: створити новий запис з новими значеннями\n"
+"- «Виконати код»: блок коду Python, який буде виконано\n"
+"- «Надіслати сповіщення вебхука»: надіслати POST-запит до зовнішньої системи, також відомий як вебхук\n"
+"- «Кілька дій»: визначити дію, яка запускає кілька інших серверних дій\n"
+
+#. module: sms
+#: model:ir.model.fields,field_description:sms.field_sms_composer__use_exclusion_list
+msgid "Use Exclusion List"
+msgstr "Використовувати список виключень"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "We were not able to find your account in our database."
+msgstr "Не вдалося знайти ваш обліковий запис у нашій базі даних."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "We were not able to reach you via your phone number. If you have requested multiple codes recently, please retry later."
+msgstr "Не вдалося зв’язатися з вами за вашим номером телефону. Якщо ви нещодавно запитували кілька кодів, спробуйте пізніше."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "You tried too many times. Please retry later."
+msgstr "Забагато спроб. Спробуйте пізніше."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/wizard/sms_account_code.py:0
+msgid "Your SMS account has been successfully registered."
+msgstr "Ваш обліковий запис SMS успішно зареєстровано."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "Your country is not supported due to sender registration legislation"
+msgstr "Ваша країна не підтримується через законодавство щодо реєстрації відправників"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "Your database is not activated"
+msgstr "Вашу базу даних не активовано"
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0 code:addons/sms/wizard/sms_account_sender.py:0
+msgid "Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters."
+msgstr "Ім'я відправника має містити від 3 до 11 символів і складатися лише з літер і цифр."
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid ""
+"Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
+"                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
+msgstr ""
+"Ім'я відправника має містити від 3 до 11 символів і складатися лише з літер і цифр.\n"
+"                        Воно має відповідати назві вашої компанії, і після реєстрації його не можна змінити, тож обирайте уважно."
+
+#. module: sms
+#. odoo-python
+#: code:addons/sms/tools/sms_api.py:0
+msgid "Your sms account has not been activated yet."
+msgstr "Ваш SMS-обліковий запис ще не активовано."

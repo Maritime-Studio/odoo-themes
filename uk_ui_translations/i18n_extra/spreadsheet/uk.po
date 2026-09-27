@@ -1,0 +1,3892 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% Running total"
+msgstr "% наростаючого підсумку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% difference from"
+msgstr "% різниці від"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of"
+msgstr "% від"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of column total"
+msgstr "% від підсумку стовпця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of grand total"
+msgstr "% від загального підсумку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of parent column total"
+msgstr "% від підсумку батьківського стовпця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of parent row total"
+msgstr "% від підсумку батьківського рядка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of parent total"
+msgstr "% від батьківського підсумку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "% of row total"
+msgstr "% від підсумку рядка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(matches)s matches in %(sheetName)s"
+msgstr "%(matches)s збігів на аркуші %(sheetName)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(matches)s matches in range %(range)s of %(sheetName)s"
+msgstr "%(matches)s збігів у діапазоні %(range)s аркуша %(sheetName)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(newPivotName)s (Pivot #%(formulaId)s)"
+msgstr "%(newPivotName)s (Зведена таблиця #%(formulaId)s)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%(replaceable_count)s match(es) replaced. %(irreplaceable_count)s match(es) cannot be replaced as they are part of a formula."
+msgstr "Замінено збігів: %(replaceable_count)s. Збігів, які неможливо замінити, оскільки вони є частиною формули: %(irreplaceable_count)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s (exclude manually-hidden rows)"
+msgstr "%s (без урахування вручну прихованих рядків)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s (include manually-hidden rows)"
+msgstr "%s (з урахуванням вручну прихованих рядків)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s (positional)"
+msgstr "%s (позиційний)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid day of month (it should be a number between 1 and 31)"
+msgstr "%s не є дійсним днем місяця (має бути число від 1 до 31)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid day of week (it should be a number between 1 and 7)"
+msgstr "%s не є дійсним днем тижня (має бути число від 1 до 7)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid hour (it should be a number between 0 and 23)"
+msgstr "%s не є дійсною годиною (має бути число від 0 до 23)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid minute (it should be a number between 0 and 59)"
+msgstr "%s не є дійсною хвилиною (має бути число від 0 до 59)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid month (it should be a number between 1 and 12)"
+msgstr "%s не є дійсним місяцем (має бути число від 1 до 12)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid quarter (it should be a number between 1 and 4)"
+msgstr "%s не є дійсним кварталом (має бути число від 1 до 4)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid second (it should be a number between 0 and 59)"
+msgstr "%s не є дійсною секундою (має бути число від 0 до 59)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s is not a valid week (it should be a number between 0 and 53)"
+msgstr "%s не є дійсним тижнем (має бути число від 0 до 53)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "%s matches in all sheets"
+msgstr "%s збігів на всіх аркушах"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "(next)"
+msgstr "(наступний)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "(previous)"
+msgstr "(попередній)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "+ \"Others\" group"
+msgstr "+ група «Інші»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "+ Add chart"
+msgstr "+ Додати діаграму"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "+ Add data view"
+msgstr "+ Додати подання даних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "0 = first match, 1 = all matches as an array, 2 = capturing groups from the first match as an array."
+msgstr "0 = перший збіг, 1 = усі збіги у вигляді масиву, 2 = групи захоплення першого збігу у вигляді масиву."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A boolean indicating whether to use A1 style notation or R1C1 style notation."
+msgstr "Логічне значення, що визначає, використовувати нотацію стилю A1 чи R1C1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A flag specifying whether to compute the slope or not"
+msgstr "Прапорець, що визначає, обчислювати нахил чи ні"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A reference to a cell."
+msgstr "Посилання на клітинку."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A table can only be created on a continuous selection."
+msgstr "Таблицю можна створити лише на безперервному виділенні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A text abbreviation for unit of time."
+msgstr "Текстове скорочення одиниці часу."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "A1 style (default)"
+msgstr "Стиль A1 (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Absolute row and column (e.g. $A$1)"
+msgstr "Абсолютні рядок і стовпець (напр. $A$1)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Absolute row, relative column (e.g. A$1)"
+msgstr "Абсолютний рядок, відносний стовпець (напр. A$1)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/actions/spreadsheet_download_action.js:0
+msgid "Access Error"
+msgstr "Помилка доступу"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Add a Title"
+msgstr "Додайте заголовок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Add a baseline description"
+msgstr "Додайте опис базового значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Add a chart to the carousel. You can also add a chart by dragging and dropping it over the carousel figure."
+msgstr "Додайте діаграму до каруселі. Також можна додати діаграму, перетягнувши її на фігуру каруселі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Add a key value description"
+msgstr "Додайте опис ключового значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Add calculated measure"
+msgstr "Додати обчислювану міру"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Add filters"
+msgstr "Додати фільтри"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Additional cases to try if the previous ones don't match expression."
+msgstr "Додаткові варіанти для перевірки, якщо попередні не відповідають виразу."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Additional ranges or references for which you want the subtotal."
+msgstr "Додаткові діапазони або посилання, для яких потрібно обчислити проміжний підсумок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Additional values to be returned if their corresponding cases match expression."
+msgstr "Додаткові значення, що повертаються, якщо відповідні варіанти збігаються з виразом."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Aggregated by"
+msgstr "Агреговано за"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "All matches"
+msgstr "Усі збіги"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "All sheets"
+msgstr "Усі аркуші"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "An error occurred while uploading the image. %s"
+msgstr "Під час завантаження зображення сталася помилка. %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "An indicator of whether the reference is row/column absolute."
+msgstr "Ознака того, чи є посилання на рядок/стовпець абсолютним."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "An optional default value to be returned if none of the cases match expression."
+msgstr "Необов'язкове значення за замовчуванням, що повертається, якщо жоден варіант не збігається з виразом."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "An unexpected error occurred. Submit a support ticket at odoo.com/help."
+msgstr "Сталася неочікувана помилка. Створіть запит у службу підтримки на odoo.com/help."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Annual"
+msgstr "Щорічно"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Apply all changes"
+msgstr "Застосувати всі зміни"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Approximate match (default)"
+msgstr "Приблизний збіг (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Area"
+msgstr "Області"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Array arguments to [[FUNCTION_NAME]] are of different size."
+msgstr "Аргументи-масиви функції [[FUNCTION_NAME]] мають різний розмір."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Array result was not expanded because it would overwrite data."
+msgstr "Результат-масив не розгорнуто, оскільки це перезаписало б дані."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ascending order (default)"
+msgstr "За зростанням (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "At least one delimiter must be provided."
+msgstr "Потрібно вказати принаймні один роздільник."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "At least one measure and/or dimension is not correct."
+msgstr "Принаймні одна міра та/або вимір некоректні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "At least one of the provided values is an invalid formula"
+msgstr "Принаймні одне з наданих значень є недійсною формулою"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Auto-adjust to formula result"
+msgstr "Автоматично підлаштовувати під результат формули"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Automatically autofill formulas"
+msgstr "Автоматично заповнювати формули"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Axes"
+msgstr "Осі"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Axis title"
+msgstr "Назва осі"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Banded columns"
+msgstr "Чергування стовпців"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Banded rows"
+msgstr "Чергування рядків"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Base field:"
+msgstr "Базове поле:"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Base item:"
+msgstr "Базовий елемент:"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Baseline"
+msgstr "Базове значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Baseline Style"
+msgstr "Стиль базового значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Baseline colors"
+msgstr "Кольори базового значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Beginning of period"
+msgstr "Початок періоду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Billion"
+msgstr "Мільярд"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Binary search (sorted ascending order)"
+msgstr "Двійковий пошук (відсортовано за зростанням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Binary search (sorted descending order)"
+msgstr "Двійковий пошук (відсортовано за спаданням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Blues"
+msgstr "Сині"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0 code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
+msgid "Boolean And"
+msgstr "Логічне І"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0 code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
+msgid "Boolean Or"
+msgstr "Логічне АБО"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Bottom left"
+msgstr "Знизу ліворуч"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Bottom right"
+msgstr "Знизу праворуч"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Calculated measure %s"
+msgstr "Обчислювана міра %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Calculated measure 1"
+msgstr "Обчислювана міра 1"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Calculates the value as a percentage for successive items in the Base field that are displayed as a running total."
+msgstr "Обчислює значення у відсотках для послідовних елементів базового поля, відображених як наростаючий підсумок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Calculates values as follows:\n"
+"((value in cell) x (Grand Total of Grand Totals)) / ((Grand Row Total) x (Grand Column Total))"
+msgstr ""
+"Обчислює значення так:\n"
+"((значення в клітинці) x (загальний підсумок загальних підсумків)) / ((загальний підсумок рядка) x (загальний підсумок стовпця))"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Calculates values as follows:\n"
+"(value for the item) / (value for the parent item of the selected Base field)"
+msgstr ""
+"Обчислює значення так:\n"
+"(значення елемента) / (значення батьківського елемента вибраного базового поля)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Calculates values as follows:\n"
+"(value for the item) / (value for the parent item on columns)"
+msgstr ""
+"Обчислює значення так:\n"
+"(значення елемента) / (значення батьківського елемента за стовпцями)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"Calculates values as follows:\n"
+"(value for the item) / (value for the parent item on rows)"
+msgstr ""
+"Обчислює значення так:\n"
+"(значення елемента) / (значення батьківського елемента за рядками)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Cannot duplicate a pivot in error."
+msgstr "Неможливо дублювати зведену таблицю з помилкою."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Cannot have filters without a header row"
+msgstr "Неможливо мати фільтри без рядка заголовка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Cannot open the link because the linked sheet is hidden."
+msgstr "Неможливо відкрити посилання, оскільки пов'язаний аркуш приховано."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Cannot sort a zone with array formulas."
+msgstr "Неможливо сортувати область із формулами масиву."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+msgid "Cannot use custom pivot groups with \"Count Distinct\" measure"
+msgstr "Неможливо використовувати власні групи зведеної таблиці з мірою «Кількість унікальних»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Capture groups of first match"
+msgstr "Групи захоплення першого збігу"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Carousel Sections"
+msgstr "Розділи каруселі"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Carousel Title"
+msgstr "Заголовок каруселі"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Carousel copied to clipboard"
+msgstr "Карусель скопійовано в буфер обміну"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Case-insensitive"
+msgstr "Без урахування регістру"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Case-sensitive"
+msgstr "З урахуванням регістру"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Case-sensitive (default)"
+msgstr "З урахуванням регістру (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Category color"
+msgstr "Колір категорії"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Caused by"
+msgstr "Причина"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Center radius"
+msgstr "Радіус центру"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Change color"
+msgstr "Змінити колір"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Changing the pivot definition requires to reload the data. It may take some time."
+msgstr "Зміна визначення зведеної таблиці потребує перезавантаження даних. Це може зайняти деякий час."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Character or string to split columns by."
+msgstr "Символ або рядок для розділення на стовпці."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Character or string to split rows by."
+msgstr "Символ або рядок для розділення на рядки."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/index.js:0
+msgid "Chart - %(chart_model)s"
+msgstr "Діаграма - %(chart_model)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Chart copied to clipboard"
+msgstr "Діаграму скопійовано в буфер обміну"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Chart title"
+msgstr "Назва діаграми"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Checks whether there is a reference to a cell that contains a formula, and returns TRUE or FALSE."
+msgstr "Перевіряє, чи є посилання на клітинку, що містить формулу, і повертає TRUE або FALSE."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Chip"
+msgstr "Мітка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Click to select the cell"
+msgstr "Натисніть, щоб вибрати клітинку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Close menu bar"
+msgstr "Закрити панель меню"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color Scale"
+msgstr "Колірна шкала"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of maximum values"
+msgstr "Колір максимальних значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of middle values"
+msgstr "Колір середніх значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of minimum values"
+msgstr "Колір мінімальних значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of negative values"
+msgstr "Колір від'ємних значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of positive values"
+msgstr "Колір додатних значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Color of subtotals"
+msgstr "Колір проміжних підсумків"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+msgid "Compatibility version of ODOO.FILTER.VALUE for v18 spreadsheets. Required for date filters. Optional for others."
+msgstr "Версія ODOO.FILTER.VALUE для сумісності з електронними таблицями v18. Обов'язкова для фільтрів дат. Необов'язкова для інших."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Compute from totals"
+msgstr "Обчислювати з підсумків"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Compute intercept"
+msgstr "Обчислювати перетин"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Consider using a dynamic pivot formula: %s. Or re-insert the static pivot from the Data menu."
+msgstr "Спробуйте використати динамічну формулу зведеної таблиці: %s. Або повторно вставте статичну зведену таблицю з меню «Дані»."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Convert to individual formulas"
+msgstr "Перетворити на окремі формули"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Converts a numeric value to a different unit of measure."
+msgstr "Перетворює числове значення в іншу одиницю виміру."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Converts a string to a numeric value."
+msgstr "Перетворює рядок на числове значення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Copy as image"
+msgstr "Копіювати як зображення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Copy carousel"
+msgstr "Копіювати карусель"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Copy chart as image"
+msgstr "Копіювати діаграму як зображення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0 code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
+msgid "Count Distinct"
+msgstr "Кількість унікальних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Countries without value"
+msgstr "Країни без значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Create custom table style"
+msgstr "Створити власний стиль таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/components/default_date_value/default_date_value.js:0
+msgid "Current Quarter"
+msgstr "Поточний квартал"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Current sheet"
+msgstr "Поточний аркуш"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/components/date_filter_dropdown/date_filter_dropdown.js:0
+msgid "Custom Range"
+msgstr "Власний діапазон"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Custom Table Style"
+msgstr "Власний стиль таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Cut carousel"
+msgstr "Вирізати карусель"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Data bar"
+msgstr "Гістограма даних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Data series"
+msgstr "Ряди даних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Decimal (default)"
+msgstr "Десяткове (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Defer updates"
+msgstr "Відкласти оновлення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Delete carousel"
+msgstr "Видалити карусель"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Delete chart"
+msgstr "Видалити діаграму"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Delete data view"
+msgstr "Видалити подання даних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Delete table"
+msgstr "Видалити таблицю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Delete table style"
+msgstr "Видалити стиль таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Descending order"
+msgstr "За спаданням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Difference from"
+msgstr "Різниця від"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Dimension %s does not exist"
+msgstr "Вимір %s не існує"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+msgid "Dimension %s is not a group by"
+msgstr "Вимір %s не є групуванням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Dimensions don't match the pivot definition"
+msgstr "Виміри не відповідають визначенню зведеної таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Discard all changes"
+msgstr "Скасувати всі зміни"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % difference from \"%s\""
+msgstr "Відображено як % різниці від «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of \"%s\""
+msgstr "Відображено як % від «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of column total"
+msgstr "Відображено як % від підсумку стовпця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of grand total"
+msgstr "Відображено як % від загального підсумку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of parent \"%s\" total"
+msgstr "Відображено як % від батьківського підсумку «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of parent column total"
+msgstr "Відображено як % від підсумку батьківського стовпця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of parent row total of \"%s\""
+msgstr "Відображено як % від підсумку батьківського рядка «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % of row total"
+msgstr "Відображено як % від підсумку рядка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as % running total based on \"%s\""
+msgstr "Відображено як % наростаючого підсумку на основі «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as difference from \"%s\""
+msgstr "Відображено як різницю від «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as index"
+msgstr "Відображено як індекс"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as rank from smallest to largest based on \"%s\""
+msgstr "Відображено як ранг від найменшого до найбільшого на основі «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as rank largest to smallest based on \"%s\""
+msgstr "Відображено як ранг від найбільшого до найменшого на основі «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displayed as running total based on \"%s\""
+msgstr "Відображено як наростаючий підсумок на основі «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays all the values in each column or series as a percentage of the total for the column or series."
+msgstr "Відображає всі значення в кожному стовпці або ряду як відсоток від підсумку стовпця або ряду."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays the rank of selected values in a specific field, listing the largest item in the field as 1, and each smaller value with a higher rank value."
+msgstr "Відображає ранг вибраних значень у певному полі: найбільший елемент поля має ранг 1, а кожне менше значення отримує вищий ранг."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays the rank of selected values in a specific field, listing the smallest item in the field as 1, and each larger value with a higher rank value."
+msgstr "Відображає ранг вибраних значень у певному полі: найменший елемент поля має ранг 1, а кожне більше значення отримує вищий ранг."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays the value for successive items in the Base field as a running total."
+msgstr "Відображає значення послідовних елементів базового поля як наростаючий підсумок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays the value in each row or category as a percentage of the total for the row or category."
+msgstr "Відображає значення в кожному рядку або категорії як відсоток від підсумку рядка або категорії."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays the value that is entered in the field."
+msgstr "Відображає значення, введене в поле."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays values as a percentage of the grand total of all the values or data points in the report."
+msgstr "Відображає значення як відсоток від загального підсумку всіх значень або точок даних у звіті."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays values as a percentage of the value of the Base item in the Base field."
+msgstr "Відображає значення як відсоток від значення базового елемента в базовому полі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays values as the difference from the value of the Base item in the Base field."
+msgstr "Відображає значення як різницю від значення базового елемента в базовому полі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Displays values as the percentage difference from the value of the Base item in the Base field."
+msgstr "Відображає значення як відсоткову різницю від значення базового елемента в базовому полі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Distance"
+msgstr "Відстань"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Division by zero"
+msgstr "Ділення на нуль"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Do not switch to straight-line depreciation"
+msgstr "Не переходити на прямолінійну амортизацію"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Don't match to end (default)"
+msgstr "Не зіставляти до кінця (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Download chart"
+msgstr "Завантажити діаграму"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Dropdown list"
+msgstr "Випадний список"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "E.g. 1234567 -> %(value)s"
+msgstr "Напр. 1234567 -> %(value)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Edit carousel"
+msgstr "Редагувати карусель"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Edit chart"
+msgstr "Редагувати діаграму"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Edit custom table style"
+msgstr "Редагувати власний стиль таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Edit table"
+msgstr "Редагувати таблицю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Edit table style"
+msgstr "Редагувати стиль таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "End of period (default)"
+msgstr "Кінець періоду (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "European 30/360"
+msgstr "Європейський 30/360"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "European method"
+msgstr "Європейський метод"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Exact match"
+msgstr "Точний збіг"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Exact match (default)"
+msgstr "Точний збіг (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Exact match or next larger item"
+msgstr "Точний збіг або наступний більший елемент"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Exact match or next smaller item"
+msgstr "Точний збіг або наступний менший елемент"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Excluded due to chart limits. Drag to swap with another range."
+msgstr "Виключено через обмеження діаграми. Перетягніть, щоб поміняти місцями з іншим діапазоном."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Exit fullscreen"
+msgstr "Вийти з повноекранного режиму"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Extract text from a string based on the supplied regular expression."
+msgstr "Витягує текст із рядка на основі заданого регулярного виразу."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Field \"%s\" not found in pivot for measure display calculation"
+msgstr "Поле «%s» не знайдено у зведеній таблиці для обчислення відображення міри"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Field %s is not a measure"
+msgstr "Поле %s не є мірою"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Fill color"
+msgstr "Колір заливки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Filled Radar"
+msgstr "Заповнена пелюсткова"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/plugins/global_filters_core_view_plugin.js:0
+msgid "Filter \"%(filter_name)s\" not found"
+msgstr "Фільтр «%(filter_name)s» не знайдено"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Filter button"
+msgstr "Кнопка фільтра"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Filter by criterion"
+msgstr "Фільтрувати за умовою"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Filter by values"
+msgstr "Фільтрувати за значеннями"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "First column"
+msgstr "Перший стовпець"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "First day of week:"
+msgstr "Перший день тижня:"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "First match"
+msgstr "Перший збіг"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "First quartile (25th percentile)"
+msgstr "Перший квартиль (25-й процентиль)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Fixed Number"
+msgstr "Фіксоване число"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Flip axes"
+msgstr "Поміняти осі місцями"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "For tables based on array formulas only"
+msgstr "Лише для таблиць на основі формул масиву"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Force intercept to 0"
+msgstr "Примусово встановити перетин 0"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Friday is the only weekend"
+msgstr "Вихідний лише в п'ятницю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Friday/Saturday are weekends"
+msgstr "Вихідні в п'ятницю та суботу"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Full quarter"
+msgstr "Повний квартал"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Function %s expects the parameter '%s' to be reference to a cell or range."
+msgstr "Функція %s очікує, що параметр '%s' буде посиланням на клітинку або діапазон."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Function [[FUNCTION_NAME]] expects number values for %s, but got a boolean."
+msgstr "Функція [[FUNCTION_NAME]] очікує числові значення для %s, але отримала логічне значення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Function [[FUNCTION_NAME]] expects number values for %s, but got a string."
+msgstr "Функція [[FUNCTION_NAME]] очікує числові значення для %s, але отримала рядок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Function [[FUNCTION_NAME]] expects number values for %s, but got an empty value."
+msgstr "Функція [[FUNCTION_NAME]] очікує числові значення для %s, але отримала порожнє значення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_funnel_chart.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Funnel"
+msgstr "Воронка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Funnel colors"
+msgstr "Кольори воронки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Funnel options"
+msgstr "Параметри воронки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Gauge Design"
+msgstr "Дизайн шкали"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_geo_chart.js:0
+msgid "Geo"
+msgstr "Гео"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Geo Chart"
+msgstr "Географічна діаграма"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0
+msgid "Geo chart"
+msgstr "Географічна діаграма"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Geo chart options"
+msgstr "Параметри географічної діаграми"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Gets information about a cell."
+msgstr "Отримує інформацію про клітинку."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method."
+msgstr "На основі часткових даних про лінійний тренд обчислює різні параметри ідеального лінійного тренду методом найменших квадратів."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Given partial data about an exponential growth curve, calculates various parameters about the best fit ideal exponential growth curve."
+msgstr "На основі часткових даних про криву експоненційного зростання обчислює різні параметри найкраще підібраної ідеальної кривої експоненційного зростання."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Go to %(label)s"
+msgstr "Перейти до %(label)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Go to previous menu"
+msgstr "Повернутися до попереднього меню"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Go to url: %(url)s"
+msgstr "Перейти за URL: %(url)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Granularity"
+msgstr "Деталізація"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Gray"
+msgstr "Сірий"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Greens"
+msgstr "Зелені"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Greys"
+msgstr "Сірі"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Gridlines"
+msgstr "Лінії сітки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Group all remaining dimensions"
+msgstr "Згрупувати всі решту вимірів"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Group pivot dimensions"
+msgstr "Згрупувати виміри зведеної таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Header row(s)"
+msgstr "Рядки заголовка"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Headers and labels"
+msgstr "Заголовки та підписи"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Height value is %(_height)s. It should be greater than or equal to 1."
+msgstr "Значення висоти становить %(_height)s. Воно має бути не меншим за 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Hierarchical"
+msgstr "Ієрархічна"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Horizontal alignment"
+msgstr "Горизонтальне вирівнювання"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Horizontal axis"
+msgstr "Горизонтальна вісь"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "ISO Date"
+msgstr "Дата ISO"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "ISO Date time"
+msgstr "Дата й час ISO"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "ISO week number (Monday as first day of the week)"
+msgstr "Номер тижня ISO (тиждень починається з понеділка)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ignore blanks"
+msgstr "Ігнорувати пусті"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ignore blanks and errors"
+msgstr "Ігнорувати пусті та помилки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ignore empty cells"
+msgstr "Ігнорувати порожні клітинки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ignore errors"
+msgstr "Ігнорувати помилки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Image copied to clipboard"
+msgstr "Зображення скопійовано в буфер обміну"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "In [[FUNCTION_NAME]], the number of columns of the first matrix (%s) must be equal to the           number of rows of the second matrix (%s)."
+msgstr "У [[FUNCTION_NAME]] кількість стовпців першої матриці (%s) має дорівнювати кількості рядків другої матриці (%s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "In this context, the function [[FUNCTION_NAME]] needs to have a cell or range in parameter."
+msgstr "У цьому контексті функція [[FUNCTION_NAME]] потребує клітинки або діапазону як параметра."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
+msgid "Inaccessible/missing record ID"
+msgstr "Недоступний/відсутній ID запису"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Include empty cells (default)"
+msgstr "Включати порожні клітинки (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Incompatible units of measure ('%s' vs '%s')"
+msgstr "Несумісні одиниці виміру ('%s' і '%s')"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Invalid number of arguments for the %(functionName)s function. Expected %(maxArgPossible)s maximum, but got %(nbrArgSupplied)s instead."
+msgstr "Недійсна кількість аргументів для функції %(functionName)s. Очікується максимум %(maxArgPossible)s, отримано %(nbrArgSupplied)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Invalid number of arguments for the %(functionName)s function. Expected %(minArgRequired)s minimum, but got %(nbrArgSupplied)s instead."
+msgstr "Недійсна кількість аргументів для функції %(functionName)s. Очікується мінімум %(minArgRequired)s, отримано %(nbrArgSupplied)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Invalid number of arguments for the %(functionName)s function. Repeatable arguments should be supplied in groups of %(nbrArgRepeating)s, with up to %(nbrArgOptional)s optional. Got %(nbrValueRemaining)s too many."
+msgstr "Недійсна кількість аргументів для функції %(functionName)s. Повторювані аргументи слід передавати групами по %(nbrArgRepeating)s, з яких до %(nbrArgOptional)s необов'язкові. Отримано зайвих: %(nbrValueRemaining)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Invalid regular expression"
+msgstr "Недійсний регулярний вираз"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Invalid units of measure ('%s')"
+msgstr "Недійсні одиниці виміру ('%s')"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Keep all values (default)"
+msgstr "Зберегти всі значення (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Key Value Style"
+msgstr "Стиль ключового значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Labels"
+msgstr "Етикетки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Last column"
+msgstr "Останній стовпець"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Left axis"
+msgstr "Ліва вісь"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Light green"
+msgstr "Світло-зелений"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/index.js:0
+msgid "List #%(list_id)s"
+msgstr "Список #%(list_id)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Logarithmic"
+msgstr "Логарифмічна"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Magnetism"
+msgstr "Прилипання"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Match to end"
+msgstr "Зіставляти до кінця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Match(es) cannot be replaced as they are part of a formula."
+msgstr "Збіги неможливо замінити, оскільки вони є частиною формули."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Max value or formula"
+msgstr "Максимальне значення або формула"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Measure \"%s\" options"
+msgstr "Параметри міри «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Median value (50th percentile)"
+msgstr "Медіана (50-й процентиль)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Menu Bar"
+msgstr "Панель меню"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Merged cells found in the spill zone. Please unmerge cells before using array formulas."
+msgstr "У зоні розгортання знайдено об'єднані клітинки. Роз'єднайте клітинки перед використанням формул масиву."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Million"
+msgstr "Мільйон"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Min value or formula"
+msgstr "Мінімальне значення або формула"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Minute"
+msgstr "Хвилина"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Monday is the only weekend"
+msgstr "Вихідний лише в понеділок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Month & Year"
+msgstr "Місяць і рік"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
+msgid "Month to Date"
+msgstr "З початку місяця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Negative values"
+msgstr "Від'ємні значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "New pivot"
+msgstr "Нова зведена таблиця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/hooks.js:0
+msgid "No"
+msgstr "Ні"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "No active dimension in the pivot"
+msgstr "У зведеній таблиці немає активного виміру"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No calculations"
+msgstr "Без обчислень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No capturing groups found."
+msgstr "Групи захоплення не знайдено."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No matches found."
+msgstr "Збігів не знайдено."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No sorting"
+msgstr "Без сортування"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "No text to split."
+msgstr "Немає тексту для розділення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 0 (Monday) trough 6 (Sunday)"
+msgstr "Числа від 0 (понеділок) до 6 (неділя)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Friday) trough 7 (Thursday)"
+msgstr "Числа від 1 (п'ятниця) до 7 (четвер)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Monday) trough 7 (Sunday)"
+msgstr "Числа від 1 (понеділок) до 7 (неділя)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Saturday) trough 7 (Friday)"
+msgstr "Числа від 1 (субота) до 7 (п'ятниця)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Sunday) trough 7 (Saturday)"
+msgstr "Числа від 1 (неділя) до 7 (субота)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Thursday) trough 7 (Wednesday)"
+msgstr "Числа від 1 (четвер) до 7 (середа)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Tuesday) trough 7 (Monday)"
+msgstr "Числа від 1 (вівторок) до 7 (понеділок)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Numbers 1 (Wednesday) trough 7 (Tuesday)"
+msgstr "Числа від 1 (середа) до 7 (вівторок)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "OFFSET evaluates to an out of bounds range."
+msgstr "OFFSET повертає діапазон поза межами."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/helpers/geo_json_service.js:0
+msgid "Oceania"
+msgstr "Океанія"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Bar Chart"
+msgstr "Стовпчикова діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Combo Chart"
+msgstr "Комбінована діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Funnel Chart"
+msgstr "Діаграма-воронка Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Geo Chart"
+msgstr "Географічна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Line Chart"
+msgstr "Лінійна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Pie Chart"
+msgstr "Кругова діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Pyramid Chart"
+msgstr "Пірамідальна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Radar Chart"
+msgstr "Пелюсткова діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Scatter Chart"
+msgstr "Точкова діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Sunburst Chart"
+msgstr "Сонячна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Treemap Chart"
+msgstr "Деревоподібна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
+msgid "Odoo Waterfall Chart"
+msgstr "Каскадна діаграма Odoo"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "One or more of the provided criteria values are invalid. Please review and correct them."
+msgstr "Одне або кілька наданих значень умов недійсні. Перевірте та виправте їх."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "One or more of the provided criteria values are missing."
+msgstr "Одне або кілька значень умов відсутні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Oops—this pivot table is quite large (%s cells). Try simplifying it using the side panel."
+msgstr "Ой, ця зведена таблиця досить велика (%s клітинок). Спробуйте спростити її за допомогою бічної панелі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Oranges"
+msgstr "Помаранчеві"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Parser"
+msgstr "Парсер"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Paste as value"
+msgstr "Вставити як значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pin this panel to allow to open another side panel beside it."
+msgstr "Закріпіть цю панель, щоб мати змогу відкрити поруч іншу бічну панель."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/index.js:0
+msgid "Pivot #%(pivot_id)s"
+msgstr "Зведена таблиця #%(pivot_id)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pivot duplicated."
+msgstr "Зведену таблицю дубльовано."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pivot duplication failed."
+msgstr "Не вдалося дублювати зведену таблицю."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pivot table"
+msgstr "Зведена таблиця"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pivot updates only work with dynamic pivot tables. Use the formula '%s' or re-insert the static pivot from the Data menu."
+msgstr "Оновлення працюють лише з динамічними зведеними таблицями. Використайте формулу '%s' або повторно вставте статичну зведену таблицю з меню «Дані»."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Polynomial"
+msgstr "Поліноміальна"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pop out chart"
+msgstr "Відкрити діаграму окремо"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Population Pyramid"
+msgstr "Вікова піраміда"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Positive values"
+msgstr "Додатні значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Pressure"
+msgstr "Тиск"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Progress bar colors"
+msgstr "Кольори індикатора виконання"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Purples"
+msgstr "Фіолетові"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_pyramid_chart.js:0
+msgid "Pyramid"
+msgstr "Піраміда"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Q%(quarter)s"
+msgstr "К%(quarter)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Q%(quarter_number)s"
+msgstr "К%(quarter_number)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Quarter %(quarter)s"
+msgstr "Квартал %(quarter)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Quarter %s"
+msgstr "Квартал %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Quarter & Year"
+msgstr "Квартал і рік"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "R1C1 notation is not supported."
+msgstr "Нотація R1C1 не підтримується."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "R1C1 style"
+msgstr "Стиль R1C1"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Range of values"
+msgstr "Діапазон значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Rank largest to smallest"
+msgstr "Ранг від найбільшого до найменшого"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Rank smallest to largest"
+msgstr "Ранг від найменшого до найбільшого"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Re-insert dynamic pivot"
+msgstr "Повторно вставити динамічну зведену таблицю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Re-insert static pivot"
+msgstr "Повторно вставити статичну зведену таблицю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Reds"
+msgstr "Червоні"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Reference should be defined."
+msgstr "Потрібно визначити посилання."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Relative row and column (e.g. A1)"
+msgstr "Відносні рядок і стовпець (напр. A1)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Relative row, absolute column (e.g. $A1)"
+msgstr "Відносний рядок, абсолютний стовпець (напр. $A1)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Reorder range"
+msgstr "Змінити порядок діапазону"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Return every distinct item"
+msgstr "Повернути кожен унікальний елемент"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Return items that appear exactly once"
+msgstr "Повернути елементи, що трапляються рівно один раз"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
+msgid "Return the label of the current value of a spreadsheet filter."
+msgstr "Повертає підпис поточного значення фільтра електронної таблиці."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Return unique columns"
+msgstr "Повернути унікальні стовпці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Return unique rows"
+msgstr "Повернути унікальні рядки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns a range reference shifted by a specified number of rows and columns from a starting cell reference."
+msgstr "Повертає посилання на діапазон, зміщене на вказану кількість рядків і стовпців від початкової клітинки."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns a sequence of numbers."
+msgstr "Повертає послідовність чисел."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns a subtotal for a vertical range of cells using a specified aggregation function."
+msgstr "Повертає проміжний підсумок для вертикального діапазону клітинок за вказаною функцією агрегування."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns a value by comparing cases to an expression."
+msgstr "Повертає значення, порівнюючи варіанти з виразом."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns an absolute reference as plain text of the top left cell in reference."
+msgstr "Повертає абсолютне посилання на верхню ліву клітинку посилання у вигляді звичайного тексту."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns text that occurs after a given substring or delimiter."
+msgstr "Повертає текст, що йде після заданого підрядка або роздільника."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns text that occurs before a given substring or delimiter."
+msgstr "Повертає текст, що йде перед заданим підрядком або роздільником."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the column number of the cell in reference."
+msgstr "Повертає номер стовпця клітинки в посиланні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the content of a cell, specified by a string."
+msgstr "Повертає вміст клітинки, заданої рядком."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the format of the top left cell in reference."
+msgstr "Повертає формат верхньої лівої клітинки в посиланні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the row number of the top left cell in reference."
+msgstr "Повертає номер рядка верхньої лівої клітинки в посиланні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the type of data in the cell in reference. The following values are returned: \"b\" for a blank cell, \"l\" (for label) if the cell contains plain text, and \"v\" (for value) if the cell contains any other type of data."
+msgstr "Повертає тип даних у клітинці посилання. Повертаються такі значення: \"b\" для порожньої клітинки, \"l\" (label), якщо клітинка містить звичайний текст, і \"v\" (value), якщо клітинка містить дані будь-якого іншого типу."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Returns the value contained in the top left cell in reference."
+msgstr "Повертає значення верхньої лівої клітинки в посиланні."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Right axis"
+msgstr "Права вісь"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Running total"
+msgstr "Наростаючий підсумок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Saturday is the only weekend"
+msgstr "Вихідний лише в суботу"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Saturday/Sunday are weekends"
+msgstr "Вихідні в суботу та неділю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Scan by column"
+msgstr "Сканувати за стовпцями"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Scan by row (default)"
+msgstr "Сканувати за рядками (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Scan the array by column. By default, the array is scanned by row."
+msgstr "Сканувати масив за стовпцями. За замовчуванням масив сканується за рядками."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_scatter_chart.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Scatter"
+msgstr "Точкова"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Search first to last (default)"
+msgstr "Пошук від першого до останнього (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Search last to first"
+msgstr "Пошук від останнього до першого"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Searches the text for a delimiter match. By default, a case-sensitive match is done."
+msgstr "Шукає в тексті збіг із роздільником. За замовчуванням пошук враховує регістр."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Semi-annual"
+msgstr "Піврічно"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Serie type"
+msgstr "Тип ряду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Series color"
+msgstr "Колір ряду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Series name"
+msgstr "Назва ряду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show connector lines"
+msgstr "Показувати з'єднувальні лінії"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show data markers"
+msgstr "Показувати маркери даних"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show formula help"
+msgstr "Показувати довідку щодо формули"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show headers"
+msgstr "Показувати заголовки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show labels"
+msgstr "Показувати підписи"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show measure as:"
+msgstr "Показувати міру як:"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show slicer"
+msgstr "Показувати зріз"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show subtotals at the end of series"
+msgstr "Показувати проміжні підсумки в кінці ряду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show trend line"
+msgstr "Показувати лінію тренду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show values"
+msgstr "Показувати значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Show values as"
+msgstr "Показувати значення як"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
+msgid "Since %(from)s"
+msgstr "З %(from)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_model.js:0
+msgid "Some measures are not available: %s"
+msgstr "Деякі міри недоступні: %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sort pivot"
+msgstr "Сортувати зведену таблицю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sorted on column (%(ascOrDesc)s):"
+msgstr "Відсортовано за стовпцем (%(ascOrDesc)s):"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Specific range"
+msgstr "Конкретний діапазон"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Specifies how to match search_key with the items in lookup_range. "
+msgstr "Визначає спосіб зіставлення search_key з елементами lookup_range. "
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Specifies the search mode to use. By default, a first to last search will be used."
+msgstr "Визначає режим пошуку. За замовчуванням пошук виконується від першого до останнього."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Spill range is not empty"
+msgstr "Діапазон розгортання не порожній"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Split dataset by columns"
+msgstr "Розділити набір даних за стовпцями"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Split dataset by rows"
+msgstr "Розділити набір даних за рядками"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Splits text into rows or columns using specified column and row delimiters."
+msgstr "Розділяє текст на рядки або стовпці за вказаними роздільниками стовпців і рядків."
+
+#. module: spreadsheet
+#: model:ir.model.fields,field_description:spreadsheet.field_spreadsheet_mixin__spreadsheet_file_name
+msgid "Spreadsheet File Name"
+msgstr "Назва файлу електронної таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked Area"
+msgstr "Області з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked Bar"
+msgstr "Лінійчата з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked Column"
+msgstr "Стовпчикова з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked Line"
+msgstr "Лінійна з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked area chart"
+msgstr "Діаграма областей з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked bar chart"
+msgstr "Лінійчата діаграма з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked column chart"
+msgstr "Стовпчикова діаграма з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Stacked line chart"
+msgstr "Лінійна діаграма з накопиченням"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Style color"
+msgstr "Колір стилю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Style name"
+msgstr "Назва стилю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Style options"
+msgstr "Параметри стилю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Style template"
+msgstr "Шаблон стилю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Subtotals"
+msgstr "Проміжні підсумки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_sunburst_chart.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sunburst"
+msgstr "Сонячна"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Sunburst options"
+msgstr "Параметри сонячної діаграми"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sunday is the only weekend"
+msgstr "Вихідний лише в неділю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Sunday/Monday are weekends"
+msgstr "Вихідні в неділю та понеділок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Switch to straight-line depreciation"
+msgstr "Перейти на прямолінійну амортизацію"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "TRUE or FALSE indicating whether to sort sort_column in ascending order."
+msgstr "TRUE або FALSE: чи сортувати sort_column за зростанням."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid "Technical field name."
+msgstr "Технічна назва поля."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Temperature"
+msgstr "Температура"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Territories"
+msgstr "Території"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text begins with"
+msgstr "Текст починається з"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text begins with \"%s\""
+msgstr "Текст починається з «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Text color"
+msgstr "Колір тексту"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text does not contain"
+msgstr "Текст не містить"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text ends with"
+msgstr "Текст закінчується на"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Text ends with \"%s\""
+msgstr "Текст закінчується на «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The amount to increment each value in the sequence"
+msgstr "Крок збільшення кожного значення послідовності"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The arguments array_x and array_y must contain at least one pair of numbers."
+msgstr "Аргументи array_x та array_y мають містити принаймні одну пару чисел."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The arguments array_x and array_y must have the same dimensions."
+msgstr "Аргументи array_x та array_y повинні мати однакові розміри."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The base (%s) must be strictly positive."
+msgstr "Основа (%s) має бути строго додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The base must be different from 1."
+msgstr "Основа має відрізнятися від 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The base of the logarithm."
+msgstr "Основа логарифма."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The case-sensitive format of the result, enclosed in quotation marks. Examples: \"0.00\" rounded to 2 decimal places, \"hh:mm:ss\" for hour:minutes:seconds."
+msgstr "Формат результату з урахуванням регістру в лапках. Приклади: \"0.00\" (округлення до 2 знаків після коми), \"hh:mm:ss\" (години:хвилини:секунди)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The case_sensitivity (%s) must be 0 or 1."
+msgstr "case_sensitivity (%s) має дорівнювати 0 або 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The columns arguments must be between -%s and %s (got %s), excluding 0."
+msgstr "Аргументи columns мають бути в межах від -%s до %s (отримано %s), за винятком 0."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/currency/formulas.js:0
+msgid "The company to take the exchange rate from."
+msgstr "Компанія, з якої береться курс обміну."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The corresponding value to be returned if case1 matches expression."
+msgstr "Відповідне значення, що повертається, якщо case1 збігається з виразом."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The data view makes the carousel transparent, revealing the data underneath."
+msgstr "Подання даних робить карусель прозорою, відкриваючи дані під нею."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The delimiter (%s) must be not be empty."
+msgstr "Роздільник (%s) не може бути порожнім."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The delimiters cannot be empty values."
+msgstr "Роздільники не можуть бути порожніми значеннями."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The desired instance of the delimiter after which we extract the text. A negative number searches from the end."
+msgstr "Потрібне входження роздільника, після якого витягується текст. Від'ємне число означає пошук з кінця."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The desired instance of the delimiter before which we extract the text. A negative number searches from the end."
+msgstr "Потрібне входження роздільника, перед яким витягується текст. Від'ємне число означає пошук з кінця."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The effective_rate (%s) must be strictly positive."
+msgstr "effective_rate (%s) має бути строго додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The end_period (%(end)s) must be smaller or equal to the life (%(life)s)."
+msgstr "end_period (%(end)s) має бути меншим або дорівнювати life (%(life)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The end_period (%s) must be positive or null."
+msgstr "end_period (%s) має бути додатним або нулем."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/list/list_functions.js:0
+msgid "The field name should not be empty."
+msgstr "Назва поля не може бути порожньою."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid ""
+"The file you are trying to copy is too large (>%sMB).\n"
+"It will not be added to your OS clipboard.\n"
+"You can download it directly instead."
+msgstr ""
+"Файл, який ви намагаєтеся скопіювати, завеликий (>%sMB).\n"
+"Його не буде додано до буфера обміну ОС.\n"
+"Натомість ви можете завантажити його безпосередньо."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The first and second arguments of [[FUNCTION_NAME]] must be non-empty matrices."
+msgstr "Перший і другий аргументи [[FUNCTION_NAME]] мають бути непорожніми матрицями."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The first case to be checked against expression."
+msgstr "Перший варіант для перевірки на відповідність виразу."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The first number in the sequence"
+msgstr "Перше число послідовності"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The first_period (%(first)s) must be smaller or equal to the last_period (%(last)s)."
+msgstr "first_period (%(first)s) має бути меншим або дорівнювати last_period (%(last)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The formula must be valid"
+msgstr "Формула має бути дійсною"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The function [[FUNCTION_NAME]] expects a boolean value, but '%s' is a text, and cannot be coerced to a boolean."
+msgstr "Функція [[FUNCTION_NAME]] очікує логічне значення, але '%s' є текстом і не може бути перетворене на логічне значення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The function code (%s) must be between 1 to 11 or 101 to 111."
+msgstr "Код функції (%s) має бути від 1 до 11 або від 101 до 111."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The function to use in subtotal aggregation."
+msgstr "Функція для агрегування проміжного підсумку."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The header row of a table can't be moved."
+msgstr "Рядок заголовка таблиці неможливо перемістити."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The info_type should be one of %s."
+msgstr "info_type має бути одним із %s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The instance_num (%s) must not be zero."
+msgstr "instance_num (%s) не може дорівнювати нулю."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The issue (%s) must be positive or null."
+msgstr "issue (%s) має бути додатним або нулем."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The last_period (%(last)s) must be smaller or equal to the number_of_periods (%(nPeriods)s)."
+msgstr "last_period (%(last)s) має бути меншим або дорівнювати number_of_periods (%(nPeriods)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The logarithm of a number, for a given base."
+msgstr "Логарифм числа за заданою основою."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The maturity (%(maturity)s) must be strictly greater than the settlement (%(settlement)s)."
+msgstr "maturity (%(maturity)s) має бути строго більшим за settlement (%(settlement)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/data_sources/data_source.js:0 code:addons/spreadsheet/static/src/pivot/odoo_pivot_loader.js:0
+msgid "The model \"%(model)s\" does not exist."
+msgstr "Модель «%(model)s» не існує."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/components/filter_value/filter_value.js:0
+msgid "The model (%(model)s) of this global filter is not valid (it may have been renamed/deleted)."
+msgstr "Модель (%(model)s) цього глобального фільтра недійсна (можливо, її перейменовано або видалено)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The nominal_rate (%s) must be strictly positive."
+msgstr "nominal_rate (%s) має бути строго додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of columns (%s) must be positive."
+msgstr "Кількість стовпців (%s) має бути додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of columns must be positive."
+msgstr "Кількість стовпців має бути додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of columns of the range to return starting at the offset target."
+msgstr "Кількість стовпців діапазону, що повертається, починаючи з цілі зміщення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of columns to offset by."
+msgstr "Кількість стовпців для зміщення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of columns to return"
+msgstr "Кількість стовпців для повернення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of days between start_date and end_date"
+msgstr "Кількість днів між start_date та end_date"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of days between start_date and end_date after subtracting whole months"
+msgstr "Кількість днів між start_date та end_date без урахування повних місяців"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of days between start_date and end_date, assuming start_date and end_date were no more than one year apart"
+msgstr "Кількість днів між start_date та end_date за умови, що вони відстоять не більше ніж на рік"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of rows (%s) must be positive."
+msgstr "Кількість рядків (%s) має бути додатною."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of rows of the range to return starting at the offset target."
+msgstr "Кількість рядків діапазону, що повертається, починаючи з цілі зміщення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of rows to offset by."
+msgstr "Кількість рядків для зміщення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of rows to return"
+msgstr "Кількість рядків для повернення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of whole months between start_date and end_date"
+msgstr "Кількість повних місяців між start_date та end_date"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of whole months between start_date and end_date after subtracting whole years"
+msgstr "Кількість повних місяців між start_date та end_date без урахування повних років"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number of whole years between start_date and end_date"
+msgstr "Кількість повних років між start_date та end_date"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number_of_periods (%s) must be different from zero."
+msgstr "number_of_periods (%s) має відрізнятися від нуля."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The number_of_periods (%s) must be strictly positive."
+msgstr "number_of_periods (%s) має бути строго додатним."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The period (%(period)s) must be less than or equal life (%(life)s)."
+msgstr "period (%(period)s) має бути меншим або дорівнювати life (%(life)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The period (%(period)s) must be less than or equal to %(lifeLimit)s."
+msgstr "period (%(period)s) має бути меншим або дорівнювати %(lifeLimit)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The period must be between 1 and number_of_periods (%s)"
+msgstr "period має бути від 1 до number_of_periods (%s)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The periods_by_year (%s) must be strictly positive."
+msgstr "periods_by_year (%s) має бути строго додатним."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The pivot cannot be created because cell %s contains a reserved value"
+msgstr "Неможливо створити зведену таблицю, оскільки клітинка %s містить зарезервоване значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The pivot cannot be created because cell %s contains an error"
+msgstr "Неможливо створити зведену таблицю, оскільки клітинка %s містить помилку"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The pivot cannot be created because cell %s is empty"
+msgstr "Неможливо створити зведену таблицю, оскільки клітинка %s порожня"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The pivot cannot be created because the dataset is missing."
+msgstr "Неможливо створити зведену таблицю, оскільки відсутній набір даних."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The purchase_date (%(purchaseDate)s) must be before the first_period_end (%(firstPeriodEnd)s)."
+msgstr "purchase_date (%(purchaseDate)s) має передувати first_period_end (%(firstPeriodEnd)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The purchase_date (%s) must be positive or null."
+msgstr "purchase_date (%s) має бути додатним або нулем."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range is invalid."
+msgstr "Діапазон недійсний."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range is out of bounds."
+msgstr "Діапазон виходить за межі."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range is out of the sheet"
+msgstr "Діапазон виходить за межі аркуша"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The range or reference for which you want the subtotal."
+msgstr "Діапазон або посилання, для якого потрібно обчислити проміжний підсумок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The reference to the cell."
+msgstr "Посилання на клітинку."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The regular expression pattern to match against the text."
+msgstr "Шаблон регулярного виразу для зіставлення з текстом."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The return_mode (%s) must be 0, 1 or 2."
+msgstr "return_mode (%s) має дорівнювати 0, 1 або 2."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The rows arguments must be between -%s and %s (got %s), excluding 0."
+msgstr "Аргументи rows мають бути в межах від -%s до %s (отримано %s), за винятком 0."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The rule is invalid for an unknown reason."
+msgstr "Правило недійсне з невідомої причини."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The salvage (%(salvage)s) must be smaller or equal than the cost (%(cost)s)."
+msgstr "salvage (%(salvage)s) має бути меншою або дорівнювати cost (%(cost)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The search and match mode combination is not supported for XLOOKUP evaluation."
+msgstr "Таке поєднання режимів пошуку та зіставлення не підтримується для обчислення XLOOKUP."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The search method is a number 1, 0 or -1 indicating which value to return. 1 finds the largest value less than or equal to search_key when range is sorted in ascending order. 0 finds the exact value when range is unsorted. -1 finds the smallest value greater than or equal to search_key when range is sorted in descending order."
+msgstr "Метод пошуку задається числом 1, 0 або -1, яке визначає, яке значення повернути. 1 знаходить найбільше значення, менше або рівне search_key, якщо діапазон відсортовано за зростанням. 0 знаходить точне значення, якщо діапазон не відсортовано. -1 знаходить найменше значення, більше або рівне search_key, якщо діапазон відсортовано за спаданням."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The settlement date (%(settlement)s) must at most one year after the maturity date (%(maturity)s)."
+msgstr "Дата розрахунку (%(settlement)s) має бути не більше ніж через рік після дати погашення (%(maturity)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The settlement date (%(settlement)s) must be greater or equal to the issue date (%(issue)s)."
+msgstr "Дата розрахунку (%(settlement)s) має бути більшою або дорівнювати даті випуску (%(issue)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The settlement date (%(settlement)s) must be strictly greater than the issue date (%(issue)s)."
+msgstr "Дата розрахунку (%(settlement)s) має бути строго більшою за дату випуску (%(issue)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The source text."
+msgstr "Вихідний текст."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The start_period (%(start)s) must be smaller or equal to the end_period (%(end)s)."
+msgstr "start_period (%(start)s) має бути меншим або дорівнювати end_period (%(end)s)."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The start_period (%s) must be positive or null."
+msgstr "start_period (%s) має бути додатним або нулем."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The starting point from which to count the offset rows and columns."
+msgstr "Початкова точка, від якої відраховуються рядки та стовпці зміщення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The starting unit, the unit currently assigned to value"
+msgstr "Початкова одиниця, яка зараз призначена значенню"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The string on which you want to extract text."
+msgstr "Рядок, з якого потрібно витягти текст."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The substring after which text will be returned."
+msgstr "Підрядок, після якого повертається текст."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The table zone is invalid for an unknown reason"
+msgstr "Область таблиці недійсна з невідомої причини"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The text to split."
+msgstr "Текст для розділення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The timing of the payment payments are due for each period."
+msgstr "Момент здійснення платежів у кожному періоді."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The type (%s) must be between 1 and 3 or between 11 and 17."
+msgstr "type (%s) має бути від 1 до 3 або від 11 до 17."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The type of information requested."
+msgstr "Тип запитуваної інформації."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The unit of measure into which to convert value"
+msgstr "Одиниця виміру, в яку потрібно перетворити значення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value for which to calculate the logarithm."
+msgstr "Значення, для якого обчислюється логарифм."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be a text that begins with \"%s\""
+msgstr "Значення має бути текстом, що починається з «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be a text that ends with \"%s\""
+msgstr "Значення має бути текстом, що закінчується на «%s»"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value must be empty"
+msgstr "Значення має бути порожнім"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The value to use for padding empty cells."
+msgstr "Значення для заповнення порожніх клітинок."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The weekend must be different from '1111111'."
+msgstr "Вихідні мають відрізнятися від '1111111'."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "The window is too small to display multiple side panels."
+msgstr "Вікно замале для відображення кількох бічних панелей."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Third quartile (75th percentile)"
+msgstr "Третій квартиль (75-й процентиль)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "This dimension contains a lot of values (%s), and might slow down the pivot table."
+msgstr "Цей вимір містить багато значень (%s) і може сповільнити роботу зведеної таблиці."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "This formula has over 1000 parts. It can't be processed properly, consider splitting it into multiple cells"
+msgstr "Ця формула має понад 1000 частин. Її неможливо коректно обробити, тож спробуйте розділити її на кілька клітинок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "This pivot has no cell missing on this sheet"
+msgstr "У цієї зведеної таблиці немає відсутніх клітинок на цьому аркуші"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "This pivot is not used"
+msgstr "Ця зведена таблиця не використовується"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid ""
+"This tool analyzes formulas for patterns and highlights inconsistencies. Irregularities\n"
+"            may indicate potential errors in formula structures, references or arguments."
+msgstr ""
+"Цей інструмент аналізує шаблони у формулах і виділяє невідповідності. Відхилення\n"
+"            можуть вказувати на можливі помилки в структурі формул, посиланнях або аргументах."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "This tool analyzes spreadsheet formulas for patterns and highlights inconsistencies. Irregularities may indicate potential errors in formula structures, references, or arguments. (Click to turn off)"
+msgstr "Цей інструмент аналізує шаблони у формулах електронної таблиці та виділяє невідповідності. Відхилення можуть вказувати на можливі помилки в структурі формул, посиланнях або аргументах. (Натисніть, щоб вимкнути)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Those settings affect all users."
+msgstr "Ці налаштування впливають на всіх користувачів."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Thousand"
+msgstr "Тисяча"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Thursday is the only weekend"
+msgstr "Вихідний лише в четвер"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Thursday/Friday are weekends"
+msgstr "Вихідні в четвер і п'ятницю"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Top left"
+msgstr "Вгорі ліворуч"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Top right"
+msgstr "Вгорі праворуч"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Total row"
+msgstr "Рядок підсумків"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Trailing moving average"
+msgstr "Ковзне середнє"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Tree Map"
+msgstr "Деревоподібна карта"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Tree map colors"
+msgstr "Кольори деревоподібної карти"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_treemap_chart.js:0
+msgid "Treemap"
+msgstr "Деревоподібна карта"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Trend line"
+msgstr "Лінія тренду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Trend line color"
+msgstr "Колір лінії тренду"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Trend line for %s"
+msgstr "Лінія тренду для %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Turn off"
+msgstr "Вимкнути"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "U.S. NASD method (default)"
+msgstr "Американський метод NASD (за замовчуванням)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "US (NASD) 30/360"
+msgstr "США (NASD) 30/360"
+
+#. module: spreadsheet
+#. odoo-python
+#: code:addons/spreadsheet/models/spreadsheet_mixin.py:0
+msgid "Uh-oh! Looks like the spreadsheet file contains invalid data."
+msgstr "Ой! Схоже, файл електронної таблиці містить недійсні дані."
+
+#. module: spreadsheet
+#. odoo-python
+#: code:addons/spreadsheet/models/spreadsheet_mixin.py:0
+msgid ""
+"Uh-oh! Looks like the spreadsheet file contains invalid data.\n"
+"\n"
+"%(errors)s"
+msgstr ""
+"Ой! Схоже, файл електронної таблиці містить недійсні дані.\n"
+"\n"
+"%(errors)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Ungroup pivot dimensions"
+msgstr "Розгрупувати виміри зведеної таблиці"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Unknown function"
+msgstr "Невідома функція"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_helpers.js:0
+msgid "Unnamed Field"
+msgstr "Поле без назви"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Unsorted"
+msgstr "Не відсортовано"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/global_filters/helpers.js:0
+msgid "Until %(to)s"
+msgstr "До %(to)s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Use col %(column_name)s as headers"
+msgstr "Використати стовпець %(column_name)s як заголовки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Use compact format"
+msgstr "Використовувати компактний формат"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Use first value as subtotal"
+msgstr "Використовувати перше значення як проміжний підсумок"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Use row %(row_position)s as headers"
+msgstr "Використати рядок %(row_position)s як заголовки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Use value-based gradient"
+msgstr "Використовувати градієнт на основі значень"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value %s"
+msgstr "Значення %s"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value for parameter %s is missing in [[FUNCTION_NAME]]."
+msgstr "У [[FUNCTION_NAME]] відсутнє значення параметра %s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Value to return if the delimiter is not found."
+msgstr "Значення, що повертається, якщо роздільник не знайдено."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Vertical alignment"
+msgstr "Вертикальне вирівнювання"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Vertical axis"
+msgstr "Вертикальна вісь"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/chart/index.js:0 code:addons/spreadsheet/static/src/chart/odoo_chart/odoo_waterfall_chart.js:0 code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Waterfall"
+msgstr "Каскадна"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Waterfall design"
+msgstr "Дизайн каскадної діаграми"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Wednesday is the only weekend"
+msgstr "Вихідний лише в середу"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Wednesday/Thursday are weekends"
+msgstr "Вихідні в середу та четвер"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Week & Year"
+msgstr "Тиждень і рік"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/pivot/pivot_time_adapters.js:0
+msgid "Week value must be a string in the format %(example)s, but received %(received_value)s instead."
+msgstr "Значення тижня має бути рядком у форматі %(example)s, але отримано %(received_value)s."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether or not to remove empty text messages from the split results. The default behavior is to treat         consecutive delimiters as one (if TRUE). If FALSE, empty cells values are added between consecutive delimiters."
+msgstr "Чи видаляти порожні текстові значення з результатів розділення. За замовчуванням (TRUE) послідовні роздільники вважаються одним. Якщо FALSE, між послідовними роздільниками додаються порожні клітинки."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether the match is case-sensitive."
+msgstr "Чи враховувати регістр під час зіставлення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether to ignore certain types of values. By default, no values are ignored."
+msgstr "Чи ігнорувати певні типи значень. За замовчуванням жодні значення не ігноруються."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether to ignore empty cells."
+msgstr "Чи ігнорувати порожні клітинки."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether to include the measure titles row or not."
+msgstr "Чи включати рядок із назвами мір."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether to match a delimiter against the end of the text."
+msgstr "Чи зіставляти роздільник із кінцем тексту."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Whether to treat the end of text as a delimiter."
+msgstr "Чи вважати кінець тексту роздільником."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Width value is %(_width)s. It should be greater than or equal to 1."
+msgstr "Значення ширини становить %(_width)s. Воно має бути не меншим за 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "Wildcard character match"
+msgstr "Зіставлення за символами підстановки"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "Window"
+msgstr "Вікно"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/helpers/geo_json_service.js:0
+msgid "World"
+msgstr "Світ"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/hooks.js:0
+msgid "Yes"
+msgstr "Так"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "You cannot create overlapping tables."
+msgstr "Неможливо створювати таблиці, що перекриваються."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "You copied content from a different version of the application. Only text and image content will be pasted."
+msgstr "Ви скопіювали вміст з іншої версії застосунку. Буде вставлено лише текст і зображення."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/actions/spreadsheet_download_action.js:0
+msgid "You don't have the rights to export data. Please contact an Administrator."
+msgstr "У вас немає прав на експорт даних. Зверніться до адміністратора."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "[[FUNCTION_NAME]] expects the provided values of %(argName)s to be a non-empty matrix."
+msgstr "[[FUNCTION_NAME]] очікує, що надані значення %(argName)s будуть непорожньою матрицею."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "b is calculated normally"
+msgstr "b обчислюється звичайним способом"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "b is forced to 1"
+msgstr "b примусово дорівнює 1"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "below"
+msgstr "нижче"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "below or equal to"
+msgstr "нижче або дорівнює"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "code"
+msgstr "код"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "confirm edition"
+msgstr "підтвердити редагування"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "do not return additional regression statistics"
+msgstr "не повертати додаткову статистику регресії"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 'Link label'"
+msgstr "напр. 'Текст посилання'"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 'http://www.odoo.com'"
+msgstr "напр. 'http://www.odoo.com'"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 'replace me'"
+msgstr "напр. 'замінити'"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. 'search me'"
+msgstr "напр. 'знайти'"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "e.g. A1:A2"
+msgstr "напр. A1:A2"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "match_end should have a value of 0 or 1."
+msgstr "match_end має дорівнювати 0 або 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "match_mode should be a value in [-1, 0, 1, 2]."
+msgstr "match_mode має бути одним зі значень [-1, 0, 1, 2]."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "match_mode should be a value of 0 or 1."
+msgstr "match_mode має дорівнювати 0 або 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "match_mode should have a value of 0 or 1."
+msgstr "match_mode має дорівнювати 0 або 1."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "negative"
+msgstr "від'ємне"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "number of columns"
+msgstr "кількість стовпців"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 1 (Linear)"
+msgstr "порядок 1 (лінійна)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 2 (Quadratic)"
+msgstr "порядок 2 (квадратична)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 3 (Cubic)"
+msgstr "порядок 3 (кубічна)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 4 (Quartic)"
+msgstr "порядок 4 (четвертого степеня)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 5 (Quintic)"
+msgstr "порядок 5 (п'ятого степеня)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "order 6 (Sextic)"
+msgstr "порядок 6 (шостого степеня)"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "positive"
+msgstr "додатне"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "return additional regression statistics"
+msgstr "повернути додаткову статистику регресії"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "search_mode should be a value in [-1, 1, -2, 2]."
+msgstr "search_mode має бути одним зі значень [-1, 1, -2, 2]."
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "symbol"
+msgstr "символ"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "the numeric value in start_unit to convert to end_unit"
+msgstr "числове значення в start_unit для перетворення в end_unit"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "the string to be converted"
+msgstr "рядок для перетворення"
+
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+msgid "zero"
+msgstr "нуль"

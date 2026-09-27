@@ -1,0 +1,458 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+msgid "(require Odoo Enterprise)"
+msgstr "(потрібна Odoo Enterprise)"
+
+#. module: pos_self_order
+#: model:mail.template,body_html:pos_self_order.takeout_email_template
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"                    <t t-set=\"store_name\" t-value=\"object.config_id.name\"/>\n"
+"                    <t t-set=\"tz\" t-value=\"object.company_id.partner_id.tz\"/>\n"
+"                    <t t-set=\"lg\" t-value=\"object.partner_id.lang or user.lang\"/>\n"
+"                    <div>\n"
+"                        <t t-if=\"client_name\">Hello <t t-out=\"client_name\">Client name</t>,</t>\n"
+"                        <t t-else=\"\">Hello,</t>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>Your order <t t-out=\"object.tracking_number\">...</t> amounting in <t t-out=\"format_amount(object.amount_total,object.currency_id)\">$xx.xx</t> has been confirmed. <span t-if=\"object.preset_time\">It will be ready at <t t-out=\"format_time(time=object.preset_time, tz=tz, time_format='short', lang_code=lg)\">12:00 pm</t></span></div>\n"
+"                    <br/>\n"
+"                    <div>Thank you,</div>\n"
+"                    <br/>\n"
+"                    <t t-out=\"store_name\">Store name</t>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"                    <t t-set=\"store_name\" t-value=\"object.config_id.name\"/>\n"
+"                    <t t-set=\"tz\" t-value=\"object.company_id.partner_id.tz\"/>\n"
+"                    <t t-set=\"lg\" t-value=\"object.partner_id.lang or user.lang\"/>\n"
+"                    <div>\n"
+"                        <t t-if=\"client_name\">Вітаємо, <t t-out=\"client_name\">Ім’я клієнта</t>!</t>\n"
+"                        <t t-else=\"\">Вітаємо!</t>\n"
+"                    </div>\n"
+"                    <br/>\n"
+"                    <div>Ваше замовлення <t t-out=\"object.tracking_number\">...</t> на суму <t t-out=\"format_amount(object.amount_total,object.currency_id)\">$xx.xx</t> підтверджено. <span t-if=\"object.preset_time\">Воно буде готове о <t t-out=\"format_time(time=object.preset_time, tz=tz, time_format='short', lang_code=lg)\">12:00 pm</t></span></div>\n"
+"                    <br/>\n"
+"                    <div>Дякуємо!</div>\n"
+"                    <br/>\n"
+"                    <t t-out=\"store_name\">Назва магазину</t>\n"
+"                </div>\n"
+"            "
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_preset__available_in_self
+msgid "Available in self"
+msgstr "Доступно для самообслуговування"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/preset_info_popup/preset_info_popup.xml:0
+msgid "Choose your time"
+msgstr "Виберіть час"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_order_line__combo_id
+msgid "Combo reference"
+msgstr "Референс комбо"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "Connection restored"
+msgstr "З’єднання відновлено"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
+msgid "Continue with table"
+msgstr "Продовжити зі столиком"
+
+#. module: pos_self_order
+#: model:ir.model,website_form_label:pos_self_order.model_res_partner
+msgid "Create a Customer"
+msgstr "Створити клієнта"
+
+#. module: pos_self_order
+#: model:mail.template,name:pos_self_order.delivery_email_template
+msgid "Delivery: Confirmation order for self"
+msgstr "Доставка: Підтвердження замовлення самообслуговування"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "Do not refresh the page."
+msgstr "Не оновлюйте сторінку."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
+msgid "Download your receipt here"
+msgstr "Завантажте свій чек тут"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_preset
+msgid "Easily load a set of configuration options"
+msgstr "Легко завантажте набір параметрів налаштування"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
+msgid "Enable QR menu in the Restaurant settings to get QR codes for free on tables."
+msgstr "Увімкніть QR-меню в налаштуваннях ресторану, щоб безкоштовно отримати QR-коди для столиків."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/preset_info_popup/preset_info_popup.xml:0
+msgid "Enter a valid phone number starting with the country code (e.g. +32)"
+msgstr "Введіть дійсний номер телефону, що починається з коду країни (напр. +380)"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.xml:0
+msgid "Enter your tracker number"
+msgstr "Введіть номер трекера"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
+msgid "Extra:"
+msgstr "Додатково:"
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Free Metal / Wood Stands"
+msgstr "Безкоштовні металеві / дерев’яні підставки"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/overrides/components/navbar/navbar.xml:0 code:addons/pos_self_order/static/src/overrides/screens/floor_screen/floor_screen.xml:0
+msgid "Get QR Codes"
+msgstr "Отримати QR-коди"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/backend/qr_order_button/qr_order_button.js:0
+msgid "Get QR codes"
+msgstr "Отримати QR-коди"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__has_paper
+msgid "Has paper"
+msgstr "Є папір"
+
+#. module: pos_self_order
+#: model:ir.model.fields,help:pos_self_order.field_pos_config__self_ordering_image_background_ids model:ir.model.fields,help:pos_self_order.field_res_config_settings__pos_self_ordering_image_background_ids
+msgid "Image to be displayed in the background"
+msgstr "Зображення для відображення на фоні"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "Internet Connection Lost"
+msgstr "Втрачено з’єднання з інтернетом"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_order.py:0
+msgid "Invalid preset"
+msgstr "Недійсний пресет"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/unavailable_product_dialog/unavailable_product_dialog.xml:0
+msgid "It seems that"
+msgstr "Схоже, що"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "It seems that the network connection was lost."
+msgstr "Схоже, мережеве з’єднання втрачено."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
+msgid "Kiosk T"
+msgstr "Кіоск T"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_category__pos_config_ids
+msgid "Linked PoS Configurations"
+msgstr "Пов’язані налаштування точок продажу"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/missing_required_details/missing_required_details.xml:0
+msgid "Make sure you choose all your options for this item. You're alomost there."
+msgstr "Переконайтеся, що вибрали всі параметри для цієї позиції. Ви майже на місці."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
+msgid "No, thanks"
+msgstr "Ні, дякую"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/unavailable_product_dialog/unavailable_product_dialog.xml:0
+msgid "Oops..."
+msgstr "Ой..."
+
+#. module: pos_self_order
+#: model_terms:ir.ui.view,arch_db:pos_self_order.res_config_settings_view_form_menu
+msgid "Personalize the Kiosk background"
+msgstr "Налаштуйте фон кіоску"
+
+#. module: pos_self_order
+#: model:ir.model,name:pos_self_order.model_pos_load_mixin
+msgid "PoS data loading mixin"
+msgstr "Міксин завантаження даних касового терміналу"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/attribute_selection/attribute_selection.xml:0
+msgid "Required"
+msgstr "Обов'язково"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.js:0
+msgid "Retrying in %s second..."
+msgstr "Повторна спроба через %s секунду..."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.js:0
+msgid "Retrying in %s seconds..."
+msgstr "Повторна спроба через %s секунд..."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "Retrying..."
+msgstr "Повторна спроба..."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/missing_required_details/missing_required_details.xml:0
+msgid "See what you missed"
+msgstr "Подивіться, що ви пропустили"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/slots_popup/slots_popup.xml:0
+msgid "Select a hour"
+msgstr "Виберіть годину"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/preset_info_popup/preset_info_popup.xml:0
+msgid "Select a state"
+msgstr "Виберіть область"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
+msgid "Select a table"
+msgstr "Виберіть столик"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+msgid "Self Order"
+msgstr "Самообслуговування"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_product_product__self_order_visible model:ir.model.fields,field_description:pos_self_order.field_product_template__self_order_visible
+msgid "Self Order Visible"
+msgstr "Самообслуговування відображається"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_service_mode model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_service_mode
+msgid "Self Ordering Service Mode"
+msgstr "Режим обслуговування самообслуговування"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_order__source__kiosk
+msgid "Self-Order Kiosk"
+msgstr "Кіоск самообслуговування"
+
+#. module: pos_self_order
+#: model:ir.model.fields.selection,name:pos_self_order.selection__pos_order__source__mobile
+msgid "Self-Order Mobile"
+msgstr "Мобільне самообслуговування"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/store/order_change_receipt_template.xml:0
+msgid "Self-Order T"
+msgstr "Самообслуговування T"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js:0
+msgid "Self-Order T %s"
+msgstr "Самообслуговування T %s"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
+msgid "Self-ordering:"
+msgstr "Самообслуговування:"
+
+#. module: pos_self_order
+#: model:mail.template,description:pos_self_order.delivery_email_template model:mail.template,description:pos_self_order.takeout_email_template
+msgid "Sent to customers"
+msgstr "Надсилається клієнтам"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
+msgid "Session Inactive"
+msgstr "Сесія неактивна"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_config__self_ordering_image_background_ids model:ir.model.fields,field_description:pos_self_order.field_res_config_settings__pos_self_ordering_image_background_ids
+msgid "Set background image"
+msgstr "Встановити фонове зображення"
+
+#. module: pos_self_order
+#: model:ir.model.fields,field_description:pos_self_order.field_pos_order__self_ordering_table_id
+msgid "Table reference"
+msgstr "Референс столика"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/popup_table/popup_table.xml:0
+msgid "Table selection"
+msgstr "Вибір столика"
+
+#. module: pos_self_order
+#: model:mail.template,name:pos_self_order.takeout_email_template
+msgid "Takeout: Confirmation order for self"
+msgstr "На винос: Підтвердження замовлення самообслуговування"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_order.py:0
+msgid "The mail template with xmlid %s has been deleted."
+msgstr "Шаблон листа з xmlid %s було видалено."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
+msgid "Validate your selection"
+msgstr "Підтвердьте свій вибір"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/printing_failure_popup/printing_failure_popup.xml:0
+msgid "We invite you to get the receipt at the counter. Please remember your order number:"
+msgstr "Запрошуємо вас отримати чек біля стійки. Запам’ятайте номер свого замовлення:"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/preset_info_popup/preset_info_popup.xml:0
+msgid "We need more info"
+msgstr "Нам потрібно більше інформації"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/slots_popup/slots_popup.xml:0
+msgid "We'll do everything to be on time!"
+msgstr "Ми зробимо все, щоб встигнути вчасно!"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/slots_popup/slots_popup.xml:0
+msgid "When would you like to receive your orders ?"
+msgstr "Коли ви хочете отримати свої замовлення?"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.xml:0
+msgid "Where do you want to eat?"
+msgstr "Де ви хочете поїсти?"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/timeout_popup/timeout_popup.xml:0
+msgid "Would you like to continue?"
+msgstr "Бажаєте продовжити?"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/network_connectionLost_popup/network_connectionLost_popup.xml:0
+msgid "You are back online. You can complete your order now."
+msgstr "Ви знову онлайн. Тепер можна завершити замовлення."
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/controllers/orders.py:0
+msgid "You are not authorized to remove this order"
+msgstr "Вам не дозволено видаляти це замовлення"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0 code:addons/pos_self_order/models/res_config_settings.py:0
+msgid "You cannot add cash payment methods in kiosk mode."
+msgstr "У режимі кіоску не можна додавати способи оплати готівкою."
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/controllers/orders.py:0
+msgid "Your order does not exist or has been removed"
+msgstr "Ваше замовлення не існує або його видалено"
+
+#. module: pos_self_order
+#: model:mail.template,subject:pos_self_order.delivery_email_template model:mail.template,subject:pos_self_order.takeout_email_template
+msgid "Your {{ object.config_id.name }} receipt"
+msgstr "Ваш чек {{ object.config_id.name }}"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/unavailable_product_dialog/unavailable_product_dialog.xml:0
+msgid "are"
+msgstr "є"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.xml:0
+msgid "at the counter"
+msgstr "біля стійки"
+
+#. module: pos_self_order
+#. odoo-python
+#: code:addons/pos_self_order/models/pos_config.py:0
+msgid "each"
+msgstr "кожен"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
+msgid "included &"
+msgstr "включено та"
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/components/unavailable_product_dialog/unavailable_product_dialog.xml:0
+msgid "no longer available. Please go back and edit your order."
+msgstr "більше недоступно. Поверніться назад і відредагуйте замовлення."
+
+#. module: pos_self_order
+#. odoo-javascript
+#: code:addons/pos_self_order/static/src/app/pages/combo_page/combo_page.xml:0
+msgid "per extra unit"
+msgstr "за кожну додаткову одиницю"
