@@ -1,0 +1,126 @@
+// Responsive layout: forms adapt to the width they really get (sections panel and
+// chatter included), not to the window width.
+
+// --- Chatter on the side: narrow, the sheet takes the rest ---------------------
+.o_form_view .o_form_sheet_bg {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.o-mail-Form-chatter.o-aside {
+    flex: 0 0 clamp(320px, 27vw, 440px) !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 34%;
+}
+
+// Chatter moved below while Odoo is in its wide (row) layout: stack like Odoo does on
+// smaller screens - one column, one scroll for sheet + chatter.
+.o_form_view.o_xxl_form_view .o_form_renderer:has(> .o-mail-Form-chatter:not(.o-aside)) {
+    flex-direction: column !important;
+    height: auto !important;
+    > .o_form_sheet_bg {
+        flex: 0 0 auto;
+        overflow: visible;
+    }
+    > .o-mail-Form-chatter {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+}
+.o_form_view.o_xxl_form_view:has(.o_form_renderer > .o-mail-Form-chatter:not(.o-aside)) {
+    .o_form_view_container {
+        width: auto;
+    }
+    .o_content {
+        overflow: auto;
+    }
+}
+
+// --- Sheet: container for width-based relayout --------------------------------
+.o_form_view .o_form_sheet {
+    container: bas-sheet / inline-size;
+    min-width: 0;
+    max-width: 100%;
+}
+
+// Field groups: two columns only when the sheet itself is wide enough
+@container bas-sheet (max-width: 860px) {
+    .o_group > .o_inner_group[class*="col-lg-"],
+    .o_group > [class*="col-lg-"] {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    // notes + totals (invoices, orders): stacked, totals aligned right
+    .oe_invoice_lines_tab > [class*="col-lg-"]:last-child,
+    .o_group:has(.oe_subtotal_footer, .o_tax_totals) > [class*="col-lg-"]:last-child {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .o_form_label {
+        white-space: normal;
+    }
+}
+// totals never overflow the sheet
+.o_form_view {
+    .oe_subtotal_footer, .o_tax_totals {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .oe_invoice_lines_tab {
+        overflow: visible !important;
+    }
+    .o_field_html .note-editable, .o_field_html .odoo-editor-editable {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+}
+
+// --- Command bar: opaque when it sticks on top, buttons wrap instead of overlapping
+.o_form_view .o_form_statusbar {
+    background: var(--t-canvas) !important;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    .o_statusbar_buttons {
+        flex-wrap: wrap;
+        row-gap: 6px;
+    }
+}
+
+// --- Denser spacing on 13-15" laptops -------------------------------------------
+@media (max-width: 1600px) {
+    .o_form_view .o_form_sheet_bg > .o_form_sheet,
+    .o_form_view .o_form_sheet {
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .o_list_view .o_list_renderer.o_renderer,
+    .o-mail-Form-chatter.o-aside .o-mail-Chatter {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .o_action_manager .o_control_panel {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+// --- Chat position toggle in the top bar ------------------------------------------
+.o_bas_chatter_toggle {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0 10px;
+    border: 0;
+    background: transparent;
+    color: var(--t-navbar-text);
+    &:hover, &.o_bas_active {
+        color: var(--t-navbar-text-hover);
+        background: var(--t-navbar-hover-bg);
+    }
+}
+.o_main_navbar .o_bas_chatter_toggle + .o_menu_systray {
+    margin-left: 0 !important;
+}

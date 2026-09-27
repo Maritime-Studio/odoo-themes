@@ -19,4 +19,17 @@
         </xpath>
     </t>
 
+    <!-- Chat position toggle, left of the systray (desktop only). -->
+    <t t-inherit="web.NavBar" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('o_menu_systray')]" position="before">
+            <button t-if="!this.ui.isSmall" type="button" class="o_bas_chatter_toggle ms-auto"
+                    t-att-class="{ 'o_bas_active': basLayout.chatterBelow }"
+                    t-att-title="basLayout.chatterBelow ? 'Chat: below the form (click to show it on the side)' : 'Chat: on the side when there is room (click to show it below the form)'"
+                    t-on-click="onBasToggleChatter">
+                <i class="fa fa-comments-o" aria-hidden="true"/>
+                <i t-attf-class="fa fa-fw small {{ basLayout.chatterBelow ? 'fa-arrow-down' : 'fa-arrow-right' }}" aria-hidden="true"/>
+            </button>
+        </xpath>
+    </t>
+
 </templates>

@@ -14,15 +14,31 @@ const COLLAPSED_KEY = "backend_theme_bas.sidebar_collapsed";
 export const openWindowsService = {
     dependencies: ["action"],
     start(env, { action }) {
+        // Below this window width the panel collapses to icons, unless the user chose.
+        const AUTO_COLLAPSE_WIDTH = 1440;
         const state = reactive({ items: load(), current: "", collapsed: loadCollapsed() });
 
-        function loadCollapsed() {
+        function storedCollapsed() {
             try {
-                return browser.localStorage.getItem(COLLAPSED_KEY) === "1";
+                const value = browser.localStorage.getItem(COLLAPSED_KEY);
+                return value === null ? null : value === "1";
             } catch {
-                return false;
+                return null;
             }
         }
+        function loadCollapsed() {
+            const stored = storedCollapsed();
+            return stored === null ? browser.innerWidth < AUTO_COLLAPSE_WIDTH : stored;
+        }
+        let resizeTimeout;
+        browser.addEventListener("resize", () => {
+            browser.clearTimeout(resizeTimeout);
+            resizeTimeout = browser.setTimeout(() => {
+                if (storedCollapsed() === null) {
+                    state.collapsed = browser.innerWidth < AUTO_COLLAPSE_WIDTH;
+                }
+            }, 150);
+        });
 
         function load() {
             try {
@@ -98,6 +114,8 @@ export const openWindowsService = {
                 } catch {
                     // not persisted
                 }
+                // the action area changed width: let forms re-decide the chatter position
+                browser.setTimeout(() => browser.dispatchEvent(new Event("resize")), 60);
             },
             clear() {
                 state.items.splice(0);

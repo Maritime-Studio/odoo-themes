@@ -22,7 +22,7 @@ No Python code, depends only on ``web``: installable on any Odoo 19 database,
 also through *Apps > Import Module*.
 """,
 
-    'version': '19.0.6.0.0',
+    'version': '19.0.7.0.0',
     'category': 'Themes/Backend',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
@@ -50,6 +50,8 @@ also through *Apps > Import Module*.
             'backend_theme_bas/static/src/scss/bas_misc.scss',
             'backend_theme_bas/static/src/scss/bas_canvas.scss',
             'backend_theme_bas/static/src/scss/calendar.scss',
+            'backend_theme_bas/static/src/scss/responsive.scss',
+            'backend_theme_bas/static/src/layout/responsive_service.js',
             'backend_theme_bas/static/src/sidebar/sidebar_config.js',
             'backend_theme_bas/static/src/sidebar/open_windows_service.js',
             'backend_theme_bas/static/src/sidebar/sidebar.js',

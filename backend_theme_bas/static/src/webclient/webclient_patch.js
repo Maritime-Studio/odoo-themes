@@ -1,3 +1,4 @@
+import { useState } from "@odoo/owl";
 import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";
 import { NavBar } from "@web/webclient/navbar/navbar";
@@ -18,6 +19,8 @@ patch(NavBar.prototype, {
     setup() {
         super.setup(...arguments);
         this.basOpenWindows = useService("bas_open_windows");
+        this.basResponsive = useService("bas_responsive");
+        this.basLayout = useState(this.basResponsive.state);
     },
     get currentApp() {
         if (this.actionService.currentController?.action?.tag === HOME_ACTION) {
@@ -30,6 +33,9 @@ patch(NavBar.prototype, {
             return [];
         }
         return super.currentAppSections;
+    },
+    onBasToggleChatter() {
+        this.basResponsive.toggleChatter();
     },
     onBasToggleSidebar() {
         this.basOpenWindows.toggleCollapsed();
