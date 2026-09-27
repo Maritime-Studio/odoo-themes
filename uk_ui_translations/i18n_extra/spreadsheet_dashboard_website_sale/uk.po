@@ -132,3 +132,21 @@ msgstr "Електронна комерція"
 #: code:addons/spreadsheet_dashboard_website_sale/data/files/ecommerce_dashboard.json:0 code:addons/spreadsheet_dashboard_website_sale/data/files/ecommerce_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_website_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale/data/files/ecommerce_dashboard.json:0
+msgid "Sales Analysis"
+msgstr "Аналіз продажів"
+
+#. module: spreadsheet_dashboard_website_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale/data/files/ecommerce_dashboard.json:0
+msgid "Sales Analysis by Abandoned Cart"
+msgstr "Аналіз продажів за залишеними кошиками"
+
+#. module: spreadsheet_dashboard_website_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale/data/files/ecommerce_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"

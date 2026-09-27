@@ -49,3 +49,39 @@ msgstr "Топ клієнтів"
 #: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "Tasks Analysis by Assignees"
+msgstr "Аналіз завдань за виконавцями"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "Tasks Analysis by Customer"
+msgstr "Аналіз завдань за клієнтами"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "Tasks Analysis by Project"
+msgstr "Аналіз завдань за проєктами"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "Tasks Analysis by Tags"
+msgstr "Аналіз завдань за мітками"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "stats - current"
+msgstr "статистика: поточний період"
+
+#. module: spreadsheet_dashboard_hr_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_timesheet/data/files/tasks_dashboard.json:0
+msgid "stats - previous"
+msgstr "статистика: попередній період"

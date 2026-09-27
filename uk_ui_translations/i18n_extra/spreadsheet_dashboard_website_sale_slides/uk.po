@@ -37,3 +37,45 @@ msgstr "Дохід"
 #: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0 code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "attendees - current"
+msgstr "учасники: поточний період"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "attendees - previous"
+msgstr "учасники: попередній період"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "content"
+msgstr "вміст"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "courses"
+msgstr "курси"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "rating"
+msgstr "оцінка"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "revenue - current"
+msgstr "дохід: поточний період"
+
+#. module: spreadsheet_dashboard_website_sale_slides
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_website_sale_slides/data/files/elearning_dashboard.json:0
+msgid "revenue - previous"
+msgstr "дохід: попередній період"

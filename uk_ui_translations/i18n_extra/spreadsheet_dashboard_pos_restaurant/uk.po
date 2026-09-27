@@ -282,3 +282,75 @@ msgstr "Дохід без податків на замовлення"
 #: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
 msgid "Waiter"
 msgstr "Офіціант"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Average amount per table"
+msgstr "Середня сума на стіл"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Average order w/o Tax"
+msgstr "Середнє замовлення без податку"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Discount / Order"
+msgstr "Знижка / замовлення"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "PoS Orders"
+msgstr "Замовлення касового терміналу"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "PoS Orders by Date (Day)"
+msgstr "Замовлення касового терміналу за днями"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "PoS Orders by Date (Day) (copy)"
+msgstr "Замовлення касового терміналу за днями (копія)"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Point of Sale Analysis"
+msgstr "Аналіз касового терміналу"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Top 15"
+msgstr "Топ 15"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Top Categories"
+msgstr "Топ категорій"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Total revenue per sitting"
+msgstr "Загальний дохід на гостя"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Untaxed Total"
+msgstr "Сума без податку"
+
+#. module: spreadsheet_dashboard_pos_restaurant
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_restaurant/data/files/pos_restaurant_dashboard.json:0
+msgid "Untaxed revenue per sitting"
+msgstr "Дохід без податку на гостя"

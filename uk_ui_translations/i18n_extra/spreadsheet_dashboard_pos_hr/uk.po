@@ -139,3 +139,33 @@ msgstr "Разом"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0 code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_pos_hr
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "Orders by Total"
+msgstr "Замовлення за сумою"
+
+#. module: spreadsheet_dashboard_pos_hr
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "Sunburst"
+msgstr "Сонячна діаграма"
+
+#. module: spreadsheet_dashboard_pos_hr
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"
+
+#. module: spreadsheet_dashboard_pos_hr
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "stats - current"
+msgstr "статистика: поточний період"
+
+#. module: spreadsheet_dashboard_pos_hr
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
+msgid "stats - previous"
+msgstr "статистика: попередній період"

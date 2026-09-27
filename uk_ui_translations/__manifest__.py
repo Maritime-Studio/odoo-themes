@@ -23,7 +23,7 @@ leave empty are filled.
 Needs Python: copy the folder into an ``addons_path`` directory of the server,
 restart Odoo, then install it from Apps.
 """,
-    'version': '19.0.1.0.0',
+    'version': '19.0.1.1.0',
     'category': 'Localization',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',

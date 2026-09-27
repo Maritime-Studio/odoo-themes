@@ -258,3 +258,75 @@ msgstr "Показники складу"
 #: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_sample_dashboard.json:0
 msgid "Waterproof hiking backpack"
 msgstr "Водонепроникний туристичний рюкзак"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Available & Reserved Stock Quantity"
+msgstr "Доступна та зарезервована кількість"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Available & Reserved Stock Value"
+msgstr "Вартість доступних і зарезервованих запасів"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Chart"
+msgstr "Діаграма"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory - locations"
+msgstr "Запаси за розташуваннями"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory - locations (reserved stock)"
+msgstr "Запаси за розташуваннями (зарезервовані)"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory - products sort by Qty"
+msgstr "Запаси за товарами (за кількістю)"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory by Location sort by value"
+msgstr "Запаси за розташуваннями (за вартістю)"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory by Location sort by value (reserved stock)"
+msgstr "Запаси за розташуваннями (за вартістю, зарезервовані)"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Inventory by Product sort by value"
+msgstr "Запаси за товарами (за вартістю)"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Top Locations"
+msgstr "Топ розташувань"
+
+#. module: spreadsheet_dashboard_stock_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock_account/data/files/warehouse_metrics_dashboard.json:0
+msgid "Top Products"
+msgstr "Топ товарів"

@@ -276,3 +276,39 @@ msgstr "з минулого періоду"
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/product_sample_dashboard.json:0
 msgid "sold"
 msgstr "продано"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "Map"
+msgstr "Карта"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "Quotations by Untaxed Amount"
+msgstr "Комерційні пропозиції за сумою без податку"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "Sales Orders by Untaxed Amount"
+msgstr "Замовлення на продаж за сумою без податку"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0 code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "so stats - current"
+msgstr "статистика замовлень: поточний період"
+
+#. module: spreadsheet_dashboard_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
+msgid "so stats - previous"
+msgstr "статистика замовлень: попередній період"

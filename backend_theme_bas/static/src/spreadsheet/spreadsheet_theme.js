@@ -1,6 +1,6 @@
 import { registries } from "@odoo/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
-import { translatedTermsGlobal } from "@web/core/l10n/translation";
+import { appTranslateFn, translatedTermsGlobal } from "@web/core/l10n/translation";
 import {
     hue,
     luminance,
@@ -221,3 +221,87 @@ registries.chartJsExtensionRegistry.add("basSoftCharts", {
     register: (Chart) => Chart.register(softChartsPlugin),
     unregister: (Chart) => Chart.unregister(softChartsPlugin),
 });
+
+// ---------------------------------------------------------------------------
+// Dashboards: translate chart titles, carousel tabs and pivot / list headers
+// ---------------------------------------------------------------------------
+// Odoo translates the texts of the cells of the standard dashboards (_t formulas),
+// but not the titles stored in the chart / carousel / pivot definitions ("Top
+// Countries", "Map", "Top 10", "Product", "Orders", "Revenue"...). They are
+// translated here, with the dashboard's translation namespace, before the
+// spreadsheet model is created. Loaded only if spreadsheet_dashboard is installed.
+
+const DASHBOARD_LOADER = "@spreadsheet_dashboard/bundle/dashboard_action/dashboard_loader_service";
+
+function translateTerm(namespace, term) {
+    if (typeof term !== "string" || !term.trim() || term.startsWith("=")) {
+        return term;
+    }
+    return String(appTranslateFn(term, namespace));
+}
+
+function translateDefinitions(node, namespace) {
+    if (Array.isArray(node)) {
+        node.forEach((item) => translateDefinitions(item, namespace));
+        return;
+    }
+    if (!node || typeof node !== "object") {
+        return;
+    }
+    for (const [key, value] of Object.entries(node)) {
+        if (key === "cells" || key === "styles" || key === "formats" || key === "borders") {
+            continue; // cell contents are translated by Odoo (_t formulas)
+        }
+        if ((key === "title" || key === "userDefinedName" || key === "baselineDescr") && typeof value === "string") {
+            node[key] = translateTerm(namespace, value);
+        } else if (key === "title" && value && typeof value.text === "string") {
+            value.text = translateTerm(namespace, value.text);
+        } else if (value && typeof value === "object") {
+            translateDefinitions(value, namespace);
+        }
+    }
+}
+
+function translateSnapshot(snapshot, namespace) {
+    translateDefinitions(snapshot.sheets, namespace);
+    translateDefinitions(snapshot.carousels, namespace);
+    for (const kind of ["pivots", "lists"]) {
+        for (const definition of Object.values(snapshot[kind] || {})) {
+            if (definition && typeof definition.name === "string") {
+                definition.name = translateTerm(namespace, definition.name);
+            }
+            translateDefinitions(definition?.measures, namespace);
+            translateDefinitions(definition?.columns, namespace);
+        }
+    }
+}
+
+function patchDashboardLoader(module) {
+    if (!module?.DashboardLoader) {
+        return;
+    }
+    patch(module.DashboardLoader.prototype, {
+        _createSpreadsheetModel(snapshot, revisions, currency, translationNamespace) {
+            if (snapshot && translationNamespace) {
+                try {
+                    translateSnapshot(snapshot, translationNamespace);
+                } catch {
+                    // never block a dashboard because of a translation
+                }
+            }
+            return super._createSpreadsheetModel(...arguments);
+        },
+    });
+}
+
+if (odoo.loader.modules.has(DASHBOARD_LOADER)) {
+    patchDashboardLoader(odoo.loader.modules.get(DASHBOARD_LOADER));
+} else {
+    const onModuleStarted = (ev) => {
+        if (ev.detail.moduleName === DASHBOARD_LOADER) {
+            odoo.loader.bus.removeEventListener("module-started", onModuleStarted);
+            patchDashboardLoader(ev.detail.module);
+        }
+    };
+    odoo.loader.bus.addEventListener("module-started", onModuleStarted);
+}

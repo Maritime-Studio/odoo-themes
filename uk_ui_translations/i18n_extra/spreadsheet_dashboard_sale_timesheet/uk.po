@@ -37,3 +37,21 @@ msgstr "Попередній"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0 code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_sale_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"
+
+#. module: spreadsheet_dashboard_sale_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
+msgid "stats - current"
+msgstr "статистика: поточний період"
+
+#. module: spreadsheet_dashboard_sale_timesheet
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
+msgid "stats - previous"
+msgstr "статистика: попередній період"

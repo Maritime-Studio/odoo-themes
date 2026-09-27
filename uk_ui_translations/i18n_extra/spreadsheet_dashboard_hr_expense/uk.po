@@ -49,3 +49,9 @@ msgstr "Топ категорій"
 #: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_sample_dashboard.json:0
 msgid "Total"
 msgstr "Разом"
+
+#. module: spreadsheet_dashboard_hr_expense
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_expense/data/files/expense_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"

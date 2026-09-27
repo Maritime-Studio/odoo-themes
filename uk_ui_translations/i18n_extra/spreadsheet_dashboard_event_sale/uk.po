@@ -49,3 +49,63 @@ msgstr "Мітки"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0 code:addons/spreadsheet_dashboard_event_sale/data/files/events_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "Event by Organizer"
+msgstr "Події за організаторами"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "Event by Tags"
+msgstr "Події за мітками"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "Event by Template"
+msgstr "Події за шаблонами"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "Event by Venue"
+msgstr "Події за місцем проведення"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "attendees - current"
+msgstr "учасники: поточний період"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "attendees - previous"
+msgstr "учасники: попередній період"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "events - current"
+msgstr "події: поточний період"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "events - previous"
+msgstr "події: попередній період"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "untaxed revenue - current"
+msgstr "дохід без податку: поточний період"
+
+#. module: spreadsheet_dashboard_event_sale
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
+msgid "untaxed revenue - previous"
+msgstr "дохід без податку: попередній період"

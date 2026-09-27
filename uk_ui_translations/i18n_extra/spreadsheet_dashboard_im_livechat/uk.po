@@ -55,3 +55,99 @@ msgstr "Топ країн"
 #: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0 code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_sample_dashboard.json:0
 msgid "since last period"
 msgstr "з минулого періоду"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Agents in call"
+msgstr "Агенти на дзвінку"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Call aggregates"
+msgstr "Підсумки дзвінків"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Chart"
+msgstr "Діаграма"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "Livechat Call Statistics by Agent"
+msgstr "Статистика дзвінків чату за агентами"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "Livechat Support Statistics by Agent"
+msgstr "Статистика підтримки в чаті за агентами"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Main aggregates"
+msgstr "Основні підсумки"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Map"
+msgstr "Карта"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Session escalated aggregates"
+msgstr "Підсумки ескальованих сесій"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_ongoing_dashboard.json:0
+msgid "Top 5"
+msgstr "Топ 5"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "Top countries"
+msgstr "Топ країн"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "current escalated/failure statistics"
+msgstr "поточна статистика ескалацій і збоїв"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "previous escalated/failure statistics"
+msgstr "попередня статистика ескалацій і збоїв"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "sessions count - current"
+msgstr "кількість сесій: поточний період"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "sessions count - previous"
+msgstr "кількість сесій: попередній період"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "stats 2 - current"
+msgstr "статистика 2: поточний період"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+msgid "stats 2 - previous"
+msgstr "статистика 2: попередній період"

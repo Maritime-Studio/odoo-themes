@@ -13,3 +13,21 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_sample_dashboard.json:0
 msgid "380 days"
 msgstr "380 днів"
+
+#. module: spreadsheet_dashboard_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
+msgid "Invoices by Total Signed"
+msgstr "Рахунки за загальною сумою"
+
+#. module: spreadsheet_dashboard_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
+msgid "Map"
+msgstr "Карта"
+
+#. module: spreadsheet_dashboard_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
+msgid "Top 10"
+msgstr "Топ 10"
