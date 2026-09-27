@@ -135,7 +135,14 @@ function styleDatasets(config, t, remap) {
         const kind = dataset.type || type;
         if (kind === "pie" || kind === "doughnut") {
             if (Array.isArray(dataset.backgroundColor)) {
-                dataset.backgroundColor = dataset.backgroundColor.map((c, i) => remap(c, i));
+                const n = t.series.length;
+                // beyond the palette: lighter tints of it, never the same colour twice
+                dataset.backgroundColor = dataset.backgroundColor.map((c, i) => {
+                    const base = remap(c, i % n);
+                    const level = Math.floor(i / n);
+                    return level ? mix(base, t.surface, Math.min(0.3 * level, 0.6)) : base;
+                });
+                dataset.hoverBackgroundColor = dataset.backgroundColor;
             }
             dataset.borderColor = t.surface;
             dataset.borderWidth = 2;
@@ -213,6 +220,9 @@ function legendMarker(chart, item) {
     }
     const isTrendLine = item.pointStyle === "line" && item.lineWidth === 3;
     return {
+        // Odoo picks the legend text colour from its own light / dark cookie, which
+        // can be left on "dark" by another theme: always use the scheme's text colour
+        fontColor: tokens().ink,
         fillStyle: color,
         strokeStyle: color,
         pointStyle: isTrendLine ? "line" : "circle",
