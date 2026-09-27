@@ -62,3 +62,39 @@
         color: var(--t-ink);
     }
 }
+
+// Kanban dashboards (Inventory overview...): "Late 5" / "Waiting 11" link rows use
+// the card width - a long translated label is truncated, never drawn over its count
+.stock-overview-links {
+    padding-right: 16px;
+    > .row {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-end;
+    }
+    > .row > a {
+        margin-left: auto;
+        flex: 0 1 auto;
+        width: auto;
+        max-width: 100%;
+        > .row {
+            flex-wrap: nowrap;
+            column-gap: 12px;
+            margin: 0;
+            > span {
+                flex: 1 1 auto;
+                width: auto;
+                min-width: 0;
+                padding: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            > .o_field_widget {
+                flex: 0 0 auto;
+                width: auto;
+                min-width: 2ch;
+                padding: 0;
+            }
+        }
+    }
+}

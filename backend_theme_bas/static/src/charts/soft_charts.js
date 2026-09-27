@@ -145,6 +145,25 @@ function styleDatasets(config, t, remap) {
         if (dataset.xAxisID && String(dataset.xAxisID).includes("trend")) {
             return; // trend lines keep their dashed style
         }
+        if (kind === "bar" && Array.isArray(dataset.backgroundColor)) {
+            // one colour per bar (kanban dashboards: late / today / future / empty)
+            const distinct = [];
+            const colors = dataset.backgroundColor.map((c) => {
+                if (!distinct.includes(c)) {
+                    distinct.push(c);
+                }
+                return remap(c, distinct.indexOf(c));
+            });
+            Object.assign(dataset, {
+                backgroundColor: colors,
+                borderColor: colors,
+                borderWidth: 0,
+                borderRadius: 6,
+                borderSkipped: "start",
+                maxBarThickness: 22,
+            });
+            return;
+        }
         const color = remap(solidColor(dataset, kind), index);
         if (kind === "line") {
             // a single line always gets the fading fill; several lines only when not stacked
@@ -203,8 +222,8 @@ function legendMarker(chart, item) {
 
 function styleOptions(config, t) {
     const options = config.options || (config.options = {});
-    if (["pie", "doughnut"].includes(config.type)) {
-        options.cutout = "62%"; // rings, like the Soft UI charts
+    if (["pie", "doughnut"].includes(config.type) && options.cutout === undefined) {
+        options.cutout = "62%"; // rings, like the Soft UI charts (gauges keep theirs)
     }
     const font = { family: t.font, size: 11 };
     for (const [id, scale] of Object.entries(options.scales || {})) {
@@ -262,10 +281,97 @@ function styleOptions(config, t) {
  * @param {(color: string|null, index: number) => string} [remap] series colour for
  *        a dataset / slice; defaults to the scheme palette by position.
  */
+const softened = new WeakSet();
+
 export function softenChartConfig(config, remap) {
+    softened.add(config);
     const t = tokens();
     const byIndex = (color, index) => t.series[index % t.series.length];
     styleDatasets(config, t, remap || byIndex);
     styleOptions(config, t);
     return config;
+}
+
+// ---------------------------------------------------------------------------
+// Every other chart of the web client
+// ---------------------------------------------------------------------------
+// Kanban dashboards (Inventory overview, Accounting journals), gauges, forecast
+// widgets... build their Chart.js configs themselves. A global Chart.js plugin gives
+// them the same soft style; colours keep their meaning: red = late / negative,
+// green = positive, grey = empty, anything else follows the scheme palette.
+
+function semanticRemap(t) {
+    const neutral = mix(t.border, t.muted, 0.15);
+    // other colours take the palette in order, skipping reddish entries (red = late)
+    const downHue = hue(toRgb(t.down) || [200, 60, 60]);
+    const palette = t.series.filter((c) => {
+        const d = Math.abs(hue(toRgb(c) || [0, 0, 0]) - downHue);
+        return Math.min(d, 360 - d) > 25;
+    });
+    const assigned = new Map();
+    return (color, index) => {
+        const rgb = toRgb(color);
+        if (rgb) {
+            const sat = saturation(rgb);
+            const h = hue(rgb);
+            if (sat < 0.12) {
+                return neutral;
+            }
+            if (sat > 0.35 && (h < 18 || h > 340)) {
+                return t.down;
+            }
+            if (sat > 0.35 && h > 90 && h < 160) {
+                return t.up;
+            }
+            if (!assigned.has(color)) {
+                assigned.set(color, palette[assigned.size % palette.length]);
+            }
+            return assigned.get(color);
+        }
+        return palette[index % palette.length];
+    };
+}
+
+const globalSoftPlugin = {
+    id: "basSoftAll",
+    beforeInit(chart) {
+        const config = chart.config?._config;
+        if (!config || softened.has(config)) {
+            return; // graph views: already styled
+        }
+        if (chart.canvas?.closest?.(".o-spreadsheet, .o_spreadsheet_dashboard_action")) {
+            return; // spreadsheets and dashboards have their own plugin
+        }
+        softenChartConfig(config, semanticRemap(tokens()));
+    },
+};
+
+function registerGlobalPlugin(Chart) {
+    try {
+        Chart?.register?.(globalSoftPlugin);
+    } catch {
+        // never break a chart because of the theme
+    }
+}
+
+// Chart.js is a lazily loaded UMD library that sets window.Chart: hook the assignment
+if (window.Chart) {
+    registerGlobalPlugin(window.Chart);
+} else {
+    Object.defineProperty(window, "Chart", {
+        configurable: true,
+        enumerable: true,
+        get() {
+            return undefined;
+        },
+        set(value) {
+            Object.defineProperty(window, "Chart", {
+                value,
+                configurable: true,
+                enumerable: true,
+                writable: true,
+            });
+            registerGlobalPlugin(value);
+        },
+    });
 }
