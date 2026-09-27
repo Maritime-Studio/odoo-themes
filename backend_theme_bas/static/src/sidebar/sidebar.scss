@@ -20,10 +20,18 @@
     font-size: 14px;
     user-select: none;
 
-    &.o_bas_sidebar_collapsed {
-        width: var(--bas-sidebar-width-collapsed);
-        .o_bas_label { display: none; }
-        .o_bas_windows { display: none; }
+    transition: transform .2s ease, box-shadow .2s ease;
+
+    // hidden behind the hamburger: the content gets the full width
+    &.o_bas_sidebar_hidden {
+        transform: translateX(-100%);
+        visibility: hidden;
+        transition: transform .2s ease, visibility 0s .2s;
+    }
+    // drawer over the content on narrower screens
+    &.o_bas_sidebar_overlay {
+        z-index: 1040;
+        box-shadow: 8px 0 28px rgba(0, 0, 0, .28);
     }
 }
 
@@ -138,11 +146,18 @@
     }
 }
 
-.o_web_client:has(> .o_bas_sidebar) > .o_action_manager {
+// only a docked panel pushes the content; hidden or drawer -> full width canvas
+.o_web_client > .o_action_manager {
+    transition: margin-left .2s ease;
+}
+.o_web_client:has(> .o_bas_sidebar_docked) > .o_action_manager {
     margin-left: var(--bas-sidebar-width);
 }
-.o_web_client:has(> .o_bas_sidebar_collapsed) > .o_action_manager {
-    margin-left: var(--bas-sidebar-width-collapsed);
+.o_bas_sidebar_backdrop {
+    position: fixed;
+    inset: var(--o-navbar-height, 42px) 0 0 0;
+    z-index: 1039;
+    background: rgba(15, 23, 42, .28);
 }
 
 .o_bas_toggle {

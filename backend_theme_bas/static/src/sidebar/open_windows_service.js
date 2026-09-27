@@ -14,32 +14,36 @@ const COLLAPSED_KEY = "backend_theme_bas.sidebar_collapsed";
 export const openWindowsService = {
     dependencies: ["action"],
     start(env, { action }) {
-        // Below this window width the panel collapses to icons, unless the user chose.
-        const AUTO_COLLAPSE_WIDTH = 1440;
-        const state = reactive({ items: load(), current: "", collapsed: loadCollapsed() });
+        // Sections panel: docked (pushes the content) on wide screens, where the user
+        // can hide it to get the full width; a drawer over the content below
+        // OVERLAY_WIDTH, hidden until the hamburger is clicked.
+        const OVERLAY_WIDTH = 1440;
+        const state = reactive({
+            items: load(),
+            current: "",
+            overlay: browser.innerWidth < OVERLAY_WIDTH,
+            hidden: false,
+        });
+        state.hidden = state.overlay ? true : storedHidden();
 
-        function storedCollapsed() {
+        function storedHidden() {
             try {
-                const value = browser.localStorage.getItem(COLLAPSED_KEY);
-                return value === null ? null : value === "1";
+                return browser.localStorage.getItem(COLLAPSED_KEY) === "1";
             } catch {
-                return null;
+                return false;
             }
-        }
-        function loadCollapsed() {
-            const stored = storedCollapsed();
-            return stored === null ? browser.innerWidth < AUTO_COLLAPSE_WIDTH : stored;
         }
         let resizeTimeout;
         browser.addEventListener("resize", () => {
             browser.clearTimeout(resizeTimeout);
             resizeTimeout = browser.setTimeout(() => {
-                if (storedCollapsed() === null) {
-                    state.collapsed = browser.innerWidth < AUTO_COLLAPSE_WIDTH;
+                const overlay = browser.innerWidth < OVERLAY_WIDTH;
+                if (overlay !== state.overlay) {
+                    state.overlay = overlay;
+                    state.hidden = overlay ? true : storedHidden();
                 }
             }, 150);
         });
-
         function load() {
             try {
                 return JSON.parse(browser.sessionStorage.getItem(STORAGE_KEY)) || [];
@@ -108,14 +112,22 @@ export const openWindowsService = {
                 }
             },
             toggleCollapsed() {
-                state.collapsed = !state.collapsed;
+                state.hidden = !state.hidden;
+                if (state.overlay) {
+                    return; // drawer: nothing changes under it, nothing to remember
+                }
                 try {
-                    browser.localStorage.setItem(COLLAPSED_KEY, state.collapsed ? "1" : "0");
+                    browser.localStorage.setItem(COLLAPSED_KEY, state.hidden ? "1" : "0");
                 } catch {
                     // not persisted
                 }
                 // the action area changed width: let forms re-decide the chatter position
                 browser.setTimeout(() => browser.dispatchEvent(new Event("resize")), 60);
+            },
+            closeDrawer() {
+                if (state.overlay) {
+                    state.hidden = true;
+                }
             },
             clear() {
                 state.items.splice(0);

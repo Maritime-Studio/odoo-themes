@@ -2,7 +2,8 @@
 <templates xml:space="preserve">
 
     <t t-name="backend_theme_bas.Sidebar">
-        <aside class="o_bas_sidebar d-print-none" t-att-class="{ 'o_bas_sidebar_collapsed': state.collapsed }">
+        <div t-if="state.overlay and !state.hidden" class="o_bas_sidebar_backdrop" t-on-click="() => this.openWindows.closeDrawer()"/>
+        <aside class="o_bas_sidebar d-print-none" t-att-class="panelClass" t-att-aria-hidden="state.hidden ? 'true' : 'false'">
             <nav class="o_bas_sections" aria-label="Sections">
                 <a t-foreach="apps" t-as="app" t-key="app.id"
                    class="o_bas_section"
@@ -15,7 +16,7 @@
                     <span class="o_bas_label" t-esc="app.name"/>
                 </a>
             </nav>
-            <div class="o_bas_windows" t-if="!state.collapsed">
+            <div class="o_bas_windows">
                 <a class="o_bas_window o_bas_window_home" href="/odoo/bas_home" t-att-class="{ 'active': isHome }"
                    t-on-click.prevent="openHome">
                     <i class="fa fa-fw fa-home" aria-hidden="true"/>
@@ -23,7 +24,7 @@
                 </a>
                 <div t-foreach="state.items" t-as="item" t-key="item.url"
                      class="o_bas_window" t-att-class="{ 'active': !isHome and item.url === state.current }">
-                    <a t-att-href="item.url" t-att-title="item.title" t-esc="item.title"/>
+                    <a t-att-href="item.url" t-att-title="item.title" t-esc="item.title" t-on-click="() => this.openWindows.closeDrawer()"/>
                     <button type="button" class="o_bas_window_close btn btn-link p-0"
                             title="Close" aria-label="Close"
                             t-on-click="() => this.closeWindow(item)">×</button>

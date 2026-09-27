@@ -37,6 +37,11 @@
 }
 
 // --- Sheet: container for width-based relayout --------------------------------
+// The sheet grows with the canvas (hidden sections panel, wide screens) up to a
+// still readable width, instead of Odoo's fixed 1400px.
+.o_form_view .o_form_sheet_bg {
+    max-width: 1760px;
+}
 .o_form_view .o_form_sheet {
     container: bas-sheet / inline-size;
     min-width: 0;
@@ -61,6 +66,40 @@
         white-space: normal;
     }
 }
+// Long values never widen the sheet (e.g. the Ukrainian "amount in words" under the
+// totals, long delivery notes): text fields wrap, grid columns may shrink.
+.o_form_view .o_form_sheet {
+    .o_inner_group {
+        grid-template-columns: fit-content(40%) minmax(0, 1fr);
+    }
+    .o_inner_group > .o_cell,
+    .o_group > [class*="col-"] {
+        min-width: 0;
+    }
+    :is(.o_field_char, .o_field_text, .o_field_selection, .o_field_many2one) {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .o_inner_group .o_cell :is(.o_field_char, .o_field_text) span,
+    .oe_invoice_lines_tab .text-nowrap,
+    .o_group:has(.oe_subtotal_footer, .o_tax_totals) .text-nowrap {
+        white-space: normal !important;
+        overflow-wrap: anywhere;
+    }
+    .o_field_html :is(p, div, pre, span) {
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+    }
+    .o_field_html pre {
+        overflow-x: hidden;
+    }
+}
+// last resort: the sheet area never scrolls sideways as a whole (tables keep their
+// own horizontal scroll)
+.o_form_view .o_form_sheet_bg {
+    overflow-x: clip;
+}
+
 // totals never overflow the sheet
 .o_form_view {
     .oe_subtotal_footer, .o_tax_totals {

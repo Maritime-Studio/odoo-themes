@@ -41,10 +41,21 @@ export class BasSidebar extends Component {
 
     openHome() {
         this.actionService.doAction(HOME_ACTION, { clearBreadcrumbs: true });
+        this.openWindows.closeDrawer();
     }
 
     onAppClick(app) {
         this.menuService.selectMenu(app);
+        this.openWindows.closeDrawer();
+    }
+
+    get panelClass() {
+        const { hidden, overlay } = this.state;
+        return {
+            o_bas_sidebar_hidden: hidden,
+            o_bas_sidebar_overlay: overlay && !hidden,
+            o_bas_sidebar_docked: !overlay && !hidden,
+        };
     }
 
     closeWindow(item) {
