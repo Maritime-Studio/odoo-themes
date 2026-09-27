@@ -364,24 +364,20 @@ function registerGlobalPlugin(Chart) {
     }
 }
 
-// Chart.js is a lazily loaded UMD library that sets window.Chart: hook the assignment
-if (window.Chart) {
-    registerGlobalPlugin(window.Chart);
-} else {
-    Object.defineProperty(window, "Chart", {
-        configurable: true,
-        enumerable: true,
-        get() {
-            return undefined;
-        },
-        set(value) {
-            Object.defineProperty(window, "Chart", {
-                value,
-                configurable: true,
-                enumerable: true,
-                writable: true,
-            });
-            registerGlobalPlugin(value);
-        },
-    });
-}
+// Chart.js is a lazily loaded UMD library that sets window.Chart. It is loaded more than
+// once per page: web.chartjs_lib for the views, then again inside the spreadsheet bundle
+// when a dashboard is opened, which replaces window.Chart with a fresh copy. The
+// property stays an accessor so that every copy gets the plugin.
+let currentChart = window.Chart;
+registerGlobalPlugin(currentChart);
+Object.defineProperty(window, "Chart", {
+    configurable: true,
+    enumerable: true,
+    get() {
+        return currentChart;
+    },
+    set(value) {
+        currentChart = value;
+        registerGlobalPlugin(value);
+    },
+});

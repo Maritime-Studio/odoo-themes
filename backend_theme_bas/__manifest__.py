@@ -22,7 +22,7 @@ No Python code, depends only on ``web``: installable on any Odoo 19 database,
 also through *Apps > Import Module*.
 """,
 
-    'version': '19.0.7.6.0',
+    'version': '19.0.7.7.0',
     'category': 'Themes/Backend',
     'author': 'Maritime Studio',
     'license': 'LGPL-3',
